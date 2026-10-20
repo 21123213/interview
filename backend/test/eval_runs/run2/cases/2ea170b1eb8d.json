@@ -1,0 +1,25 @@
+{
+  "index": 256,
+  "request_id": "2ea170b1eb8d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Fintricity-Blank.txt",
+  "file_id": 166,
+  "file_mapped": true,
+  "latency_ms": 18075.82,
+  "query": "Consider Fintricity's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "Each party undertakes in respect of Confidential Information for which it is the recipient:‐\n(b) not without the disclosing party's prior written consent in each case to communicate or disclose any part of such Confidential Information to any person except:‐\n(iii) where the recipient is ordered by a court of competent jurisdiction to do so or there is a statutory obligation to do so except that the recipient shall use all reasonable endeavours to first inform the disclosing party in writing before any disclosure under such order or obligation is made; and",
+  "rag_answer": "Yes. Under Clause 3(b)(iii) of the Fintricity NDA, if the Receiving Party is ordered by a court of competent jurisdiction to disclose Confidential Information, or is under a statutory obligation to do so, the Receiving Party must use all reasonable endeavours to first inform the Disclosing Party in writing before making the disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定：若接收方被有管辖权法院命令披露，或存在法定披露义务，接收方应在该等披露前尽一切合理努力首先以书面形式通知披露方。",
+    "answer_summary": "系统回答指出：根据 Clause 3(b)(iii)，若接收方被法院命令或负有法定义务披露保密信息，其必须在披露前尽一切合理努力首先书面通知披露方。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：存在法院命令/法定义务时的披露前书面通知义务，并明确回答 Yes，与金标一致。"
+  },
+  "file_ids": [
+    166
+  ],
+  "skip_answer": false
+}

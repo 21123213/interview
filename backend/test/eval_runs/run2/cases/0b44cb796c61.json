@@ -1,0 +1,25 @@
+{
+  "index": 236,
+  "request_id": "0b44cb796c61",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Artop-Inno-2017.txt",
+  "file_id": 163,
+  "file_mapped": true,
+  "latency_ms": 22810.67,
+  "query": "Consider the Non-Disclosure Agreement between Artop and Inno; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Both parties shall strictly limit the access to the confidential information to their responsible representatives only for the purpose specified hereunder.",
+  "rag_answer": "Yes, but only in a limited way.\n\nThe NDA does not expressly use the word “employees,” but it states that both parties must “strictly limit the access to the confidential information to their responsible representatives only for the purpose specified hereunder.”\n\nTherefore, the Receiving Party may share Confidential Information with employees only if those employees qualify as “responsible representatives” and the access is necessary for the specified purpose. It may not share the information more broadly or provide copies to third parties without the other party’s written consent.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "双方必须将机密信息的访问严格限制在其负责代表范围内，且仅用于协议指定的目的。",
+    "answer_summary": "系统回答指出协议未直接使用“employees”，但要求将机密信息访问严格限于“responsible representatives”且仅用于指定目的，因此可有限地与符合该身份的员工商享。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键限制条件，并正确说明允许有限共享，未与金标矛盾。"
+  },
+  "file_ids": [
+    163
+  ],
+  "skip_answer": false
+}

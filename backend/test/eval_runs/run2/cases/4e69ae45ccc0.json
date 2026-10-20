@@ -1,0 +1,25 @@
+{
+  "index": 8,
+  "request_id": "4e69ae45ccc0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 23332.58,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "(c) The undersigned Vendor may disclose Confidential Information only to Vendor's employees and consultants on a need-to-know basis but in any event only if Vendor has executed written agreements with its employees and consultants that contain obligations that are no less restrictive than those contained in this Agreement and has informed such employees and consultants of the confidential nature of such information.",
+  "rag_answer": "Yes, but only in a limited way.\n\nUnder Section 2(a)(ii), the Vendor may not disclose Confidential Information to third parties except as expressly provided in Sections 2(b) and 2(c). Section 2(c) permits disclosure only to the Vendor’s **employees and consultants**, on a **need-to-know basis**, and only if the Vendor has written agreements with them imposing confidentiality obligations no less restrictive than the Agreement and has informed them that the information is confidential.\n\nThe document does **not** expressly allow disclosure to “agents” or “professional advisors” generally, unless they qualify as the Vendor’s consultants under Section 2(c).",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标结论是：接收方/Vendor 仅可在 need-to-know 基础上向自己的 employees and consultants 披露保密信息，并且必须与其签订保密义务不弱于本协议的书面协议，且已告知该等信息的保密性质。",
+    "answer_summary": "系统回答指出可以有限度披露，仅限 Vendor 的 employees and consultants，且需满足 need-to-know、书面协议义务不弱于本协议、告知保密性质等条件；同时说明未明确允许一般向 agents 或 professional advisors 披露，除非其属于 consultants。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标的关键要点：允许向 employees and consultants 有限披露，并准确复述了 need-to-know、书面协议和不弱于本协议的保密义务等条件；对 agents/professional advisors 的限定也与金标不矛盾。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

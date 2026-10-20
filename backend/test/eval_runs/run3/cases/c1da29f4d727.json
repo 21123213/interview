@@ -1,0 +1,25 @@
+{
+  "index": 217,
+  "request_id": "c1da29f4d727",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "sample-nrel-bilateral-nda-template.txt",
+  "file_id": 184,
+  "file_mapped": true,
+  "latency_ms": 58732.45,
+  "query": "Consider the Non-Disclosure Agreement between NREL and Another Company; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "d. The obligations of confidentiality set forth in this Agreement do not apply to information which (i) becomes publicly known without the fault of Receiving Party or DOE; (ii) has been made available by Disclosing Party (or the owner if other than Disclosing Party) to others without obligation concerning its confidentiality;",
+  "rag_answer": "The Agreement does **not expressly allow** the Receiving Party to acquire information similar to the Confidential Information from a third party.\n\nIt only states that the confidentiality obligations do **not** apply to information that:\n\n- becomes publicly known without fault of the Receiving Party or DOE;\n- has been made available by the Disclosing Party to others without confidentiality obligations;\n- is already in the Receiving Party’s or DOE’s possession without confidentiality obligations;\n- is independently developed by employees of the Receiving Party or DOE without access to the Confidential Information; or\n- is required to be disclosed by law or court order.\n\nTherefore, if similar information is lawfully obtained from a third party and falls within one of these exceptions, it may not be subject to the Agreement’s confidentiality obligations. But the Agreement itself does **not** explicitly permit or address acquiring similar information from a third party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议中的保密义务不适用于某些信息，包括非因接收方或DOE过错而公开的信息，以及披露方（或所有者）已向他人提供且无保密义务的信息。",
+    "answer_summary": "系统回答指出保密义务不适用于非因接收方或DOE过错而公开的信息，以及披露方已向他人提供且无保密义务的信息；并进一步说明若类似信息属于这些例外，则可能不受协议保密义务约束。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：保密义务不适用于公开信息和由披露方向他人提供且无保密义务的信息。虽然其措辞强调协议未明确允许从第三方获取，但这不构成与金标矛盾，且金标要点已被包含。"
+  },
+  "file_ids": [
+    184
+  ],
+  "skip_answer": false
+}

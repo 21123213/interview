@@ -1,0 +1,25 @@
+{
+  "index": 116,
+  "request_id": "26d0f56fb98e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+  "file_id": 137,
+  "file_mapped": true,
+  "latency_ms": 10293.82,
+  "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "3. For the purposes of this Confidentiality and Non-Disclosure Undertaking, The Vendor undertakes;\n3.6 that the provisions of this Confidentiality and Non-Disclosure Undertaking shall survive the termination or expiration of any Agreement / understanding / Request for Quotation / Contract / Purchase Order or any interaction, with Grindrod SA, of whatsoever nature.",
+  "rag_answer": "Yes. The document states that the provisions of the Confidentiality and Non-Disclosure Undertaking “shall survive the termination or expiration of any Agreement / understanding / Request for Quotation / Contract / Purchase Order or any interaction, with Grindrod SA, of whatsoever nature.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出该保密/非披露承诺的条款应在与 Grindrod SA 的任何协议、理解、报价请求、合同、采购订单或任何性质互动的终止或到期后继续有效。",
+    "answer_summary": "系统回答确认文档提到该承诺的条款在终止或到期后存续，并引用了与金标一致的关键表述。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键信息，即 NDA/保密承诺条款在终止后继续有效，且与金标内容一致。"
+  },
+  "file_ids": [
+    137
+  ],
+  "skip_answer": false
+}

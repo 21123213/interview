@@ -1,0 +1,25 @@
+{
+  "index": 14,
+  "request_id": "b37efa84259c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "tpi-non-disclosure-agreement_1.txt",
+  "file_id": 195,
+  "file_mapped": true,
+  "latency_ms": 33814.45,
+  "query": "Consider tpi's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Such consent to disclose Proprietary Information to employees of Receiving Party or its affiliated company (“affiliated Receiving Party”) with a legitimate “need to know” and only for the purposes described in this Agreement is herewith given, but further consent shall be required for disclosure to others or authorization of use by others.",
+  "rag_answer": "Yes. The TPI Non-Disclosure Agreement expressly permits disclosure of Proprietary/Confidential Information to employees of the Receiving Party or its affiliated Receiving Party, but only if they have a legitimate “need to know” and the disclosure is solely for the purposes described in the Agreement. The Receiving Party must also ensure that such recipients are bound by confidentiality and use restrictions consistent with the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标同意向接收方或关联接收方的员工披露专有/保密信息，但须有正当“need to know”且仅用于协议目的；向其他人披露或使用需进一步同意。",
+    "answer_summary": "系统回答明确允许向接收方或关联接收方的员工披露保密/专有信息，条件是正当“need to know”且仅用于协议目的。",
+    "gap": "无",
+    "reason": "系统回答覆盖了问题所需的关键信息：允许与员工共享，并包含“need to know”和目的限制；未展开“向其他人需进一步同意”不影响对员工披露要点的命中。"
+  },
+  "file_ids": [
+    195
+  ],
+  "skip_answer": false
+}

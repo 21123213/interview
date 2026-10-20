@@ -1,0 +1,25 @@
+{
+  "index": 182,
+  "request_id": "972ec6eb73b5",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Mutual-Non-Disclosure-Agreement-Inventor-Product-Development-Experts-Inc..txt",
+  "file_id": 156,
+  "file_mapped": true,
+  "latency_ms": 48164.14,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Inventor and Product Development Experts, Inc.; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "If any party makes copies of the Confidential Information of the other party, such copies shall also constitute Confidential Information and any and all confidential markings on such documents shall be maintained.",
+  "rag_answer": "Yes, but only in a limited and implied sense. The Agreement permits each party to use the other party’s Confidential Information only to evaluate and discuss a potential business relationship. It also states that if a party makes copies of Confidential Information, those copies remain Confidential Information and must retain any confidential markings. Therefore, a Receiving Party may create a copy only as needed for that permitted evaluation/discussion purpose and subject to the confidentiality obligations; the Agreement does not grant a general right to copy.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标要点：如果一方制作对方保密信息的复制件，该复制件也构成保密信息，且必须保留文件上的保密标记。",
+    "answer_summary": "系统回答指出：如果一方制作保密信息的复制件，这些复制件仍属于保密信息，并需保留保密标记；同时补充认为复制仅限于为评估/讨论潜在商业关系等目的且受保密义务约束。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标关键信息，即复制件仍构成保密信息并须保留保密标记。虽然回答对是否允许复制作了进一步限定性解释，但与金标不矛盾，且从宽判定可视为命中。"
+  },
+  "file_ids": [
+    156
+  ],
+  "skip_answer": false
+}

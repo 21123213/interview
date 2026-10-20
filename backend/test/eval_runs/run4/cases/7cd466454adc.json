@@ -1,0 +1,25 @@
+{
+  "index": 214,
+  "request_id": "7cd466454adc",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_Street_Stream_Franchise.txt",
+  "file_id": 162,
+  "file_mapped": true,
+  "latency_ms": 22073.03,
+  "query": "Consider Street Stream's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The Recipient’s confidentiality obligations under this Agreement shall survive and subsist indefinitely in relation to any Confidential Information (notwithstanding the prior termination or expiry of this Agreement).\nIf any provision of this Agreement (or part of any provision) is or becomes illegal, invalid or unenforceable, the legality, validity and enforceability of any other provision of this Agreement shall not be affected.",
+  "rag_answer": "Yes. The document expressly states in Clause 2.5 that the Recipient’s confidentiality obligations “shall survive and subsist indefinitely” in relation to Confidential Information, notwithstanding the prior termination or expiry of the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议提到接收方的保密义务在协议终止或到期后仍无限期存续；另提到若某条款无效不影响其他条款的效力。",
+    "answer_summary": "系统回答确认协议有相关表述，并指出接收方保密义务在协议终止或到期后无限期存续。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中关于协议终止后义务存续的关键信息，直接回答了用户问题。"
+  },
+  "file_ids": [
+    162
+  ],
+  "skip_answer": false
+}

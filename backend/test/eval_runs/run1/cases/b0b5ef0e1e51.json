@@ -1,0 +1,25 @@
+{
+  "index": 13,
+  "request_id": "b0b5ef0e1e51",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "DBT%20Mutual%20NDA.txt",
+  "file_id": 123,
+  "file_mapped": true,
+  "latency_ms": 17252.24,
+  "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "Confidential Information shall not include any information that:\n(iv) is independently developed by Receiving Party without access to the Disclosing Party’s information, or",
+  "rag_answer": "Yes. Under the DBT Mutual Non-Disclosure Agreement, information that is **independently developed by the Receiving Party without access to the Disclosing Party’s information** is expressly excluded from the definition of “Confidential Information” in Section 1(iv).\n\nThis means the Receiving Party may independently develop information similar to the Disclosing Party’s Confidential Information, provided it does not use or access the Confidential Information in doing so. Section 6 also confirms that the Agreement does not prevent either party from pursuing similar discussions or actions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出：接收方在未接触披露方信息的情况下独立开发的信息不属于保密信息（条款 iv）。",
+    "answer_summary": "系统回答确认接收方可以独立开发类似信息，并指出独立开发且未接触披露方信息的内容被排除在保密信息定义之外（Section 1(iv)）。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：独立开发且未接触披露方信息的信息不属于保密信息，因此判定命中。"
+  },
+  "file_ids": [
+    123
+  ],
+  "skip_answer": false
+}

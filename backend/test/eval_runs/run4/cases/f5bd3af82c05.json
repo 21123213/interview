@@ -1,0 +1,25 @@
+{
+  "index": 234,
+  "request_id": "f5bd3af82c05",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "UALR-Standard-Non-disclosure-AgreementTemplate.txt",
+  "file_id": 197,
+  "file_mapped": true,
+  "latency_ms": 33992.98,
+  "query": "Consider UALR's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Confidential Information shall only be disclosed to the Receiving Party’s employees and, even then, only to the extent that such employees have a specific need to know of the Confidential information, for the evaluation of the proposed transaction.",
+  "rag_answer": "Yes. The document allows the Receiving Party to disclose Confidential Information to its employees, but only to those with a specific need to know it for evaluating the proposed transaction. Before receiving any Confidential Information, those employees must read the Non-Disclosure Agreement and acknowledge/agree to abide by the Receiving Party’s obligations under it.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息只能向接收方员工披露，且仅限于这些员工为评估拟议交易而具有特定知悉需要的范围。",
+    "answer_summary": "系统回答称文档允许接收方向员工披露保密信息，但仅限有特定知悉需要以评估拟议交易的员工，并补充员工需阅读并同意遵守协议义务。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许向员工披露、仅限特定需要、目的为评估拟议交易。额外内容不影响命中判定。"
+  },
+  "file_ids": [
+    197
+  ],
+  "skip_answer": false
+}

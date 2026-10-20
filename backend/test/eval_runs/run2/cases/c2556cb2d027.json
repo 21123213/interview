@@ -1,0 +1,25 @@
+{
+  "index": 124,
+  "request_id": "c2556cb2d027",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "LiiON%20NDA%202-27-2015%20v1.0.txt",
+  "file_id": 151,
+  "file_mapped": true,
+  "latency_ms": 17997.41,
+  "query": "Consider LiiON's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "(c) Receiving Party may disclose the Confidential Information to the employ-ees, officers, directors, and Affiliates of Receiving Party who need to know such Confi-dential Information in connection with the Purpose and who receive such information subject to the same or comparable restrictions as are contained in this Agreement as evi-denced by a signed non-disclosure agreement or equivalent .",
+  "rag_answer": "Yes. Under the LiiON Non-Disclosure Agreement, the Receiving Party may disclose Confidential Information to its employees, but only if:\n\n1. They **need to know** the information in connection with the Purpose of the agreement; and  \n2. They receive it subject to **the same or comparable confidentiality restrictions**, as evidenced by a signed non-disclosure agreement or equivalent.\n\nSo the document does allow sharing some Confidential Information with employees, but only under those conditions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可将机密信息披露给因目的需要知悉的员工、高管、董事和关联公司，但接收方须确保其受相同或可比保密限制约束，并以签署保密协议或同等文件证明。",
+    "answer_summary": "系统回答称允许接收方向员工披露机密信息，但员工须因目的需要知悉，并且须受相同或可比保密限制约束，且以签署保密协议或同等文件证明。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中针对员工披露的关键要点：允许披露、need to know、以及相同或可比限制并以签署保密协议或同等文件证明；未展开其他主体不影响对员工问题的命中。"
+  },
+  "file_ids": [
+    151
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 134,
+  "request_id": "010ef98796fe",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Standard%20NDA%20by%20Axial.txt",
+  "file_id": 189,
+  "file_mapped": true,
+  "latency_ms": 46393.1,
+  "query": "Consider Axial's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "Except as set forth in Section 2 below, \"Confidential Information\" means all non-public, confidential or proprietary information disclosed on or after the Effective Date, by the Disclosing Party to the Recipient or its affiliates, or to any of such Recipient's or its affiliates' employees, officers, directors, partners, shareholders, agents, attorneys, accountants, financing sources or advisors (collectively, \"Representatives\"), however disclosed, including, without limitation:\nThe Recipient shall protect and safeguard the confidentiality of all Confidential Information with at least the same degree of care as the Recipient would protect its own confidential information, but in no event with less than a commercially reasonable degree of care; not use the Confidential Information, or permit it to be accessed or used, for any purpose other than the Purpose, including without limitation, to reverse engineer, disassemble, decompile or design around confidential intellectual property; not disclose any such Confidential Information to any person or entity, except to the Recipient's Representatives who need to know the Confidential Information in relation to the Purpose and are informed of the obligations hereunder and agree to abide by the same.",
+  "rag_answer": "Yes. The NDA allows the Receiving Party (Recipient) to disclose Confidential Information only to its “Representatives” who need to know it for the stated Purpose and who are informed of and agree to abide by the NDA obligations.\n\nUnder Section 1, “Representatives” include the Recipient’s agents, attorneys, accountants, financing sources or advisors. Therefore, limited sharing with agents and professional advisors is permitted. Consultants may also be covered if they qualify as advisors/Representatives. The document does not allow sharing with unrelated third parties outside this permitted scope.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 允许接收方仅向其“Representatives”（包括 agents、attorneys、accountants、financing sources、advisors 等）披露 Confidential Information，前提是该等 Representatives 因目的需要知悉，并被告知且同意遵守保密义务；除此之外不得向其他个人或实体披露。",
+    "answer_summary": "系统回答称 NDA 允许接收方向其 Representatives 有限披露 Confidential Information，包括 agents 和 professional advisors，并要求其因目的需要知悉且受 NDA 义务约束；consultants 可能作为 advisors/Representatives 被覆盖；不允许向范围外第三方披露。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许向 Representatives（含 agents/advisors）有限披露，且需满足 need-to-know 和受保密义务约束。对 consultants 未直接列明，但金标也未明确使用 consultants 一词；系统回答将其归入可能属于 advisors/Representatives，与金标不矛盾，整体命中。"
+  },
+  "file_ids": [
+    189
+  ],
+  "skip_answer": false
+}

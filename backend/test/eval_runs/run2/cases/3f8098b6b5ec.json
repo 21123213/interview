@@ -1,0 +1,25 @@
+{
+  "index": 105,
+  "request_id": "3f8098b6b5ec",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Kerber_Non_Disclosure_Agreement.txt",
+  "file_id": 149,
+  "file_mapped": true,
+  "latency_ms": 17613.88,
+  "query": "Consider Kerber's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "If either party elects not to pursue any further business undertaking, each party will promptly return upon request all tangible information including any and all copies thereof relating to all Confidential Information.",
+  "rag_answer": "No — based on the provided document, it does not appear to permit the Receiving Party to retain Confidential Information after return or destruction.\n\nThe agreement states that all tangible information, including documents, schematics, drawings, photographs, specifications, specimens, and any other information, remains the property of the furnishing party. If either party elects not to pursue further business, each party must promptly return, upon request, all tangible information “including any and all copies thereof” relating to Confidential Information.\n\nThe provided text contains no exception allowing the Receiving Party to retain any Confidential Information after return or destruction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "若双方不再推进业务，各方应在请求时及时返还所有有形信息，包括与机密信息相关的任何及所有副本。",
+    "answer_summary": "系统回答称协议不允许接收方在返还或销毁后保留机密信息，并引用了金标要点：不再推进业务时需返还所有有形信息，包括任何及所有副本。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键信息，并基于该信息回答了用户问题，未与金标矛盾。"
+  },
+  "file_ids": [
+    149
+  ],
+  "skip_answer": false
+}

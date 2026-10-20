@@ -1,0 +1,25 @@
+{
+  "index": 78,
+  "request_id": "413cd8511750",
+  "correct": false,
+  "error_type": "contradiction",
+  "file_key": "JBF_NDA_rev-2017033-1.txt",
+  "file_id": 146,
+  "file_mapped": true,
+  "latency_ms": 34044.17,
+  "query": "Consider JBF's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "11. This Agreement shall be binding during the Purpose and shall remain in effect for a period or 2 years after the Purpose is completed.",
+  "rag_answer": "No. The provided document excerpts do not expressly mention that any obligations of the Agreement survive its termination.\n\nThe closest provision is Section 11, which states that the Agreement “shall remain in effect for a period or 2 years after the Purpose is completed.” However, this is not a survival-of-obligations-after-termination clause.",
+  "judge": {
+    "correct": false,
+    "error_type": "contradiction",
+    "gold_summary": "金标引用第11条：协议在目的期间具有约束力，并在目的完成后继续有效2年，作为与义务存续相关的证据。",
+    "answer_summary": "系统回答引用了第11条并说明协议在目的完成后继续有效2年，但明确否认文档提及义务在协议终止后存续，认为该条不是终止后义务存续条款。",
+    "gap": "未正确将第11条认定为支持“协议/义务在终止或目的完成后仍继续有效”的关键证据，反而给出相反结论。",
+    "reason": "系统回答虽覆盖金标原文，但其最终结论与金标证据所指向的要点矛盾，因此不命中。"
+  },
+  "file_ids": [
+    146
+  ],
+  "skip_answer": false
+}

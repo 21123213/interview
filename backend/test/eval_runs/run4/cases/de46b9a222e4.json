@@ -1,0 +1,25 @@
+{
+  "index": 204,
+  "request_id": "de46b9a222e4",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_ResConnect.txt",
+  "file_id": 161,
+  "file_mapped": true,
+  "latency_ms": 19776.27,
+  "query": "Consider ResConnect's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "2.5 Neither party shall be required to keep confidential any information which is, or becomes, publicly available, is independently developed by either party outside the scope of this agreement, or is rightfully obtained from third parties.",
+  "rag_answer": "Yes. Under clause 2.5 of the ResConnect NDA, neither party is required to keep confidential any information that is “independently developed by either party outside the scope of this agreement.”\n\nTherefore, the Receiving Party may independently develop information that is similar to Confidential Information, provided the information is developed outside the scope of the agreement and is not derived from the disclosing party’s Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA第2.5条规定，任何一方均无需对独立于协议范围外开发的信息保密，包括公开信息、独立开发信息和从第三方合法获得的信息。",
+    "answer_summary": "系统回答指出根据第2.5条，任何一方无需对“独立于协议范围外开发”的信息保密，因此接收方可以独立开发类似保密信息，但需满足独立开发且未使用披露方保密信息的条件。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标关键要点，即第2.5条允许对独立于协议范围外开发的信息不保密，并据此回答接收方可以独立开发类似保密信息；其补充条件与金标不矛盾。"
+  },
+  "file_ids": [
+    161
+  ],
+  "skip_answer": false
+}

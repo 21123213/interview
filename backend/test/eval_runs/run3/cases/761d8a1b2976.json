@@ -1,0 +1,25 @@
+{
+  "index": 20,
+  "request_id": "761d8a1b2976",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "oceaneering-non-disclosure-agreement.txt",
+  "file_id": 177,
+  "file_mapped": true,
+  "latency_ms": 27703.04,
+  "query": "Consider Oceaneering's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "Recipient’s obligations under this Agreement shall survive any termination hereof.",
+  "rag_answer": "Yes. Section 12 of the document states: “Recipient’s obligations under this Agreement shall survive any termination hereof.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议规定接收方在本协议下的义务在协议终止后仍然存续。",
+    "answer_summary": "系统回答确认文档提到相关义务存续，并引用了与金标一致的句子：Recipient’s obligations under this Agreement shall survive any termination hereof。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键信息，且表述与金标一致，因此判定为正确。"
+  },
+  "file_ids": [
+    177
+  ],
+  "skip_answer": false
+}

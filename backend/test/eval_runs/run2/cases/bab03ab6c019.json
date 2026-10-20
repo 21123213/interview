@@ -1,0 +1,25 @@
+{
+  "index": 270,
+  "request_id": "bab03ab6c019",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-M5-Systems.txt",
+  "file_id": 168,
+  "file_mapped": true,
+  "latency_ms": 11620.71,
+  "query": "Consider the M5-Systems' Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "The Recipient agrees not to use the Confidential Information for any purpose other than that set forth in Section 1 of this Agreement.",
+  "rag_answer": "Yes. The NDA restricts the use of Confidential Information to the purposes stated in the Agreement. Specifically, Section 3 states that the Recipient may not use Confidential Information for any purpose other than that set forth in Section 1. Section 6 further confirms that the Recipient has only a limited right to review Confidential Information solely for the purpose stated in Section 1.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标结论为：接收方不得将保密信息用于本协议第1条规定目的之外的任何用途。",
+    "answer_summary": "系统回答称NDA将保密信息的使用限制在协议所述目的，并具体说明接收方不得将保密信息用于第1条规定目的之外的任何用途。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即保密信息只能用于第1条规定的目的，额外扩写不影响命中判定。"
+  },
+  "file_ids": [
+    168
+  ],
+  "skip_answer": false
+}

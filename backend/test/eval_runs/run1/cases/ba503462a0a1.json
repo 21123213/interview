@@ -1,0 +1,25 @@
+{
+  "index": 69,
+  "request_id": "ba503462a0a1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Evelozcity%20OESA%20NDA.txt",
+  "file_id": 131,
+  "file_mapped": true,
+  "latency_ms": 25365.65,
+  "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The confidentiality obligations contained in this Agreement expire and are of no further force or effect five (5) years from last date that Confidential Information was disclosed under this Agreement.",
+  "rag_answer": "No. The provided document fragments do not mention that any obligations of the Agreement may survive termination of the Agreement.\n\nThe only related provision is Section 10, which states that the confidentiality obligations expire five years from the last date Confidential Information was disclosed.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议中的保密义务自最后一次在本协议项下披露保密信息之日起五年后到期，不再具有效力。",
+    "answer_summary": "系统回答指出唯一相关条款是 Section 10，保密义务自最后一次披露保密信息之日起五年后到期。",
+    "gap": "无",
+    "reason": "系统回答虽然开头声称未提到义务在终止后继续有效，但它明确复述了金标的关键信息：保密义务自最后一次披露保密信息之日起五年后到期。按从宽覆盖标准，这已包含金标要点。"
+  },
+  "file_ids": [
+    131
+  ],
+  "skip_answer": false
+}

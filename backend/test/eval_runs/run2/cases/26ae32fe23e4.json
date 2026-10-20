@@ -1,0 +1,25 @@
+{
+  "index": 319,
+  "request_id": "26ae32fe23e4",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "nda-employee-template.txt",
+  "file_id": 165,
+  "file_mapped": true,
+  "latency_ms": 17146.23,
+  "query": "Consider Employer's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "a) “Confidential Information” means all information both tangible and intangible of a Disclosing Party which relates, respectively, to the above identified subject matter, including, but not limited to, trade secrets, business and technical information and data, disclosed orally, visually, in writing, electronic media or by any other means, and that is marked in accordance with this Section 1.\nc) With respect to any oral or visual communication or other intangible information which a Disclosing Party would like to be treated as Confidential Information under this Agreement, the Disclosing Party shall notify Recipient of such fact at the time of disclosure and within fifteen (15) days thereafter, Disclosing Party shall send Recipient a written memorandum outlining the information deemed to be Confidential Information.",
+  "rag_answer": "Yes. Under Section 1(a), “Confidential Information” includes information disclosed orally, visually, in writing, electronic media, or by any other means.\n\nHowever, for orally conveyed information to be treated as Confidential Information, Section 1(c) requires the Disclosing Party to:\n\n1. Notify the Recipient that the information is confidential at the time of disclosure; and  \n2. Within 15 days thereafter, send the Recipient a written memorandum outlining the information deemed confidential, marked “Confidential.”\n\nSo, verbal information can qualify as Confidential Information, but only if these notice and written confirmation requirements are satisfied.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息包括口头披露的信息；但口头或视觉等无形信息要被作为机密信息处理，披露方需在披露时通知接收方，并在15日内发送书面备忘录概述该机密信息。",
+    "answer_summary": "系统回答指出机密信息可包括口头披露的信息，并说明口头信息要作为机密信息处理需满足披露时通知接收方、15日内发送书面备忘录等要求。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：口头信息可属于机密信息，以及口头/无形信息被认定为机密信息所需的及时通知和15日内书面备忘录确认要求。"
+  },
+  "file_ids": [
+    165
+  ],
+  "skip_answer": false
+}

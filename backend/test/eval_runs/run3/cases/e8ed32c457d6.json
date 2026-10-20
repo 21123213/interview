@@ -1,0 +1,25 @@
+{
+  "index": 50,
+  "request_id": "e8ed32c457d6",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "QuickBooks-NDA-template.txt",
+  "file_id": 180,
+  "file_mapped": true,
+  "latency_ms": 17825.55,
+  "query": "Consider QuickBooks's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "Any materials or documents that have been furnished by one party to the other will be promptly returned, accompanied by all copies of such documentation, after the business possibility has been rejected or concluded.",
+  "rag_answer": "Yes, but only partially. The document specifies that any materials or documents furnished by one party to the other must be promptly returned, along with all copies, after the business possibility has been rejected or concluded. However, it does not expressly require destruction of Confidential Information, nor does it explicitly tie the return obligation to the termination of the Agreement itself.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出：一方提供给另一方的材料或文档应在商业机会被拒绝或结束后，连同所有副本及时归还。",
+    "answer_summary": "系统回答说明材料或文档须在商业机会被拒绝或结束后连同所有副本及时归还，并进一步指出未明确要求销毁，也未明确将归还义务与协议终止挂钩。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标的关键要点，即归还提供材料/文档及所有副本，且触发条件为商业机会被拒绝或结束；额外说明未要求销毁和未明确与终止挂钩不构成与金标矛盾。"
+  },
+  "file_ids": [
+    180
+  ],
+  "skip_answer": false
+}

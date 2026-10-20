@@ -1,0 +1,25 @@
+{
+  "index": 17,
+  "request_id": "2937799914d8",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "DBT%20Mutual%20NDA.txt",
+  "file_id": 123,
+  "file_mapped": true,
+  "latency_ms": 12251.4,
+  "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "The Receiving Party agrees disclose Confidential Information only to those employees who need to know such information and certifies that such employees have previously agreed, either as a condition to employment or in order to obtain the Confidential Information, to be bound by terms and conditions substantially similar to those of this Agreement.",
+  "rag_answer": "Yes. Under the DBT Mutual NDA, the Receiving Party may share Confidential Information with its employees only on a limited basis.\n\nSection 2 states that the Receiving Party may disclose Confidential Information “only to those employees who need to know such information,” and the Receiving Party must certify that those employees have previously agreed to be bound by confidentiality terms substantially similar to those in the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "允许接收方仅向需要知悉的员工披露机密信息，并须认证这些员工已事先同意受与协议实质相似的条款约束。",
+    "answer_summary": "回答指出可以共享，但仅限需要知悉的员工，并要求认证员工已事先同意受实质相似保密条款约束。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：员工共享限于 need to know，且需认证员工受实质相似条款约束；未逐字提到雇佣条件或为获取机密信息而同意，但不影响核心命中。"
+  },
+  "file_ids": [
+    123
+  ],
+  "skip_answer": false
+}

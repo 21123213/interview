@@ -1,0 +1,25 @@
+{
+  "index": 97,
+  "request_id": "8fb028677f13",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Aspiegel_NDA_template.txt",
+  "file_id": 115,
+  "file_mapped": true,
+  "latency_ms": 17954.3,
+  "query": "Consider Aspiegel's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Confidential Information: means all confidential information (however recorded, preserved or disclosed) disclosed by a Party or its Representatives to the other Party and that Party's Representatives including but not limited to:\n(c) any information relating to:\n(i) the business, affairs, customers, clients, suppliers, plans, intentions, or market opportunities of the Disclosing Party or of the Disclosing Party's Affiliates; and\n(ii) the operations, processes, product information, know-how, designs, specifications, trade secrets, computer programs or software of the Disclosing Party or of the Disclosing Party's Affiliates; and",
+  "rag_answer": "No. The document does **not** state that Confidential Information shall only include technical information.\n\nIt defines “Confidential Information” broadly as “all confidential information (however recorded, preserved or disclosed)” disclosed by a Party or its Representatives, and expressly says this includes “but not limited to” items such as:\n\n- the fact that discussions and negotiations are taking place concerning the Purpose and their status;\n- the existence and terms of the Agreement;\n- business, affairs, customers, clients, suppliers, plans, intentions, or market opportunities;\n- operations, processes, product information, know-how, designs, specifications, trade secrets, computer programs or software; and\n- any information or analysis derived from Confidential Information.\n\nTherefore, Confidential Information under the Aspiegel NDA includes both technical and non-technical information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标显示 Confidential Information 定义广泛，不仅限于技术信息，还包括业务、客户、供应商、计划、市场机会以及运营、产品、know-how、设计、规格、商业秘密、软件等信息。",
+    "answer_summary": "系统回答称文档并未规定 Confidential Information 仅包括技术信息，并列举了业务/非技术信息以及技术/运营信息，明确其定义广泛且不限于技术信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：Confidential Information 定义广泛，包含非技术和技术信息，因此对问题作出正确否定回答。"
+  },
+  "file_ids": [
+    115
+  ],
+  "skip_answer": false
+}

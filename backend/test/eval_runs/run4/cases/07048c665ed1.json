@@ -1,0 +1,25 @@
+{
+  "index": 13,
+  "request_id": "07048c665ed1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "tpi-non-disclosure-agreement_1.txt",
+  "file_id": 195,
+  "file_mapped": true,
+  "latency_ms": 24171.43,
+  "query": "Consider tpi's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Such Proprietary Information shall not include information which\n(3) is disclosed to the Receiving Party by a third party who lawfully possesses such information and who is duly authorized or otherwise entitled to disclose such information;",
+  "rag_answer": "Yes. Under TPI’s Non-Disclosure Agreement, information is not treated as “Proprietary Information” if it is disclosed to the Receiving Party by a third party who lawfully possesses it and is duly authorized or otherwise entitled to disclose it.\n\nTherefore, the Receiving Party may acquire such information from a third party, provided the third party has lawful possession and authority to disclose it. If the information is merely “similar” but not derived from or equivalent to TPI’s Proprietary Information, the Agreement does not expressly prohibit that either.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 中的 Proprietary Information 不包括由合法拥有且有权披露的第三方披露给接收方的信息。",
+    "answer_summary": "系统回答指出 TPI NDA 不将第三方合法拥有并有权披露给接收方的信息视为 Proprietary Information，因此接收方可以从第三方获取该等信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：第三方合法拥有并有权披露的信息不属于保密/专有信息，因此接收方可从第三方获取；与金标一致，无矛盾。"
+  },
+  "file_ids": [
+    195
+  ],
+  "skip_answer": false
+}

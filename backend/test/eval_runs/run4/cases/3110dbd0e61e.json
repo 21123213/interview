@@ -1,0 +1,25 @@
+{
+  "index": 207,
+  "request_id": "3110dbd0e61e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_ResConnect.txt",
+  "file_id": 161,
+  "file_mapped": true,
+  "latency_ms": 30195.13,
+  "query": "Consider ResConnect's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Any Business Partner shall maintain the material as confidential and shall not publish, disclose or distribute all or any portion of it (or any copies of it) to any other person or permit any other person access to it, save for employees, consultants or agents of the Business Partner for purposes specifically related to Mandarin’s use of the material.",
+  "rag_answer": "Yes, but only in a limited way.\n\nUnder the NDA, the Business Partner (the receiving party) may permit its **employees, consultants, or agents** to access the **Materials** for purposes specifically related to Mandarin’s use of the material (Clause 3.2). The document also contemplates that the parties’ respective officers and employees must keep confidential information confidential (Clause 2.1).\n\nHowever, the NDA does **not** generally allow broad sharing of all Confidential Information with employees. Disclosure is restricted, and third-party disclosure is only permitted in specified circumstances, such as to accountants, attorneys, financial advisors, funders, or where required by law (Clause 2.4).",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "原则上接收方不得披露或允许他人接触材料，但例外允许其 employees、consultants 或 agents 在与 Mandarin 使用材料特定相关目的下访问。",
+    "answer_summary": "系统回答指出 Business Partner 可在有限情况下允许 employees、consultants 或 agents 访问 Materials，且限于与 Mandarin 使用材料相关目的；同时强调不能一般性广泛共享机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许接收方员工等有限访问，并限定于与 Mandarin 使用材料相关的特定目的；额外说明不构成矛盾。"
+  },
+  "file_ids": [
+    161
+  ],
+  "skip_answer": false
+}

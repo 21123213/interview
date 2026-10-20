@@ -1,0 +1,25 @@
+{
+  "index": 216,
+  "request_id": "a3b536bd935b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_Street_Stream_Franchise.txt",
+  "file_id": 162,
+  "file_mapped": true,
+  "latency_ms": 46568.44,
+  "query": "Consider Street Stream's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "A\nUpon receipt by the Recipient of a written demand from the Disclosers:\n8.1.1 the Recipient must return or procure the return to the Disclosers or, as the Disclosers may require, destroy or procure the destruction of any and all materials containing the Confidential Information together with all copies;\n8.1.3 the Recipient must delete or procure the deletion of all electronic copies of Confidential Information; and\n8.1.4 the Recipient must make, and procure that the Authorised Persons shall make, no further Use of the Confidential Information.",
+  "rag_answer": "No — based on the provided NDA text, the document does **not** expressly permit the Receiving Party to retain Confidential Information after a return/destruction demand.\n\nClause 8 (“Delivery Up”) requires the Recipient, upon written demand, to:\n\n- return or destroy **any and all materials containing the Confidential Information together with all copies**;\n- delete all **electronic copies**;\n- make no further Use of the Confidential Information.\n\nThe only related exception in the snippets is clause 4.2, which addresses legally required **disclosure**, not retention after return/destruction. Also, clause 4.1 concerns information agreed in writing to be excluded from “Confidential Information,” so it would not be Confidential Information subject to the return/destruction obligation.\n\nTherefore, the document appears to require full return/destruction/deletion and does not grant a general right to retain some Confidential Information afterward.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA要求接收方在收到书面要求后返回或销毁所有包含保密信息的材料及副本，删除所有电子副本，并且不得再使用保密信息；未允许在返回/销毁后保留部分保密信息。",
+    "answer_summary": "系统回答称NDA未明确允许接收方在返回/销毁后保留保密信息，并列举第8条要求返回/销毁所有材料及副本、删除电子副本、不再使用，结论为必须全部返还/销毁/删除，不授予保留权。",
+    "gap": "无",
+    "reason": "系统回答覆盖金标关键要点：不允许保留，且要求返回/销毁/删除全部保密信息并停止使用；结论与金标一致，额外说明不构成错误。"
+  },
+  "file_ids": [
+    162
+  ],
+  "skip_answer": false
+}

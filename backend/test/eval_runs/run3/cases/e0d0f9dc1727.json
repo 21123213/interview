@@ -1,0 +1,25 @@
+{
+  "index": 241,
+  "request_id": "e0d0f9dc1727",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "thoughtbot-mutual-nda.txt",
+  "file_id": 194,
+  "file_mapped": true,
+  "latency_ms": 31977.0,
+  "query": "Consider the Mutual Non-Disclosure Agreement between thoughtbot and Unknown Party; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "All documents and other tangible objects containing or representing Confidential Information and all copies thereof which are in the possession of Receiving Party shall be and remain the property of the Disclosing Party and shall be promptly returned to the Disclosing Party upon the Disclosing Party’s request.",
+  "rag_answer": "No. Based on the provided document, it does not expressly permit the Receiving Party to retain Confidential Information after return or destruction.\n\nSection 7 (“Return of Materials”) requires that all documents, tangible objects containing or representing Confidential Information, and all copies in the Receiving Party’s possession be promptly returned upon the Disclosing Party’s request. There is no exception allowing the Receiving Party to keep any Confidential Information after return. The document also does not address retention after destruction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定：Receiving Party 持有的所有包含或代表 Confidential Information 的文件、有形物体及其副本仍属于 Disclosing Party，并应在 Disclosing Party 请求时及时归还。",
+    "answer_summary": "系统回答指出：No，文件未明确允许 Receiving Party 在归还后保留 Confidential Information，并复述了金标中关于所有文件、有形物体及副本须在请求时及时归还的要求；同时说明文件未处理销毁后的保留问题。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即所有含机密信息的材料及副本应归 Disclosing Party 所有并在请求时及时归还，因此可支持不允许 Receiving Party 在归还后保留机密信息。关于销毁后保留，金标本身未明确给出允许例外，系统回答称未处理该问题，与金标不矛盾，按从宽覆盖标准判为命中。"
+  },
+  "file_ids": [
+    194
+  ],
+  "skip_answer": false
+}

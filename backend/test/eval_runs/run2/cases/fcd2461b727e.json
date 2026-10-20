@@ -1,0 +1,25 @@
+{
+  "index": 274,
+  "request_id": "fcd2461b727e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-ONSemi_IndustryAnalystConf-2011.txt",
+  "file_id": 169,
+  "file_mapped": true,
+  "latency_ms": 12091.13,
+  "query": "Consider the Non-Disclosure Agreement between ON Semiconductor and Industry Analysts; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Confidential Information includes, without limitation, any specification, layout, design, drawing, formula, technique, algorithm, know-how, sample product, test data, information related to engineering, manufacturing, sales, marketing, management or quality control, financial information or other information related to the business operations of the Discloser.",
+  "rag_answer": "No. The document does **not** state that Confidential Information shall only include technical information.\n\nUnder Section 1 (“Definition”), Confidential Information means **any non-public information** disclosed by either party and identified as confidential or proprietary. It expressly includes, without limitation, technical information such as specifications, designs, formulas, algorithms, know-how, test data, and engineering/manufacturing information, **but also** information related to sales, marketing, management, quality control, financial information, and other business operations.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出 Confidential Information 不限于技术信息，而是包括规格、布局、设计、图纸、公式、技术、算法、know-how、样品、测试数据，以及工程、制造、销售、市场、管理、质量控制、财务信息和其他业务运营信息。",
+    "answer_summary": "系统回答明确表示文档并未将 Confidential Information 限定为技术信息，并指出其包括技术信息以及销售、市场、管理、质量控制、财务信息和其他业务运营信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：保密信息不仅限于技术信息，且包含业务运营相关信息；虽未逐项复述所有类别，但已表达“without limitation”的核心含义，判定为命中。"
+  },
+  "file_ids": [
+    169
+  ],
+  "skip_answer": false
+}

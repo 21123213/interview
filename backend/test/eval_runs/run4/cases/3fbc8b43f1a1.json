@@ -1,0 +1,25 @@
+{
+  "index": 152,
+  "request_id": "3fbc8b43f1a1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ceii-and-nda.txt",
+  "file_id": 119,
+  "file_mapped": true,
+  "latency_ms": 16976.48,
+  "query": "Consider the Non-Disclosure Agreement between CEII and NDA; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "If the Receiving Party is a company, the Receiving Party may disclose Confidential Information (i) to the Receiving Party's directors, officers and employees (collectively, \"Representatives\"), in each case only to the extent reasonably necessary for the Receiving Party's internal use and only after informing each Representative of the restrictions in this Agreement on the disclosure and use of the Confidential Information and that he or she must comply with such restrictions, and\nThe Receiving Party may disclose CEII (i) only to its Representatives who have properly executed individual non-disclosure or confidentiality agreements in the course of their employment specifically pertaining to confidential information and CEII they receive in the course of their employment and",
+  "rag_answer": "Yes—but only under specific conditions.\n\nUnder the NDA, if the Receiving Party is a company, it may share Confidential Information with its directors, officers, and employees (collectively “Representatives”) **only to the extent reasonably necessary for the company’s internal use**, and only after informing each Representative of the confidentiality restrictions and requiring them to comply.\n\nFor **CEII**, the restrictions are stricter: CEII may be disclosed to Representatives **only if** those Representatives have properly executed individual non-disclosure or confidentiality agreements covering CEII, the disclosure is limited to what is reasonably necessary, and no CEII may be disclosed to Representatives convicted of a felony.\n\nIf the Receiving Party is an individual, it may not disclose Confidential Information to anyone without prior written consent from the Disclosing Parties.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "若接收方是公司，可向其董事、管理人员和员工（代表）披露保密信息，但仅限于内部合理必要使用，并需事先告知其保密限制；对于CEII，只能披露给已签署与职务中接收的保密信息和CEII相关的个人保密/不披露协议的代表。",
+    "answer_summary": "系统回答指出公司接收方可向董事、管理人员和员工共享保密信息，但仅限内部合理必要使用，并需告知保密限制；对CEII则要求代表已签署个人保密/不披露协议，并限制披露范围。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：公司接收方可向董事、管理人员和员工披露保密信息的条件，以及CEII仅可向已签署适当个人保密协议的代表披露。尽管包含额外内容，但不影响关键信息命中。"
+  },
+  "file_ids": [
+    119
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 105,
+  "request_id": "ed220eea6105",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Aspiegel_NDA_template.txt",
+  "file_id": 115,
+  "file_mapped": true,
+  "latency_ms": 41702.12,
+  "query": "Consider Aspiegel's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "In consideration of the mutual disclosure of Confidential Information the Recipient Party undertakes:-\n(b) to use or apply the Confidential Information of the Disclosing Party solely for the Purpose and so as to determine whether or not and on what terms the Parties might wish to proceed;\n(c) not to use, copy, adapt, alter, disclose or part with possession of or apply the Confidential Information of the Disclosing Party for any other purpose or its own purposes other than as described in paragraph",
+  "rag_answer": "Yes. The Aspiegel NDA restricts the use of Confidential Information to the stated Purpose. Clause 2(b) requires the Recipient Party to use or apply Confidential Information “solely for the Purpose,” and clause 2(c) prohibits use, copying, adaptation, disclosure, or application for any other purpose or for the Recipient’s own purposes.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明接收方承诺将保密信息仅用于协议所述 Purpose，并禁止为其他目的或自身目的使用、复制、改编、披露或处分保密信息。",
+    "answer_summary": "系统回答确认 NDA 将保密信息使用限制在 stated Purpose，并说明 2(b) 要求 solely for the Purpose、2(c) 禁止其他用途或自身用途。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：保密信息仅限用于协议目的，且不得用于其他或自身目的；虽补充了条款编号，但未与金标矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    115
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 35,
+  "request_id": "76f70b8323f0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "wayne-fueling-systems-mutual-non-disclosure-agreement-final.txt",
+  "file_id": 200,
+  "file_mapped": true,
+  "latency_ms": 18720.64,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Wayne Fueling Systems and Unknown Party; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "2. The Receiving Party agrees, except as required by law, to:\n(ii) use the Confidential Information and Notes only for the purposes of evaluating a possible Transaction and the terms thereof;",
+  "rag_answer": "Yes. Under Section 2 of the Mutual Non-Disclosure Agreement, the Receiving Party agrees to use the Confidential Information and Notes **only for the purposes of evaluating a possible Transaction and the terms thereof**, except as required by law.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方同意除法律要求外，仅将保密信息和笔记用于评估可能交易及其条款。",
+    "answer_summary": "系统回答确认协议限制使用，并引用第2条，说明接收方除法律要求外仅可将保密信息和笔记用于评估可能交易及其条款。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，包括限制用途、例外法律要求、保密信息和笔记以及评估可能交易的目的，判定为命中。"
+  },
+  "file_ids": [
+    200
+  ],
+  "skip_answer": false
+}

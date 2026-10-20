@@ -1,0 +1,25 @@
+{
+  "index": 42,
+  "request_id": "60a8f0a5c02f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IPTK-CO-MutualNon-DisclosureAgreement.txt",
+  "file_id": 145,
+  "file_mapped": true,
+  "latency_ms": 57703.51,
+  "query": "Consider the Mutual Non-Disclosure Agreement between IPTK and CO; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "a. “Confidential Information” shall mean all confidential, proprietary and trade secret information and materials, whether in written, oral, visually, electronic or another format (including, for example, demonstrations, models or proto-types, software, computer tapes, audio or video tapes or recordings, other media), and whether intentionally disclosed or observed inadvertently, includ-ing, but not limited to, the following: [insert specific description if possible]; research, product plans or other information regarding the Discloser’s prod-ucts or services and markets therefor, customer lists and customers, software, developments, inventions, processes, formulas, technology, designs, drawings, engineering, hardware configuration information, marketing, finances or other business information; information of a confidential, sensitive, non-public, or personal nature, including information belonging to a third party or for which the Company owes a duty of confidentiality; any other Company proprietary or confidential information, including but not limited to any materials or any oral and written communications between the parties marked “confidential,” “proprietary” or similarly marked; or any materials which a reasonable person would recognize from the surrounding facts and circumstances to be proprietary or confidential.\nb. The Confidential Information that must be protected under this Agreement in-cludes\n(iii) information that, given the nature of the information or the circumstances surrounding its disclosure, reasonably should be considered to be Confidential Information",
+  "rag_answer": "No. The document does not require that all Confidential Information be expressly identified by the Disclosing Party.\n\nSection 2(a) defines Confidential Information broadly to include information or materials that “a reasonable person would recognize from the surrounding facts and circumstances to be proprietary or confidential.” Section 2(b) requires express identification for certain categories—such as tangible materials marked with a legend and oral or visual information identified at disclosure and confirmed in writing within 14 days—but it also expressly covers information that “reasonably should be considered to be Confidential Information” based on its nature or the circumstances of disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明 Confidential Information 的定义非常宽泛，不仅包括标记为 confidential/proprietary 的信息，还包括合理人从周围事实情况会认识到属于专有或保密的信息；并且协议也明确保护那些根据其性质或披露情况合理应被视为 Confidential Information 的信息。因此，并非所有 Confidential Information 都必须由披露方 expressly identified。",
+    "answer_summary": "系统回答称文档不要求所有 Confidential Information 都由披露方明确标识，并指出定义包括合理人从周围事实情况会认识到属于专有或保密的信息，同时某些类别需要明确标识，但信息若基于性质或披露情况合理应被视为 Confidential Information 也受保护。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：协议并未要求所有 Confidential Information 都必须被披露方明确标识，因为定义和保密范围包括合理人可识别为保密或专有、以及根据性质或披露情况应被视为 Confidential Information 的信息。额外细节未与金标矛盾。"
+  },
+  "file_ids": [
+    145
+  ],
+  "skip_answer": false
+}

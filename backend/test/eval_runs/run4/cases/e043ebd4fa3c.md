@@ -1,0 +1,32 @@
+# Case `e043ebd4fa3c`
+
+- index: 121
+- file_key: `BT_NDA.txt`
+- file_id: 117
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 18139.08
+
+## Query
+
+Consider BT's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?
+
+## Gold
+
+When used herein, Confidential Information shall mean any information and data (in electronic form, in hard copy or given verbally) of a confidential or proprietary nature which is disclosed by the Disclosing Party to the Receiving Party, including but not limited to, group corporate strategy and initiatives, customer information, Target information, proprietary technical, financial, personnel and/or commercial information with respect to the Proposed Transaction, Transnet or the Target and any information which is disclosed pursuant to this Agreement and marked “Confidential” by the Disclosing Party.
+
+## RAG Answer
+
+Yes. Under clause 1.1 of BT’s Non-Disclosure Agreement, “Confidential Information” is defined to include information and data “in electronic form, in hard copy or given verbally” of a confidential or proprietary nature that is disclosed by the Disclosing Party to the Receiving Party.
+
+Therefore, verbally conveyed information can be considered Confidential Information, provided it meets the definition and is not excluded under clauses 1.1.1–1.1.4.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: NDA 中 Confidential Information 包括电子形式、纸质形式或口头提供的保密/专有信息，因此口头传达的信息可被视为 Confidential Information。
+- answer_summary: 系统回答确认 Yes，并指出 Confidential Information 定义包括“in electronic form, in hard copy or given verbally”，因此口头传达的信息可被视为 Confidential Information。
+- gap: 无
+- reason: 系统回答明确覆盖了金标的关键结论，即口头提供的信息可属于 Confidential Information；额外提及排除条款与金标不矛盾，不影响命中。

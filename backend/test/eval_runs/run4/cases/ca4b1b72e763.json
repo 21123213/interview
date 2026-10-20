@@ -1,0 +1,25 @@
+{
+  "index": 190,
+  "request_id": "ca4b1b72e763",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Template-Media-News-Group-inc.txt",
+  "file_id": 173,
+  "file_mapped": true,
+  "latency_ms": 16924.77,
+  "query": "Consider Media News Group, Inc.'s Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "Confidential Information provided by Disclosing Party must be expressly marked or designated in writing by the Disclosing Party in a manner to indicate its confidential, proprietary or otherwise non-public nature.",
+  "rag_answer": "Yes. The NDA states that “Confidential Information provided by Disclosing Party must be expressly marked or designated in writing by the Disclosing Party in a manner to indicate its confidential, proprietary or otherwise non-public nature.”\n\nSo, for information provided by the Disclosing Party, the document requires express written identification as confidential.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "披露方提供的保密信息必须由披露方以书面形式明确标记或指定，以表明其保密、专有或非公开性质。",
+    "answer_summary": "系统回答确认 NDA 要求披露方提供的保密信息必须被明确书面标记或指定为保密，并直接引用了金标中的关键条款。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，且与金标一致，没有矛盾或遗漏。"
+  },
+  "file_ids": [
+    173
+  ],
+  "skip_answer": false
+}

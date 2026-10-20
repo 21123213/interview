@@ -1,0 +1,25 @@
+{
+  "index": 67,
+  "request_id": "3816e7ef4acc",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "JB-Machine-LLC-NDA-1.txt",
+  "file_id": 147,
+  "file_mapped": true,
+  "latency_ms": 13402.18,
+  "query": "Consider JB Machine LLC's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "The Term “Confidential information” does NOT include:\n- Independently developed information on behalf of the Recipient",
+  "rag_answer": "Yes. The NDA expressly excludes “Independently developed information on behalf of the Recipient” from the definition of “Confidential Information.” Therefore, the Receiving Party may independently develop information that is similar to the Confidential Information, provided it is not derived from or disclosed under the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息的定义不包括代表接收方独立开发的信息。",
+    "answer_summary": "系统回答指出 NDA 明确将“代表接收方独立开发的信息”排除在保密信息定义之外，因此接收方可以独立开发类似信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即独立开发信息不属于保密信息；其补充条件与金标要点不矛盾。"
+  },
+  "file_ids": [
+    147
+  ],
+  "skip_answer": false
+}

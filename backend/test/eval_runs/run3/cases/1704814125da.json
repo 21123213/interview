@@ -1,0 +1,25 @@
+{
+  "index": 87,
+  "request_id": "1704814125da",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SE_NDCA_and_PRE-QUAL_PACKAGE_March-2016.txt",
+  "file_id": 185,
+  "file_mapped": true,
+  "latency_ms": 18758.85,
+  "query": "Consider the Agreement between SE_NDCA and PRE-QUAL PACKAGE; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "It is understood that nothing contained in this Agreement shall be construed as granting or conferring rights by license or otherwise in any Confidential Information disclosed to Receiving Party.",
+  "rag_answer": "Yes. The document explicitly indicates that the Agreement does not grant the Receiving Party any rights to the Confidential Information.\n\nSpecifically, Section 8 (“No License”) states that nothing in the Agreement shall be construed as granting or conferring rights by license or otherwise in any Confidential Information disclosed to the Receiving Party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议中的任何内容不得被解释为通过许可或其他方式授予接收方任何保密信息权利。",
+    "answer_summary": "系统回答确认文件表明协议不授予接收方任何保密信息权利，并引用第8条“No License”，表述与金标一致。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，额外说明条款名称和结论不与金标矛盾，按从宽覆盖标准判定命中。"
+  },
+  "file_ids": [
+    185
+  ],
+  "skip_answer": false
+}

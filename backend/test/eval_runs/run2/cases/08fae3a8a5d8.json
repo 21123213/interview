@@ -1,0 +1,25 @@
+{
+  "index": 216,
+  "request_id": "08fae3a8a5d8",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NCDG_Non-disclosure-agreement.txt",
+  "file_id": 157,
+  "file_mapped": true,
+  "latency_ms": 17326.98,
+  "query": "Consider NCDG's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "4.Notwithstanding Clause 2.1, the Receiving Party shall not be prevented from disclosing Confidential Information, where (i) such disclosure is in response to a valid order of a court or any other governmental body having jurisdiction over this Agreement or (ii) such disclosure is otherwise required by law, provided that the Receiving Party, to the extent possible, has first given prior written notice to the Disclosing Party and made reasonable efforts to protect the Confidential Information in connection with such disclosure.",
+  "rag_answer": "Yes. Under NCDG’s Non-Disclosure Agreement, if the Receiving Party is required to disclose Confidential Information by a valid court order, governmental order, or otherwise by law, it is not prevented from making that disclosure, but only if, **to the extent possible**, it **first gives prior written notice to the Disclosing Party** and makes **reasonable efforts to protect the Confidential Information** in connection with the disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定：接收方因有效法院/政府命令或法律要求披露机密信息时，在尽可能范围内必须先向披露方发出事先书面通知，并合理保护机密信息。",
+    "answer_summary": "系统回答指出：若接收方因法院命令、政府命令或法律要求需披露机密信息，则仅在其尽可能先向披露方发出事先书面通知并合理保护机密信息的情况下允许披露。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：法律/命令要求披露时的例外、事先书面通知义务以及合理保护机密信息义务，且未与金标矛盾。"
+  },
+  "file_ids": [
+    157
+  ],
+  "skip_answer": false
+}

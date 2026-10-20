@@ -1,0 +1,25 @@
+{
+  "index": 267,
+  "request_id": "4db948d723f3",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-M5-Systems.txt",
+  "file_id": 168,
+  "file_mapped": true,
+  "latency_ms": 19083.27,
+  "query": "Consider the M5-Systems' Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "The Recipient will not disclose any Confidential Information to third parties except those directors, officers, employees, consultants and agents of Recipient who are required to have the information in order to carry out the purpose set forth in Section 1 of this Agreement.",
+  "rag_answer": "Yes, but only in a limited way.\n\nUnder Section 3 of the NDA, the Receiving Party is generally prohibited from disclosing Confidential Information to third parties, **except** to the Receiving Party’s **directors, officers, employees, consultants, and agents** who are required to have the information to carry out the purpose stated in the Agreement.\n\nHowever, the document **does not expressly mention “professional advisors.”** Therefore, sharing with professional advisors is not clearly permitted unless they qualify as “agents” or another listed category. Any permitted disclosure must also be subject to confidentiality obligations substantially similar to the NDA, and the Receiving Party must promptly notify the Discloser of the names of persons who signed such agreements.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标结论为：接收方原则上不得向第三方披露保密信息，但可向其董事、高管、员工、顾问和代理人披露，前提是该等信息是履行协议第1条目的所必需。",
+    "answer_summary": "系统回答指出仅在有限情况下允许披露，并明确列出可接收保密信息的对象包括董事、高管、员工、顾问和代理人，且必须是履行协议目的所必需；同时说明文件未明确提及“professional advisors”，除非其属于“agents”或其他列明类别。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许向接收方的董事、高管、员工、顾问和代理人在必要情况下披露，且未错误地将 professional advisors 作为明确允许对象；其额外说明与金标不矛盾。"
+  },
+  "file_ids": [
+    168
+  ],
+  "skip_answer": false
+}

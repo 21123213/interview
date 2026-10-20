@@ -1,0 +1,25 @@
+{
+  "index": 179,
+  "request_id": "4a93b09e0cb4",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "mcgill_mitacs_terms-january2013.txt",
+  "file_id": 153,
+  "file_mapped": true,
+  "latency_ms": 19857.94,
+  "query": "Consider the Terms of Collaboration Agreement between McGill University and Mitacs; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Recipient may disclose the Confidential Information only to such of its employees, directors, officers, agents, consultants and administrators who have a need-to-know such information for the Project provided that they are advised of the confidential nature of the Confidential Information and are under an obligation to maintain its confidentiality.",
+  "rag_answer": "Yes. Under Section 7.1, the Recipient may disclose Confidential Information to its employees only if they have a need to know it for the Project, and provided they are advised of its confidential nature and are under an obligation to maintain confidentiality. Otherwise, disclosure to third parties requires the Discloser’s prior written approval.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可以仅在项目需要知悉的情况下，向员工等人员披露机密信息，但须告知其机密性质并要求其承担保密义务。",
+    "answer_summary": "系统回答称允许接收方向员工披露机密信息，前提是员工因项目需要知悉、被告知机密性质并承担保密义务。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键条件：允许向员工分享机密信息，且限定于项目需要知悉、告知机密性质并要求保密义务；额外内容不影响命中。"
+  },
+  "file_ids": [
+    153
+  ],
+  "skip_answer": false
+}

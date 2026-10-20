@@ -1,0 +1,25 @@
+{
+  "index": 200,
+  "request_id": "2a21bf9836da",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WECC_Confidentiality_Agreement.txt",
+  "file_id": 202,
+  "file_mapped": true,
+  "latency_ms": 16001.72,
+  "query": "Consider WECC's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "b. Upon any termination of this Agreement, Data Recipient shall return to WECC all Non-Public Information in Data Recipient’s possession or destroy all Non-Public Information in Data Recipient’s possession and certify to WECC in writing that all Non-Public Information has been returned or destroyed, except as may be otherwise required by law in which case the confidentiality obligations of this Agreement shall survive termination.",
+  "rag_answer": "Yes. The document mentions that some obligations may survive termination. Specifically, Section 7(b) states that upon termination, the Data Recipient must return or destroy all Non-Public Information, “except as may be otherwise required by law in which case the confidentiality obligations of this Agreement shall survive termination.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议终止后，Data Recipient需返回或销毁非公开信息；如法律另有要求，保密义务在协议终止后继续存续。",
+    "answer_summary": "系统回答确认文档提到部分义务可存续，并引用Section 7(b)说明终止时返回/销毁非公开信息，且法律另有要求时保密义务在终止后存续。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：终止后的返回/销毁义务以及保密义务在特定情况下存续，虽补充了条款编号但未与金标矛盾。"
+  },
+  "file_ids": [
+    202
+  ],
+  "skip_answer": false
+}

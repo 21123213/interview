@@ -1,0 +1,25 @@
+{
+  "index": 279,
+  "request_id": "82569d09e689",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-ONSemi_IndustryAnalystConf-2011.txt",
+  "file_id": 169,
+  "file_mapped": true,
+  "latency_ms": 20204.93,
+  "query": "Consider the Non-Disclosure Agreement between ON Semiconductor and Industry Analysts; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "“Confidential Information” means any non-public information, whether in tangible, machine readable, oral, visual or electronic form, disclosed by either of the parties to the other, which the Discloser identifies at the time of disclosure as confidential and/or proprietary by means of a verbal notice legend, marking, stamp or other notice conspicuously designating the information to be confidential and/or proprietary.",
+  "rag_answer": "Yes. Under Section 1 of the agreement, “Confidential Information” includes non-public information in **oral form**, but only if the Discloser identifies it at the time of disclosure as confidential and/or proprietary by means of a verbal notice, legend, marking, stamp, or other conspicuous notice.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "口头信息可构成机密信息，但披露方须在披露时以口头通知、标识、图例、印章或其他显著方式将其标明为机密/专有。",
+    "answer_summary": "回答称机密信息包括口头形式的非公开信息，但须披露方在披露时以口头通知、标识、图例、印章或其他显著方式标明为机密/专有。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：口头信息可被认定为机密信息及其标识条件，未与金标矛盾。"
+  },
+  "file_ids": [
+    169
+  ],
+  "skip_answer": false
+}

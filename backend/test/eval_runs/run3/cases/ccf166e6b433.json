@@ -1,0 +1,25 @@
+{
+  "index": 145,
+  "request_id": "ccf166e6b433",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SupplementOne-NDA.txt",
+  "file_id": 191,
+  "file_mapped": true,
+  "latency_ms": 16837.89,
+  "query": "Consider SupplementOne's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "i) “Confidential Information” refers to the following items Discloser discloses to the Recipient:\n(2) Any oral or visual information Discloser designates as “Confidential” at the time of disclosure;",
+  "rag_answer": "是。根据该 NDA 的“Confidential Information”定义，口头（oral）信息可以被认定为机密信息，但前提是 Discloser 在披露时明确将其指定为 “Confidential”。也就是说，仅口头传达的信息并非自动属于机密信息，除非在披露当时被标注/指定为机密。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "口头或视觉信息若在披露时被披露方指定为“Confidential”，则属于机密信息。",
+    "answer_summary": "系统回答指出口头信息可以被认定为机密信息，但前提是披露方在披露时明确将其指定为“Confidential”，否则不自动属于机密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键要点：口头信息可以构成机密信息，且需满足披露时被指定为机密这一条件，与金标一致。"
+  },
+  "file_ids": [
+    191
+  ],
+  "skip_answer": false
+}

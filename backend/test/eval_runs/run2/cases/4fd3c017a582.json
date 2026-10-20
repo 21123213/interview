@@ -1,0 +1,25 @@
+{
+  "index": 5,
+  "request_id": "4fd3c017a582",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 36550.44,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "Confidential Information shall not include any information, other than Personal Information, however designated, that:\n(iv) is independently developed by Vendor without reliance upon any part of the information disclosed by IBC and/or relating to the HCAI System.",
+  "rag_answer": "是，但有限制。根据文档第 1 节“Exclusions”第 (c)(iv) 项，**Confidential Information** 不包括由 Vendor（即接收方）**独立开发**、且**未依赖 IBC 披露的任何信息或与 HCAI System 相关的信息**的信息。\n\n因此，如果接收方能够独立开发出与 Confidential Information 类似的信息，并且该开发过程没有依赖 IBC 提供的 Confidential Information 或 HCAI System 相关信息，则该独立开发的信息不属于本协议定义的 Confidential Information，不受保密义务限制。\n\n但如果类似信息是在依赖 Confidential Information 的基础上开发或修改的，则不能适用该排除条款，仍受 NDA 约束。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出，除个人信息外，由 Vendor 独立开发且未依赖 IBC 披露信息或与 HCAI System 相关信息的信息，不属于 Confidential Information。",
+    "answer_summary": "系统回答指出 Confidential Information 不包括由接收方/Vendor 独立开发且未依赖 IBC 披露信息或与 HCAI System 相关信息的信息，并据此说明在满足独立开发且不依赖披露信息的条件下，类似信息不受保密义务限制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：独立开发、未依赖 IBC 披露信息或与 HCAI System 相关信息的信息不属于 Confidential Information，并对问题作出了正确判断。额外解释未与金标矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

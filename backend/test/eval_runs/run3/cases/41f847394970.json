@@ -1,0 +1,25 @@
+{
+  "index": 176,
+  "request_id": "41f847394970",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Tazza-CAFFE-Confidentiality-Agreement.txt",
+  "file_id": 193,
+  "file_mapped": true,
+  "latency_ms": 22250.71,
+  "query": "Consider the Confidentiality Agreement between Tazza and CAFFE; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "(b) “Confidential information” refers to and encompasses any information acquired or received by the potential Franchisee from or concerning the Franchisor, including, without limiting the generality of the foregoing:\niii. any financial information concerning the Franchise and the Franchisor;\nAll documents, letters, reports, protocols, notes, journals, drawings, plans, maps, sketches, spreadsheets, data, and any other written material, correspondence, archive, or e-mail (including any electronic material) containing confidential information, as well as any copies of these materials, must be returned by the potential Franchisee upon written request to do so from the Franchisor or at any time at the Franchisor’s discretion.",
+  "rag_answer": "No. The document does not state that Confidential Information is limited to technical information. It defines Confidential Information broadly as any information acquired or received by the potential Franchisee from or concerning the Franchisor, including information concerning the Franchise, data, financial information, and the confidentiality agreement itself.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明“Confidential information”定义广泛，涵盖从或关于 Franchisor 获取/接收的任何信息，包括财务信息等，并非仅限技术信息。",
+    "answer_summary": "系统回答称文档没有规定 Confidential Information 仅限于技术信息，并将其定义为广泛信息，包括财务信息、数据等。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论：保密信息范围广泛，不局限于技术信息，因此判定命中。"
+  },
+  "file_ids": [
+    193
+  ],
+  "skip_answer": false
+}

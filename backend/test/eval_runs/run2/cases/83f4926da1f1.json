@@ -1,0 +1,25 @@
+{
+  "index": 79,
+  "request_id": "83f4926da1f1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "JBF_NDA_rev-2017033-1.txt",
+  "file_id": 146,
+  "file_mapped": true,
+  "latency_ms": 20093.23,
+  "query": "Consider JBF's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "7. The Receiving Party shall upon request immediately return to the Disclosing Party or destroy, as directed by the Disclosing Party, the Confidential Information and all copies thereof in any form whatsoever under the power or control of the Receiving Party or its Representatives and immediately destroy all compilations, analysis or derivative work relating to the Confidential Information.",
+  "rag_answer": "No. Under the JBF NDA, the Receiving Party is not permitted to retain Confidential Information after its return or destruction.\n\nClause 7 requires that, upon request, the Receiving Party must **immediately return or destroy**, as directed by the Disclosing Party, **the Confidential Information and all copies thereof in any form whatsoever**, and must also **immediately destroy all compilations, analyses, or derivative works** relating to the Confidential Information. If the obligation is satisfied by destruction, the Receiving Party must provide a certificate signed by an officer certifying the destruction.\n\nWhile Clause 6 allows copying or storage only where reasonably required internally for the Purpose, that permission does not override Clause 7’s return/destruction obligation. Therefore, the document does not provide an exception permitting the Receiving Party to keep any Confidential Information after return or destruction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "收到披露方请求后，接收方应立即返还或销毁机密信息及所有任何形式的复制件，并立即销毁与机密信息相关的汇编、分析或衍生作品。",
+    "answer_summary": "系统回答称不允许在返还或销毁后保留机密信息，并引用第7条要求立即返还或销毁机密信息及所有复制件、销毁相关汇编/分析/衍生作品；同时说明第6条的内部复制/存储许可不构成保留例外。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标关键要点：第7条的立即返还/销毁义务及销毁所有复制件和衍生作品要求，并据此得出不得保留的结论。额外扩写未与金标矛盾，因此判为命中。"
+  },
+  "file_ids": [
+    146
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 234,
+  "request_id": "4074b0f4ae2a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "stony_hill_buyer_nda.txt",
+  "file_id": 190,
+  "file_mapped": true,
+  "latency_ms": 22370.06,
+  "query": "Consider the Non-Disclosure Agreement between Stony Hill and Buyer; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "(b) Buyer will not disclose the Information, in whole or in part, to any party other than persons within Buyer's organization, including independent advisers/consultants, who have a need to know such Information for purposes of evaluating or structuring the possible purchase of the Business.",
+  "rag_answer": "Yes, but only in a limited way.\n\nUnder Paragraph 2(b) of the NDA, the Buyer may disclose the Confidential Information to “persons within Buyer’s organization, including independent advisers/consultants,” but only if they have a need to know the information for purposes of evaluating or structuring the possible purchase of the Business. The Buyer accepts full responsibility for ensuring that those persons comply with the Agreement.\n\nThe document does not appear to allow unrestricted sharing with third parties such as agents or professional advisors generally; sharing is permitted only to the extent they fall within the described “independent advisers/consultants” or persons within the Buyer’s organization and have a legitimate need-to-know for the transaction evaluation.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标允许 Buyer 仅向组织内人员（包括独立顾问/咨询顾问）披露保密信息，且这些人员必须因评估或安排可能收购业务而需要知悉该信息。",
+    "answer_summary": "系统回答指出可以有限披露，依据 Paragraph 2(b) 可向 Buyer 组织内人员及独立顾问/咨询顾问披露，前提是出于评估或安排可能收购业务的需要知悉；并说明不能一般性 unrestricted 向 agents 或 professional advisors 等第三方披露。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：允许披露给组织内人员及独立顾问/咨询顾问，并强调 need-to-know 和交易评估/安排目的；其对 agents/professional advisors 的限制性说明未与金标矛盾，整体命中。"
+  },
+  "file_ids": [
+    190
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 172,
+  "request_id": "da53c82fa2e7",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "eHandshake_Non_Disclosure_Agreement.txt",
+  "file_id": 127,
+  "file_mapped": true,
+  "latency_ms": 16227.05,
+  "query": "Consider eHandshake's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "1. The Receiving Party agrees to treat all information provided by the Providing Party in connection with the Business Under Discussion to the Receiving Partner and/or any of its partners, directors, officers, employees, affiliates, insurers, agents, advisors or auditors (the “Representatives”), regardless of the manner in which it is so furnished, together with any analyses, compilations, data, studies or other documents or records, whether of an oral, written or electronically retrievable nature (collectively the “Information”), as strictly confidential.\n2. The Receiving Party shall limit the possession and use of the Information to a “need-to-know” basis among its Representatives.",
+  "rag_answer": "Yes. The eHandshake Non-Disclosure Agreement allows the Receiving Party to share Confidential Information with its employees, but only in a limited way.\n\nEmployees are included in the defined group called “Representatives,” and the Agreement states that the Receiving Party must limit possession and use of the Information to a “need-to-know” basis among its Representatives. Therefore, the Receiving Party may disclose the Information to employees only to the extent necessary for the Business Under Discussion, and those employees must treat it as strictly confidential.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA将员工等列为Representatives，接收方可向员工披露机密信息，但必须限于need-to-know基础，并要求严格保密。",
+    "answer_summary": "系统回答确认允许与员工分享机密信息，但仅限Representatives中的need-to-know范围，并强调严格保密。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：员工属于Representatives、可分享信息、但限于need-to-know且需保密，因此判定命中。"
+  },
+  "file_ids": [
+    127
+  ],
+  "skip_answer": false
+}

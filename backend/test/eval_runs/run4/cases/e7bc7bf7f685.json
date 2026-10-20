@@ -1,0 +1,25 @@
+{
+  "index": 15,
+  "request_id": "e7bc7bf7f685",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "tpi-non-disclosure-agreement_1.txt",
+  "file_id": 195,
+  "file_mapped": true,
+  "latency_ms": 14076.04,
+  "query": "Consider tpi's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "2. Proprietary Information shall be held in strict confidence by Receiving Party and shall not be used by Receiving Party except for (i) the purposes described in this Agreement, unless disclosure or further use is authorized or consented to in writing by Disclosing Party which consent shall not be unreasonably withheld or delayed and/or",
+  "rag_answer": "Yes. TPI’s Non-Disclosure Agreement restricts the use of confidential/proprietary information to the purposes stated in the Agreement.\n\nSpecifically, the document states that “Proprietary Information” shall be held in strict confidence and “shall not be used by Receiving Party except for (i) the purposes described in this Agreement,” unless further use or disclosure is authorized or consented to in writing by the Disclosing Party, or unless disclosure is required under applicable law or governmental authority. It also permits disclosure only to employees or affiliated companies with a legitimate “need to know” and only for the purposes described in the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密/专有信息须严格保密，接收方仅可为协议所述目的使用，除非披露方书面授权或同意。",
+    "answer_summary": "系统回答确认TPI NDA限制保密信息仅用于协议所述目的，并引用了严格保密、除协议目的外不得使用、除非书面授权/同意等要点。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即保密信息只能用于协议所述目的，且仅可在披露方书面授权/同意下进一步使用或披露；额外扩写不影响命中。"
+  },
+  "file_ids": [
+    195
+  ],
+  "skip_answer": false
+}

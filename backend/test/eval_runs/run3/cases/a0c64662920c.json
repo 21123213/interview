@@ -1,0 +1,25 @@
+{
+  "index": 125,
+  "request_id": "a0c64662920c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 15413.26,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "Each party, as a Receiving Party, agrees that it will:\n(a) not use, or authorize the use of, such Confidential Information for any purpose other than for the evaluation, negotiation and, if applicable, consummation of the Potential Transaction;",
+  "rag_answer": "Yes.\n\nThe Sony Pictures Television NDA restricts the Receiving Party’s use of Confidential Information to the purposes stated in the Agreement. Specifically, Section 3(a) states that a party, as a Receiving Party, agrees it will “not use, or authorize the use of, such Confidential Information for any purpose other than for the evaluation, negotiation and, if applicable, consummation of the Potential Transaction.”\n\nThe Agreement also limits disclosure to Representatives who need to know the Confidential Information to facilitate that same purpose, and Section 5 clarifies that no license or right to use the Confidential Information is granted “except solely to effectuate the evaluation of the Potential Transaction.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得将保密信息用于除评估、谈判以及如适用时完成潜在交易以外的任何目的。",
+    "answer_summary": "系统回答确认 NDA 将保密信息使用限制在协议所述目的，并引用了与金标一致的条款：不得用于除评估、谈判及如适用时完成潜在交易以外的任何目的；还补充了披露限制和许可限制。",
+    "gap": "无",
+    "reason": "系统回答已明确包含金标关键信息，即保密信息仅限用于评估、谈判及如适用时完成潜在交易，因此判定命中。"
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

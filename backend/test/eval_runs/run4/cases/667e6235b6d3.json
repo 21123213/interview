@@ -1,0 +1,25 @@
+{
+  "index": 2,
+  "request_id": "667e6235b6d3",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "thoughtbot-mutual-nda.txt",
+  "file_id": 194,
+  "file_mapped": true,
+  "latency_ms": 15431.59,
+  "query": "Consider the Mutual Non-Disclosure Agreement between thoughtbot and Unknown Party; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "The Receiving Party agrees not to use any Confidential Information for any purpose except to evaluate and engage in discus-sions concerning a potential business relationship between the parties hereto.",
+  "rag_answer": "Yes. The Agreement restricts the use of Confidential Information to the purposes stated in the Agreement.\n\nUnder Section 3, “Non-use and Non-disclosure,” the Receiving Party agrees not to use any Confidential Information “for any purpose except to evaluate and engage in discussions concerning a potential business relationship between the parties.” Section 1 also identifies the purpose as exploring a business opportunity of mutual interest.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得将任何保密信息用于除评估和讨论双方潜在业务关系之外的任何目的。",
+    "answer_summary": "系统回答确认协议限制保密信息的使用，并引用第3条说明接收方仅可为评估和讨论双方潜在业务关系使用保密信息。",
+    "gap": "无",
+    "reason": "系统回答直接覆盖了金标的关键结论和核心限定用途，虽增加章节和背景信息，但不影响命中。"
+  },
+  "file_ids": [
+    194
+  ],
+  "skip_answer": false
+}

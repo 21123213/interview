@@ -1,0 +1,25 @@
+{
+  "index": 115,
+  "request_id": "57d76a6b5e6b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BCG-Mutual-NDA.txt",
+  "file_id": 116,
+  "file_mapped": true,
+  "latency_ms": 58967.49,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Boston Consulting Group and Unknown Party; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "This agreement allows us to disclose confidential information to each other, to our own affiliates and to the other's affiliates, under the following terms. An \"affiliate\" is any legal entity that one of us owns, that owns one of us or that is under common control with one of us.\n A \"representative\" is an employee, contractor, advisor or consultant of one of us or one of our respective affiliates.\n Each of us may disclose the other's confidential information to our representatives (who may then disclose that confidential information to other of our representatives) only if those representatives have a need to know about it for purposes of our business relationship with each other.",
+  "rag_answer": "可以，但有条件。根据上传文档，接收方可以向其员工披露部分保密信息，因为员工属于“representative”；但仅限因双方业务关系而需要知悉（need to know），并且接收方必须确保这些员工承担与本协议一致的保密义务，并对员工使用保密信息承担责任。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议允许接收方将对方保密信息披露给其代表（包括员工），但仅限因双方业务关系而有需要知悉；代表之间也可进一步披露。",
+    "answer_summary": "系统回答指出可以向员工披露部分保密信息，因为员工属于 representative，但必须满足 need to know 条件，并补充了保密义务和责任承担。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：允许向员工/representatives 披露保密信息，且以业务关系中的 need to know 为条件。额外扩写不导致错误。"
+  },
+  "file_ids": [
+    116
+  ],
+  "skip_answer": false
+}

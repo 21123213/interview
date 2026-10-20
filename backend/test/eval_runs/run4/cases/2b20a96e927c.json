@@ -1,0 +1,25 @@
+{
+  "index": 64,
+  "request_id": "2b20a96e927c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "5-NSK-Confidentiality-Agreement-for-Suppliers.txt",
+  "file_id": 109,
+  "file_mapped": true,
+  "latency_ms": 17436.15,
+  "query": "Consider NSK's Confidentiality Agreement for Suppliers; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "2.2. Confidential Information does not include information which:\nc) which is lawfully obtained by the Receiving Party from a third party and is not subject to a similar restriction on disclosure;",
+  "rag_answer": "Yes, in effect. Clause 2.2(c) of the NSK Confidentiality Agreement for Suppliers states that “Confidential Information” does **not** include information that is **lawfully obtained by the Receiving Party from a third party and is not subject to a similar restriction on disclosure**.\n\nTherefore, if the Receiving Party acquires similar information from a third party **lawfully** and the third-party information is **not subject to a similar confidentiality restriction**, it falls outside the definition of Confidential Information and is not restricted by the Agreement’s confidentiality obligations.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不包括接收方从第三方合法获得、且不受类似披露限制约束的信息。",
+    "answer_summary": "系统回答指出 Clause 2.2(c) 规定保密信息不包括接收方从第三方合法获得且不受类似披露限制约束的信息，因此类似信息在满足条件时不受协议保密义务限制。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键要点：从第三方合法获得、且不受类似披露限制约束的信息不属于 Confidential Information，并据此回答了问题。"
+  },
+  "file_ids": [
+    109
+  ],
+  "skip_answer": false
+}

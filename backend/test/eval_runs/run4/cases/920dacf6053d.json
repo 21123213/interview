@@ -1,0 +1,25 @@
+{
+  "index": 211,
+  "request_id": "920dacf6053d",
+  "correct": false,
+  "error_type": "contradiction",
+  "file_key": "NDA_Street_Stream_Franchise.txt",
+  "file_id": 162,
+  "file_mapped": true,
+  "latency_ms": 27166.96,
+  "query": "Consider Street Stream's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "Confidential Information means any information in whatever form (whether in writing, electronic or digital form, verbally or by inspection of documents, computer systems or sites or pursuant to discussions or by any other means ) which is confidential in nature, designated orally or in writing by the Disclosers as confidential or which may reasonably be considered by a business person to be commercially sensitive provided by the Disclosers (directly or indirectly) by any means to the Recipient (or to any Authorised Person) including without limitation via its legal representatives before or after the date of this Agreement in connection with or in anticipation of the Purpose including:\n(e) the contemplation and implementation of the Purpose, and the existence and content of this Agreement;",
+  "rag_answer": "No. Based on the provided excerpts of Street Stream’s Non-Disclosure Agreement, the document does not appear to include an explicit clause preventing the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated.\n\nThe excerpts impose general confidentiality obligations on “Confidential Information” (e.g., clause 2.1.1) and mention negotiations only in the context of no obligation to continue negotiations or enter into a further agreement (clause 2.4). However, they do not expressly prohibit disclosure of the existence of the Agreement or the fact that negotiations took place.",
+  "judge": {
+    "correct": false,
+    "error_type": "contradiction",
+    "gold_summary": "金标证据显示，Street Stream 的 NDA 将“目的之考虑与实施，以及本协议的存在和内容”明确纳入 Confidential Information 的定义，因此文档包含可防止接收方披露协议存在/协商或达成事实的条款。",
+    "answer_summary": "系统回答称根据提供的摘录，文档不包含明确条款防止接收方披露协议已达成或已协商的事实，并认为摘录仅规定一般保密义务且未明确禁止披露协议存在或协商事实。",
+    "gap": "系统回答未覆盖金标中 Confidential Information 包括“the existence and content of this Agreement”以及“the contemplation and implementation of the Purpose”的关键点，反而得出相反结论。",
+    "reason": "金标明确将协议的存在和内容列为保密信息，足以支持存在相关条款；系统回答却声称文档不包含此类明确条款，与金标证据矛盾。"
+  },
+  "file_ids": [
+    162
+  ],
+  "skip_answer": false
+}

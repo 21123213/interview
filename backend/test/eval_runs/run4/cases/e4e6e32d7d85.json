@@ -1,0 +1,25 @@
+{
+  "index": 203,
+  "request_id": "e4e6e32d7d85",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_ResConnect.txt",
+  "file_id": 161,
+  "file_mapped": true,
+  "latency_ms": 14502.63,
+  "query": "Consider ResConnect's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "2.1. Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the agreement, all information which:",
+  "rag_answer": "Yes. The NDA states that the parties must keep confidential information confidential “both during and after the duration of the agreement,” indicating that confidentiality obligations survive the end/termination of the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出各方应确保其及关联公司、各自高管和员工在协议期间及之后均对相关信息保密，说明保密义务在协议终止/结束后仍存续。",
+    "answer_summary": "系统回答称 NDA 规定保密信息须“在协议期间和之后”保持保密，并据此说明保密义务在协议结束/终止后存续。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即保密义务在协议期间及之后继续存在，足以回答文档是否提到部分义务在协议终止后存续；未逐字列出关联公司或员工等细节不影响判定。"
+  },
+  "file_ids": [
+    161
+  ],
+  "skip_answer": false
+}

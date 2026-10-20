@@ -1,0 +1,25 @@
+{
+  "index": 215,
+  "request_id": "d17646b4664a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NCDG_Non-disclosure-agreement.txt",
+  "file_id": 157,
+  "file_mapped": true,
+  "latency_ms": 25557.68,
+  "query": "Consider NCDG's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "The Receiving Party shall not be entitled to copy samples, models, computer programs, drawings, documents or other instruments furnished by the Disclosing Party hereunder and containing Confidential Information, unless and to the extent it is necessary for the Purpose.",
+  "rag_answer": "Yes. Under Clause V (“Copying and Return of Furnished Instruments”), the Receiving Party is generally **not entitled to copy** samples, models, computer programs, drawings, documents, or other instruments furnished by the Disclosing Party that contain Confidential Information, **except if and to the extent it is necessary for the Purpose** of the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方通常不得复制包含保密信息的样品、模型、程序、图纸、文件等，除非且仅在为实现目的所必要的范围内。",
+    "answer_summary": "回答指出接收方一般不得复制包含保密信息的物品，但如为实现协议目的所必要则允许，覆盖了金标关键条件。",
+    "gap": "无",
+    "reason": "系统回答准确表达了金标中的核心要点，即原则上禁止复制，但在目的必要范围内允许复制，因此判定命中。"
+  },
+  "file_ids": [
+    157
+  ],
+  "skip_answer": false
+}

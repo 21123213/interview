@@ -1,0 +1,25 @@
+{
+  "index": 16,
+  "request_id": "6fc7fd83159a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "vmw-certification-conduct-policy.txt",
+  "file_id": 199,
+  "file_mapped": true,
+  "latency_ms": 28963.44,
+  "query": "Consider the VMware Certification Conduct Policy; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "All Confidential Information remains the property of the Company and no license or other rights in the Confidential Information is granted hereby.",
+  "rag_answer": "Yes. The document indicates that the Agreement does not grant the Receiving Party any rights to the Confidential Information. It states: “All Confidential Information remains the property of the Company and no license or other rights in the Confidential Information is granted hereby.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息仍归公司所有，协议未授予接收方任何许可或其他权利。",
+    "answer_summary": "系统回答确认协议不授予接收方任何权利，并引用了与金标一致的关键句。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标的关键结论，即未授予任何许可或其他权利，且引用内容与金标一致。"
+  },
+  "file_ids": [
+    199
+  ],
+  "skip_answer": false
+}

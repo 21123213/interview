@@ -1,0 +1,25 @@
+{
+  "index": 281,
+  "request_id": "546f7d2ef526",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-ONSemi_IndustryAnalystConf-2011.txt",
+  "file_id": 169,
+  "file_mapped": true,
+  "latency_ms": 17889.34,
+  "query": "Consider the Non-Disclosure Agreement between ON Semiconductor and Industry Analysts; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "This Agreement imposes no obligation upon Recipient with respect to Confidential Information which is:\n(e) is required to be disclosed pursuant to the order of a court of competent jurisdiction; or otherwise required to be disclosed by law through no act of the Recipient, provided, however, that the Recipient has notified the Discloser upon learning of the possibility that disclosure could be required pursuant to any such law or legal order and has given the Discloser a reasonable opportunity to contest or limit the scope of such required disclosure and has cooperated with the Discloser toward this end.",
+  "rag_answer": "Yes.\n\nUnder the Agreement’s Exceptions clause, if the Receiving Party (Recipient) is required to disclose Confidential Information pursuant to a court order or otherwise by law, the Agreement conditions that exception on the Recipient having:\n\n- notified the Discloser upon learning of the possibility that disclosure could be required;\n- given the Discloser a reasonable opportunity to contest or limit the scope of the required disclosure; and\n- cooperated with the Discloser toward that end.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "若接收方被法院命令或法律要求披露保密信息，则其保密义务不覆盖该披露，但条件是接收方在得知可能需披露时通知披露方，给予合理机会质疑或限制披露范围，并配合披露方。",
+    "answer_summary": "系统回答确认需要通知，并说明例外条件包括：得知可能需披露时通知披露方、给予合理机会质疑或限制披露范围、配合披露方。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键要点，即法律/法院要求披露时的通知义务及相关配套条件，且与金标一致。"
+  },
+  "file_ids": [
+    169
+  ],
+  "skip_answer": false
+}

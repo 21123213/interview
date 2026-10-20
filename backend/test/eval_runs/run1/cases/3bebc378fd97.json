@@ -1,0 +1,25 @@
+{
+  "index": 70,
+  "request_id": "3bebc378fd97",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Evelozcity%20OESA%20NDA.txt",
+  "file_id": 131,
+  "file_mapped": true,
+  "latency_ms": 19892.53,
+  "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "The obligations of the Recipient specified in Section 2 above shall not apply with respect to Confidential Information to the extent that such Confidential Information:\n(d) is independently developed by or for the Recipient by persons who have had no access to or been informed of the existence or substance of the Confidential Information.",
+  "rag_answer": "Yes, but only to a limited extent.\n\nUnder Section 3(d) of the Evelozcity NDA, the Recipient’s confidentiality obligations do not apply to information that is “independently developed by or for the Recipient by persons who have had no access to or been informed of the existence or substance of the Confidential Information.”\n\nSo the document effectively permits the Recipient to independently develop information that is similar to the Confidential Information only if the development was truly independent and the people involved had no access to, or knowledge of, the Confidential Information’s existence or substance.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方的保密义务不适用于其独立开发的信息，前提是该开发由未接触或不知悉保密信息存在或实质内容的人员完成。",
+    "answer_summary": "系统回答指出保密义务不适用于独立开发的信息，并强调只有当开发真正独立且相关人员未接触或不知悉保密信息的存在或实质内容时，才允许类似信息被独立开发。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：独立开发、无接触/不知悉保密信息、保密义务不适用；尽管对条款编号表述可能有差异，但不影响命中。"
+  },
+  "file_ids": [
+    131
+  ],
+  "skip_answer": false
+}

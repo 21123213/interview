@@ -1,0 +1,25 @@
+{
+  "index": 128,
+  "request_id": "a4099e48f06b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "eulerhermes-nda.txt",
+  "file_id": 130,
+  "file_mapped": true,
+  "latency_ms": 32215.09,
+  "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "3. Notwithstanding markings or representations regarding confidentiality, it is specifically agreed that Euler Hermes shall have no obligation with respect to any part of the Confidential Information:\ne. when Euler Hermes is required by law, order of a Court of competent jurisdiction, or other legal compulsion, to disclose the information, provided that Euler Hermes promptly notifies Company of such requirement, to the extent legally permissible, and Euler Hermes discloses only such part of the Confidential Information as is legally required to be disclosed.",
+  "rag_answer": "Yes. Under Paragraph 3(e), if Euler Hermes—the Receiving Party—is required by law, a court order, or other legal compulsion to disclose Confidential Information, it must promptly notify the Company—the Disclosing Party—of that requirement, to the extent legally permissible, and disclose only the portion legally required.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "若因法律、法院命令或其他法律强制要求披露保密信息，Euler Hermes 须在法律允许范围内及时通知 Company，并仅披露法律要求部分。",
+    "answer_summary": "系统回答称 Yes，并指出 Paragraph 3(e) 要求 Euler Hermes 在因法律、法院命令或法律强制要求披露时及时通知 Company，且仅披露法律要求部分。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键要点：法律强制披露情形下的及时通知义务及最小披露限制，因此判定命中。"
+  },
+  "file_ids": [
+    130
+  ],
+  "skip_answer": false
+}

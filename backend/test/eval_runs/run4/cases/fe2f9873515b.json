@@ -1,0 +1,25 @@
+{
+  "index": 157,
+  "request_id": "fe2f9873515b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Data_Use_and_Non_Disclosure_Data_Disclosed_to_MDCH_Trauma_Registry_Final_465518_7.txt",
+  "file_id": 122,
+  "file_mapped": true,
+  "latency_ms": 17122.81,
+  "query": "Consider the Data Use and Non-Disclosure Agreement between MDCH Trauma Registry; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "The data provided to MDHHS will be used only for purposes of the Michigan Trauma Registry, consistent with Part 209 of the Public Health Code and the Michigan Administrative Code R 325.125 through 325.138.\n1. Use and disclose the data only in accordance with this Agreement, or as otherwise authorized by law;\n4. Use appropriate safeguards to prevent the use or disclosure of the information other than as provided by this Agreement;",
+  "rag_answer": "Yes. The Agreement restricts the use of the Confidential Information/data to the purposes stated in the Agreement. It specifies that data provided to MDHHS for the Michigan Trauma Registry “will be used only for purposes of the Michigan Trauma Registry,” and MDHHS agrees to “use and disclose the data only in accordance with this Agreement, or as otherwise authorized by law.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议限制数据仅用于 Michigan Trauma Registry 目的，并要求仅按协议或法律授权使用和披露，同时需采取保障措施防止协议外的使用或披露。",
+    "answer_summary": "系统回答确认协议将机密信息/数据的使用限制在协议所述目的，指出数据仅用于 Michigan Trauma Registry，并仅按协议或法律授权使用和披露。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标的关键结论，即数据使用/披露受协议目的限制；虽未展开保障措施细节，但问题核心已命中，按从宽标准判定为正确。"
+  },
+  "file_ids": [
+    122
+  ],
+  "skip_answer": false
+}

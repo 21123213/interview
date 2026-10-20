@@ -1,0 +1,25 @@
+{
+  "index": 39,
+  "request_id": "62122a1082cd",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "QEP-Williston-Form-of-Confidentiality-Agreement-BMO.txt",
+  "file_id": 179,
+  "file_mapped": true,
+  "latency_ms": 21505.07,
+  "query": "Consider the Confidentiality Agreement between QEP and BMO; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "(a) For purposes of this Agreement, the term “Confidential Information” means, collectively, any and all information, materials or data (whether written, electronic, video or oral) which concerns, relates to, or is associated in any way with Owner, its Affiliates, the Properties or the Transaction, that is disclosed or made available to the Receiving Company or any of its Representatives by Owner, or any of Owner’s Representatives, which is either confidential, proprietary, or otherwise not generally available to the public, including, without limitation, analyses, interpretations, compilations, reports, reservoir data, geologic and geophysical data, maps, models, financial data, economic data, commercial data, contractual data, environmental data, marketing data, operational data, engineering data, and other information, documents, materials and data, as well as any copies, notes, reports, analyses, compilations, data, studies, excerpts, evaluation materials, summaries or other documents, information, or materials developed or prepared by or on behalf of the Receiving Company or any of its Representatives that include, incorporate, refer to, reflect, are derived from or are based on, in whole or in part, any other Confidential Information.",
+  "rag_answer": "No. The document does **not** limit Confidential Information to technical information.\n\nUnder **Section 2(a)** of the Confidentiality Agreement, “Confidential Information” is defined broadly to include **any and all information, materials or data**—written, electronic, video, or oral—that concerns, relates to, or is associated with Owner, its Affiliates, the Properties, or the Transaction, provided it is confidential, proprietary, or otherwise not generally available to the public.\n\nThe definition expressly includes, without limitation:\n\n- analyses, interpretations, compilations, reports;\n- reservoir data;\n- geologic and geophysical data;\n- maps and models;\n- financial data;\n- economic data;\n- commercial data;\n- contractual data;\n- environmental data;\n- marketing data;\n- operational data;\n- engineering data;\n- and other information, documents, materials, and data;\n\nas well as copies, notes, reports, analyses, compilations, data, studies, excerpts, evaluation materials, summaries, or other materials prepared by or for the Receiving Company that include, refer to, reflect, are derived from, or are based on Confidential Information.\n\nTherefore, Confidential Information under the agreement includes more than technical information; it also includes financial, commercial, contractual, environmental, marketing, operational, engineering, and other categories of information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明 Confidential Information 定义非常广泛，包括任何与 Owner、Affiliates、Properties 或 Transaction 相关且非公开的信息，并不限于技术信息，且明确包含财务、商业、合同、环境、营销、运营、工程等多类数据。",
+    "answer_summary": "系统回答明确否认 Confidential Information 仅限技术信息，并引用 Section 2(a) 的广泛定义，列举了包括 financial、commercial、contractual、environmental、marketing、operational、engineering 等多种非技术信息类别。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论：保密信息定义广泛，不局限于技术信息，并列举了与金标一致的信息类别。"
+  },
+  "file_ids": [
+    179
+  ],
+  "skip_answer": false
+}

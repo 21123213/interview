@@ -1,0 +1,25 @@
+{
+  "index": 95,
+  "request_id": "3cd9d79ff082",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Aspiegel_NDA_template.txt",
+  "file_id": 115,
+  "file_mapped": true,
+  "latency_ms": 14630.42,
+  "query": "Consider Aspiegel's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "5.1 Each Party acknowledges and agrees that it shall not acquire by implication or otherwise any right or licence on or title to any Confidential Information communicated by or acquired from the other Party;",
+  "rag_answer": "Yes.\n\nClause 5.1 of the Aspiegel NDA states that each Party “shall not acquire by implication or otherwise any right or licence on or title to any Confidential Information communicated by or acquired from the other Party.” This indicates that the Agreement does not grant the Receiving/Recipient Party any rights to the Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议第5.1条规定，任何一方不得通过暗示或其他方式获得对方披露或获取的保密信息的任何权利、许可或所有权。",
+    "answer_summary": "系统回答指出第5.1条规定各方不得获得保密信息的任何权利、许可或所有权，并据此认为协议未授予接收方任何权利。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖金标关键信息，明确引用第5.1条并得出协议不授予接收方保密信息权利的结论，与金标一致。"
+  },
+  "file_ids": [
+    115
+  ],
+  "skip_answer": false
+}

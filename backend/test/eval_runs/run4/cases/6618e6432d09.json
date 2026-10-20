@@ -1,0 +1,25 @@
+{
+  "index": 0,
+  "request_id": "6618e6432d09",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "thoughtbot-mutual-nda.txt",
+  "file_id": 194,
+  "file_mapped": true,
+  "latency_ms": 17635.13,
+  "query": "Consider the Mutual Non-Disclosure Agreement between thoughtbot and Unknown Party; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "The Receiving Party shall not make any cop-ies of Confidential Information unless the same are previously approved in writing by the Disclosing Party.",
+  "rag_answer": "Yes. Under the Mutual Non-Disclosure Agreement, the Receiving Party is generally prohibited from making copies of Confidential Information, but it may create copies under a limited circumstance: only if the copies are previously approved in writing by the Disclosing Party. Any approved copies must also reproduce the Disclosing Party’s proprietary rights notices in the same manner as in or on the original.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得复制保密信息，除非事先获得披露方书面批准。",
+    "answer_summary": "系统回答指出接收方通常不得复制保密信息，但可在事先获得披露方书面批准的情况下复制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即复制需事先书面批准；额外内容不影响命中。"
+  },
+  "file_ids": [
+    194
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 175,
+  "request_id": "043de87a937e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Mutual-Non-Disclosure-Agreement-Inventor-Product-Development-Experts-Inc..txt",
+  "file_id": 156,
+  "file_mapped": true,
+  "latency_ms": 20030.94,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Inventor and Product Development Experts, Inc.; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "All documents and other tangible objects containing or representing Confidential Information which have been disclosed by either party to the other party, and all copies thereof which are in the possession of the other party, shall be and remain the property of the disclosing party and shall be promptly returned to the disclosing party upon the disclosing party's written request.\nNothing in this Agreement is intended to grant any rights to either party under any patent, mask work right or copyright of the other party, nor shall this Agreement grant any party any rights in or to the Confidential Information of the other party except as expressly set forth herein.",
+  "rag_answer": "Yes. The document’s “No License” clause states that nothing in the Agreement is intended to grant any rights under a patent, mask work right, or copyright of the other party, and that the Agreement does not grant any party any rights in or to the Confidential Information of the other party except as expressly set forth in the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议明确不授予任何一方对另一方专利、掩膜作品权或版权的权利，也不授予任何一方对另一方机密信息的权利，除非协议中另有明确规定；此外，披露材料仍归披露方所有并应在请求时返还。",
+    "answer_summary": "系统回答指出文档中的“No License”条款表明协议不授予任何一方对另一方专利、掩膜作品权或版权的权利，也不授予任何一方对另一方机密信息的权利，除非协议中另有明确规定。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中与用户问题直接相关的关键结论，即协议不授予接收方对机密信息的权利，除非另有明确规定；未覆盖返还材料条款不影响对问题核心要点的命中。"
+  },
+  "file_ids": [
+    156
+  ],
+  "skip_answer": false
+}

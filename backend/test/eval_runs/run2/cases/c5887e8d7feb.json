@@ -1,0 +1,25 @@
+{
+  "index": 148,
+  "request_id": "c5887e8d7feb",
+  "correct": true,
+  "error_type": "partial",
+  "file_key": "ingram-non-disclosure.txt",
+  "file_id": 144,
+  "file_mapped": true,
+  "latency_ms": 68113.38,
+  "query": "Consider Ingram's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "The Recipient agrees not to copy, duplicate, disclose or deliver all or any portion of the Confidential Information to a third party or permit any other third party to inspect, copy or duplicate the same except those parties deemed necessary by the undersigned to evaluate a possible business relationship (including agents, advisors, affiliates, accountants, attorneys, consultants, and lenders).",
+  "rag_answer": "The document does not explicitly say “employees.” It permits disclosure only to “parties deemed necessary” to evaluate a possible business relationship, provided those parties:\n\n1. require the Confidential Information for purposes related to the agreement, and  \n2. are informed of its confidential nature and agree to be bound by the NDA.\n\nSo, employees would be allowed to receive Confidential Information only if they qualify as “necessary parties” under that clause and the above conditions are met.",
+  "judge": {
+    "correct": true,
+    "error_type": "partial",
+    "gold_summary": "金标称接收方不得向第三方披露机密信息，但允许向由签署方认为必要、用于评估可能业务关系的一方（如代理、顾问、关联方、会计师、律师、顾问和贷款方）披露；未明确提及员工。",
+    "answer_summary": "系统回答称文档未明确提及员工，仅允许向必要方披露；员工只有在属于必要方并满足保密/用途条件时才可接收机密信息。",
+    "gap": "未明确列出金标中的“评估可能业务关系”目的、由签署方认定必要，以及 agents/advisors/affiliates/accountants/attorneys/consultants/lenders 等示例。",
+    "reason": "系统回答覆盖了金标核心要点：没有明确允许与员工分享，机密信息仅可在必要方例外下披露；虽然细节不全且加入条件，但不与金标矛盾，因此判为命中。"
+  },
+  "file_ids": [
+    144
+  ],
+  "skip_answer": false
+}

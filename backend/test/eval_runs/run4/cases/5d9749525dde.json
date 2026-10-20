@@ -1,0 +1,25 @@
+{
+  "index": 94,
+  "request_id": "5d9749525dde",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AfriGIS_Client-NDA_Template_2019.txt",
+  "file_id": 112,
+  "file_mapped": true,
+  "latency_ms": 20494.28,
+  "query": "Consider AfriGIS's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "The Receiving Party agrees –\n3.5.1 not to utilise, exploit or in any other manner whatsoever use the Confidential Information for any purpose whatsoever whether for its own benefit or for that of others without the prior written consent of the Disclosing Party;\nThe Receiving Party undertakes not to use the Confidential Information for any purpose other than –\n5.1 that for which it is disclosed;",
+  "rag_answer": "Yes.\n\nClause 5 of the AfriGIS Client NDA restricts the Receiving Party from using Confidential Information for any purpose other than:\n\n- the purpose for which it is disclosed;\n- in accordance with the provisions of the Agreement; and\n- in accordance with applicable data privacy legislation.\n\nClause 3.5.1 also prohibits the Receiving Party from using, exploiting, or otherwise using the Confidential Information for any purpose whatsoever without the Disclosing Party’s prior written consent.\n\nThis is subject to the exclusions in Clause 8, such as information already known, publicly available, independently developed, or disclosed under legal compulsion.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出协议限制接收方不得为任何目的使用保密信息，除非取得披露方事先书面同意，并且不得将保密信息用于除披露目的之外的其他目的。",
+    "answer_summary": "系统回答确认协议限制保密信息使用目的，并引用 Clause 5 和 Clause 3.5.1，说明不得用于披露目的之外、未经事先书面同意不得利用保密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：保密信息不得用于披露目的之外，且未经披露方事先书面同意不得使用或利用。附加内容不影响命中。"
+  },
+  "file_ids": [
+    112
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 33,
+  "request_id": "4239b0b9bbe4",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "DoiT-ICN-NonDisclosure-Agreement.txt",
+  "file_id": 125,
+  "file_mapped": true,
+  "latency_ms": 22147.01,
+  "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "These restrictions on the use or disclosure of CONFIDENTIAL INFORMATION shall not apply to any CONFIDENTIAL INFORMATION: i. which is independently developed by Vendor or is lawfully received free of restriction from another source having the right to so furnish such CONFIDENTIAL INFORMATION; ii. after it has become generally available to the public without breach of this Agreement by Vendor; iii. which, at the time of disclosure to Vendor, was known to Vendor to be free of restriction; or iv.",
+  "rag_answer": "Yes. The agreement provides that the confidentiality restrictions do **not** apply to Confidential Information that is **lawfully received free of restriction from another source** that has the right to furnish it. Therefore, the Receiving Party may acquire similar or corresponding information from a third party, provided the third-party source lawfully provides it without restriction and has the right to do so.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密限制不适用于接收方独立开发，或从有权提供且无限制的其他来源合法获得的保密信息；也包括公开、已合法知悉等情形。",
+    "answer_summary": "回答指出保密限制不适用于从无限制且有权提供的其他来源合法获得的保密信息，因此接收方可从第三方获取类似信息，但需满足合法、无限制、有权提供等条件。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中与第三方获取相关的关键例外：从有权提供且无限制的其他来源合法获得的信息不受保密限制约束，因此可判定命中。"
+  },
+  "file_ids": [
+    125
+  ],
+  "skip_answer": false
+}

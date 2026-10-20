@@ -1,0 +1,39 @@
+# Case `29bd5f3dd5ec`
+
+- index: 172
+- file_key: `TabunKitchenInvestments-NDA.txt`
+- file_id: 192
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 22420.18
+
+## Query
+
+Consider the Tabun Kitchen Investments' Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?
+
+## Gold
+
+A Receiving Party agrees, acknowledges and undertakes to
+Notwithstanding the provisions of this Agreement, the obligations and restrictions set forth herein regarding Confidential Information shall not apply to information that the Receiving Party can establish
+(ii) is lawfully received from a third party which is, to the reasonable knowledge and belief of the Receiving Party, not under any obligation of confidentiality for the benefit of the Disclosing Party,
+
+## RAG Answer
+
+Yes. Under the Tabun Kitchen Investments NDA, the Receiving Party may acquire information that is similar to Confidential Information from a third party, provided the Receiving Party can establish that the information was **lawfully received from a third party** and that, to the Receiving Party’s reasonable knowledge and belief, that third party was **not under any obligation of confidentiality to the Disclosing Party**.
+
+This is covered by the exceptions in Clause 3, which exclude from confidentiality obligations information that is, among other things:
+
+- lawfully received from a third party not bound by confidentiality for the Disclosing Party’s benefit; or  
+- independently developed by the Receiving Party without using, referring to, or benefiting from the Disclosing Party’s Confidential Information.
+
+However, this does not permit the Receiving Party to improperly use or disclose Confidential Information actually received from the Disclosing Party under the Agreement.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 金标指出，若接收方能证明相关信息是合法从第三方获得，且该第三方在接收方合理认知下不对披露方负有保密义务，则保密义务不适用于该信息。
+- answer_summary: 系统回答称允许接收方从第三方获取类似保密信息，条件是信息合法从第三方获得，且第三方按接收方合理知识信念不对披露方负有保密义务；这与金标一致。
+- gap: 无
+- reason: 系统回答覆盖了金标的关键要点：合法从第三方获取且第三方无保密义务时，可不受保密限制；额外扩写和条款引用不影响命中。

@@ -1,0 +1,32 @@
+# Case `04fc9effdd38`
+
+- index: 65
+- file_key: `RROI_Confidentiality_Agreement_Final.txt`
+- file_id: 182
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 21250.27
+
+## Query
+
+Consider RROI's Confidentiality Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?
+
+## Gold
+
+To the extent that such computer back-up procedures create copies of the Evaluation Material, Recipient may retain such copies in its archival or back-up computer storage for the period it normally archives backed-up computer records, which copies shall be subject to the provision of this Agreement until the same are destroyed, and shall not be accessed by Recipient during such period of archival or back-up storage other than as might be required by this Agreement.
+
+## RAG Answer
+
+Yes. Under paragraph 4 of the RROI Confidentiality Agreement, the Recipient must generally return or destroy all Evaluation Material and related copies, notes, reports, extracts, analyses, etc.
+
+However, the agreement expressly acknowledges that the Recipient’s computer system may automatically back up Evaluation Material. If such automatic back-up procedures create copies, the Recipient may retain those copies in its archival or back-up computer storage for the period it normally archives backed-up computer records. Those retained back-up copies remain subject to the confidentiality obligations of the agreement until destroyed, and may not be accessed except as required by the agreement.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 若计算机备份程序产生 Evaluation Material 副本，Recipient 可在归档或备份计算机存储中按通常备份保留期限保留这些副本；副本在销毁前仍受协议约束，且除协议要求外不得访问。
+- answer_summary: 系统回答指出在自动备份程序创建副本的情况下，Recipient 可在归档或备份计算机存储中按其通常备份保留期限保留副本；这些副本在销毁前仍受保密义务约束，并且除协议要求外不得访问。
+- gap: 无
+- reason: 系统回答已覆盖金标的关键要点：允许保留备份副本、保留期限、持续受协议约束以及访问限制，虽增加了背景说明但不影响命中。

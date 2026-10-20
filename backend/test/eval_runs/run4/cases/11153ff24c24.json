@@ -1,0 +1,25 @@
+{
+  "index": 98,
+  "request_id": "11153ff24c24",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Aspiegel_NDA_template.txt",
+  "file_id": 115,
+  "file_mapped": true,
+  "latency_ms": 14508.41,
+  "query": "Consider Aspiegel's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The obligations of each Party shall, notwithstanding any earlier termination of negotiations or discussions between the Parties in relation to the Purpose, continue for a period of five (5) years from the termination of this Agreement.",
+  "rag_answer": "Yes. The document states that the obligations of each Party continue for five years from the termination of the Agreement, notwithstanding any earlier termination of negotiations or discussions. It also states that termination does not affect any accrued rights or remedies.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议各方的义务在协议终止后仍继续五年，且即使双方关于目的的谈判或讨论更早终止也不影响。",
+    "answer_summary": "回答确认文档提及义务在协议终止后继续五年，并说明不影响既得权利或救济。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点，即义务在协议终止后存续五年，并明确回答了用户关于是否提及存续义务的问题。"
+  },
+  "file_ids": [
+    115
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 110,
+  "request_id": "5951ad854ab8",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BCG-Mutual-NDA.txt",
+  "file_id": 116,
+  "file_mapped": true,
+  "latency_ms": 15895.08,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Boston Consulting Group and Unknown Party; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "The following types of information, however marked, are not confidential information. Information that:\n Is independently developed; or",
+  "rag_answer": "Yes. Under the Mutual NDA, information that is “independently developed” is expressly excluded from the definition of “Confidential Information.” The document also states that using information in representatives’ unaided memories in the development or deployment of products or services does not create liability under the agreement or trade secret law.\n\nTherefore, the Receiving Party may independently develop information that is similar to the Confidential Information, provided it does not use or disclose the other Party’s Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出“独立开发的信息”不属于保密信息。",
+    "answer_summary": "系统回答称“独立开发的信息”被明确排除在保密信息定义之外，因此接收方可以独立开发与保密信息相似的信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：独立开发的信息不属于保密信息，并据此回应了用户问题；额外内容不影响判定。"
+  },
+  "file_ids": [
+    116
+  ],
+  "skip_answer": false
+}

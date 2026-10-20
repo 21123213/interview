@@ -1,0 +1,38 @@
+# Case `a455ffbdd3b4`
+
+- index: 257
+- file_key: `NDA-Fintricity-Blank.txt`
+- file_id: 166
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 33043.15
+
+## Query
+
+Consider Fintricity's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?
+
+## Gold
+
+The obligations of confidentiality in Clause 3 above shall not apply:‐
+(a) to any portion of Confidential Information where the recipient can demonstrate that the Confidential Information concerned:‐
+(ii) is lawfully received from an independent third party without any restriction and without any obligation of confidentiality; or
+
+## RAG Answer
+
+Yes, in principle.
+
+Clause 4(a)(ii) provides that the Receiving Party’s confidentiality obligations do not apply to any Confidential Information that the Receiving Party can demonstrate was **lawfully received from an independent third party without any restriction and without any obligation of confidentiality**.
+
+Clause 8 also confirms that the provision of Confidential Information does **not prevent either party from pursuing similar or other discussions with third parties**, provided that doing so does not breach the NDA.
+
+However, this is subject to the non-circumvention provisions: the Receiving Party must not use third parties as a subterfuge to circumvent the agreement, and Clause 13 restricts soliciting Fintricity customers for similar services without Fintricity’s prior written consent.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 保密义务不适用于接收方能证明其从独立第三方合法获得、且该信息不受限制并无保密义务的部分。
+- answer_summary: 系统回答指出 Clause 4(a)(ii) 规定若接收方能证明机密信息是从独立第三方合法获得且无限制、无保密义务，则保密义务不适用；并补充允许与第三方进行类似讨论但受非规避条款限制。
+- gap: 无
+- reason: 系统回答覆盖了金标关键要点，即从独立第三方合法获得且无限制、无保密义务的信息不受保密义务约束；额外内容不构成矛盾。

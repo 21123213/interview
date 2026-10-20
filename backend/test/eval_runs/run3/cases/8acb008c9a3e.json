@@ -1,0 +1,25 @@
+{
+  "index": 199,
+  "request_id": "8acb008c9a3e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WECC_Confidentiality_Agreement.txt",
+  "file_id": 202,
+  "file_mapped": true,
+  "latency_ms": 39328.03,
+  "query": "Consider WECC's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "a. Non-Public Information shall include any and all information Data Recipient receives from WECC, including, but not limited to, information received through a login to the WECC website, which:\ni. Is designated as “Confidential Information” or “Market Sensitive Information” or is otherwise considered non-public under the WECC Information Sharing Policy;",
+  "rag_answer": "No. The WECC document does not require that all Confidential Information be expressly identified by the disclosing party.\n\nUnder Section 1(a), “Non-Public Information” includes information received from WECC that is:\n\n- designated as “Confidential Information” or “Market Sensitive Information,” or otherwise considered non-public under the WECC Information Sharing Policy;\n- meets the definition of Confidential Information in NERC Rules of Procedure Section 1500; or\n- identified by WECC as non-public or confidential at the time of disclosure.\n\nThus, express identification by WECC is only one way information may be covered; it is not a universal requirement for all confidential information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Non-Public Information 包括被指定为“Confidential Information”或“Market Sensitive Information”的信息，或在 WECC Information Sharing Policy 下被视为非公开的信息；因此并非所有信息都必须由披露方明确标识。",
+    "answer_summary": "系统回答称文档不要求所有 Confidential Information 都由披露方明确标识，并说明 Non-Public Information 包括被指定为“Confidential Information”或“Market Sensitive Information”或在 WECC Information Sharing Policy 下被视为非公开的信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：信息可因被指定为保密/市场敏感信息，或依政策被视为非公开而属于 Non-Public Information，因此明确标识只是其中一种方式，并非对所有保密信息的普遍要求。额外扩写不影响判定。"
+  },
+  "file_ids": [
+    202
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 335,
+  "request_id": "e90c0d0601fa",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "New_York_City_Bar_Association_Model_Form_of_Non-Disclosure_Agreement_2015.txt",
+  "file_id": 174,
+  "file_mapped": true,
+  "latency_ms": 27342.47,
+  "query": "Consider New York City Bar Association's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "[Notwithstanding the foregoing, for purposes of Section 7, any such Person that is a portfolio company of, or an investment fund that is advised or managed by, [Buyer] [Buyer’s Parent Company] or any of its Affiliates shall not be considered an Affiliate of Buyer unless Evaluation Material or Discussions Disclosure is made available or actually provided or disclosed to such Person by or on behalf of Buyer; provided that Evaluation Material or Discussions Disclosure shall not be deemed to have been made available or actually provided or disclosed to any such Person solely as a result of the fact that a Representative of the Buyer with knowledge of any Evaluation Material or Discussions Disclosure is serving on the board of directors (or similar governing body) or as an officer of such Person.]\nWithout the prior written consent of the Company, neither the Buyer nor any of its Representatives shall: (i) make any disclosure to any other Person (other than its Representatives to whom disclosure is needed to facilitate the evaluation, negotiation and/or consummation of the Transaction) of (A) the fact that investigations, discussions or negotiations are taking or have taken place concerning the Transaction, (B) the existence or contents of this Agreement,\n(D) any of the terms, conditions or facts relating to the Transaction, including the status thereof; or",
+  "rag_answer": "Yes.\n\nIn the New York City Bar Association Model Form of Non-Disclosure Agreement, **Section 2(b) (“Discussions Disclosure”)** restricts the Receiving Party—referred to in the document as **Buyer**—from disclosing, without the Company’s prior written consent, certain facts about the Agreement and the transaction discussions.\n\nSpecifically, Buyer and its Representatives may not disclose to any other Person:\n\n- **the existence or contents of the Agreement**; and  \n- **the fact that investigations, discussions, or negotiations are taking or have taken place concerning the Transaction**.\n\nSo, although the document does not use the exact phrase “the fact that the Agreement was agreed upon or negotiated,” it does include a confidentiality/discussions-disclosure clause that prevents the Receiving Party from disclosing the existence of the Agreement and the fact that transaction-related discussions or negotiations are occurring or have occurred.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据显示，未经公司事先书面同意，买方及其代表不得披露有关交易调查、讨论或谈判正在或已经发生的事实，以及本协议的存在或内容。",
+    "answer_summary": "系统回答确认存在相关条款，并指出买方及其代表不得披露协议的存在或内容，以及交易调查、讨论或谈判正在或已经发生的事实。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：存在禁止披露交易讨论/谈判事实及协议存在/内容的条款，并明确回答 Yes，与金标一致。"
+  },
+  "file_ids": [
+    174
+  ],
+  "skip_answer": false
+}

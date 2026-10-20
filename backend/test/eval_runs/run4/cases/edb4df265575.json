@@ -1,0 +1,25 @@
+{
+  "index": 21,
+  "request_id": "edb4df265575",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "vmw-certification-conduct-policy.txt",
+  "file_id": 199,
+  "file_mapped": true,
+  "latency_ms": 10959.82,
+  "query": "Consider the VMware Certification Conduct Policy; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "Recipient expressly agrees not to use the Confidential Information for purposes other than those necessary to consider the possibility of entering into a business relationship with the Company.",
+  "rag_answer": "Yes. The document states that the Recipient expressly agrees not to use Confidential Information for purposes other than those necessary to consider the possibility of entering into a business relationship with the Company.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Recipient expressly agrees not to use the Confidential Information for purposes other than those necessary to consider the possibility of entering into a business relationship with the Company.",
+    "answer_summary": "系统回答确认文档限制 Confidential Information 的使用，并指出 Recipient expressly agrees not to use Confidential Information for purposes other than those necessary to consider the possibility of entering into a business relationship with the Company.",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标证据的关键要点，且与金标含义一致。"
+  },
+  "file_ids": [
+    199
+  ],
+  "skip_answer": false
+}

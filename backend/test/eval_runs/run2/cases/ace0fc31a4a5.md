@@ -1,0 +1,34 @@
+# Case `ace0fc31a4a5`
+
+- index: 91
+- file_key: `Kenway-NDA-Form-Blank.txt`
+- file_id: 148
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 16297.46
+
+## Query
+
+Consider Kenway's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?
+
+## Gold
+
+“Confidential Information:” means all confidential information (however recorded, preserved or disclosed) disclosed by a Party or its Representatives to the other Party and that Party's Representatives including but not limited to: the fact that discussions and negotiations are taking place concerning the Purpose and the status of those discussions and negotiations; any information that would be regarded as confidential by a reasonable business person relating to:
+but not including any information:
+(f) is developed by or for the Recipient independently of the information disclosed by the Disclosing Party.
+
+## RAG Answer
+
+Yes, indirectly. The NDA’s definition of “Confidential Information” expressly excludes information “developed by or for the Recipient independently of the information disclosed by the Disclosing Party.” Therefore, information similar to Confidential Information may be independently developed and used, provided it was not derived from, based on, or disclosed in breach of the Confidential Information.
+
+However, Clause 3.2 adds that if the Recipient develops or uses a product or process that the Disclosing Party reasonably believes might have involved the use of Confidential Information, the Recipient must provide information reasonably necessary to show that the Confidential Information was not used or disclosed.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 金标关键结论：保密信息定义明确排除由接收方独立开发、且并非基于披露方所披露信息开发的信息，因此允许接收方独立开发类似信息。
+- answer_summary: 系统回答指出 NDA 的“Confidential Information”定义排除由接收方独立开发的信息，并据此说明类似保密信息可被独立开发和使用；同时补充了接收方可能需要证明未使用保密信息的条款。
+- gap: 无
+- reason: 系统回答准确覆盖了金标的关键要点，即保密信息不包括接收方独立开发的信息，因此允许独立开发类似信息。其额外说明不构成矛盾，也不影响命中判定。

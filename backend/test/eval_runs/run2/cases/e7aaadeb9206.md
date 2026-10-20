@@ -1,0 +1,32 @@
+# Case `e7aaadeb9206`
+
+- index: 69
+- file_key: `JB-Machine-LLC-NDA-1.txt`
+- file_id: 147
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 73332.5
+
+## Query
+
+Consider JB Machine LLC's Non-Disclosure Agreement; Does the document include a clause that prohibits the Receiving Party from soliciting some of the Disclosing Party's representatives?
+
+## Gold
+
+In consideration of the experience, know-how, training and other vital organizational or market knowledge, which is to be acquired through working for the Owner, the Employee hereby promises that he/she will NOT, either during the employment or for a period of time of (insert number of years – usually up to two years) consecutive years (months) after termination of employment, directly or indirectly, for the sake of the Employee or for any third party, accept employment or in any other way, directly or indirectly, engage in business activities which are of direct competition to the Owner.
+
+## RAG Answer
+
+Based on the provided excerpts, **no**. The document does not include a clause expressly prohibiting the Receiving Party from soliciting the Disclosing Party’s representatives.
+
+The agreement contains a **NON-SOLICITATION AND NON-COMPETITION** clause, but it specifically restricts soliciting **current or potential customers** of the Owner and diverting business from the Owner—not soliciting the Owner’s representatives, employees, or agents.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 金标显示文档包含的是员工/受方不得在任职期间或离职后一定期限内直接或间接接受雇佣或从事与Owner直接竞争的业务活动，并未规定禁止招揽Disclosing Party的代表。
+- answer_summary: 系统回答称文档没有明确禁止Receiving Party招揽Disclosing Party的代表；虽存在NON-SOLICITATION AND NON-COMPETITION条款，但该条款不针对代表、员工或代理人。
+- gap: 无
+- reason: 系统回答的关键结论与金标一致：文档中的相关条款属于竞争限制/非招揽客户等范畴，并未覆盖禁止招揽代表的情形；因此命中金标要点。

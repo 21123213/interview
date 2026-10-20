@@ -1,0 +1,25 @@
+{
+  "index": 61,
+  "request_id": "c50178b6019a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Inaturals_NDA.txt",
+  "file_id": 142,
+  "file_mapped": true,
+  "latency_ms": 12271.38,
+  "query": "Consider Inaturals's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "1. A party to this Agreement receiving Confidential Information “Recipient” agrees to retain such Confidential Information in stricte confidence and not to disclose it to any third party or use such Confidential Information for any purpose other than the purposes set forth in this Agreement.\n2. Each party agrees that it will not, without the previous written consent of the other party, use or disclose to any person, firm, company, partnership or corporation, the Confidential Information of the other party.",
+  "rag_answer": "Yes. The Inaturals NDA restricts use of Confidential Information to the purposes stated in the Agreement.\n\nSpecifically, Section 1 states that the Recipient agrees to retain Confidential Information in strict confidence and not to disclose it to any third party or use it “for any purpose other than the purposes set forth in this Agreement.” Section 2 further prohibits use or disclosure of Confidential Information without the other party’s prior written consent.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA规定接收方必须严格保密，不得向第三方披露，且不得将机密信息用于协议规定目的以外的任何目的；未经对方事先书面同意，不得使用或披露机密信息。",
+    "answer_summary": "系统回答确认限制存在，并指出Section 1要求接收方严格保密、不得向第三方披露、不得用于协议规定目的以外的任何目的；Section 2禁止未经对方事先书面同意使用或披露机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即机密信息只能用于协议所述目的，并且未经书面同意不得使用或披露，结论与金标一致。"
+  },
+  "file_ids": [
+    142
+  ],
+  "skip_answer": false
+}

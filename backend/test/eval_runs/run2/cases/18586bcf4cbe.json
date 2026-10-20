@@ -1,0 +1,25 @@
+{
+  "index": 1,
+  "request_id": "18586bcf4cbe",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 18914.64,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document mention whether or not the Receiving Party is allowed to reverse engineer any objects which embody the Disclosing Party's Confidential Information?",
+  "gold": "(a) Vendor shall:\n(v) Refrain from reverse engineering, decompiling or disassembling any software code disclosed by IBC to Vendor under the terms of this Agreement, except as expressly permitted by applicable law.",
+  "rag_answer": "Yes. The document addresses reverse engineering and generally prohibits it.\n\nUnder the Agreement, the Vendor (the Receiving Party) must “refrain from reverse engineering, decompiling or disassembling any software code disclosed by IBC,” except as expressly permitted by applicable law.\n\nIt also requires the Vendor’s PMS Software license terms to prohibit disassembly or reverse engineering of any component of the PMS Software that incorporates IBC’s Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "The agreement states that the Vendor/Receiving Party must refrain from reverse engineering, decompiling, or disassembling software code disclosed by IBC, except as expressly permitted by applicable law.",
+    "answer_summary": "The answer states that the document prohibits reverse engineering, decompiling, and disassembling software code disclosed by IBC by the Vendor/Receiving Party, except as expressly permitted by applicable law, and adds related PMS Software licensing restrictions.",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键结论：禁止接收方对IBC披露的软件代码进行反向工程、反编译或反汇编，并保留了法律允许例外的条件。额外扩写内容不影响命中。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

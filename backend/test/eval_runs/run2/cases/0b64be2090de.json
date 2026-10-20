@@ -1,0 +1,25 @@
+{
+  "index": 208,
+  "request_id": "0b64be2090de",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NCDG_Non-disclosure-agreement.txt",
+  "file_id": 157,
+  "file_mapped": true,
+  "latency_ms": 30401.21,
+  "query": "Consider NCDG's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "Except as provided in Clause 4, each Party agrees that it will not, without the other Party’s prior written approval, disclose to any third party the fact that the Parties are discussing the Project. The Parties acknowledge that the provisions of this Agreement shall apply in respect of the content of any such discussions.",
+  "rag_answer": "Not exactly.\n\nThe Agreement includes a related clause, **Clause VI (“Non-Disclosure of Negotiations”)**, which states that, except as provided in Clause 4, **each Party** — including the Receiving Party — agrees **not to disclose to any third party, without the other Party’s prior written approval, the fact that the Parties are discussing the Project**. It also states that the confidentiality provisions apply to the content of those discussions and that the undertaking survives termination.\n\nHowever, the clause does **not expressly** say that the Receiving Party is prevented from disclosing the fact that **the Agreement itself was agreed upon or negotiated**. It specifically restricts disclosure of the fact that the Parties are **discussing the Project**, rather than the fact that the Agreement was negotiated or executed.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论是：除第4条规定外，每一方未经对方事先书面批准，不得向第三方披露双方正在讨论该项目的这一事实；并且协议条款适用于这些讨论的内容。",
+    "answer_summary": "系统回答指出协议包含相关条款，明确复述了除第4条外每一方未经对方事先书面批准不得向第三方披露双方正在讨论项目的事实，且保密条款适用于讨论内容；同时补充说明该条未明确禁止披露协议本身被达成或谈判。",
+    "gap": "无",
+    "reason": "系统回答已经覆盖金标的关键信息/要点，即存在禁止未经批准向第三方披露双方正在讨论项目事实的条款，且相关条款适用于讨论内容。其额外区分“协议本身被达成或谈判”并未与金标矛盾，也不影响命中金标要点。"
+  },
+  "file_ids": [
+    157
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 166,
+  "request_id": "78ffbdf67e3e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "eHandshake_Non_Disclosure_Agreement.txt",
+  "file_id": 127,
+  "file_mapped": true,
+  "latency_ms": 21714.56,
+  "query": "Consider eHandshake's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "3. Information does not include, however, information which\n(c) is independently developed by the Receiving Party; or",
+  "rag_answer": "Yes, but only as an exception, not as an express right to develop similar information.\n\nUnder Clause 3 of the eHandshake Non-Disclosure Agreement, “Information” does **not include** information that **“is independently developed by the Receiving Party.”** Therefore, if the Receiving Party independently develops information that is similar to the Confidential Information, that independently developed information is excluded from the definition of “Information” and is not treated as confidential under the agreement.\n\nHowever, the document does **not** expressly say that the Receiving Party is “allowed” to develop similar information. It only clarifies that independently developed information is not covered by the confidentiality obligations. If the similar information is not truly independently developed, or is derived from the Receiving Party’s use of the confidential Information, it may still be subject to the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 第3条规定，机密信息不包括由接收方独立开发的信息。",
+    "answer_summary": "系统回答指出根据第3条，由接收方独立开发的信息不属于机密信息，因此独立开发的类似信息被排除在保密义务之外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：独立开发的信息不被视为机密信息。虽然它进一步区分了“允许开发”与“排除保密义务”的措辞，但与金标不矛盾。"
+  },
+  "file_ids": [
+    127
+  ],
+  "skip_answer": false
+}

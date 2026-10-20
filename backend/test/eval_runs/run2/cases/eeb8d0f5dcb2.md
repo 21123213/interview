@@ -1,0 +1,30 @@
+# Case `eeb8d0f5dcb2`
+
+- index: 102
+- file_key: `Kerber_Non_Disclosure_Agreement.txt`
+- file_id: 149
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 10514.86
+
+## Query
+
+Consider Kerber's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?
+
+## Gold
+
+1. For the purpose of this Agreement, “Confidential Information” means information, technical or commercial, whether in visual or machine readable form, received by one party from the other which is marked “Confidential” or “Proprietary”, or which would logically be considered confidential or proprietary in view of its relationship to the whole disclosure.
+
+## RAG Answer
+
+No. The agreement states that “Confidential Information” means information, **technical or commercial**, whether in visual or machine-readable form, that is marked “Confidential” or “Proprietary,” or would logically be considered confidential or proprietary. Therefore, it does **not** limit Confidential Information to only technical information.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: Confidential Information 包括技术或商业信息，不限于技术信息。
+- answer_summary: 系统回答指出 Confidential Information 为 technical or commercial，并明确说明不限于 technical information。
+- gap: 无
+- reason: 系统回答准确覆盖了金标关键信息，正确否定了‘仅包括技术信息’的说法。

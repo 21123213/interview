@@ -1,0 +1,31 @@
+# Case `ae0dea08c53e`
+
+- index: 74
+- file_key: `Evelozcity%20OESA%20NDA.txt`
+- file_id: 131
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 16103.19
+
+## Query
+
+Consider Evelozcity's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?
+
+## Gold
+
+The obligations of the Recipient specified in Section 2 above shall not apply with respect to Confidential Information to the extent that such Confidential Information:
+(c) is or becomes known to the Recipient through disclosure by an unaffiliated third party (except where such third party is known by the Recipient to be disclosing such information in breach of obligations of confidence); or
+
+## RAG Answer
+
+Yes. Under Section 3(c) of the Evelozcity NDA, the Recipient’s confidentiality obligations do not apply to information that “is or becomes known to the Recipient through disclosure by an unaffiliated third party,” **except** where the Recipient knows that the third party is disclosing the information in breach of obligations of confidence.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 接收方的保密义务不适用于其通过无关联第三方披露而获知的保密信息，除非接收方知道该第三方是在违反保密义务的情况下披露。
+- answer_summary: 系统回答称接收方可以通过无关联第三方披露获知信息，保密义务不适用，但限定为接收方知道第三方违反保密义务时除外。
+- gap: 无
+- reason: 系统回答覆盖了金标的关键要点：第三方无关联披露可作为保密义务例外，并包含了金标中的限制条件；虽章节编号表述可能不同，但不影响关键信息命中。

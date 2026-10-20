@@ -1,0 +1,25 @@
+{
+  "index": 96,
+  "request_id": "ab7fa6e09585",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SE_NDCA_and_PRE-QUAL_PACKAGE_March-2016.txt",
+  "file_id": 185,
+  "file_mapped": true,
+  "latency_ms": 25115.93,
+  "query": "Consider the Agreement between SE_NDCA and PRE-QUAL PACKAGE; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "In the event that Receiving Party is requested or required by legal or regulatory authority to disclose any Confidential Information, the Receiving Party shall promptly notify the Disclosing Party of such request or requirement prior to disclosure, if permitted by law, so that Disclosing Party may seek an appropriate protective order.",
+  "rag_answer": "Yes.\n\nSection 3 (“Required Disclosure”) of the Agreement requires the Receiving Party to **promptly notify the Disclosing Party** if the Receiving Party is **requested or required by a legal or regulatory authority** to disclose any Confidential Information. The notice must be given **prior to disclosure, if permitted by law**, so the Disclosing Party can seek an appropriate protective order.\n\nThe Agreement also refers to a “subpoena or demand,” which covers judicial process-type disclosure requests. If no protective order or other remedy is obtained, the Receiving Party must disclose only the portion of Confidential Information that it reasonably determines is consistent with the scope of the subpoena or demand and use reasonable efforts to obtain confidential treatment.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "若接收方被法律或监管机关要求披露保密信息，接收方应在法律允许时于披露前及时通知披露方，以便披露方寻求适当的保护令。",
+    "answer_summary": "系统回答明确说明协议要求接收方在被法律或监管机关要求披露保密信息时，及时通知披露方，并在法律允许时于披露前通知，以便披露方寻求保护令；同时提到传票或要求涵盖司法程序披露请求。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点，包括通知义务、法律或监管机关要求、披露前通知以及保护令目的；额外扩写不影响命中。"
+  },
+  "file_ids": [
+    185
+  ],
+  "skip_answer": false
+}

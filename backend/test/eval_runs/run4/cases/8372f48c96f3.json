@@ -1,0 +1,25 @@
+{
+  "index": 162,
+  "request_id": "8372f48c96f3",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "eHandshake_Non_Disclosure_Agreement.txt",
+  "file_id": 127,
+  "file_mapped": true,
+  "latency_ms": 25745.74,
+  "query": "Consider eHandshake's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "4. The Receiving Party agrees that the Information will be used solely for giving effect to the Business Under Discussion and further that it will not disclose to any person\n(ii) the fact that the Information has been made available to the Receiving Party or that the Receiving Party have inspected any portion of the Information, for any reason or purpose whatsoever, unless the Providing Party has consented in writing to such disclosure or except as stated otherwise herein or as required by law, order, decree, regulation, or governmental agency request.",
+  "rag_answer": "No. The provided eHandshake Non-Disclosure Agreement does not include an express clause preventing the Receiving Party from disclosing the fact that the Agreement itself was agreed upon or negotiated.\n\nClause 4 does prohibit disclosure of “the fact that the Information has been made available to the Receiving Party” or that the Receiving Party “have inspected any portion of the Information,” but that relates to the confidential Information, not to the existence or negotiation of the Agreement itself.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据显示 NDA 第4条禁止接收方披露“信息已被提供给接收方”或“接收方已检查信息”的事实，除非提供方书面同意或法律/监管要求。",
+    "answer_summary": "系统回答指出第4条禁止披露信息被提供或被检查的事实，并进一步说明该条款不直接禁止披露“协议本身被达成或谈判”的事实。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标关键信息，即第4条关于不得披露信息已被提供或已被检查的内容；其对问题范围的补充解释并未与金标矛盾。"
+  },
+  "file_ids": [
+    127
+  ],
+  "skip_answer": false
+}

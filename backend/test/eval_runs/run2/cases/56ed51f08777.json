@@ -1,0 +1,25 @@
+{
+  "index": 43,
+  "request_id": "56ed51f08777",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IPTK-CO-MutualNon-DisclosureAgreement.txt",
+  "file_id": 145,
+  "file_mapped": true,
+  "latency_ms": 12919.89,
+  "query": "Consider the Mutual Non-Disclosure Agreement between IPTK and CO; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "This Agreement applies to any Confidential Information that may have been provided by either Party before or after the Effective Date, and will continue to govern all disclosures of Confidential Information, until terminated on thirty (30) days writ-ten notice by either Party to the other, except that each Party’s obligations relating to Confidential Information disclosed prior to termination will continue for so long as the Confidential Information remains confidential and proprietary.",
+  "rag_answer": "Yes. The document explicitly mentions survival of certain obligations after termination.\n\nIn **Section 6 (Term)**, it states that the Agreement terminates on **thirty (30) days’ written notice** by either Party, **except that each Party’s obligations relating to Confidential Information disclosed prior to termination will continue for so long as the Confidential Information remains confidential and proprietary**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议在终止后仍继续约束终止前披露的保密信息，相关义务在保密信息仍属保密且专有期间持续存在；终止需提前30天书面通知。",
+    "answer_summary": "系统回答指出协议明确提及终止后某些义务存续，并引用终止需提前30天书面通知以及终止前披露的保密信息义务在信息仍保密且专有期间继续存在。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即保密义务在协议终止后针对终止前披露的保密信息继续存续，且提及30天书面通知终止机制。"
+  },
+  "file_ids": [
+    145
+  ],
+  "skip_answer": false
+}

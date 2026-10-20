@@ -1,0 +1,25 @@
+{
+  "index": 151,
+  "request_id": "27648d254cfa",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ceii-and-nda.txt",
+  "file_id": 119,
+  "file_mapped": true,
+  "latency_ms": 18773.53,
+  "query": "Consider the Non-Disclosure Agreement between CEII and NDA; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "Except as allowed under Section 5, Required Disclosure, the Receiving Party shall not submit CEII obtained from the Disclosing Parties to any government agency for any reason without first obtaining written permission from the respective Disclosing Party, and then fully complying with the requirements of 18 C.F.R. §§ 388.112, 113 for requesting special treatment of the CEII.\nIn the event that the Receiving Party is requested or required by depositions, interrogatories, requests for information or documents, subpoena, civil investigation, demand or similar process (i) to disclose any CEII or other Confidential Information received pursuant to this Agreement, (ii) to disclose any discussions pertaining thereto, or (iii) to take any other action described in the last paragraph of Section 3 above, the Receiving Party shall provide to the relevant Disclosing Parties prompt written notice of such request(s) and shall use reasonable efforts to resist disclosure until an appropriate protective order may be sought. If, in the absence of a protective order, Receiving Party is nonetheless, in the written opinion of its counsel, legally required to disclose CEII or other Confidential Information received pursuant to this Agreement, then, in such event Receiving Party may disclose such information after the Receiving Party gives the Disclosing Party written notice of the proposed disclosure and a reasonable opportunity to review the proposed disclosure.",
+  "rag_answer": "Yes. Under Section 5, “Required Disclosure,” the Receiving Party must provide prompt written notice to the relevant Disclosing Parties if it is requested or required by depositions, interrogatories, requests for information or documents, subpoena, civil investigation, demand, or similar process to disclose Confidential Information or CEII. It must also use reasonable efforts to resist disclosure until a protective order may be sought. If, after counsel’s written opinion, disclosure is legally required despite the absence of a protective order, the Receiving Party may disclose only after giving written notice of the proposed disclosure and a reasonable opportunity for the Disclosing Party to review it.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定，若接收方因取证、质询、传票、民事调查或其他类似程序被要求披露保密信息/CEII，必须及时向披露方发出书面通知，并合理努力阻止披露；若律师书面意见认为即使无保护令也必须披露，接收方仍可在披露前通知披露方并给出合理审阅机会。",
+    "answer_summary": "系统回答指出接收方在因类似司法程序被要求披露 Confidential Information 或 CEII 时，必须提供 prompt written notice，使用合理努力抵制披露直到寻求保护令；若律师书面意见认为依法必须披露，也需在披露前书面通知并给披露方合理审阅机会。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关于被要求披露保密信息时须及时书面通知披露方、合理努力抵制披露，以及在法律强制披露情况下须先通知并允许审阅的关键要点，与金标一致。"
+  },
+  "file_ids": [
+    119
+  ],
+  "skip_answer": false
+}

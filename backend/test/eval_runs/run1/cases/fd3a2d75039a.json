@@ -1,0 +1,25 @@
+{
+  "index": 91,
+  "request_id": "fd3a2d75039a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "FNHA-2019RFP-02-NDA-form.txt",
+  "file_id": 133,
+  "file_mapped": true,
+  "latency_ms": 17095.27,
+  "query": "Consider FNHA's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "Company further agrees to return Confidential Information to FNHA, if FNHA so directs, or to destroy Confidential Information once the RFP process completes or earlier of FNHA so directs.",
+  "rag_answer": "Yes. The document specifies that the Company (the Receiving Party) agrees to:\n\n- **return Confidential Information to FNHA if FNHA so directs**, or  \n- **destroy Confidential Information once the RFP process completes**, or earlier if FNHA so directs.\n\nIt does not expressly use the phrase “upon termination of the Agreement,” but it does impose return/destruction obligations tied to completion of the RFP process or FNHA’s direction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "公司同意在 FNHA 指示时返还机密信息，或在 RFP 流程完成后、或 FNHA 更早指示时销毁机密信息。",
+    "answer_summary": "系统回答指出文件规定公司需在 FNHA 指示时返还机密信息，或在 RFP 流程完成后或 FNHA 更早指示时销毁，并补充说明未明确使用“协议终止时”的措辞。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键信息，即按指示返还、RFP 完成后或按指示更早销毁；额外说明不要求逐字一致，不构成矛盾。"
+  },
+  "file_ids": [
+    133
+  ],
+  "skip_answer": false
+}

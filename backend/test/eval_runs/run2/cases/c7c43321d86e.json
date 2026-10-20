@@ -1,0 +1,25 @@
+{
+  "index": 309,
+  "request_id": "c7c43321d86e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-for-Gar-Kenyon-Suppliers.txt",
+  "file_id": 167,
+  "file_mapped": true,
+  "latency_ms": 25564.95,
+  "query": "Consider the Non-Disclosure Agreement between Gar and Kenyon; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "At any time that GKT may request, SUPPLIER shall return the Confidential Information to GK and shall certify in writing that all copies thereof in its possession have been destroyed.",
+  "rag_answer": "No. Based on the provided document, the Receiving Party (the “SUPPLIER”) is not permitted to retain Confidential Information after return or destruction.\n\nClause 6 states that all Confidential Information remains the property of GK, and that upon GK/GKT’s request, the SUPPLIER “shall return the Confidential Information to GK and shall certify in writing that all copies thereof in its possession have been destroyed.” The provided text does not contain any exception allowing the SUPPLIER to keep some Confidential Information after return or destruction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "GKT 可随时要求 SUPPLIER 将机密信息返还给 GK，并书面证明其持有的所有副本已销毁。",
+    "answer_summary": "系统回答称 SUPPLIER 不得在返还或销毁后保留机密信息，并引用条款说明应要求返还且书面证明所有副本已销毁，且未提供允许保留的例外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键证据和结论：收到方必须返还并证明所有副本已销毁，因此不能保留机密信息；对问题的否定回答与金标一致。"
+  },
+  "file_ids": [
+    167
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 197,
+  "request_id": "d22bd23daf53",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "MutualNDA_The_Knights_of_Unity.txt",
+  "file_id": 155,
+  "file_mapped": true,
+  "latency_ms": 12309.24,
+  "query": "Consider the Mutual Non-Disclosure Agreement between The Knights of Unity; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "5. The term of this Agreement shall be for a period of five years beginning on the date hereof; provided that the obligations relating to Confidential Information disclosed during the term of this Agreement shall survive the expiration of this Agreement.",
+  "rag_answer": "Yes. The document states that the Agreement has a five-year term and that “the obligations relating to Confidential Information disclosed during the term of this Agreement shall survive the expiration of this Agreement.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议期限为五年，且关于在本协议期限内披露的保密信息的义务应在协议到期后存续。",
+    "answer_summary": "系统回答确认协议有五年期限，并说明保密信息相关义务在协议到期后仍存续。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键信息，包括协议期限和保密义务存续，未与金标矛盾。"
+  },
+  "file_ids": [
+    155
+  ],
+  "skip_answer": false
+}

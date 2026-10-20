@@ -1,0 +1,36 @@
+# Case `7cf1bad939ac`
+
+- index: 82
+- file_key: `ExcelerateStandardNDAFormat.txt`
+- file_id: 132
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 16213.54
+
+## Query
+
+Consider Excelerate's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?
+
+## Gold
+
+6. The conditions of Paragraph 4 hereof shall not apply to information which:
+b. Was
+(iii) is developed by the receiving Party independent of such information received from the disclosing Party; or
+
+## RAG Answer
+
+Yes. Under Excelerate’s NDA, the receiving Party may independently develop information that is similar to the disclosing Party’s Proprietary Information, provided it is developed independently of the received Proprietary Information.
+
+Paragraph 6(b)(iii) states that the confidentiality obligations in Paragraph 4 do not apply to information that “is developed by the receiving Party independent of such information received from the disclosing Party.” Therefore, independently developed information is not treated as confidential Proprietary Information under the agreement.
+
+However, the NDA also states in Paragraph 9 that no patent, trademark, copyright, trade secret, or other license/right is granted by disclosure, so the receiving Party may not use or derive the independent development from the disclosing Party’s Proprietary Information.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: Paragraph 6(b)(iii) 规定保密义务不适用于接收方独立于披露方信息而开发的信息，即允许独立开发类似信息。
+- answer_summary: 系统回答指出 Yes，并引用 Paragraph 6(b)(iii)，说明接收方可独立开发类似信息且不受保密义务约束。
+- gap: 无
+- reason: 系统回答覆盖了金标关键要点：独立开发信息不适用保密义务；额外扩写不导致错误。

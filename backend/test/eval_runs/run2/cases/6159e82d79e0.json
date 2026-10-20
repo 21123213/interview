@@ -1,0 +1,25 @@
+{
+  "index": 245,
+  "request_id": "6159e82d79e0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Fintricity-Blank.txt",
+  "file_id": 166,
+  "file_mapped": true,
+  "latency_ms": 24567.52,
+  "query": "Consider Fintricity's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "Upon the completion or termination of the Business Purpose, each recipient shall promptly deliver up to the disclosing party all Materials supplied by the disclosing party incorporating any Confidential Information of that party and all copies thereof and destroy or erase any Confidential Information contained in any materials and documentation prepared by or on behalf of the recipient or recorded in any memory device.",
+  "rag_answer": "Yes. The NDA specifies return/destruction obligations in Clause 9: upon completion or termination of the Business Purpose, each recipient must promptly deliver up all Materials containing Confidential Information and all copies, and destroy or erase Confidential Information in materials/documentation prepared by or on behalf of the recipient or recorded in any memory device. The recipient must also certify compliance in writing within 14 days of request or completion.\n\nHowever, the trigger is expressly “completion or termination of the Business Purpose,” not specifically termination of the Agreement. Clause 17 states that termination of the Agreement does not affect the obligations under the Agreement, so the confidentiality and return/destruction obligations survive termination.\n\nThe document also allows the recipient to retain one copy of Materials containing Confidential Information for archival purposes only, subject to the confidentiality obligations.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明，在商业目的完成或终止时，接收方应迅速向披露方交还其提供的所有包含保密信息的材料及所有副本，并销毁或擦除接收方或其代表准备的材料、文档以及任何存储设备中的保密信息。",
+    "answer_summary": "系统回答指出 NDA 规定了交还/销毁义务：在商业目的完成或终止时，接收方须交还所有包含保密信息的材料及副本，并销毁或擦除接收方或其代表准备的材料、文档以及任何存储设备中的保密信息。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标的关键信息，包括触发时点、交还披露方提供的保密信息材料及副本、销毁或擦除接收方准备材料和存储设备中的保密信息；额外扩写不影响命中判定。"
+  },
+  "file_ids": [
+    166
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 51,
+  "request_id": "71bbf9293746",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IPTK-CO-MutualNon-DisclosureAgreement.txt",
+  "file_id": 145,
+  "file_mapped": true,
+  "latency_ms": 16885.59,
+  "query": "Consider the Mutual Non-Disclosure Agreement between IPTK and CO; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "Further, the Parties agree that the Recipient shall use any and all Confidential Information received from the Discloser solely for the Purpose and no other use may be made without the Discloser’s prior written consent, which shall be granted or with-held in its sole discretion.",
+  "rag_answer": "Yes. The document restricts the use of Confidential Information to the stated Purpose of the Agreement.\n\nSpecifically, Section 7 (“No Transfer”) provides that the Recipient “shall use any and all Confidential Information received from the Discloser solely for the Purpose,” and that “no other use may be made without the Discloser’s prior written consent.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方只能将披露方提供的保密信息用于协议规定的 Purpose，未经披露方事先书面同意不得作其他用途。",
+    "answer_summary": "系统回答指出文档限制保密信息仅用于 Purpose，并引用 Section 7 说明未经披露方事先书面同意不得作其他用途。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即保密信息仅限用于 Purpose，且其他用途需披露方事先书面同意；虽然未提及披露方可自行决定授予或拒绝同意，但不影响核心命中。"
+  },
+  "file_ids": [
+    145
+  ],
+  "skip_answer": false
+}

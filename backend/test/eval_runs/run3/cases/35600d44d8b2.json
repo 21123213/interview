@@ -1,0 +1,25 @@
+{
+  "index": 222,
+  "request_id": "35600d44d8b2",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "simply-fashion---standard-nda.txt",
+  "file_id": 186,
+  "file_mapped": true,
+  "latency_ms": 21833.55,
+  "query": "Consider Simply Fashion's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "3. This Agreement shall not apply to, and Potential Purchaser shall have no obligation with respect to, any information which\n(iv) is independently developed or acquired by Potential Purchaser without violation of this Agreement, or",
+  "rag_answer": "Yes. The NDA’s receiving party is called the “Potential Purchaser,” and Section 3 states that the Agreement does not apply to information that is “independently developed or acquired by Potential Purchaser without violation of this Agreement.”\n\nTherefore, the Potential Purchaser may independently develop information that is similar to the Confidential Information/Evaluation Materials, provided it was developed without using or otherwise violating the Agreement’s confidentiality obligations.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 不适用于 Potential Purchaser 在遵守协议前提下独立开发或获取的信息，因此允许独立开发类似保密信息。",
+    "answer_summary": "系统回答指出 Potential Purchaser 可独立开发或获取信息，只要未违反 NDA 保密义务，该信息不受协议约束。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键要点：独立开发/获取、未违反协议、NDA 不适用，且结论与金标一致。"
+  },
+  "file_ids": [
+    186
+  ],
+  "skip_answer": false
+}

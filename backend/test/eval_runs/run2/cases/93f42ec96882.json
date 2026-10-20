@@ -1,0 +1,25 @@
+{
+  "index": 52,
+  "request_id": "93f42ec96882",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Inaturals_NDA.txt",
+  "file_id": 142,
+  "file_mapped": true,
+  "latency_ms": 33699.58,
+  "query": "Consider Inaturals's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "7. Upon written request from the other party, each party agrees to return or destroy all the other party’s Confidential Information, together with all copies or reproductions thereof.",
+  "rag_answer": "No. Based on the provided document, the NDA does not expressly state that the Receiving Party must destroy or return Confidential Information upon termination of the Agreement.\n\nIt does provide return/destruction obligations, but only “upon request” or “upon written request”:\n\n- Upon request, each party shall promptly return documents or tangible property containing Confidential Information, or destroy Confidential Information in tangible form.\n- Upon written request, each party agrees to return or destroy all Confidential Information, including copies.\n\nThe confidentiality obligations are stated to last for three years following disclosure, but no automatic return/destruction requirement tied specifically to termination is specified in the provided text.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论：在另一方的书面请求下，各方同意归还或销毁对方的全部保密信息及所有复制件。",
+    "answer_summary": "系统回答称未明确约定在协议终止时自动归还/销毁，但明确提到 Upon written request, each party agrees to return or destroy all Confidential Information, including copies。",
+    "gap": "无",
+    "reason": "系统回答虽然开头对“终止时”作了否定说明，但已经包含并准确覆盖了金标中的关键信息：书面请求触发归还或销毁保密信息及其复制件的义务；未构成与金标矛盾，也未声称找不到信息。"
+  },
+  "file_ids": [
+    142
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 6,
+  "request_id": "ebf686bd0600",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Non-Disclosure-NDA-UW-Oshkosh_FINALV2.txt",
+  "file_id": 175,
+  "file_mapped": true,
+  "latency_ms": 15427.35,
+  "query": "Consider the Non-Disclosure Agreement between University of Wisconsin Oshkosh; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "4. The Receiving Party will return or destroy Confidential Information provided by the Disclosing Party upon termination of the Agreement.",
+  "rag_answer": "Yes. Section 4 of the Non-Disclosure Agreement specifies that the Receiving Party “will return or destroy Confidential Information provided by the Disclosing Party upon termination of the Agreement.”\n\nIt also provides limited exceptions: the Receiving Party’s designated representative may retain one copy of all Confidential Information to address potential claims and to comply with legal or recordkeeping requirements, and neither party is obligated to destroy Confidential Information stored electronically on backup systems or computer hard drives after a file is deleted. However, any retained electronic information remains subject to the confidentiality obligations of the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议规定接收方在协议终止时应归还或销毁披露方提供的机密信息。",
+    "answer_summary": "系统回答指出 Section 4 规定接收方在协议终止时将归还或销毁披露方提供的机密信息，并补充了有限例外。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标关键结论，即接收方在协议终止时需归还或销毁机密信息；额外扩写不影响命中。"
+  },
+  "file_ids": [
+    175
+  ],
+  "skip_answer": false
+}

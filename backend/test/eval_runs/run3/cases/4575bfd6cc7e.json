@@ -1,0 +1,25 @@
+{
+  "index": 188,
+  "request_id": "4575bfd6cc7e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WEB-NDA-Mutual-Customer-and-Allazo-Electronics-v2.txt",
+  "file_id": 201,
+  "file_mapped": true,
+  "latency_ms": 21261.39,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Mutual Customer and Allazo Electronics; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The Receiving Party’s duty of non-disclosure under this Agreement shall extend beyond the term of this Agreement for a period of three (3) years from the date of last disclosure.",
+  "rag_answer": "Yes. The document states in Section 4 (“Disclosure Period and Expiration”) that although the Agreement terminates after three years unless extended in writing, the Receiving Party’s duty of non-disclosure extends beyond the term of the Agreement for three years from the date of the last disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方的保密义务在协议期限届满后仍存续，期限为自最后一次披露之日起三年。",
+    "answer_summary": "系统回答确认文档提到相关义务存续，并说明接收方的保密义务在协议终止后仍延续三年，自最后一次披露之日起计算。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键要点：保密义务在协议终止/期限后存续，且期限为自最后披露之日起三年；额外信息未与金标矛盾。"
+  },
+  "file_ids": [
+    201
+  ],
+  "skip_answer": false
+}

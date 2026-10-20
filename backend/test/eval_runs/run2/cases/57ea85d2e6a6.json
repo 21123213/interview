@@ -1,0 +1,25 @@
+{
+  "index": 255,
+  "request_id": "57ea85d2e6a6",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Fintricity-Blank.txt",
+  "file_id": 166,
+  "file_mapped": true,
+  "latency_ms": 34693.64,
+  "query": "Consider Fintricity's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "All material containing Confidential Information furnished by or obtained from the disclosing party, including without limitation, magnetic tapes, documents, manuals, specifications, flowcharts, program listings and data file printouts, engineering drawings, architects plans, planning documents, (\"the Materials\"), shall be and remain the property of the disclosing party and shall not be reproduced in whole or part without the disclosing party's express written consent.",
+  "rag_answer": "Yes, but only in a limited sense.\n\nUnder Clause 5, the Receiving Party may not reproduce Materials containing Confidential Information “in whole or part” without the Disclosing Party’s express written consent. Any copies become the Disclosing Party’s property and must carry the same copyright/proprietary notices as the originals.\n\nClause 9 then permits the recipient to retain one copy of all Materials containing Confidential Information “received or made” in connection with the Agreement for archival purposes only, subject to strict compliance with Clauses 3 and 5.\n\nSo the NDA does not generally allow the Receiving Party to create copies freely; it allows retention of one archival copy, and any copying must be authorized under Clause 5.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "包含保密信息的材料归披露方所有，未经披露方明确书面同意，不得全部或部分复制。",
+    "answer_summary": "系统回答指出接收方不得在未经披露方明确书面同意的情况下全部或部分复制材料，并补充说明仅在有限情况下可保留档案副本且复制须获授权。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：保密材料不得在未经披露方明确书面同意下复制。尽管回答额外提及 Clause 9 的档案保留条款，但根据从宽判定标准，只要关键信息已覆盖且未与金标核心结论明显矛盾，即可判为正确。"
+  },
+  "file_ids": [
+    166
+  ],
+  "skip_answer": false
+}

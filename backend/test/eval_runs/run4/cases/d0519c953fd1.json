@@ -1,0 +1,25 @@
+{
+  "index": 46,
+  "request_id": "d0519c953fd1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "01_Bosch-Automotive-Service-Solutions-Mutual-Non-Disclosure-Agreement-7-12-17.txt",
+  "file_id": 108,
+  "file_mapped": true,
+  "latency_ms": 20383.43,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Bosch and Automotive Service Solutions; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "Disclosing Party may serve written request on Recipient for return or destruction of its Confidential Information at any time up to six (6) months after the termination or expiry of this Agreement and Recipient shall, within thirty (30) days of such request or termination, return to the Disclosing Party (or its designees) or certify as destroyed all Confidential Information, in whatever form, including written or electronically recorded information and all copies thereof (other than copies retained in automatic back-up and archive systems), provided however that Recipient shall be entitled to retain one copy of the Confidential Information with its legal counsel or other appropriate corporate representative to evidence the exchange of information hereunder and in connection with legal or statutory requirements.",
+  "rag_answer": "Yes. Under Section 6 (“Reproduction and Return of Confidential Information”), the Receiving Party may create copies of Confidential Information only in limited circumstances:\n\n1. **With prior written permission** from the Disclosing Party; or  \n2. **As reasonably required for the Purpose** described in Section I of the Agreement; and  \n3. After return/destruction requests, the Receiving Party may retain **one copy** with its legal counsel or other appropriate corporate representative to evidence the exchange and to comply with legal or statutory requirements, subject to the Agreement’s confidentiality restrictions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出，在返还/销毁机密信息要求下，接收方原则上须返还或销毁所有机密信息及副本（自动备份和归档系统中的副本除外），但可保留一份副本交其法律顾问或适当公司代表，用于证明信息交换并满足法律/法定要求。",
+    "answer_summary": "系统回答称接收方可在有限情况下保留/处理机密信息副本，并明确提到在返还/销毁请求后可保留一份副本交法律顾问或适当公司代表，用于证明信息交换及满足法律/法定要求。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即接收方在特定条件下可保留一份机密信息副本用于证明信息交换和法律/法定要求；额外补充内容不影响命中。"
+  },
+  "file_ids": [
+    108
+  ],
+  "skip_answer": false
+}

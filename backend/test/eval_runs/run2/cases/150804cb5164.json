@@ -1,0 +1,25 @@
+{
+  "index": 184,
+  "request_id": "150804cb5164",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Model%20NDA%20(recommended%20by%20SWA).txt",
+  "file_id": 154,
+  "file_mapped": true,
+  "latency_ms": 14692.82,
+  "query": "Consider SWA's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "19. All obligations respecting the Confidential information already provided hereunder shall survive in perpetuity after the date that the specific Confidential information was first disclosed.",
+  "rag_answer": "Yes. Clause 19 of SWA’s Model Non-Disclosure Agreement states:\n\n> “All obligations respecting the Confidential information already provided hereunder shall survive in perpetuity after the date that the specific Confidential information was first disclosed.”\n\nThis means the confidentiality obligations continue indefinitely after disclosure, even if the Agreement is later terminated.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "第19条规定：已提供机密信息的相关义务自该特定机密信息首次披露之日起永久存续。",
+    "answer_summary": "系统回答确认存在该条款，并完整引用第19条，说明保密义务在披露后永久存续，即使协议终止仍继续。",
+    "gap": "无",
+    "reason": "系统回答准确引用并覆盖了金标关键信息，即第19条关于机密信息义务永久存续的规定，且与用户问题一致。"
+  },
+  "file_ids": [
+    154
+  ],
+  "skip_answer": false
+}

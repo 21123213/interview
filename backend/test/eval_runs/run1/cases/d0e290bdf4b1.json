@@ -1,0 +1,25 @@
+{
+  "index": 114,
+  "request_id": "d0e290bdf4b1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+  "file_id": 137,
+  "file_mapped": true,
+  "latency_ms": 27420.66,
+  "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "1.1 “Confidential Information” means; all technical, commercial, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, and marketing plans business or personnel information disclosed or otherwise made available in any format and/or physical manner by Grindrod SA or becoming available, before, during and/or after the execution of an interaction, duty or obligation including all information that makes itself known to the Vendor or comes into being as a result of the rendering, production and/or delivery of an agreement/understanding/request for quotation/contract or Purchase Order, or any other interaction.",
+  "rag_answer": "No. The document does not state that Confidential Information is limited only to technical information. Under clause 1.1, Confidential Information includes technical information as well as commercial, procurement, purchasing, manufacturing, customer lists, investor, employee, business and contractual relationship, forecasting, sales, merchandising, marketing, personnel, and other information, and may also include information marked “Confidential” or reasonably considered confidential.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标说明 Confidential Information 不仅限于技术信息，还包括商业、采购、购买、制造、客户列表、投资者、员工、业务与合同关系、业务预测、销售、营销计划、业务或人员信息等广泛内容。",
+    "answer_summary": "系统回答指出文件并未将 Confidential Information 限定为仅技术信息，并列举其包括技术信息以及商业、采购、制造、客户列表、投资者、员工、业务与合同关系、预测、销售、营销、人员信息等。",
+    "gap": "无",
+    "reason": "系统回答明确否定了“仅包括技术信息”的说法，并覆盖了金标中 Confidential Information 包含多类非技术信息的关键要点；额外补充内容不影响命中。"
+  },
+  "file_ids": [
+    137
+  ],
+  "skip_answer": false
+}

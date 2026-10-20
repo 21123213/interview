@@ -1,0 +1,25 @@
+{
+  "index": 135,
+  "request_id": "926cb716bed5",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "HNBA-2017-18-Confidentiality-Agreement.txt",
+  "file_id": 139,
+  "file_mapped": true,
+  "latency_ms": 20865.84,
+  "query": "Consider HNBA's Confidentiality Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "1. The term “Confidential Information” shall include:\n(a) All information that is delivered by or on behalf of the HNBA to the Board Member in written, graphic or electronic form and that is marked “confidential” or “proprietary;”\n(a) Any information, whether in oral, written, graphic, electronic, machine readable or any other form, that is provided to the Board Member by or on behalf of the HNBA in connection with the Board Member’s performance of his or her duties as an HNBA Board Member and that is not otherwise readily available to the public, including membership lists, financial reports, personnel evaluations, program plans and reports, memoranda, e-mail and communications related to HNBA business – whether originated by an HNBA member or not, and communications that may be protected by the Attorney-Client Privilege or the Attorney Work Product Doctrine;\n(c) Written and spoken information provided to the Board Member in the performance of his or her duty to evaluate prospective nominees for judicial or executive office who have requested the support of the HNBA, including but not limited to (1) completed questionnaires and any other data furnished by the candidate or third parties to the HNBA; (ii) confidential information gathered by the Board Member or told to the Board Member during any investigation or evaluation of any candidate being considered for endorsement; (iii) conversation, colloquy, deliberations, evaluations, and conclusions concerning a prospective nominee expressed during the evaluation or consideration of the candidates’ qualifications or endorsement request; and (iv) the decision of any committee or the Board of Governors concerning whether a prospective nominee is qualified for appointment; and\n(b) Any personally identifiable information including, but not limited to, name, address, telephone number, date of birth, social security number, e-mail address or any combination thereof provided by or on behalf of the HNBA to the Board Member.",
+  "rag_answer": "No. The HNBA Confidentiality Agreement does **not** require that all Confidential Information be expressly identified or marked by the disclosing party.\n\nThe definition of “Confidential Information” includes both:\n\n1. Information that is **marked “confidential” or “proprietary”**, and  \n2. Information that is confidential by nature or category even if not expressly marked, such as information **not otherwise readily available to the public**, personally identifiable information, candidate evaluation materials, deliberations, conclusions, and attorney-client or attorney work product protected communications.\n\nTherefore, the agreement covers Confidential Information without requiring that every item be expressly identified by the disclosing party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标显示 HNBA 机密信息定义既包括被标记为 confidential/proprietary 的信息，也包括未标记但属于特定类别或性质机密的信息（如非公开可得信息、PII、候选人评估材料、讨论与结论、律师特权信息等），因此并不要求所有机密信息都必须由披露方明确识别或标记。",
+    "answer_summary": "系统回答称协议不要求所有 Confidential Information 被明确识别或标记，并说明定义包括标记信息以及按性质/类别自动覆盖的未标记信息，如非公开可得信息、PII、候选人评估材料、讨论结论和律师特权信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论：并非所有机密信息都必须明确识别或标记；未标记但属于特定类别的信息也在定义范围内。"
+  },
+  "file_ids": [
+    139
+  ],
+  "skip_answer": false
+}

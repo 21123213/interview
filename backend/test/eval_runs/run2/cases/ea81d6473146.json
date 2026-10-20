@@ -1,0 +1,25 @@
+{
+  "index": 321,
+  "request_id": "ea81d6473146",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "nda-employee-template.txt",
+  "file_id": 165,
+  "file_mapped": true,
+  "latency_ms": 23437.38,
+  "query": "Consider Employer's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "b) In the event Confidential Information of the other party is lawfully required to be disclosed by any governmental agency or otherwise required to be disclosed by law, it may be so disclosed without violation of this Agreement, but only to the extent required; provided however that before making such disclosure, Recipient shall give Disclosing Party reasonable prior written notice of such required disclosure so that Disclosing Party has an opportunity to interpose an objection and/or take action to ensure confidential handling of such information.",
+  "rag_answer": "Yes. The document requires the Receiving Party to give the Disclosing Party reasonable prior written notice before disclosing Confidential Information if such disclosure is lawfully required.\n\nSpecifically, Section 3(b) states that if Confidential Information is lawfully required to be disclosed by a governmental agency or otherwise required by law, it may be disclosed only to the extent required, provided that the Recipient gives the Disclosing Party reasonable prior written notice so the Disclosing Party can object or take action to ensure confidential handling.\n\nThe document does not expressly use the phrase “judicial process,” but a disclosure compelled by law would appear to fall within this notice requirement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "如果保密信息被政府机构或法律合法要求披露，接收方可以仅按要求范围披露，但必须在披露前给予披露方合理事先书面通知，以便其提出异议或采取行动确保保密处理。",
+    "answer_summary": "系统回答确认文件要求接收方在因法律/政府合法要求披露保密信息前，给予披露方合理事先书面通知，并引用 Section 3(b) 说明可异议或采取行动；同时指出虽未明确使用 judicial process，但依法强制披露应落入通知要求。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：存在合法披露要求时可披露、仅限必要范围、披露前需合理事先书面通知、披露方可采取异议或保密措施。对 judicial process 的补充说明不与金标矛盾，且不影响命中。"
+  },
+  "file_ids": [
+    165
+  ],
+  "skip_answer": false
+}

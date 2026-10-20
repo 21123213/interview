@@ -1,0 +1,25 @@
+{
+  "index": 125,
+  "request_id": "6c03b917d37b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "LiiON%20NDA%202-27-2015%20v1.0.txt",
+  "file_id": 151,
+  "file_mapped": true,
+  "latency_ms": 14668.16,
+  "query": "Consider LiiON's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "(a) Receiving Party agrees that it will only use Disclosing Party's Confidential Information to the extent necessary for the Purpose.",
+  "rag_answer": "Yes. The LiiON Non-Disclosure Agreement restricts the use of Confidential Information to the stated “Purpose.”\n\nSpecifically, Section 2(a) states that the Receiving Party “will only use Disclosing Party's Confidential Information to the extent necessary for the Purpose.” The “Purpose” is defined in Section 1(e) as:\n\n1. discussing, assessing, or evaluating a party’s interest in establishing or furthering a current or future business relationship between the parties; and  \n2. to the extent the NDA is incorporated by reference into another agreement between the parties, achieving the objectives of that agreement.\n\nThe Agreement also prohibits the Receiving Party from using Confidential Information “for its own benefit,” except as provided in the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Receiving Party agrees that it will only use Disclosing Party's Confidential Information to the extent necessary for the Purpose.",
+    "answer_summary": "系统回答确认 NDA 将 Confidential Information 的使用限制在 stated Purpose，并明确引用 Section 2(a)：Receiving Party will only use Disclosing Party's Confidential Information to the extent necessary for the Purpose.",
+    "gap": "无",
+    "reason": "系统回答已完整覆盖金标关键要点，且与金标一致；额外解释 Purpose 定义和限制不改变命中结论。"
+  },
+  "file_ids": [
+    151
+  ],
+  "skip_answer": false
+}

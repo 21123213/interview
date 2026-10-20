@@ -1,0 +1,38 @@
+# Case `bfa04bfdd8d7`
+
+- index: 215
+- file_key: `NDA_Street_Stream_Franchise.txt`
+- file_id: 162
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 24941.15
+
+## Query
+
+Consider Street Stream's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?
+
+## Gold
+
+The Recipient's obligations under this Agreement do not apply to, and the term Confidential Information does not include, any information to the extent to which the Recipient can prove to the Disclosers’ reasonable satisfaction has been agreed by the Disclosers in writing as being excluded from Confidential Information.
+The Recipient shall not be in breach of its obligations under this Agreement to the extent that any Confidential Information received by it may be required by law or regulation having force of law; or the rules of any court or other body of competent jurisdiction; or any governmental body to be disclosed, provided in each case the Recipient, to the extent permitted by the foregoing requirement, immediately notifies the Disclosers in writing of any request or requirement for disclosure and of all relevant surrounding circumstances prior to disclosure and takes into account any representations made by the Disclosers in relation to the disclosure.
+
+## RAG Answer
+
+No — the provided NDA does **not expressly allow** the Receiving Party to independently develop information that is similar to the Confidential Information.
+
+The only explicit exclusions are:
+
+- information agreed by the Disclosers in writing as excluded from Confidential Information (clause 4.1); and  
+- disclosure required by law, regulation, court, or governmental body (clause 4.2).
+
+There is no independent-development or residual-knowledge exception in the supplied document. Therefore, unless the similar information can be shown not to be “Confidential Information” under the definition, or is excluded in writing under clause 4.1, the NDA does not expressly permit independent development of similar information.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 金标仅说明接收方义务不适用于经披露方书面同意排除的信息，以及因法律、法规、法院或政府机关要求而披露的信息；未规定独立开发相似信息的例外。
+- answer_summary: 系统回答称NDA未明确允许接收方独立开发类似保密信息，并列出金标中的两项例外：书面同意排除的信息，以及依法要求披露的信息。
+- gap: 无
+- reason: 系统回答覆盖了金标的关键要点，并正确指出文档中没有独立开发例外；其结论与金标证据一致，因此判定命中。

@@ -1,0 +1,25 @@
+{
+  "index": 79,
+  "request_id": "0ad761ce3982",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AGProjects-NDA.txt",
+  "file_id": 113,
+  "file_mapped": true,
+  "latency_ms": 16555.99,
+  "query": "Consider the AGProjects' Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "Tangible forms of the CONFIDENTIAL INFORMATION shall not be copied, in whole or in part, without the prior written consent of the DISCLOSING PARTY.",
+  "rag_answer": "Yes. The NDA generally prohibits copying tangible forms of Confidential Information, but it permits the Receiving Party to create a copy—whether in whole or in part—if the Receiving Party obtains the Disclosing Party’s prior written consent.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "有形形式的机密信息不得全部或部分复制，除非获得披露方事先书面同意。",
+    "answer_summary": "系统回答指出 NDA 一般禁止复制有形机密信息，但在获得披露方事先书面同意的情况下允许全部或部分复制。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标关键信息：复制须以披露方事先书面同意为条件，并明确允许在特定情况下复制全部或部分机密信息。"
+  },
+  "file_ids": [
+    113
+  ],
+  "skip_answer": false
+}

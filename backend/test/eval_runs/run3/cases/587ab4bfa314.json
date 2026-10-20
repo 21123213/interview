@@ -1,0 +1,25 @@
+{
+  "index": 192,
+  "request_id": "587ab4bfa314",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WEB-NDA-Mutual-Customer-and-Allazo-Electronics-v2.txt",
+  "file_id": 201,
+  "file_mapped": true,
+  "latency_ms": 29711.61,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Mutual Customer and Allazo Electronics; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "The Receiving Party (i) shall limit access to all Confidential Information to its employees, agents, representatives, consultants and contractors who shall reasonably require access to the Confidential Information for the purpose set forth above and to third party vendors for the purpose of obtaining price quotations,",
+  "rag_answer": "Yes, but only under conditions.\n\nThe Agreement permits the Receiving Party to share Confidential Information with certain third parties, including **agents, representatives, consultants, and contractors**, provided they:\n\n- reasonably need access to the Confidential Information for the stated business Purpose;\n- are used solely in connection with that Purpose; and\n- are made aware of and comply with the confidentiality obligations.\n\nIt also allows sharing with **third-party vendors** for the purpose of obtaining price quotations.\n\nAdditionally, the Agreement requires the parties to have **Non-Disclosure Agreements in place with any third-party person or company** before internal or external disclosure, with confidentiality obligations at least as protective as the Agreement.\n\n“Professional advisors” are not expressly named, but if they qualify as agents, representatives, consultants, or contractors and meet the above conditions, they may be allowed.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定接收方可将保密信息访问限制/共享给其员工、代理、代表、顾问和承包商（需合理为约定目的需要访问），以及第三方供应商（用于获取报价）。",
+    "answer_summary": "系统回答称协议允许接收方与代理、代表、顾问、承包商共享保密信息，且需合理为业务目的需要，并允许与第三方供应商共享以获取报价；还补充了保密义务和第三方协议要求，并说明专业顾问虽未明确列出但可能符合条件。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：接收方可向 agents、representatives、consultants、contractors 共享保密信息，并可向 third-party vendors 共享以获取报价；额外条件与解释不影响命中。"
+  },
+  "file_ids": [
+    201
+  ],
+  "skip_answer": false
+}

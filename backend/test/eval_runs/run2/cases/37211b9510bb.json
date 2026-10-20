@@ -1,0 +1,25 @@
+{
+  "index": 140,
+  "request_id": "37211b9510bb",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt",
+  "file_id": 138,
+  "file_mapped": true,
+  "latency_ms": 15539.28,
+  "query": "Consider FullStory's Mutual Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Recipient will disclose Discloser’s Confidential Information only to those of Recipient’s employees, consultants, and contractors who have a “need to know” the information to assist Recipient with respect to the Purpose and who are legally bound by terms and conditions substantially similar to those terms and conditions applicable to Recipient under this Agreement.",
+  "rag_answer": "Yes. Under Section 2, the Receiving Party may disclose Confidential Information only to its employees, consultants, and contractors who have a “need to know” the information to assist with the Agreement’s Purpose, and only if they are legally bound by confidentiality terms substantially similar to those in the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方只能将披露方的机密信息披露给确有“需要知道”的员工、顾问和承包商，且这些人必须受与接收方在本协议下条款实质相似的法律约束。",
+    "answer_summary": "系统回答指出接收方可以披露机密信息，但仅限确有“需要知道”的员工、顾问和承包商，用于协助协议目的，并且他们必须受实质相似的保密条款约束。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键限制条件：允许向员工等共享、需满足 need to know、用于协议目的、且需受实质相似保密条款约束，因此判定命中。"
+  },
+  "file_ids": [
+    138
+  ],
+  "skip_answer": false
+}

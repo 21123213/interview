@@ -1,0 +1,25 @@
+{
+  "index": 123,
+  "request_id": "c3a7ec01131c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 24687.48,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Notwithstanding any other provision of this Agreement, \"Confidential Information\" does not include information which:\n(b) is or becomes known to the Receiving Party from a third party who, to the knowledge of the Receiving Party after reasonable investigation, owes no legal or contractual obligation of confidentiality to the Disclosing Party; or",
+  "rag_answer": "Yes. The NDA permits the Receiving Party to acquire information that is similar to Confidential Information from a third party, provided it is obtained wholly independently of the Confidential Information provided under the Agreement.\n\nSpecifically, Section 2(b) excludes from “Confidential Information” information that becomes known to the Receiving Party from a third party who, after reasonable investigation, is known not to owe any legal or contractual confidentiality obligation to the Disclosing Party. Section 8 also confirms that the Receiving Party may receive from third parties information that may coincidentally be similar to portions of the disclosed information, and that such independent development or receipt does not violate the Agreement, so long as it is not based upon the Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "The NDA excludes from Confidential Information information known to the Receiving Party from a third party that, after reasonable investigation, the Receiving Party knows owes no confidentiality obligation to the Disclosing Party.",
+    "answer_summary": "The system answer says yes and explains that Section 2(b) excludes information obtained from a third party not bound by confidentiality obligations, and adds that independently obtained or coincidentally similar information is permitted.",
+    "gap": "无",
+    "reason": "The system answer covers the key gold-standard point: information obtained from an unobligated third party is not Confidential Information. Additional references do not contradict the gold answer."
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

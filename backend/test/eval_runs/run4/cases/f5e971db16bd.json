@@ -1,0 +1,25 @@
+{
+  "index": 180,
+  "request_id": "f5e971db16bd",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Mutual-Non-Disclosure-Agreement-Inventor-Product-Development-Experts-Inc..txt",
+  "file_id": 156,
+  "file_mapped": true,
+  "latency_ms": 15736.01,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Inventor and Product Development Experts, Inc.; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "\"Confidential Information\" means any information disclosed by either party to the other party, either directly or indirectly, in writing, orally or by inspection of tangible objects, including without limitation documents, prototypes, samples, plant and equipment, research, product plans, products, services, customer lists, software, developments, inventions, processes, designs, drawings, engineering, hardware configuration, marketing materials or finances, which is designated as \"Confidential,\" \"Proprietary\" or some similar designation. Information communicated orally shall be considered Confidential Information if such information is confirmed in writing as being Confidential Information within a reasonable time after the initial disclosure.",
+  "rag_answer": "Yes. The agreement allows verbally conveyed information to be considered Confidential Information, but only if it is confirmed in writing as Confidential Information within a reasonable time after the initial oral disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "口头传达的信息只有在初始披露后合理时间内以书面形式确认为机密信息时，才属于机密信息。",
+    "answer_summary": "口头传达的信息可以被视为机密信息，但必须在初始口头披露后的合理时间内以书面形式确认为机密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键条件：口头信息需后续书面确认才可视为机密信息，未出现矛盾或遗漏。"
+  },
+  "file_ids": [
+    156
+  ],
+  "skip_answer": false
+}

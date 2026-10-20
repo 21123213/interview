@@ -1,0 +1,25 @@
+{
+  "index": 115,
+  "request_id": "554f01e6e264",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "LiiON%20NDA%202-27-2015%20v1.0.txt",
+  "file_id": 151,
+  "file_mapped": true,
+  "latency_ms": 28396.11,
+  "query": "Consider LiiON's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "(b) “Confidential Information” means: (1) any information, whether tangi-ble or intangible, in written or in machine readable form that is marked or designated in writing as “Proprietary” or “Confidential” at the time of disclosure; (2) any information disclosed orally or visually to Receiving Party, provided that such information is orally identified as “Confidential” or “Proprietary” prior to or at the time of its disclosure,",
+  "rag_answer": "No. The NDA does not require that **all** Confidential Information be expressly identified by the Disclosing Party.\n\nIt requires express identification for certain categories — for example, written or machine-readable information must be marked or designated as “Proprietary” or “Confidential,” and orally or visually disclosed information must be orally identified as “Confidential” or “Proprietary” prior to or at the time of disclosure. However, the definition also includes information **derived or extracted** from provided information that the Receiving Party reasonably should conclude was intended to be confidential, as well as information that is a **trade secret** and not expressly released to the Receiving Party. Those categories do not require express identification by the Disclosing Party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标要求：书面或机器可读的 Confidential Information 需在披露时标记/指定为“Proprietary”或“Confidential”；口头或视觉披露的信息需在披露前或披露时口头标识为“Confidential”或“Proprietary”。",
+    "answer_summary": "系统回答指出并非所有 Confidential Information 都必须由披露方明确标识，并准确覆盖了金标中的关键要求：书面/机器可读信息需标记，口头/视觉信息需口头标识；同时补充了其他可能无需明确标识的信息类别。",
+    "gap": "无",
+    "reason": "系统回答包含了金标证据中的关键要点，即书面/机器可读信息和口头/视觉信息的标识要求；其额外扩写内容未与金标形成明显矛盾，按从宽覆盖标准可判定命中。"
+  },
+  "file_ids": [
+    151
+  ],
+  "skip_answer": false
+}

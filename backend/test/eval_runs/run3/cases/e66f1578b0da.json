@@ -1,0 +1,25 @@
+{
+  "index": 149,
+  "request_id": "e66f1578b0da",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SupplementOne-NDA.txt",
+  "file_id": 191,
+  "file_mapped": true,
+  "latency_ms": 19744.03,
+  "query": "Consider SupplementOne's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "(5) Notwithstanding the foregoing, Confidential Information does not include information that:\n(d) Is rightfully received by the Recipient from a third party without an obligation of confidence; or",
+  "rag_answer": "Yes. The NDA allows the Receiving Party to acquire information from a third party if it is **rightfully received without an obligation of confidence**. Under the definition of “Confidential Information,” such third-party information is expressly excluded from the scope of Confidential Information.\n\nHowever, this does not permit the Receiving Party to use or disclose the Discloser’s Confidential Information itself, or to obtain similar information in violation of the agreement’s confidentiality and use restrictions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 规定保密信息不包括接收方从第三方合法接收且无保密义务的信息。",
+    "answer_summary": "系统回答称允许接收方从第三方合法接收且无保密义务的信息，并指出该信息被排除在保密信息范围外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即接收方可从第三方获取并接收无保密义务约束的信息，且该信息不构成保密信息；额外说明不构成矛盾。"
+  },
+  "file_ids": [
+    191
+  ],
+  "skip_answer": false
+}

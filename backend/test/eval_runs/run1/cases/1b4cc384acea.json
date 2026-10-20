@@ -1,0 +1,25 @@
+{
+  "index": 43,
+  "request_id": "1b4cc384acea",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "EFCAConfidentialityAgreement.txt",
+  "file_id": 126,
+  "file_mapped": true,
+  "latency_ms": 23538.77,
+  "query": "Consider EFCA's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "Copies or reproductions shall not be made except to the extent reasonably necessary and all copies made shall be the property of the disclosing party.",
+  "rag_answer": "Yes. Under the agreement, the Receiving Party (EFCA) may make copies or reproductions of Confidential Information only to the extent reasonably necessary. All copies made remain the property of the disclosing party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "不得制作复制或复制件，除非在合理必要范围内；所有制作出的复制件归披露方所有。",
+    "answer_summary": "系统回答称接收方可以制作复制或复制件，但仅限于合理必要范围，并且所有复制件仍归披露方所有。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的两个关键要点：复制仅限合理必要范围，以及复制件归披露方所有，未与金标矛盾。"
+  },
+  "file_ids": [
+    126
+  ],
+  "skip_answer": false
+}

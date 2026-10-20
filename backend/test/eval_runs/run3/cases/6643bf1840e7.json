@@ -1,0 +1,25 @@
+{
+  "index": 77,
+  "request_id": "6643bf1840e7",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Roundhouse-Creative-Mutual-NDA.txt",
+  "file_id": 181,
+  "file_mapped": true,
+  "latency_ms": 44260.58,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Roundhouse and Creative; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "1. Either Party may disclose Confidential Information to the other Party in confidence provided that the disclosing Party identifies such information as proprietary and confidential either by marking it, in the case of written materials, or, in the case of information that is disclosed orally or written materials that are not marked, by notifying the other Party of the proprietary and confidential nature of the information, such notification to be done orally, by e-mail or written correspondence, or via other means of communication as might be appropriate.",
+  "rag_answer": "Yes, in substance. Under Section 1 of the Mutual Non-Disclosure Agreement, for information to be disclosed in confidence, the disclosing Party must identify it as proprietary and confidential.\n\nThe required method depends on the form of disclosure:\n\n- For written materials, the disclosing Party must mark the information as proprietary and confidential.\n- For information disclosed orally, or written materials that are not marked, the disclosing Party must notify the other Party of the proprietary and confidential nature of the information. That notification may be made orally, by email, by written correspondence, or by other appropriate means of communication.\n\nThe Agreement does not appear to require a separate written summary or additional formal designation beyond this marking or notification requirement. Also, Section 5 excludes certain categories of information from being treated as Confidential Information, even if disclosed.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "披露方需将信息标识为专有和保密：书面材料应标记；口头披露或未标记书面材料需通过口头、电子邮件、书面通讯或其他方式通知对方其专有和保密性质。",
+    "answer_summary": "系统回答指出披露方必须将信息标识为专有和保密，书面材料需标记，口头或未标记书面材料需通知对方，且通知可通过口头、电子邮件、书面通讯或适当方式完成。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要求：披露方需明确标识信息的专有和保密性质，并区分书面标记与口头/未标记书面材料的通知方式；虽然回答有额外说明，但不影响关键点命中。"
+  },
+  "file_ids": [
+    181
+  ],
+  "skip_answer": false
+}

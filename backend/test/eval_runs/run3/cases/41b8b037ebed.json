@@ -1,0 +1,25 @@
+{
+  "index": 101,
+  "request_id": "41b8b037ebed",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SINTEC-UK-LTD-Non-disclosure-agreement-2017.txt",
+  "file_id": 187,
+  "file_mapped": true,
+  "latency_ms": 36688.13,
+  "query": "Consider SINTEC-UK-LTD's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "All information disclosed by SINTEC shall remain the property of SINTEC.\nShould new, patentable findings be made directly or indirectly in connection with the disclosure of information described in the Preamble, SINTEC shall have the sole and exclusive right to apply for patent protection of such findings and to commercially exploit them.",
+  "rag_answer": "Yes. The Agreement indicates that the Receiving Party is not granted ownership or proprietary rights to the Confidential Information.\n\nIn particular:\n\n- Section 5.1 states that “All information disclosed by SINTEC shall remain the property of SINTEC,” and the Receiving Party must return or destroy it upon request or at termination.\n- Section 2 restricts the Receiving Party to using the information only for SINTEC’s specified or authorized purposes and prohibits use for its own business purposes or for other customers without SINTEC’s prior written consent.\n- Sections 7 and 8 reserve patent and other IP-related rights to SINTEC.\n\nSo, while the Receiving Party may have limited rights to use the information for SINTEC’s authorized purposes, the Agreement does not grant it rights of ownership or broader proprietary rights to the Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "SINTEC 披露的所有信息仍归 SINTEC 所有；与披露信息相关的新可专利发现，SINTEC 拥有唯一且排他的申请专利保护及商业开发权利。",
+    "answer_summary": "系统回答指出协议表明接收方未被授予对保密信息的所有权或产权，并说明 SINTEC 披露信息仍归 SINTEC 所有，且专利及其他知识产权相关权利保留给 SINTEC。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：披露信息所有权归 SINTEC，以及与专利/IP 权利由 SINTEC 保留。虽然表述更概括，未逐字提及“新可专利发现”，但根据从宽覆盖标准，已命中金标核心信息。"
+  },
+  "file_ids": [
+    187
+  ],
+  "skip_answer": false
+}

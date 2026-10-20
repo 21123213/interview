@@ -1,0 +1,25 @@
+{
+  "index": 129,
+  "request_id": "f997eb2395ba",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt",
+  "file_id": 138,
+  "file_mapped": true,
+  "latency_ms": 14258.23,
+  "query": "Consider FullStory's Mutual Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "Except upon mutual written agreement or as may be required by law, neither party will disclose to others the existence or terms of this Agreement, the discussions that gave rise to this Agreement or the fact that there have been, or will be, discussions or negotiations covered by this Agreement.",
+  "rag_answer": "Yes. Section 7 of FullStory’s Mutual Non-Disclosure Agreement includes such a clause.\n\nIt states:\n\n> “Except upon mutual written agreement or as may be required by law, neither party will disclose to others the existence or terms of this Agreement, the discussions that gave rise to this Agreement or the fact that there have been, or will be, discussions or negotiations covered by this Agreement.”\n\nThis prevents the Receiving Party, as well as the Disclosing Party, from disclosing the fact that the Agreement was agreed upon or negotiated, subject to the exceptions of mutual written agreement or legal requirement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "除非经双方书面同意或法律要求，任何一方不得向他人披露本协议的存在或条款、促成协议的讨论，或已经或将要进行受本协议覆盖的讨论或谈判的事实。",
+    "answer_summary": "系统回答称 FullStory 的 MNDA 包含该条款，并逐字引用了金标内容，同时解释该条款防止接收方和披露方披露协议已达成或谈判的事实，但存在双方书面同意或法律要求的例外。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键信息，且与金标一致，没有矛盾或遗漏。"
+  },
+  "file_ids": [
+    138
+  ],
+  "skip_answer": false
+}

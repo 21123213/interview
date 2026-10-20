@@ -1,0 +1,25 @@
+{
+  "index": 252,
+  "request_id": "16446f0a0d53",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Fintricity-Blank.txt",
+  "file_id": 166,
+  "file_mapped": true,
+  "latency_ms": 16288.45,
+  "query": "Consider Fintricity's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Notwithstanding the foregoing each recipient may retain one copy of all Materials containing Confidential Information of the disclosing party received or made in connection with this Agreement for archival purposes only, subject always to strict compliance with the obligations of Clauses 3 and 5.",
+  "rag_answer": "Yes. Under Clause 9 of the Fintricity NDA, although the Receiving Party must generally return or destroy Confidential Information after completion or termination of the Business Purpose, it may retain **one copy of all Materials containing Confidential Information** for **archival purposes only**, subject to strict compliance with the confidentiality obligations in Clauses 3 and 5.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可仅出于存档目的保留一份包含机密信息的材料，并须严格遵守第3条和第5条义务。",
+    "answer_summary": "系统回答明确说明接收方可以保留一份包含机密信息的材料，仅限存档目的，并受第3条和第5条保密义务约束。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键结论：允许保留一份机密信息材料、仅限存档目的、遵守第3和第5条义务；额外补充的条款编号和背景不改变命中判断。"
+  },
+  "file_ids": [
+    166
+  ],
+  "skip_answer": false
+}

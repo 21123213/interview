@@ -1,0 +1,25 @@
+{
+  "index": 164,
+  "request_id": "4f6b429163fc",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "lti-two-way-cda-template.txt",
+  "file_id": 152,
+  "file_mapped": true,
+  "latency_ms": 28976.37,
+  "query": "Consider LTI's Two-Way Confidential Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Proprietary Information shall be, upon request at any time, destroyed or returned to the disclosing Party, provided that receiving Party may retain one (1) copy of such Proprietary Information for purposes of monitoring compliance with its obligations under this Non-Disclosure Agreement.",
+  "rag_answer": "Yes. The agreement permits the Receiving Party to retain one (1) copy of the Proprietary/Confidential Information after return or destruction, solely for monitoring compliance with its obligations under the Non-Disclosure Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方在返还或销毁保密信息时，可保留一份用于监督其在本保密协议下的义务。",
+    "answer_summary": "系统回答指出协议允许接收方保留一份保密/专有信息，仅用于监督其在本保密协议下的义务。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键结论，即允许保留一份用于合规监督，未与金标矛盾。"
+  },
+  "file_ids": [
+    152
+  ],
+  "skip_answer": false
+}

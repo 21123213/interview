@@ -1,0 +1,25 @@
+{
+  "index": 191,
+  "request_id": "dc2167fdb730",
+  "correct": false,
+  "error_type": "not_found",
+  "file_key": "NDA-Template-Media-News-Group-inc.txt",
+  "file_id": 173,
+  "file_mapped": true,
+  "latency_ms": 38950.18,
+  "query": "Consider Media News Group, Inc.'s Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "12. If any provision of this Agreement is determined to be in violation of applicable law, then such provision shall be void and the other provisions of this Agreement shall remain in full force and effect.",
+  "rag_answer": "No. The provided document does not explicitly state that obligations under the Agreement survive termination. It only says that certain retained materials containing Confidential Information “will continue to be subject to the terms of this Agreement or shall be destroyed,” and it lists events upon which the Agreement terminates.",
+  "judge": {
+    "correct": false,
+    "error_type": "not_found",
+    "gold_summary": "金标证据指出：若协议某条款被认定违反适用法律而无效，其余条款仍保持完全有效，表明协议中的部分条款/义务可继续存续。",
+    "answer_summary": "系统回答称文档没有明确说明义务在协议终止后存续，仅提到保留材料可能继续受协议约束或需销毁，并列出协议终止事件。",
+    "gap": "未覆盖金标中“其他条款 remain in full force and effect”这一关键存续/可分割性要点，且结论否认文档提到相关存续义务。",
+    "reason": "系统回答明确声称未找到/未提及终止后义务存续，与金标证据所体现的条款继续有效要点不一致，因此判为未命中。"
+  },
+  "file_ids": [
+    173
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 44,
+  "request_id": "4015d1be28a1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "EFCAConfidentialityAgreement.txt",
+  "file_id": 126,
+  "file_mapped": true,
+  "latency_ms": 15241.16,
+  "query": "Consider EFCA's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "Notwithstanding the foregoing, EFCA shall be entitled to make any disclosure required by law of the disclosing party’s Confidential Information provided that it gives the disclosing party not less than two business days’ notice of such disclosure.",
+  "rag_answer": "Yes. Under clause 4.1.2, EFCA may disclose the disclosing party’s Confidential Information if such disclosure is required by law, provided it gives the disclosing party not less than two business days’ notice of the disclosure.\n\nHowever, the excerpt does not expressly mention “regulation” or “judicial process”; it only refers to disclosure “required by law.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "EFCA 可在法律要求时披露披露方的机密信息，但须至少提前两个工作日通知披露方。",
+    "answer_summary": "系统回答确认 EFCA 可依法披露机密信息，并指出须至少提前两个工作日通知披露方；同时说明原文未明确提及法规或司法程序。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键信息：法律要求披露时的通知义务及至少两个工作日的期限；对法规/司法程序范围的补充说明不构成矛盾。"
+  },
+  "file_ids": [
+    126
+  ],
+  "skip_answer": false
+}

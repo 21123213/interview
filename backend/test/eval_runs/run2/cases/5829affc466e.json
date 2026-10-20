@@ -1,0 +1,25 @@
+{
+  "index": 327,
+  "request_id": "5829affc466e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "nda_form_motorola.txt",
+  "file_id": 159,
+  "file_mapped": true,
+  "latency_ms": 12137.55,
+  "query": "Consider Motorola's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "1. All information, materials and assets in the Motorola Mobility facility I am visiting, including without limitation any products, prototypes, strategies, business plans or other information I observe, am told about, or otherwise come in contact with, belongs to Motorola (“Confidential Motorola Information”)\n3. I will keep everything I see, touch or hear strictly confidential.",
+  "rag_answer": "Yes. Motorola’s NDA states that “Confidential Motorola Information” includes information the visitor “observes, am told about, or otherwise come in contact with,” and also requires the visitor to keep everything they “see, touch or hear” strictly confidential. Therefore, verbally conveyed information is covered as confidential information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息包括观察、被告知或接触到的信息，且要求对看到、触摸或听到的内容严格保密，因此口头信息属于保密信息。",
+    "answer_summary": "系统回答确认口头信息属于保密信息，并引用了“被告知”以及“听到”的金标关键内容。",
+    "gap": "无",
+    "reason": "系统回答准确提取了金标中关于“被告知（told about）”和“听到（hear）”的条款，并据此得出了口头信息属于保密信息的正确结论，完全覆盖了金标要点。"
+  },
+  "file_ids": [
+    159
+  ],
+  "skip_answer": false
+}

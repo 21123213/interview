@@ -1,0 +1,25 @@
+{
+  "index": 220,
+  "request_id": "2671f340d923",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_-_GWI_-_Technohubs_version_V1.txt",
+  "file_id": 158,
+  "file_mapped": true,
+  "latency_ms": 13083.36,
+  "query": "Consider the Non-Disclosure Agreement between GWI and Technohubs; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "The intellectual property rights (where applicable) relating to any confidential information disclosed in terms of this agreement shall remain the property of the Disclosing Party and the disclosure shall not confer any license or right to such information on the Recipient.",
+  "rag_answer": "Yes. Section 6.1 (“No License”) states that intellectual property rights relating to confidential information remain the property of the Disclosing Party, and that disclosure “shall not confer any license or right to such information on the Recipient.” This indicates the Agreement does not grant the Receiving Party any rights to the Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息相关的知识产权仍归披露方所有，且披露不会授予接收方任何许可或权利。",
+    "answer_summary": "系统回答称协议规定保密信息相关的知识产权仍归披露方所有，披露不会授予接收方任何许可或权利，因此协议未授予接收方对保密信息的权利。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即知识产权仍归披露方所有，且披露不授予接收方任何许可或权利，并明确回答了问题。"
+  },
+  "file_ids": [
+    158
+  ],
+  "skip_answer": false
+}

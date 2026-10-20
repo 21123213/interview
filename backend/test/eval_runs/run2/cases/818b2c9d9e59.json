@@ -1,0 +1,25 @@
+{
+  "index": 324,
+  "request_id": "818b2c9d9e59",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "nda-employee-template.txt",
+  "file_id": 165,
+  "file_mapped": true,
+  "latency_ms": 16768.03,
+  "query": "Consider Employer's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "A Recipient of Confidential Information under this Agreement shall use the Confidential Information only for the purpose of evaluating a research relationship between the Parties and shall protect such Confidential Information from disclosure to others, using the same degree of care used to protect its own confidentiality or proprietary information of like importance.\nNeither Party shall use the Confidential Information of the other, in whole or in part, except as permitted under this Agreement.\nThe Recipient shall maintain in confidence and shall not disclose to any person not a party hereto, unless permitted to do so under Section 2, or use or exploit in any way, without the Disclosing Party’s written agreement, any Confidential Information for a period of five (5) years from the date of disclosure of such information, unless such information ceases to be Confidential Information prior to the end of such five-year period through no fault of Recipient, or Recipient and Disclosing Party enter into a written agreement authorizing same.",
+  "rag_answer": "Yes. The Agreement restricts the use of Confidential Information to the stated purposes.\n\nUnder Section 2, a Recipient may use Confidential Information “only for the purpose of evaluating a research relationship between the Parties,” and neither Party may use the other Party’s Confidential Information “except as permitted under this Agreement.” Section 5 further states that the Recipient shall not “use or exploit in any way” Confidential Information without the Disclosing Party’s written agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标明确约定接收方只能为评估双方研究关系之目的使用保密信息，且任何一方除协议允许外不得使用对方保密信息；未经披露方书面同意，接收方不得以其他方式使用或利用保密信息。",
+    "answer_summary": "系统回答确认协议将保密信息使用限制在既定目的，并指出接收方只能为评估研究关系使用保密信息、除协议允许外不得使用，且未经披露方书面同意不得以其他方式使用或利用。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即保密信息仅限协议规定目的使用，并引用了“仅用于评估研究关系”“除协议允许外不得使用”“未经书面同意不得利用”等核心限制，因此判定命中。"
+  },
+  "file_ids": [
+    165
+  ],
+  "skip_answer": false
+}

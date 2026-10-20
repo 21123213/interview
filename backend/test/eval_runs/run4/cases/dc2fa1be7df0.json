@@ -1,0 +1,25 @@
+{
+  "index": 181,
+  "request_id": "dc2fa1be7df0",
+  "correct": true,
+  "error_type": "partial",
+  "file_key": "Mutual-Non-Disclosure-Agreement-Inventor-Product-Development-Experts-Inc..txt",
+  "file_id": 156,
+  "file_mapped": true,
+  "latency_ms": 39387.02,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Inventor and Product Development Experts, Inc.; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "Each party shall disclose Confidential Information only to those officers, directors, employees and contractors who are required to have the information in order to evaluate or engage in discussions concerning the contemplated business relationship, and such party shall remain responsible for compliance with the terms of this Agreement by its officers, directors, employees and contractors.",
+  "rag_answer": "No. The Agreement generally prohibits disclosure of Confidential Information to third parties. It only permits disclosure to the Receiving Party’s officers, directors, employees, and contractors who are required to have the information to evaluate or discuss the contemplated business relationship. Consultants, agents, and professional advisors are not expressly listed as permitted recipients, so sharing Confidential Information with them is not authorized unless they qualify as necessary contractors under the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "partial",
+    "gold_summary": "金标关键结论：各方只能向为评估或讨论拟议业务关系而需要信息的相关人员（officers、directors、employees、contractors）披露保密信息，并且披露方仍需对这些人员遵守协议负责。",
+    "answer_summary": "系统回答指出协议一般不允许向第三方披露，仅允许向需要信息以评估或讨论拟议业务关系的 officers、directors、employees 和 contractors 披露；consultants、agents、professional advisors 未被明确列为允许对象，除非其属于必要 contractors。",
+    "gap": "未明确覆盖金标中“披露方仍对其 officers、directors、employees 和 contractors 的合规负责”这一要点。",
+    "reason": "系统回答已覆盖金标关于允许披露对象的核心限制，并正确回应了问题中关于 consultants、agents、professional advisors 是否可被共享的要点；虽然遗漏了责任条款，但不构成矛盾或基本未命中，因此判定为正确但存在部分遗漏。"
+  },
+  "file_ids": [
+    156
+  ],
+  "skip_answer": false
+}

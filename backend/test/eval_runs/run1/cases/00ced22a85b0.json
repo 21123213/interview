@@ -1,0 +1,25 @@
+{
+  "index": 80,
+  "request_id": "00ced22a85b0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ExcelerateStandardNDAFormat.txt",
+  "file_id": 132,
+  "file_mapped": true,
+  "latency_ms": 24065.31,
+  "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "When a writing contains Proprietary Information the writing will, prior to disclosure to the receiving Party, be marked by the disclosing Party with a suitable legend (such as \"Proprietary Information\") to indicate its Proprietary status.",
+  "rag_answer": "Yes — in effect. Excelerate’s NDA does not use the term “Confidential Information”; it uses “Proprietary Information.” Under Paragraph 5, written Proprietary Information must be marked by the disclosing party with a suitable legend, such as “Proprietary Information,” before disclosure. Oral disclosures must be confirmed in writing within fifteen (15) days, stating at least the date, circumstances, and general nature of the information. Therefore, the disclosing party must identify or confirm the disclosed information, although oral confirmation may occur after disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论：当书面材料包含 Proprietary Information 时，披露方需在披露给接收方之前用适当图例（如“Proprietary Information”）标记，以表明其专有状态。",
+    "answer_summary": "系统回答指出 Excelerate NDA 使用“Proprietary Information”而非“Confidential Information”，并说明书面 Proprietary Information 必须由披露方在披露前用合适图例标记；还补充口头披露需在15天内书面确认。",
+    "gap": "无",
+    "reason": "系统回答已经覆盖金标的关键要点，即书面专有信息需在披露前由披露方标记/识别；额外补充口头确认内容不影响判定。"
+  },
+  "file_ids": [
+    132
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 230,
+  "request_id": "91947bbc7cfc",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "UALR-Standard-Non-disclosure-AgreementTemplate.txt",
+  "file_id": 197,
+  "file_mapped": true,
+  "latency_ms": 11161.57,
+  "query": "Consider UALR's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "1. Confidential Information is defined as any information, whether written or verbal, of either party hereto, (Disclosing Party) which is disclosed to or observed by the other party (Receiving Party) in connection with or as a result of the evaluation of any possible transaction between the University of Arkansas at Little Rock and ______________________________ and which is, at the time of disclosure, marked as being Confidential or Proprietary, or is reasonably identifiable as confidential, proprietary information of the Disclosing Party pertaining to information in the areas of (subject matter): _______________________________________________ ___________________________.\nConfidential Information that is disclosed verbally will also be included as proprietary.",
+  "rag_answer": "Yes. UALR’s Non-Disclosure Agreement defines Confidential Information as “any information, whether written or verbal,” and it specifically states that “Confidential Information that is disclosed verbally will also be included as proprietary,” subject to the agreement’s confidentiality conditions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "UALR NDA将Confidential Information定义为任何书面或口头信息，并明确口头披露的Confidential Information也属于proprietary。",
+    "answer_summary": "系统回答确认口头信息可被纳入Confidential Information，并指出协议定义为“any information, whether written or verbal”，且口头披露的信息也会被包括为proprietary。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：口头信息可被纳入Confidential Information，且口头披露信息也属于proprietary；虽非逐字引用，但含义一致。"
+  },
+  "file_ids": [
+    197
+  ],
+  "skip_answer": false
+}

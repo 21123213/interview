@@ -1,0 +1,25 @@
+{
+  "index": 136,
+  "request_id": "95535af95bb9",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt",
+  "file_id": 138,
+  "file_mapped": true,
+  "latency_ms": 25272.31,
+  "query": "Consider FullStory's Mutual Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "Recipient will disclose Discloser’s Confidential Information only to those of Recipient’s employees, consultants, and contractors who have a “need to know” the information to assist Recipient with respect to the Purpose and who are legally bound by terms and conditions substantially similar to those terms and conditions applicable to Recipient under this Agreement.",
+  "rag_answer": "Yes, but only in a limited way.\n\nUnder Section 2 of the FullStory Mutual Non-Disclosure Agreement, the Receiving Party may disclose Confidential Information only to its **employees, consultants, and contractors** who:\n\n1. have a **“need to know”** the information to assist with the Agreement’s Purpose; and  \n2. are **legally bound by terms and conditions substantially similar** to the confidentiality obligations imposed on the Receiving Party.\n\nThe document does **not expressly** allow sharing Confidential Information with “agents” or “professional advisors” as separate categories. They would only appear to be permitted if they qualify as “consultants” or “contractors” and meet the need-to-know and confidentiality-binding requirements.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方仅可向确有必要知悉机密信息、为约定目的协助接收方，且受与本协议实质相似条款约束的雇员、顾问和承包商披露机密信息。",
+    "answer_summary": "系统回答指出可有限共享，仅限雇员、顾问和承包商，且需满足 need to know 并受实质相似保密条款约束；同时说明未明确将 agents 或 professional advisors 列为单独允许类别，除非其属于顾问或承包商并满足条件。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许向特定第三方（雇员、顾问、承包商）披露机密信息，并准确列出了 need to know 和受类似保密义务约束的条件。对 agents/professional advisors 的补充说明与金标不矛盾，属于更谨慎的扩展。"
+  },
+  "file_ids": [
+    138
+  ],
+  "skip_answer": false
+}

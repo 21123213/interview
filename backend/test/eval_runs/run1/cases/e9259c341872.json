@@ -1,0 +1,25 @@
+{
+  "index": 56,
+  "request_id": "e9259c341872",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+  "file_id": 129,
+  "file_mapped": true,
+  "latency_ms": 14902.07,
+  "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "The obligations of the Receiving Party pursuant to the provisions of this Agreement shall not apply to any Confidential Information that:\n11.4. is disclosed by the Receiving Party to satisfy an order of a court of competent jurisdiction or to comply with the provisions of any law or regulation in force from time to time; provided that in these circumstances, the Receiving Party shall advise the Disclosing Party to take whatever steps it deems necessary to protect its interests in this regard and provided further that the Receiving Party will disclose only that portion of the Confidential Information which it is legally required to disclose and the Receiving Party will use its reasonable endeavours to protect the confidentiality of such Confidential Information to the greatest extent possible in the circumstances;",
+  "rag_answer": "Yes. Under clause 11.4, if the Receiving Party is required to disclose Confidential Information to satisfy a court order or to comply with law or regulation, it must advise the Disclosing Party so that the Disclosing Party can take whatever steps it deems necessary to protect its interests. The Receiving Party may disclose only the legally required portion and must use reasonable endeavours to protect the confidentiality of the information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出，接收方若为遵守法院命令或法律、法规而披露保密信息，必须通知/建议披露方采取必要措施保护其利益，且只能披露法律要求部分并尽合理努力保护保密性。",
+    "answer_summary": "系统回答确认根据第11.4条，接收方在因法院命令或法律/法规要求披露保密信息时，必须告知披露方以便其采取必要保护措施，并只能披露法律要求部分、尽合理努力保护保密性。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：通知/建议披露方、披露范围限制以及合理保护义务，且与金标不矛盾。"
+  },
+  "file_ids": [
+    129
+  ],
+  "skip_answer": false
+}

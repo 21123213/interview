@@ -1,0 +1,25 @@
+{
+  "index": 174,
+  "request_id": "038d28bee683",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "TabunKitchenInvestments-NDA.txt",
+  "file_id": 192,
+  "file_mapped": true,
+  "latency_ms": 41792.73,
+  "query": "Consider the Tabun Kitchen Investments' Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "A Receiving Party agrees, acknowledges and undertakes to\n(ii) not to use the Confidential Information for any purpose (including but not limited to any competitive or commercial purpose) other than in relation to the PR activities as contemplated under any other written agreement between the parties which references this Agreement, and",
+  "rag_answer": "Yes. The NDA restricts the use of Confidential Information.\n\nUnder Clause 2, the Receiving Party agrees not to use Confidential Information “for any purpose (including but not limited to any competitive or commercial purpose) other than in relation to the PR activities as contemplated under any other written agreement between the parties which references this Agreement.”\n\nAdditionally, Clause 5 states that no license or other right is granted except as expressly provided in the Agreement or under a separate written agreement referencing it.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得将保密信息用于除双方其他书面协议中约定的PR活动之外的任何目的，包括竞争或商业目的。",
+    "answer_summary": "系统回答确认NDA限制保密信息使用，并引用相同要点：接收方不得将保密信息用于除PR活动之外的任何目的，包括竞争或商业目的；另补充Clause 5。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键信息，额外内容不影响命中判定。"
+  },
+  "file_ids": [
+    192
+  ],
+  "skip_answer": false
+}

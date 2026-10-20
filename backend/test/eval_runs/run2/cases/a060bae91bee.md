@@ -1,0 +1,30 @@
+# Case `a060bae91bee`
+
+- index: 32
+- file_key: `INFOMAGNET%20NDA.txt`
+- file_id: 143
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 40625.28
+
+## Query
+
+Consider INFOMAGNET's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?
+
+## Gold
+
+(b) Receiving Party shall return all originals, copies, reproductions and summaries of Confidential Information and/or Confidential Materials, or at Disclosing Party's option, certify destruction of the same in writing to Disclosing Party.
+
+## RAG Answer
+
+Yes. The NDA requires the Receiving Party to return or certify destruction of all originals, copies, reproductions, and summaries of Confidential Information/Confidential Materials, but it also contains a “residuals” provision permitting information in non-tangible form—such as ideas, concepts, know-how, or techniques—to be retained by persons who had access to the Confidential Information, provided confidentiality is maintained.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 接收方必须归还机密信息/材料的所有原件、副本、复制件和摘要，或在披露方选择下书面证明销毁。
+- answer_summary: 系统回答指出接收方需归还或证明销毁所有原件、副本、复制件和摘要，并补充称存在残留信息条款允许保留非有形信息。
+- gap: 无
+- reason: 系统回答已覆盖金标关键要点，即接收方应归还或销毁所有原件、副本、复制件和摘要；其额外补充的残留信息条款虽超出金标证据，但按从宽覆盖标准不判错。

@@ -1,0 +1,32 @@
+# Case `cb5e9bddbc75`
+
+- index: 199
+- file_key: `MutualNDA_The_Knights_of_Unity.txt`
+- file_id: 155
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 22151.44
+
+## Query
+
+Consider the Mutual Non-Disclosure Agreement between The Knights of Unity; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?
+
+## Gold
+
+The receiving party hereby agrees that all Confidential Information (including all copies thereof) disclosed to or created by the receiving party shall be delivered forthwith by the receiving party to the disclosing party, or, at the election of the receiving party, destroyed, and deleted from all retrieval systems and data bases upon the earlier of a request at any time by the disclosing party or at any time the receiving party decides not to proceed with a possible transaction involving the disclosing party.
+
+## RAG Answer
+
+No. Based on the provided clauses, the Mutual NDA does **not** expressly permit the Receiving Party to retain Confidential Information after it is required to return or destroy it.
+
+Clause 7 states that all Confidential Information, including all copies disclosed to or created by the Receiving Party, must be delivered to the Disclosing Party or destroyed and deleted from all retrieval systems and databases upon the Disclosing Party’s request or when the Receiving Party decides not to proceed. While the document allows limited internal copying or storage when reasonably required in connection with the Opportunity, it does not provide a stated exception allowing the Receiving Party to keep Confidential Information after the return/destruction obligation applies.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 金标规定接收方必须在披露方要求或接收方决定不推进交易时，立即交付或销毁并删除所有机密信息及其副本，未允许保留。
+- answer_summary: 系统回答称协议不允许接收方在返还/销毁后保留机密信息，并说明所有机密信息包括副本需交付、销毁并从所有检索系统和数据库中删除，未提供保留例外。
+- gap: 无
+- reason: 系统回答覆盖了金标的关键要点：返还/销毁义务、删除义务、适用范围以及未允许保留，结论与金标一致。

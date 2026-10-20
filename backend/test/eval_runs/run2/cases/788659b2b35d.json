@@ -1,0 +1,25 @@
+{
+  "index": 221,
+  "request_id": "788659b2b35d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_-_GWI_-_Technohubs_version_V1.txt",
+  "file_id": 158,
+  "file_mapped": true,
+  "latency_ms": 15397.42,
+  "query": "Consider the Non-Disclosure Agreement between GWI and Technohubs; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "2.1 Information, documents, software, objects and other materials to be kept secret (hereinafter: \"confidential information\") shall be designated as such in writing by the disclosing party. Written designation shall be in the form of an unmistakable annotation such as secret, confidential, for restricted internal access only, etc. Orally given information need only be kept secret if designated as confidential information at the time of its disclosure and supplied in addition within 14 (fourteen) days to the receiving party in summarised written form marked as confidential.",
+  "rag_answer": "Yes. Under Section 2.1 of the NDA, Confidential Information must be expressly designated as confidential by the Disclosing Party in writing, using an unmistakable annotation such as “secret,” “confidential,” or “for restricted internal access only.”\n\nFor orally disclosed information, the NDA requires that it be designated as confidential at the time of disclosure and then confirmed in summarized written form, marked as confidential, within 14 days.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标要求保密信息须由披露方以书面形式明确标注为机密；口头信息须在披露时指定为机密，并在14天内以书面摘要形式标注机密。",
+    "answer_summary": "系统回答指出根据第2.1条，保密信息须由披露方以书面形式明确标注为机密，并举例说明标注方式；同时说明口头信息须在披露时指定为机密并在14天内书面确认。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键要求，包括书面明确标注、口头信息的披露时指定以及14天内书面确认，未出现矛盾或遗漏。"
+  },
+  "file_ids": [
+    158
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 84,
+  "request_id": "3ba6ae78d521",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AfriGIS_Client-NDA_Template_2019.txt",
+  "file_id": 112,
+  "file_mapped": true,
+  "latency_ms": 14997.91,
+  "query": "Consider AfriGIS's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "All Confidential Information disclosed by the Disclosing Party to the Receiving Party is acknowledged by the Receiving Party –\n4.2 not to confer any rights to the Receiving Party of whatever nature in the Confidential Information.",
+  "rag_answer": "Yes. The AfriGIS Non-Disclosure Agreement expressly states under clause **4 TITLE** that all Confidential Information disclosed by the Disclosing Party is acknowledged by the Receiving Party:\n\n- **4.1** to be proprietary to the Disclosing Party; and  \n- **4.2** **not to confer any rights to the Receiving Party of whatever nature in the Confidential Information**.\n\nTherefore, the document clearly indicates that the Agreement does not grant the Receiving Party any rights to the Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出：披露的机密信息被接收方承认为不赋予接收方任何性质的权利（第4.2条）。",
+    "answer_summary": "系统回答明确引用第4.2条，说明机密信息不赋予接收方任何性质的权利，并结论该协议未授予接收方对机密信息的权利。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即协议不授予接收方任何机密信息权利；额外补充第4.1条不影响命中。"
+  },
+  "file_ids": [
+    112
+  ],
+  "skip_answer": false
+}

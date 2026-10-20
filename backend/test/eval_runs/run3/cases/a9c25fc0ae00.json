@@ -1,0 +1,25 @@
+{
+  "index": 146,
+  "request_id": "a9c25fc0ae00",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SupplementOne-NDA.txt",
+  "file_id": 191,
+  "file_mapped": true,
+  "latency_ms": 39334.88,
+  "query": "Consider SupplementOne's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "ii) Recipient:\n(1) Shall not disclose Confidential Information to any employee or subcontractor of Recipient unless such person needs access in order to facilitate the evaluation and preparation of a response to RFP CSP903918 and executes a nondisclosure agreement with the Recipient with terms no less restrictive than those of this Section 2)b);",
+  "rag_answer": "No, the document does **not** generally allow the Receiving Party to share Confidential Information with third parties such as consultants, agents, or professional advisors.\n\nUnder the NDA’s restrictions:\n\n- The Receiving Party may disclose Confidential Information only to an **employee or subcontractor** who:\n  1. needs access to facilitate evaluation and preparation of a response to RFP CSP903918; and  \n  2. executes a nondisclosure agreement with terms no less restrictive than the NDA.\n\n- The Receiving Party **shall not disclose Confidential Information to any other third party** without the Discloser’s **prior written consent**.\n\nThere are limited exceptions, including disclosure required by applicable law or legal/governmental authority, with prompt notice to the Discloser, and disclosure with the Discloser’s written consent. But the provided document does not contain a general permission to share Confidential Information with consultants, agents, or professional advisors.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定接收方不得向员工或分包商披露保密信息，除非该等人员为评估和准备对 RFP CSP903918 的回复而确需接触信息，并与接收方签署限制程度不低于本条款的保密协议。",
+    "answer_summary": "系统回答指出接收方仅可向满足特定条件并与接收方签署同等或更严格保密协议的员工或分包商披露，且未包含允许向顾问、代理人、专业顾问等第三方一般性披露的条款；同时补充称其他第三方披露需事先书面同意。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标的关键要点，即仅允许在满足必要性和签署同等/更严格保密协议条件下向员工或分包商披露，并明确不存在一般性允许向顾问、代理人、专业顾问等第三方分享保密信息的依据。其额外扩写内容虽超出金标，但不构成矛盾，按从宽标准判为命中。"
+  },
+  "file_ids": [
+    191
+  ],
+  "skip_answer": false
+}

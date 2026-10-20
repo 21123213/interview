@@ -1,0 +1,34 @@
+# Case `674f9ccbca0d`
+
+- index: 120
+- file_key: `LiiON%20NDA%202-27-2015%20v1.0.txt`
+- file_id: 151
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 17535.97
+
+## Query
+
+Consider LiiON's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?
+
+## Gold
+
+Disclosure of the Confiden-tial Information to outside agents and affiliates other than Receiving Party must be agreed upon by the Disclosing Party in writing..
+
+## RAG Answer
+
+No, not generally.
+
+Under Section 2(c) of the LiiON NDA, the Receiving Party may disclose Confidential Information only to its own employees, officers, directors, and Affiliates who need to know it for the Purpose, and only if those persons are bound by the same or comparable confidentiality restrictions.
+
+The document does **not** expressly allow sharing with outside consultants or professional advisors. As for outside agents and affiliates other than the Receiving Party’s own permitted group, disclosure is allowed only if **agreed upon by the Disclosing Party in writing**.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 向 Receiving Party 之外的 outside agents and affiliates 披露机密信息，必须获得 Disclosing Party 的书面同意。
+- answer_summary: 系统回答指出，对于 Receiving Party 自身允许范围之外的 outside agents and affiliates，披露机密信息只有在获得 Disclosing Party 书面同意的情况下才被允许。
+- gap: 无
+- reason: 系统回答已经覆盖金标关键结论，即外部 agents/affiliates 的披露需经披露方书面同意；虽然额外提到了 consultants 和 professional advisors，但不影响关键点命中。

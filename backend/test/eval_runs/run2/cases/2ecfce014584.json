@@ -1,0 +1,25 @@
+{
+  "index": 3,
+  "request_id": "2ecfce014584",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 16685.86,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "(a) “Confidential Information”\nb. includes, without limitation, information in tangible or intangible form relating to the HCAI System, and specifically includes any and all proprietary information and/or materials concerning the HCAI System including any communication protocols and application programming interfaces (collectively, “HCAI System Information”) and any other confidential information or materials of IBC, or of third parties and in the possession or control of IBC, and any information derived from any of the foregoing.\n(i) Certain components of the Confidential Information MAY consist of compiled software code (such as files containing an extension of DLL or EXE) which were developed and/or generated using a third party development tool. Such software code would be subject to terms and conditions governing redistributable code as contained in the third party licensor’s End User License Agreement (EULA).",
+  "rag_answer": "No. The NDA does **not** state that Confidential Information shall only include technical information.\n\nIt defines **Confidential Information** broadly as nonpublic information designated or reasonably treated as confidential, including information relating to the HCAI System, proprietary information, communication protocols/APIs, other confidential materials of IBC or third parties, information derived from those, and Claim Requests/Personal Information. Technical information may be part of Confidential Information, but it is not the only category.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 中“Confidential Information”并非仅限于技术信息，而是广泛包括与 HCAI System 相关的有形或无形信息、专有信息、通信协议和 API、IBC 或第三方保密资料及其衍生信息等。",
+    "answer_summary": "系统回答称 NDA 并未规定 Confidential Information 只包括技术信息，并说明其定义广泛，包括 HCAI System 相关信息、专有信息、通信协议/API、其他保密资料及衍生信息等。",
+    "gap": "无",
+    "reason": "系统回答明确否定了“仅包括技术信息”的说法，并覆盖了金标中 Confidential Information 定义广泛、包含 HCAI System 相关专有信息、通信协议/API 及其他保密资料等关键要点。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

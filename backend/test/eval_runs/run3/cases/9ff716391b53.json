@@ -1,0 +1,25 @@
+{
+  "index": 166,
+  "request_id": "9ff716391b53",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "TabunKitchenInvestments-NDA.txt",
+  "file_id": 192,
+  "file_mapped": true,
+  "latency_ms": 16105.62,
+  "query": "Consider the Tabun Kitchen Investments' Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The obligations undertaken by each party under this Agreement will be continuing and in particular shall survive termination of any discussions or negotiations between the parties regarding the funding activities following written notice from one party to the other party expressly terminating this Agreement.",
+  "rag_answer": "Yes. The document states in Clause 8 (“Duration”) that the obligations undertaken by each party are continuing and shall survive termination of discussions or negotiations regarding the funding activities following written notice expressly terminating the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议义务具有持续性，并在关于融资活动的讨论或谈判终止后仍存续，尤其是一方书面通知另一方明确终止协议时。",
+    "answer_summary": "系统回答指出义务持续，并在关于融资活动的讨论或谈判终止后仍存续，且提到书面通知明确终止协议。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：义务持续、融资活动相关讨论或谈判终止后仍存续、以及书面通知终止协议的情形；额外引用条款编号不影响命中。"
+  },
+  "file_ids": [
+    192
+  ],
+  "skip_answer": false
+}

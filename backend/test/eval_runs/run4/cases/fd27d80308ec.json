@@ -1,0 +1,25 @@
+{
+  "index": 106,
+  "request_id": "fd27d80308ec",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BCG-Mutual-NDA.txt",
+  "file_id": 116,
+  "file_mapped": true,
+  "latency_ms": 30377.07,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Boston Consulting Group and Unknown Party; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "This agreement does not grant any implied intellectual property licenses to confidential information, except as stated above.",
+  "rag_answer": "Based on the provided BCG Mutual NDA snippets, the document does **not** contain a blanket statement that the Agreement grants **no rights at all** to the receiving party.\n\nIt does state that:\n\n> “This agreement does not grant any implied intellectual property licenses to confidential information, except as stated above.”\n\nSo the Agreement denies **implied intellectual property rights/licenses** in the Confidential Information. However, it also permits each party to use and disclose the other’s confidential information **for purposes of their business relationship**, which is a limited right.\n\nNote: the provided document identifies “BCG” as **The Bleecker Consulting Group, LLC**, not Boston Consulting Group.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议未授予任何默示知识产权许可，除上述所述。",
+    "answer_summary": "系统回答引用了相同关键句，说明协议不授予默示知识产权许可，但允许为业务关系使用/披露，并指出没有“完全不授予任何权利”的笼统声明。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标关键信息，额外解释与金标不矛盾。"
+  },
+  "file_ids": [
+    116
+  ],
+  "skip_answer": false
+}

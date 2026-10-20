@@ -1,0 +1,25 @@
+{
+  "index": 318,
+  "request_id": "f50b64625d33",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "nda-employee-template.txt",
+  "file_id": 165,
+  "file_mapped": true,
+  "latency_ms": 15494.87,
+  "query": "Consider Employer's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "a) “Confidential Information” shall not include information that:\niv. is developed by Recipient independently of this Agreement without use or reference to the Disclosing Party's Confidential Information;",
+  "rag_answer": "Yes. Under Section 3(a)(iv), the document excludes from “Confidential Information” any information “developed by Recipient independently of this Agreement without use or reference to the Disclosing Party's Confidential Information.”  \n\nTherefore, the Receiving Party may independently develop information that is similar to the Confidential Information, provided it does not use or reference the Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "“机密信息”不包括接收方独立开发且未使用或参考披露方机密信息的信息。",
+    "answer_summary": "系统回答称允许独立开发类似机密信息的信息，并指出根据 Section 3(a)(iv)，接收方独立开发且未使用或参考披露方机密信息的信息不属于“机密信息”。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键要点，即独立开发且未使用或参考机密信息的信息被排除在机密信息之外，因此结论与金标一致。"
+  },
+  "file_ids": [
+    165
+  ],
+  "skip_answer": false
+}

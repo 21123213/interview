@@ -1,0 +1,25 @@
+{
+  "index": 233,
+  "request_id": "3c267190ba07",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "UALR-Standard-Non-disclosure-AgreementTemplate.txt",
+  "file_id": 197,
+  "file_mapped": true,
+  "latency_ms": 30117.43,
+  "query": "Consider UALR's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "3. Notwithstanding any other provisions of the Agreement, each party acknowledges that Confidential Information shall not include any information which:\nb. was received from a third party not under an obligation of confidence to Receiving Party;",
+  "rag_answer": "Yes, but only indirectly and conditionally.\n\nUALR’s NDA does not explicitly say the Receiving Party is “allowed” to acquire similar information from a third party. However, it states that Confidential Information does **not** include information that:\n\n> “was received from a third party not under an obligation of confidence to Receiving Party.”\n\nSo, if the Receiving Party obtains similar information from a third party who is **not** bound by confidentiality obligations, that information is excluded from the NDA’s definition of Confidential Information and is not subject to the NDA’s confidentiality restrictions.\n\nBut if the third party is under an obligation of confidence, or if the information is actually the Disclosing Party’s Confidential Information improperly obtained, the NDA’s restrictions still apply.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 规定保密信息不包括接收方从不负有保密义务的第三方处获得的信息。",
+    "answer_summary": "系统回答指出 NDA 未明确“允许”获取，但说明保密信息不包括从不负有保密义务的第三方处获得的信息，因此类似信息若来自此类第三方可不受 NDA 保密限制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：保密信息排除从不负有保密义务的第三方处获得的信息，并对问题作出了与金标一致的限定性解释。"
+  },
+  "file_ids": [
+    197
+  ],
+  "skip_answer": false
+}

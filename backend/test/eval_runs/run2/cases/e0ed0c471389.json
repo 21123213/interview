@@ -1,0 +1,25 @@
+{
+  "index": 337,
+  "request_id": "e0ed0c471389",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "New_York_City_Bar_Association_Model_Form_of_Non-Disclosure_Agreement_2015.txt",
+  "file_id": 174,
+  "file_mapped": true,
+  "latency_ms": 21834.06,
+  "query": "Consider New York City Bar Association's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "All such Evaluation Material retained in accordance with the foregoing proviso shall continue to be subject to Section 2 [for so long as any Evaluation Material is so retained].\n12. Term. Except for Sections 13(i) (Governing Law; Forum), 13(j) (WAIVER OF JURY TRIAL) and 13(k) (Conflict Waiver), which shall be binding in perpetuity or until the latest date permitted by Applicable Law, [the last sentence of Section 5]28 and Sections 7 and 8 which shall survive in accordance with their respective terms, this Agreement shall expire upon the date that is [___] year[s] after the date of this Agreement.",
+  "rag_answer": "Yes. The document includes a survival provision in **Section 12 (“Term”)**. It states that, except for certain provisions, the Agreement expires after a specified period, but some obligations continue after expiration/termination.\n\nSpecifically, it says that:\n\n- **Section 13(i)** — Governing Law; Forum  \n- **Section 13(j)** — Waiver of Jury Trial  \n- **Section 13(k)** — Conflict Waiver  \n\nshall be **binding in perpetuity or until the latest date permitted by Applicable Law**.\n\nIt also states that:\n\n- the **last sentence of Section 5** — regarding retained Evaluation Material remaining subject to Section 2 for so long as it is retained, and  \n- **Sections 7 and 8** — regarding no solicitation/hiring and standstill obligations,  \n\nshall **survive in accordance with their respective terms**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明该保密协议第12条“Term”规定协议在约定期限后到期，但第13(i)、13(j)、13(k)条永久或至适用法律允许的最晚日期有效；第5条末句关于保留的Evaluation Material仍受第2条约束；第7和第8条按其各自条款存续。",
+    "answer_summary": "系统回答确认文档提到部分义务在协议终止/到期后仍存续，并列出第12条Term、第13(i)(j)(k)条永久有效、第5条末句关于保留Evaluation Material仍受第2条约束、以及第7和第8条按其条款存续。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键结论：协议存在存续/生存条款，且明确列举了金标中提到的第13(i)(j)(k)、第5条末句、第7和第8条，未与金标矛盾。"
+  },
+  "file_ids": [
+    174
+  ],
+  "skip_answer": false
+}

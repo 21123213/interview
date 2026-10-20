@@ -1,0 +1,25 @@
+{
+  "index": 98,
+  "request_id": "6f8b3d0b301a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SE_NDCA_and_PRE-QUAL_PACKAGE_March-2016.txt",
+  "file_id": 185,
+  "file_mapped": true,
+  "latency_ms": 13576.63,
+  "query": "Consider the Agreement between SE_NDCA and PRE-QUAL PACKAGE; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Confidential Information shall be held in strict confidence by Receiving Party and shall not be disclosed without prior written consent of Disclosing Party, except to those advisors, affiliates, agents, assigns, attorneys, employees, directors, officers and/or members (“Agents”) with a need-to-know the Confidential Information for the purposes of analyzing, implementing or completing the Transactions.",
+  "rag_answer": "Yes. Under Section 2 of the Agreement, the Receiving Party may share Confidential Information with its employees, but only with those employees who have a “need-to-know” the information for the purpose of analyzing, implementing, or completing the Transactions.\n\nThe Receiving Party must require such employees to be bound by the terms of the Agreement and remains responsible for any breach by them.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方原则上须严格保密，未经事先书面同意不得披露，但可以向具有 need-to-know 的顾问、关联方、代理人、受让人、律师、员工、董事、高管和/或成员披露，以分析、实施或完成交易。",
+    "answer_summary": "系统回答明确允许接收方与员工共享保密信息，但仅限于具有 need-to-know 且用于分析、实施或完成交易的员工。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许与员工共享，且限定为 need-to-know 并用于分析、实施或完成交易。额外提到的员工受协议约束和责任承担不构成矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    185
+  ],
+  "skip_answer": false
+}

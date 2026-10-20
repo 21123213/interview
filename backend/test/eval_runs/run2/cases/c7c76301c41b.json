@@ -1,0 +1,25 @@
+{
+  "index": 23,
+  "request_id": "c7c76301c41b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IGC-Non-Disclosure-Agreement-LSE-Sample.txt",
+  "file_id": 141,
+  "file_mapped": true,
+  "latency_ms": 17811.73,
+  "query": "Consider the Non-Disclosure Agreement between IGC and LSE; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "A party may disclose Confidential Information to the extent such Confidential Information is required to be disclosed by law, by any governmental or other regulatory authority, or by a court or other authority of competent jurisdiction provided that, to the extent it is legally permitted to do so, it gives the other party as much notice of this disclosure as possible.",
+  "rag_answer": "Yes. Under clause 2.3, a party may disclose Confidential Information if required by law, a governmental or regulatory authority, or a court or other competent authority, but only if, to the extent legally permitted, it gives the other party as much notice of the disclosure as possible.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "一方可依法、政府/监管或法院要求披露机密信息，但须在法律允许范围内尽可能通知另一方。",
+    "answer_summary": "系统回答称一方可依法、政府/监管或法院要求披露机密信息，但须在法律允许范围内尽可能通知另一方。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即依法/监管/法院要求披露以及尽可能通知另一方，且与金标不矛盾。"
+  },
+  "file_ids": [
+    141
+  ],
+  "skip_answer": false
+}

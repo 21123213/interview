@@ -1,0 +1,25 @@
+{
+  "index": 7,
+  "request_id": "eda9d91b5070",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "tpi-non-disclosure-agreement_1.txt",
+  "file_id": 195,
+  "file_mapped": true,
+  "latency_ms": 24184.52,
+  "query": "Consider tpi's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "Notwithstanding any other provision of this Agreement, this Paragraph 3 shall survive any termination or expiration of this Agreement.\nHowever the confidentiality obligations and all powers, rights and duties provided herein shall extend for a period of five (5) years following the termination of this Agreement.",
+  "rag_answer": "Yes. The document states that after termination, the confidentiality obligations and all powers, rights, and duties under the Agreement extend for five (5) years. It also expressly provides that Paragraph 3 survives any termination or expiration of the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议终止或到期后，Paragraph 3 继续有效；保密义务及所有权力、权利和义务在终止后延续五年。",
+    "answer_summary": "系统回答确认协议存在终止后继续有效的义务，并指出保密义务及相关权力、权利、义务延续五年，同时 Paragraph 3 在任何终止或到期后继续有效。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：Paragraph 3 存续以及保密义务及相关权利/义务在终止后延续五年，与金标一致。"
+  },
+  "file_ids": [
+    195
+  ],
+  "skip_answer": false
+}

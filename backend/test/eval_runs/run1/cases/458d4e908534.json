@@ -1,0 +1,25 @@
+{
+  "index": 42,
+  "request_id": "458d4e908534",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "EFCAConfidentialityAgreement.txt",
+  "file_id": 126,
+  "file_mapped": true,
+  "latency_ms": 19394.14,
+  "query": "Consider EFCA's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "EFCA shall ensure that disclosure of such Confidential Information is restricted to those employees or directors of EFCA and EFCA’s principals having the need to know the same.\n4.1 EFCA shall:\n4.1.1 not divulge the disclosing party’s Confidential Information, in whole or in part, to any third party; and",
+  "rag_answer": "No. Under the EFCA Non-Disclosure Agreement, the Receiving Party (EFCA) is generally prohibited from sharing Confidential Information with third parties.\n\n- Clause 4.1.1 states that EFCA shall **“not divulge the disclosing party’s Confidential Information, in whole or in part, to any third party.”**\n- Clause 2 limits disclosure to **employees, directors, and EFCA’s principals** who have a need to know.\n- The document does **not** provide an exception permitting disclosure to **consultants, agents, or professional advisors**.\n\nThe only apparent exception is under Clause 4.1.2, which allows EFCA to make a disclosure **required by law**, provided it gives the disclosing party at least two business days’ notice.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "EFCA 不得向任何第三方披露机密信息；披露仅限有知悉需要的 EFCA 员工、董事和 principals。",
+    "answer_summary": "系统回答称不允许向第三方分享，引用 4.1.1 禁止向任何第三方披露，并说明仅限员工、董事和 principals，且未允许 consultants、agents、professional advisors。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：禁止向第三方披露，且仅限有知悉需要的员工、董事和 principals；对 consultants、agents、professional advisors 的否定也与金标一致。"
+  },
+  "file_ids": [
+    126
+  ],
+  "skip_answer": false
+}

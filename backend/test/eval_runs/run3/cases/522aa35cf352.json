@@ -1,0 +1,25 @@
+{
+  "index": 141,
+  "request_id": "522aa35cf352",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SupplementOne-NDA.txt",
+  "file_id": 191,
+  "file_mapped": true,
+  "latency_ms": 19459.13,
+  "query": "Consider SupplementOne's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "i) “Confidential Information” refers to the following items Discloser discloses to the Recipient:\n(3) Any source code and any names of actual or potential Disclosers, whether or not marked as confidential; and\nTherefore, notwithstanding (5)(c) above, the Recipient does have an obligation to maintain the confidentiality of such sensitive personal information, whether or not marked as confidential.",
+  "rag_answer": "No. The SupplementOne NDA does not require that **all** Confidential Information be expressly identified by the Disclosing Party.\n\nAlthough the definition generally covers information that the Discloser designates as “Confidential,” it also expressly includes certain items **whether or not marked as confidential**, such as:\n\n- source code;\n- names of actual or potential Disclosers; and\n- other nonpublic, sensitive, or third-party information disclosed under the Agreement.\n\nAdditionally, certain sensitive personal information remains subject to confidentiality obligations even if it is not marked as confidential.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明并非所有机密信息都必须明确标识；源代码、实际或潜在披露者姓名，以及某些敏感个人信息，即使未标记为机密，也属于保密义务范围。",
+    "answer_summary": "系统回答称 NDA 不要求所有机密信息被明确标识，并举出源代码、披露者姓名以及敏感个人信息即使未标记也需保密，与金标要点一致。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：不是所有 Confidential Information 都需要 expressly identified，并提到了源代码、披露者姓名和敏感个人信息无论是否标记均受保密义务，因此判定命中。"
+  },
+  "file_ids": [
+    191
+  ],
+  "skip_answer": false
+}

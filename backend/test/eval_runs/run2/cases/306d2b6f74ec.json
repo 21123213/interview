@@ -1,0 +1,25 @@
+{
+  "index": 307,
+  "request_id": "306d2b6f74ec",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-for-Gar-Kenyon-Suppliers.txt",
+  "file_id": 167,
+  "file_mapped": true,
+  "latency_ms": 21529.61,
+  "query": "Consider the Non-Disclosure Agreement between Gar and Kenyon; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "6. All Confidential Information is and shall remain the property of GK.",
+  "rag_answer": "Yes, in substance. The document does not contain an express “no rights granted” clause, but it indicates that the Receiving Party (“SUPPLIER”) has no ownership or general rights to the Confidential Information: Section 6 states that “All Confidential Information is and shall remain the property of GK,” and Sections 2 and 7 limit SUPPLIER’s use of the Confidential Information to the stated Purpose and require it to be held in strict confidence.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议第6条规定所有保密信息属于并保持为GK财产，因此可表明未授予接收方权利。",
+    "answer_summary": "系统回答称实质上文档表明接收方没有所有权或一般权利，并明确引用第6条“All Confidential Information is and shall remain the property of GK.”",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键证据，并基于该条款得出与金标一致的结论，虽然补充了其他条款但不影响命中。"
+  },
+  "file_ids": [
+    167
+  ],
+  "skip_answer": false
+}

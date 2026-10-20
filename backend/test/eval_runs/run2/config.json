@@ -1,0 +1,16 @@
+{
+  "dataset": "D:\\RAG-FOR-BEGINNERS\\backend\\test\\contractnli_2.json",
+  "user_id": 1,
+  "limit": 0,
+  "offset": 0,
+  "english_answer_hint": "Please answer in English.",
+  "answer_model": "qwen3.8-flash",
+  "judge_model": "qwen3.8-flash",
+  "metrics": [
+    "answer_acc"
+  ],
+  "note": "hit@20 在 review_failures 复核时计算",
+  "started_at": "2026-10-16T22:48:03",
+  "mapped_keys": 95,
+  "n_tests": 345
+}

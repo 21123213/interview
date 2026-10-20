@@ -1,0 +1,25 @@
+{
+  "index": 17,
+  "request_id": "390f2202af28",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "vmw-certification-conduct-policy.txt",
+  "file_id": 199,
+  "file_mapped": true,
+  "latency_ms": 10958.64,
+  "query": "Consider the VMware Certification Conduct Policy; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Recipient agrees that all information disclosed by the Company to Recipient, including without limitation information acquired by Recipient from Company employees or inspection of the Company’s property, relating to (without limitation) the Company’s products, designs, business plans, business opportunities, finances, research, development, know-how or personnel, and confidential information disclosed to the Company by third parties, shall be considered Confidential Information.",
+  "rag_answer": "No. The document does **not** state that Confidential Information shall only include technical information.\n\nIt defines Confidential Information broadly as **all information disclosed by the Company**, including without limitation information relating to products, designs, business plans, business opportunities, finances, research, development, know-how, personnel, and confidential information disclosed to the Company by third parties.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "文件未将保密信息限定为技术信息；保密信息包括公司披露的所有信息，涵盖产品、设计、业务计划、业务机会、财务、研究、开发、专有技术、人员信息以及第三方披露给公司的保密信息。",
+    "answer_summary": "系统回答称文件没有规定保密信息仅包括技术信息，并概括其定义广泛，包括产品、设计、业务计划、业务机会、财务、研究、开发、专有技术、人员信息以及第三方披露给公司的保密信息。",
+    "gap": "无",
+    "reason": "系统回答准确命中金标关键结论：保密信息不限于技术信息，且覆盖了金标列举的主要类别。"
+  },
+  "file_ids": [
+    199
+  ],
+  "skip_answer": false
+}

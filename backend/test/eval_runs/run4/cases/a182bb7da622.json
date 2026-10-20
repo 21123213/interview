@@ -1,0 +1,25 @@
+{
+  "index": 241,
+  "request_id": "a182bb7da622",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "VELCO%20NDA%20rev0%20Dec%2014%202015.txt",
+  "file_id": 198,
+  "file_mapped": true,
+  "latency_ms": 19691.42,
+  "query": "Consider VELCO's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "5. In the event that the Recipient is required to disclose Classified Information by subpoena, law or other directive of a court, administrative agency, or arbitration panel, the Recipient will provide VELCO with immediate notice of such request in order to enable VELCO (and Recipient shall cooperate fully with VELCO) to seek an appropriate protective order or other remedy.",
+  "rag_answer": "Yes. Under Section IV, paragraph 5 of the VELCO Non-Disclosure Agreement, if the Recipient is required to disclose Classified Information by subpoena, law, or other directive of a court, administrative agency, or arbitration panel, the Recipient must provide VELCO with immediate notice of such request. The Recipient must also cooperate with VELCO to seek a protective order or other remedy and consult with VELCO to identify steps to quash or narrow the scope of the request.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定：如果接收方因传票、法律或法院/行政机构/仲裁庭指令而被要求披露机密信息，必须立即通知VELCO，并配合VELCO寻求保护令或其他救济。",
+    "answer_summary": "系统回答指出：在Section IV第5段下，接收方如因传票、法律或法院/行政机构/仲裁庭指令被要求披露Classified Information，必须立即通知VELCO，并配合寻求保护令或其他救济。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：法律/监管/司法要求披露时的立即通知义务，以及配合保护令/救济义务；虽措辞和引用细节略有扩展，但不影响命中。"
+  },
+  "file_ids": [
+    198
+  ],
+  "skip_answer": false
+}

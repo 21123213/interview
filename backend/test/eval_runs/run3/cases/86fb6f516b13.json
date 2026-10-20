@@ -1,0 +1,25 @@
+{
+  "index": 73,
+  "request_id": "86fb6f516b13",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "RROI_Confidentiality_Agreement_Final.txt",
+  "file_id": 182,
+  "file_mapped": true,
+  "latency_ms": 14894.94,
+  "query": "Consider RROI's Confidentiality Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "2. Only for Intended Purpose: The Recipient agrees and shall cause its Representatives to agree: (i) to use the Evaluation Material only for the purposes of conducting an Evaluation in furtherance of implementing a Transaction; (ii) not to use, exploit or employ the Evaluation Material for any other purpose or in any other manner;",
+  "rag_answer": "Yes. The RROI Confidentiality Agreement restricts the use of the confidential information (referred to as “Evaluation Material”) to the stated purpose.\n\nUnder paragraph 2, the Recipient must use the Evaluation Material **only for conducting an Evaluation in furtherance of implementing a Transaction**, and must **not use, exploit, or employ it for any other purpose or in any other manner**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密协议规定接收方只能为实施交易的评估目的使用Evaluation Material，不得用于其他目的或方式。",
+    "answer_summary": "系统回答确认协议将Evaluation Material的使用限制为实施交易相关的评估目的，并明确不得用于其他目的或方式。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键限制条件和禁止性要求，结论与金标一致。"
+  },
+  "file_ids": [
+    182
+  ],
+  "skip_answer": false
+}

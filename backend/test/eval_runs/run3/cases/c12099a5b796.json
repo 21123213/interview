@@ -1,0 +1,25 @@
+{
+  "index": 137,
+  "request_id": "c12099a5b796",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Standard%20NDA%20by%20Axial.txt",
+  "file_id": 189,
+  "file_mapped": true,
+  "latency_ms": 18222.28,
+  "query": "Consider Axial's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Except as set forth in Section 2 below, \"Confidential Information\" means all non-public, confidential or proprietary information disclosed on or after the Effective Date, by the Disclosing Party to the Recipient or its affiliates, or to any of such Recipient's or its affiliates' employees, officers, directors, partners, shareholders, agents, attorneys, accountants, financing sources or advisors (collectively, \"Representatives\"), however disclosed, including, without limitation:\nThe Recipient shall protect and safeguard the confidentiality of all Confidential Information with at least the same degree of care as the Recipient would protect its own confidential information, but in no event with less than a commercially reasonable degree of care; not use the Confidential Information, or permit it to be accessed or used, for any purpose other than the Purpose, including without limitation, to reverse engineer, disassemble, decompile or design around confidential intellectual property; not disclose any such Confidential Information to any person or entity, except to the Recipient's Representatives who need to know the Confidential Information in relation to the Purpose and are informed of the obligations hereunder and agree to abide by the same.",
+  "rag_answer": "Yes. Under Axial’s Standard NDA, the Recipient may disclose Confidential Information only to its “Representatives” who need to know it for the Purpose, and Representatives include employees. Those employees must be informed of the NDA obligations and agree to abide by them.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定，Recipient 一般不得向任何人或实体披露 Confidential Information，但可以向其 Representatives 披露；Representatives 包括 employees，且这些人员必须因 Purpose 需要知悉，并被告知保密义务且同意遵守。",
+    "answer_summary": "系统回答称 NDA 允许 Recipient 向 Representatives 披露 Confidential Information，Representatives 包括 employees，且这些员工必须因 Purpose 需要知悉并被告知 NDA 义务且同意遵守。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键要点：允许向员工披露、员工属于 Representatives、需满足 need to know 以及告知并同意遵守义务，未出现矛盾或遗漏核心信息。"
+  },
+  "file_ids": [
+    189
+  ],
+  "skip_answer": false
+}

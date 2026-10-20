@@ -1,0 +1,33 @@
+# Case `d420aee23bca`
+
+- index: 67
+- file_key: `Evelozcity%20OESA%20NDA.txt`
+- file_id: 131
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 11409.06
+
+## Query
+
+Consider Evelozcity's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?
+
+## Gold
+
+Any non-public information provided by Disclosing Party, including, without limitation, information about the prototype vehicles, component parts the and company itself at the Meeting are deemed Confidential Information (as defined below) for purposes of this Agreement.
+“Confidential Information” means any non-public information disclosed by Disclosing Party to Recipient, either directly or indirectly in writing, orally, visually or by inspection of tangible objects in connection with the Meeting and related discussions or the Permitted Use (including, without limitation, research, product plans, products, services, equipment, customers, markets, software, inventions, discoveries, ideas, processes, designs, drawings, hardware, formulations, specifications, product configuration information, product components, marketing and finance documents, prototypes, samples, data sets, and equipment), whether or not designated as “confidential” at the time of disclosure.
+
+## RAG Answer
+
+No. The NDA does not state that Confidential Information shall only include technical information.
+
+It defines “Confidential Information” broadly as any non-public information disclosed by the Disclosing Party, whether in writing, orally, visually, or by inspection of tangible objects. It includes, without limitation, technical and non-technical items such as research, product plans, products, services, equipment, customers, markets, software, inventions, discoveries, ideas, processes, designs, drawings, hardware, formulations, specifications, product configuration information, product components, marketing and finance documents, prototypes, samples, data sets, and equipment.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 金标指出 Confidential Information 是披露方提供的任何非公开信息，范围非常宽泛，不仅包括技术信息，还包括产品计划、客户、市场、营销、财务、原型、样本、数据等。
+- answer_summary: 系统回答称 NDA 并未规定 Confidential Information 只包括技术信息，而是将其宽泛定义为任何非公开信息，并列举了包括技术和非技术信息在内的多种类型。
+- gap: 无
+- reason: 系统回答覆盖了金标的关键结论：Confidential Information 不限于技术信息，而是包括任何非公开信息，并列举了金标中的相关类别。

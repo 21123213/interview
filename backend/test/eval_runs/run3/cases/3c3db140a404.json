@@ -1,0 +1,25 @@
+{
+  "index": 119,
+  "request_id": "3c3db140a404",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 27324.28,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "“Confidential Information” shall mean all information disclosed, directly or indirectly, through any means of communication or observation, by or on behalf of one party hereto (the \"Disclosing Party\") to the other party hereto (the \"Receiving Party\") on or after the date hereof, that relates to or is derived from the Disclosing Party’s business, strategic, marketing, technological or creative affairs, or to any other matter that the Receiving Party is advised or has reason to know is the confidential or proprietary information of the Disclosing Party.",
+  "rag_answer": "Yes.\n\nUnder Section 1 of the Sony Pictures Television NDA, “Confidential Information” is defined as information disclosed “directly or indirectly, through any means of communication or observation.” That broad language includes information conveyed verbally, not only written materials.\n\nThe agreement also states that the absence of a “Confidential” legend or designation “will not preclude” information from being deemed Confidential Information. Therefore, orally disclosed information can be Confidential Information if it relates to or is derived from the Disclosing Party’s business, strategic, marketing, technological or creative affairs, or if the Receiving Party is advised or has reason to know it is confidential, subject to the agreement’s exceptions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标将“Confidential Information”定义为直接或间接通过任何沟通或观察方式披露的信息，且与披露方业务、战略、营销、技术或创意事务相关，或接收方被告知或有理由知道其为机密/专有信息。",
+    "answer_summary": "系统回答称 Yes，并引用“through any means of communication or observation”说明口头传达的信息可构成 Confidential Information；还指出若信息与披露方相关事务有关，或接收方被告知/有理由知道其为机密，则口头披露信息也可属于机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：机密信息可通过任何沟通方式披露，包括口头方式，并涉及与披露方业务等相关或接收方有理由知道为机密。额外提及 legend 和例外不导致矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

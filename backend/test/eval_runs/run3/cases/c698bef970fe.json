@@ -1,0 +1,25 @@
+{
+  "index": 161,
+  "request_id": "c698bef970fe",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "TSE-TSE-OK-WHK-Mutual-NDA-Fill-in-Blanks-4-29-2019.txt",
+  "file_id": 196,
+  "file_mapped": true,
+  "latency_ms": 20001.16,
+  "query": "Consider the Mutual Non-Disclosure Agreement between TSE, OK, and WHK; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "A receiving party shall limit disclosure of Confidential Information to those directors, officers, employees, and agents of the party who need to know the Confidential Information in connection with the Discussions and have been advised of the confidential nature of the information.",
+  "rag_answer": "Yes. Under Section 3 (“Precautions”), the Receiving Party may disclose Confidential Information to its employees, but only to those employees who:\n\n- “need to know” the Confidential Information in connection with the Discussions, and  \n- have been advised of the confidential nature of the information.\n\nThe same provision also permits disclosure to directors, officers, and agents under those conditions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方只能向因相关讨论需要知悉保密信息、且已被告知信息保密性质的董事、高管、员工和代理人披露保密信息。",
+    "answer_summary": "系统回答指出允许向员工共享保密信息，但仅限需要知悉且已被告知保密性质的员工，并同样允许向董事、高管和代理人披露。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许向员工披露，但须满足 need to know 和已被告知保密性质的限制；同时补充了董事、高管和代理人，与金标一致且无矛盾。"
+  },
+  "file_ids": [
+    196
+  ],
+  "skip_answer": false
+}

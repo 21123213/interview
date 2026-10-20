@@ -1,0 +1,25 @@
+{
+  "index": 224,
+  "request_id": "7ee73fa8068d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "simply-fashion---standard-nda.txt",
+  "file_id": 186,
+  "file_mapped": true,
+  "latency_ms": 29252.92,
+  "query": "Consider Simply Fashion's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "Potential Purchaser may disclose the Evaluation Materials to its parents, subsidiaries, parents’ subsidiaries, or affiliates (collectively, the “Affiliated Entities”) and Potential Purchaser’s and/or the Affiliated Entities’, directors, officers, employees, partners, consultants, potential financing sources, joint-venture partners, bankers, accountants, lenders, investors, insurance consultants and/or brokers, attorneys, agents and financial and legal advisors (collectively, such entities or persons to whom Potential Purchaser or an Affiliated Entity discloses the Evaluation Materials, “Representatives”) who may need access to the Evaluation Materials, in Potential Purchaser’s discretion, for the purpose of evaluating the Proposed Transaction.",
+  "rag_answer": "Yes. Under Simply Fashion’s Confidentiality and Non-Disclosure Agreement, the Receiving Party — referred to in the document as the “Potential Purchaser” — may share certain Confidential Information, called the “Evaluation Materials,” with specified third parties, including consultants, agents, and professional advisors, but only on limited terms.\n\nSection 1 states that the Potential Purchaser may disclose the Evaluation Materials to its Affiliated Entities and to its or its Affiliated Entities’ directors, officers, employees, partners, consultants, potential financing sources, joint-venture partners, bankers, accountants, lenders, investors, insurance consultants and/or brokers, attorneys, agents, and financial and legal advisors, collectively defined as “Representatives,” if those persons need access for the purpose of evaluating the Proposed Transaction.\n\nHowever, this permission is not a general right to share with third parties. The document requires that the Potential Purchaser:\n\n1. inform in writing all Representatives who receive any portion of the Evaluation Materials that the information is confidential and proprietary and that they are bound by the Agreement; and  \n2. direct those Representatives in writing to comply with the confidentiality and non-use terms of the Agreement.\n\nAlso, the Agreement generally prohibits disclosure to any third party without the Company’s prior written consent, except as expressly permitted in the Agreement.\n\nSo, the document does allow sharing with consultants, agents, and professional advisors, but only as “Representatives” who need access for evaluating the Proposed Transaction and only if they are properly notified of and directed to comply with the confidentiality obligations.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出 Potential Purchaser 可将 Evaluation Materials 披露给其关联实体，以及其或关联实体的董事、员工、合伙人、顾问、融资方、合资伙伴、银行家、会计师、贷款人、投资者、保险顾问/经纪人、律师、代理、财务与法律顾问等 Representatives；这些人员可因评估拟议交易而需要接触材料。",
+    "answer_summary": "系统回答明确说明 Potential Purchaser 可以将 Evaluation Materials 分享给包括 consultants、agents 和 professional advisors 在内的指定第三方，并复述了金标中的可披露对象、Representatives 定义以及用于评估 Proposed Transaction 的目的；还补充了书面告知和遵守保密义务等限制条件。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标关键信息：允许向特定第三方（包括顾问、代理和专业顾问）披露 Evaluation Materials，并说明这些对象属于 Representatives 且需为评估拟议交易之目的。补充的限制条件不改变核心命中。"
+  },
+  "file_ids": [
+    186
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 66,
+  "request_id": "926ac41f9397",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "JB-Machine-LLC-NDA-1.txt",
+  "file_id": 147,
+  "file_mapped": true,
+  "latency_ms": 15292.8,
+  "query": "Consider JB Machine LLC's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "After that, the Recipient is to continue to protect the information received during the term of this Agreement from unauthorized use or disclosure indefinitely.",
+  "rag_answer": "Yes. The document states that the Agreement’s “Relevant Term” obligations survive termination or voiding of rights. Specifically, it says obligations survive for 2 years from the effective date or until the Owner releases the Recipient in writing, and after that the Recipient must continue to protect information received during the term indefinitely.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议终止后，接收方仍需无限期保护其在协议期间获得的信息，防止未经授权的使用或披露。",
+    "answer_summary": "系统回答称相关义务在协议终止或权利无效后存续，并进一步说明接收方之后必须无限期保护其在协议期间获得的信息。",
+    "gap": "无",
+    "reason": "系统回答明确包含了金标的关键要点，即接收方在协议终止后仍需无限期保护协议期间获得的信息；额外提及存续期限等内容不影响命中。"
+  },
+  "file_ids": [
+    147
+  ],
+  "skip_answer": false
+}

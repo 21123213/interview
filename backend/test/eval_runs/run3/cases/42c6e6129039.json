@@ -1,0 +1,25 @@
+{
+  "index": 218,
+  "request_id": "42c6e6129039",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "sample-nrel-bilateral-nda-template.txt",
+  "file_id": 184,
+  "file_mapped": true,
+  "latency_ms": 33487.05,
+  "query": "Consider the Non-Disclosure Agreement between NREL and Another Company; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "c. Receiving Party will provide access to Proprietary Information and NREL Protected Information that is within the Scope and that is disclosed in compliance with Paragraph 2.a, above, only to Receiving Party's employees, agents, and independent contractors who are required to have access specifically related to the Purpose, and, with respect to Alliance, to DOE or its designee for auditing and inspection purposes only.",
+  "rag_answer": "Yes. Under Paragraph 2.c, the Receiving Party may provide access to Proprietary Information or NREL Protected Information that is within the agreed Scope and properly disclosed under Paragraph 2.a to its employees, agents, and independent contractors, but only if they are required to have access specifically related to the Agreement’s Purpose.\n\nThe Receiving Party must also:\n- inform those individuals of the confidential nature of the information and the restrictions on disclosure and use; and\n- ensure they are bound by confidentiality obligations no less stringent than those in the Agreement.\n\nSo, limited sharing with employees is allowed, subject to these conditions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可将符合范围且按第2.a条披露的专有信息/NREL保护信息提供给其员工、代理人和独立承包商，但仅限于因目的需要访问的人员；在联盟情形下还可提供给DOE或其指定人用于审计和检查。",
+    "answer_summary": "系统回答称根据第2.c条，接收方可向员工、代理人和独立承包商提供访问，但仅限于与协议目的相关的必要人员，并强调可有限度与员工分享。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关于允许向员工提供访问及需与目的相关的关键要点；虽未提及DOE审计/检查例外，但不影响对员工分享问题的命中。"
+  },
+  "file_ids": [
+    184
+  ],
+  "skip_answer": false
+}

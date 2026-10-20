@@ -1,0 +1,25 @@
+{
+  "index": 118,
+  "request_id": "50b297a16912",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 23098.2,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Notwithstanding the foregoing, (i) the parties and their Representatives may each retain Confidential Information to the extent required pursuant to legal or regulatory requirements (including internal compliance procedures instituted to satisfy regulatory obligations), and (ii) because electronic systems may retain information for archival purposes or pursuant to automated computer backup procedures, neither party nor its Representatives shall be required to erase electronically stored Confidential Information that has been saved to a back-up file in accordance with such party or its Representatives’ ordinary electronic back-up practices; provided, that any such information so retained shall be held in compliance with the terms of this Agreement.",
+  "rag_answer": "Yes. Under Section 12 (“Return/Destruction of Documents”), the Receiving Party must generally return, destroy, or erase Confidential Information, but the Agreement expressly permits limited retention after return/destruction:\n\n1. **Legal/regulatory retention:** Confidential Information may be retained to the extent required by legal or regulatory requirements, including internal compliance procedures instituted to satisfy regulatory obligations.  \n2. **Electronic backup/archival retention:** Confidential Information does not need to be erased if it remains in electronic systems through ordinary backup procedures or archival retention.\n\nAny such retained information must still be handled in compliance with the Agreement’s confidentiality obligations.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明双方及其代表可在法律或监管要求范围内保留机密信息，且因电子系统归档或常规自动备份而保存的机密信息无需删除，但保留的信息仍须遵守协议条款。",
+    "answer_summary": "系统回答称协议允许在返回或销毁后有限保留机密信息，包括法律/监管要求下的保留，以及电子备份/归档中的保留，并强调保留信息仍须符合保密义务。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许因法律或监管要求保留，以及因电子备份/归档保留；同时指出保留信息仍受协议约束。虽然提及 Section 12 属于额外信息，但不影响命中。"
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

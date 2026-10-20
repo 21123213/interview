@@ -1,0 +1,25 @@
+{
+  "index": 261,
+  "request_id": "1428417c1caf",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-M5-Systems.txt",
+  "file_id": 168,
+  "file_mapped": true,
+  "latency_ms": 15805.85,
+  "query": "Consider the M5-Systems' Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "Nothing in this Agreement is intended to grant any rights to Recipient under any patent, copyright, trade secret or other intellectual property right nor shall this Agreement grant Recipient any rights in or to the other party's Confidential Information, except the limited right to review such Confidential Information solely for the purpose set forth in Section 1 of this Agreement.",
+  "rag_answer": "Yes. Section 6 of the M5 Systems NDA states that the Agreement does not grant the Recipient any rights in or to the Confidential Information, except for a limited right to review it solely for the purpose set forth in Section 1.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议不授予接收方任何专利、版权、商业秘密或其他知识产权权利，也不授予其对对方保密信息的任何权利，仅为第1条规定目的保留有限审查权。",
+    "answer_summary": "系统回答指出协议不授予接收方对保密信息的任何权利，仅保留为第1条目的进行审查的有限权利。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关于不授予保密信息权利及有限审查权的核心要点，虽未展开知识产权细节，但足以回答用户问题。"
+  },
+  "file_ids": [
+    168
+  ],
+  "skip_answer": false
+}

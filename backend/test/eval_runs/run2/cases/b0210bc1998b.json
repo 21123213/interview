@@ -1,0 +1,25 @@
+{
+  "index": 154,
+  "request_id": "b0210bc1998b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "khronos-mutual-nda.txt",
+  "file_id": 150,
+  "file_mapped": true,
+  "latency_ms": 12938.53,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Khronos and Khronos; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "Notwithstanding the foregoing, the rights and obligations set forth in Sections 4 (Confidential Information), 5.7 (No Warranty) and 5.8 (Limitation of Liability) will survive termination of this Agreement.",
+  "rag_answer": "Yes. Section 5.9 (Termination) states that, notwithstanding termination, the rights and obligations set forth in Sections 4 (Confidential Information), 5.7 (No Warranty), and 5.8 (Limitation of Liability) will survive termination of the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议规定第4条（保密信息）、第5.7条（无保证）和第5.8条（责任限制）中的权利和义务在协议终止后继续有效。",
+    "answer_summary": "系统回答称协议终止后，第4条（保密信息）、第5.7条（无保证）和第5.8条（责任限制）中的权利和义务继续有效。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标的关键条款和结论，即哪些权利义务在终止后继续有效；额外说明不导致错误。"
+  },
+  "file_ids": [
+    150
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 22,
+  "request_id": "49074a13683c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "wayne-fueling-systems-mutual-non-disclosure-agreement-final.txt",
+  "file_id": 200,
+  "file_mapped": true,
+  "latency_ms": 15415.96,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Wayne Fueling Systems and Unknown Party; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "In any such case or upon any other termination of this Agreement, the Receiving Party will immediately: (i) return all Confidential Information disclosed to it and (ii) destroy, with such destruction to be certified by the Receiving Party, all Notes, without retaining any copy thereof.",
+  "rag_answer": "Yes. The Agreement specifies that upon any termination of the Agreement—or upon the Disclosing Party terminating further access to or review of the Confidential Information—the Receiving Party must immediately:\n\n1. **Return all Confidential Information** disclosed to it; and  \n2. **Destroy all Notes** derived from the Confidential Information, with the destruction to be certified by the Receiving Party, and without retaining any copies.\n\nThe Agreement also states that termination, return, or destruction does not affect the Receiving Party’s continuing confidentiality obligations.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议终止时，接收方须立即返还所有披露的保密信息，并销毁所有笔记（Notes），销毁须经接收方证明，且不得保留任何副本。",
+    "answer_summary": "系统回答指出接收方须立即返还所有披露的保密信息，并销毁所有由保密信息衍生的笔记，销毁须经接收方证明，且不得保留任何副本。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键要点，包括立即返还保密信息、销毁笔记、销毁需证明、不得保留副本；额外信息不影响判定。"
+  },
+  "file_ids": [
+    200
+  ],
+  "skip_answer": false
+}

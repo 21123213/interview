@@ -1,0 +1,25 @@
+{
+  "index": 132,
+  "request_id": "1c51ad342e22",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "amc-general-mutual-non-disclosure-agreement-en-gb.txt",
+  "file_id": 114,
+  "file_mapped": true,
+  "latency_ms": 50537.89,
+  "query": "Consider the Mutual Non-Disclosure Agreement between AMC and Other Party; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "(a) “Confidential Information” means any proprietary information that is disclosed in writing by Disclosing Party (defined herein) to Receiving Party (defined herein) and is duly and recognizably marked “Confidential” on each document / sheet.",
+  "rag_answer": "No. The document does not require every item of Confidential Information to be expressly identified by the Disclosing Party.\n\nUnder Section 2(a), written Confidential Information must be “duly and recognizably marked ‘Confidential’” on each document/sheet, and documents/information/facts specifically listed in Exhibit A are deemed Confidential Information. However, Section 2(b) also covers information relating to the Disclosing Party’s business, technology, products, services, trade secrets, know-how, formulas, processes, ideas, and inventions that the Receiving Party “should reasonably understand” as confidential or proprietary. Therefore, express marking or identification is required for the primary written definition, but the agreement also protects information that need not be expressly identified if it should reasonably be understood as confidential.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论是：书面披露的机密信息必须被清晰标记为“Confidential”，才能构成 Confidential Information。",
+    "answer_summary": "系统回答明确引用 Section 2(a)，说明书面 Confidential Information 必须在每份文件/页上“duly and recognizably marked ‘Confidential’”，覆盖了金标要点。",
+    "gap": "无",
+    "reason": "尽管系统回答额外讨论了 Section 2(b) 并给出结论“No”，但其已包含金标中的关键信息：书面机密信息需明确标记为 Confidential。按从宽覆盖标准，可判定命中。"
+  },
+  "file_ids": [
+    114
+  ],
+  "skip_answer": false
+}

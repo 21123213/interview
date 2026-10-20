@@ -1,0 +1,25 @@
+{
+  "index": 173,
+  "request_id": "bf5b4369fc2a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "TabunKitchenInvestments-NDA.txt",
+  "file_id": 192,
+  "file_mapped": true,
+  "latency_ms": 24913.29,
+  "query": "Consider the Tabun Kitchen Investments' Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "A Receiving Party agrees, acknowledges and undertakes to (i) hold the Confidential Information of the Disclosing Party in strictest confidence, and subject to the terms of this Agreement, not to disclose Confidential Information to any third party unless it is a regulated investment body, solicitor, accountant or private investors known to the Party.",
+  "rag_answer": "No. The provided NDA text does not expressly allow the Receiving Party to share Confidential Information with its employees.\n\nClause 2 restricts disclosure to third parties, with a limited exception allowing sharing “freely” only with a regulated investment body, solicitor, accountant, or private investors known to the Party. If the intended third party is not known, prior written consent from the Disclosing Party is required. Since employees are not specifically mentioned as permitted recipients, the document does not clearly authorize disclosure to them.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得向第三方披露机密信息，除非第三方是受监管投资实体、律师、会计师或该方已知的私人投资者。",
+    "answer_summary": "系统回答指出 NDA 未明确允许接收方与员工分享机密信息，并说明披露限制及允许分享的例外主体包括受监管投资实体、律师、会计师或已知的私人投资者。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键限制与例外主体，并据此对员工是否可获披露作出否定判断，与金标要点一致。"
+  },
+  "file_ids": [
+    192
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 100,
+  "request_id": "490361e76605",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SINTEC-UK-LTD-Non-disclosure-agreement-2017.txt",
+  "file_id": 187,
+  "file_mapped": true,
+  "latency_ms": 18559.34,
+  "query": "Consider SINTEC-UK-LTD's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "The Receiving Party shall return to SINTEC any and all information disclosed by SINTEC as well as any copies thereof automatically upon termination/expiration of the business relation- ship.",
+  "rag_answer": "Yes.\n\nThe document specifies that:\n\n- Under **Clause 5.1**, all information disclosed by SINTEC remains SINTEC’s property, and the Receiving Party must return it upon request. At SINTEC’s option, the Receiving Party must either return it to SINTEC or destroy it without retaining any copies or records.\n\n- Under **Clause 5.2**, any reproductions of SINTEC’s information must also be returned or destroyed at SINTEC’s request, as stipulated in Clause 5.1.\n\n- Under **Clause 5.3**, the Receiving Party must return **all** information disclosed by SINTEC, and any copies of it, **automatically upon termination or expiration of the business relationship**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方须在业务关系终止/到期时自动向 SINTEC 返还所有披露信息及任何副本。",
+    "answer_summary": "系统回答称 Yes，并指出 Clause 5.3 要求接收方在业务关系终止或到期时自动返还所有披露信息及任何副本；还提到可按 SINTEC 选择返还或销毁。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标关键信息：终止/到期时自动返还所有信息及副本；额外条款描述不影响命中。"
+  },
+  "file_ids": [
+    187
+  ],
+  "skip_answer": false
+}

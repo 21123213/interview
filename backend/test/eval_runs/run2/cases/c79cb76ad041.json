@@ -1,0 +1,25 @@
+{
+  "index": 298,
+  "request_id": "c79cb76ad041",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-SqillerBetaTesters.txt",
+  "file_id": 172,
+  "file_mapped": true,
+  "latency_ms": 10475.59,
+  "query": "Consider the Non-Disclosure Agreement between Sqiller and Beta Testers; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "All Confidential Information of a Party is and shall remain the property of that Party. Nothing contained in this Agreement shall be construed as granting or conferring any rights to any Confidential Information of a Disclosing Party, or to any intellectual property contained therein.",
+  "rag_answer": "Yes. The document indicates that the Agreement does not grant the Receiving Party any rights to the Confidential Information.\n\nClause 3.1 states that all Confidential Information remains the property of the disclosing party, and that “Nothing contained in this Agreement shall be construed as granting or conferring any rights to any Confidential Information of a Disclosing Party, or to any intellectual property contained therein.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息始终属于披露方，协议不授予任何保密信息或其知识产权的权利。",
+    "answer_summary": "系统回答确认协议不授予接收方任何保密信息权利，并引用了相同关键表述。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，包括保密信息归属和未授予任何权利。"
+  },
+  "file_ids": [
+    172
+  ],
+  "skip_answer": false
+}

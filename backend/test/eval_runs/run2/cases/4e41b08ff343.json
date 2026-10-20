@@ -1,0 +1,25 @@
+{
+  "index": 227,
+  "request_id": "4e41b08ff343",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_-_GWI_-_Technohubs_version_V1.txt",
+  "file_id": 158,
+  "file_mapped": true,
+  "latency_ms": 12365.78,
+  "query": "Consider the Non-Disclosure Agreement between GWI and Technohubs; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "5.1 Each party shall make available confidential information to its employees only in so far as the employees need it to fulfil the purpose as set out in 1. above.",
+  "rag_answer": "Yes. Under Section 5.1 of the NDA, the Receiving Party may disclose confidential information to its employees only to the extent that those employees need it to fulfil the purpose of the agreement. The Receiving Party must also ensure that such employees are equally bound to keep the information confidential, and that the confidentiality obligation survives the termination of their employment.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明双方仅可在员工为履行协议目的所需范围内向其提供机密信息。",
+    "answer_summary": "系统回答称根据第5.1条，接收方可向员工披露机密信息，但仅限员工为履行协议目的所需，并补充员工应受保密义务约束。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即允许向员工分享机密信息但仅限于员工需要履行协议目的；额外扩写不影响判定。"
+  },
+  "file_ids": [
+    158
+  ],
+  "skip_answer": false
+}

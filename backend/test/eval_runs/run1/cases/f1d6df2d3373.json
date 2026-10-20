@@ -1,0 +1,25 @@
+{
+  "index": 35,
+  "request_id": "f1d6df2d3373",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "DoiT-ICN-NonDisclosure-Agreement.txt",
+  "file_id": 125,
+  "file_mapped": true,
+  "latency_ms": 19415.88,
+  "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "1. Vendor shall use such CONFIDENTIAL INFORMATION only for the purpose of discussing street level route information for the State’s fiber optic network data points and paths with the State’s support team in discussions regarding the State’s fiber project.",
+  "rag_answer": "Yes. The provided Non-Disclosure Agreement restricts the use of Confidential Information to the purposes stated in the Agreement.\n\nSpecifically, Paragraph 1 states that the Vendor “shall use such CONFIDENTIAL INFORMATION only for the purpose of discussing street level route information for the State’s fiber optic network data points and paths with the State’s support team in discussions regarding the State’s fiber project.” It also restricts disclosure to employees with a need to know and prohibits disclosure to third parties without prior written approval.\n\nTherefore, the Agreement limits the use of Confidential Information to the expressly stated purpose.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议要求供应商仅可将机密信息用于与州支持团队讨论州光纤项目中的街道级路由信息、光纤网络数据点和路径。",
+    "answer_summary": "系统回答称 Yes，并引用了供应商只能将机密信息用于讨论州光纤项目相关街道级路由信息、数据点和路径的限制，同时补充了披露限制。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标关键要点，即机密信息仅限用于协议 stated purpose；扩写内容不矛盾，因此判为命中。"
+  },
+  "file_ids": [
+    125
+  ],
+  "skip_answer": false
+}

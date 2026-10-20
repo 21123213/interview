@@ -1,0 +1,25 @@
+{
+  "index": 25,
+  "request_id": "2fb97ce30554",
+  "correct": true,
+  "error_type": "partial",
+  "file_key": "wayne-fueling-systems-mutual-non-disclosure-agreement-final.txt",
+  "file_id": 200,
+  "file_mapped": true,
+  "latency_ms": 39646.94,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Wayne Fueling Systems and Unknown Party; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Confidential Information also includes, but is not limited to, personal data as defined in this Agreement or by applicable law, whichever is broader, and personal data shall not be required to be marked “Confidential” or “Proprietary” to be treated as Confidential Information under this Agreement.",
+  "rag_answer": "No. The document does not state that Confidential Information shall only include technical information.\n\nUnder the Agreement, “Confidential Information” is defined broadly as information disclosed by the Disclosing Party or its Affiliates that is marked “Confidential” or “Proprietary” in writing/electronic form, or disclosed orally/visually and then confirmed in writing within ten working days. It also expressly includes personal data, and is not limited to technical information. Technical data is mentioned separately in the export-control clause, but not as the exclusive scope of Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "partial",
+    "gold_summary": "机密信息不仅限于技术信息，还包括个人数据；且个人数据无需被标记为“Confidential”或“Proprietary”也可视为机密信息。",
+    "answer_summary": "系统回答称文件未规定机密信息仅包括技术信息，并指出机密信息定义广泛、明确包含个人数据且不限于技术信息。",
+    "gap": "未明确说明个人数据无需标记为“Confidential”或“Proprietary”也可被视为机密信息。",
+    "reason": "系统回答已覆盖金标的关键结论，即机密信息不限于技术信息且包括个人数据，因此可判命中；但遗漏了个人数据无需标记的细节，故为 partial。"
+  },
+  "file_ids": [
+    200
+  ],
+  "skip_answer": false
+}

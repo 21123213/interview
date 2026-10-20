@@ -1,0 +1,25 @@
+{
+  "index": 6,
+  "request_id": "1e6ff33a0143",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 24357.38,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "(e) Vendor shall, at IBC’s request, return all originals, copies, reproductions and summaries of Confidential Information and all other tangible materials and devices provided to Vendor as Confidential Information, or at IBC's option, certify destruction of the same.",
+  "rag_answer": "No. Based on the provided document excerpts, the agreement does **not** expressly permit the Receiving Party (the Vendor) to retain Confidential Information after it is required to return or destroy it.\n\nSpecifically:\n\n- The Vendor must, at IBC’s request, **return all originals, copies, reproductions and summaries** of Confidential Information and all other tangible materials/devices provided as Confidential Information, **or** certify destruction at IBC’s option.\n- The agreement does not include an exception allowing the Vendor to keep archival copies, backup copies, or other retained copies of Confidential Information after return/destruction.\n- Upon termination, the Vendor must also use commercially reasonable efforts to remove any functionality in the PMS System based on Confidential Information.\n\nThe only information the Vendor may retain is information that is **not Confidential Information** under the agreement’s exclusions, such as information that is publicly available, already known, received from a non-confidential source, or independently developed.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Vendor须应IBC要求返还所有原件、复制件、复本和摘要及其他作为保密信息提供的有形材料/设备，或按IBC选择证明已销毁。",
+    "answer_summary": "系统回答称协议未明确允许接收方在返还或销毁后保留保密信息，并复述了Vendor须返还所有原件、复制件、复本和摘要或证明销毁的要求。",
+    "gap": "无",
+    "reason": "系统回答包含了金标的关键信息，即返还所有原件、复制件、复本和摘要或证明销毁；其扩写内容未与金标矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

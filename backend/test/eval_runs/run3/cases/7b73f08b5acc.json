@@ -1,0 +1,25 @@
+{
+  "index": 202,
+  "request_id": "7b73f08b5acc",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WECC_Confidentiality_Agreement.txt",
+  "file_id": 202,
+  "file_mapped": true,
+  "latency_ms": 15640.25,
+  "query": "Consider WECC's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "b. Upon any termination of this Agreement, Data Recipient shall return to WECC all Non-Public Information in Data Recipient’s possession or destroy all Non-Public Information in Data Recipient’s possession and certify to WECC in writing that all Non-Public Information has been returned or destroyed, except as may be otherwise required by law in which case the confidentiality obligations of this Agreement shall survive termination.",
+  "rag_answer": "Yes, but only in a limited circumstance.\n\nUnder Section 7(b) of the WECC Confidentiality Agreement, upon termination the Data Recipient must return or destroy all Non-Public Information and certify that it has done so. However, the document provides an exception: if return or destruction is not permitted because retention is otherwise required by law, the Data Recipient may retain the information, and the confidentiality obligations survive termination.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议终止时数据接收方原则上应返还或销毁全部非公开信息并书面证明；但若法律要求保留，则可保留，且保密义务在终止后继续有效。",
+    "answer_summary": "系统回答指出接收方通常必须返还或销毁全部非公开信息并证明，但存在例外：如果法律要求保留，则接收方可以保留，且保密义务在终止后继续有效。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即原则上返还/销毁、法律要求保留的例外以及保密义务存续，与金标一致。"
+  },
+  "file_ids": [
+    202
+  ],
+  "skip_answer": false
+}

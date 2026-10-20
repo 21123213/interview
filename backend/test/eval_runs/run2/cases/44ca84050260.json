@@ -1,0 +1,25 @@
+{
+  "index": 198,
+  "request_id": "44ca84050260",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "MutualNDA_The_Knights_of_Unity.txt",
+  "file_id": 155,
+  "file_mapped": true,
+  "latency_ms": 31122.36,
+  "query": "Consider the Mutual Non-Disclosure Agreement between The Knights of Unity; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "1. References to \"Confidential Information\" mean all knowledge, information or materials whether of a technical or financial nature or otherwise relating to the business or affairs of the Parties (including without limitation any subsidiary or affiliated entity thereof), including all memoranda, notes, analyses, compilations, studies and other materials prepared by or for the receiving party which contain or reflect such knowledge, information or materials, which is provided or disclosed by the disclosing party to the receiving party in connection with the Opportunity and identified at the time of such disclosure as being confidential; provided that Confidential Information shall not include:\n(c) information that the receiving party independently develops or independently becomes aware of from a third party without, to the knowledge of the receiving party, a duty of confidentiality to the disclosing party.",
+  "rag_answer": "Yes. The agreement expressly excludes from “Confidential Information” any information that the Receiving Party **independently develops** or independently becomes aware of from a third party, without knowledge of a duty of confidentiality to the Disclosing Party.\n\nTherefore, information that is merely similar to Confidential Information may be independently developed, and if it is truly independent, it is not subject to the confidentiality or use restrictions in the agreement. This does not, however, allow the Receiving Party to use or derive such information from the Disclosing Party’s Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定“保密信息”不包括接收方独立开发的信息，或接收方从第三方独立获知且不知存在对披露方保密义务的信息。",
+    "answer_summary": "系统回答指出协议明确排除接收方独立开发的信息，并说明仅与保密信息相似但确属独立开发的信息不受保密或使用限制约束，同时不能从披露方保密信息中衍生。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即独立开发信息不属于保密信息，并据此回答了文档允许接收方独立开发类似信息；其补充说明未与金标矛盾。"
+  },
+  "file_ids": [
+    155
+  ],
+  "skip_answer": false
+}

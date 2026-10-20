@@ -1,0 +1,25 @@
+{
+  "index": 30,
+  "request_id": "fa2023727b04",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Petrolube_NDA.txt",
+  "file_id": 178,
+  "file_mapped": true,
+  "latency_ms": 30860.64,
+  "query": "Consider Petrolube's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "3.4) At the conclusion of the Evaluation Petro-Lube shall either return promptly to (Your Company Name) or it's Assigns, or at (Your Company Name)'s option, destroy any remaining Sample in whatever form then in its possession or control and verify such to (Your Company Name).",
+  "rag_answer": "No. The provided Petrolube NDA does **not explicitly require the Receiving Party to return or destroy Confidential Information upon termination of the Agreement**.\n\nThe only related obligation is in Clause 3.4, which requires **Petro-Lube** to either promptly return or, at the Disclosing Party’s option, destroy **remaining Samples** at the conclusion of the Evaluation. It does not state a general return/destroy obligation for Confidential Information upon termination.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出：在 Evaluation 结束时，Petro-Lube 应尽快向披露方或其受让人归还剩余 Sample，或按披露方选择销毁其占有或控制下的剩余 Sample，并向披露方核实。",
+    "answer_summary": "系统回答称协议未明确要求接收方在协议终止时归还或销毁 Confidential Information，但提到 Clause 3.4 要求 Petro-Lube 在 Evaluation 结束时归还或按披露方选择销毁 remaining Samples。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即 Clause 3.4 仅涉及 Evaluation 结束时剩余 Sample 的归还/销毁，而非协议终止时对 Confidential Information 的一般要求；其“没有明确规定 Confidential Information 在终止时归还/销毁”的结论与金标证据不矛盾。"
+  },
+  "file_ids": [
+    178
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 9,
+  "request_id": "cd8eeb532cea",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 26792.89,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "(a) Vendor shall:\n(iv) Refrain from disclosing, reproducing, summarizing and/or distributing Confidential Information except as expressly required for the Purpose, and only as otherwise provided hereunder; and",
+  "rag_answer": "Yes, but only in a limited way.\n\nIn this Agreement, the Receiving Party is the Vendor. Section 2(a)(iv) says the Vendor must refrain from “reproducing” Confidential Information **except as expressly required for the Purpose**, and only as otherwise provided in the Agreement. The Purpose is developing PMS functionality to enable electronic submission of Claim Requests and receipt of Claim Responses through the HCAI System.\n\nThe Agreement also contemplates copies/reproductions in other contexts, for example:\n\n- Section 1(e) requires the Vendor to return all originals, copies, reproductions and summaries, or certify destruction, at IBC’s request.\n- Section 1(i) contemplates licensees receiving a copy of IBC-provided software code, subject to EULA and pass-down restrictions.\n\nSo, the document permits the Receiving Party to create a copy of some Confidential Information only when expressly required for the permitted purpose and subject to the Agreement’s confidentiality, security, return/destruction, and pass-down requirements.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方/供应商不得披露、复制、摘要或分发机密信息，除非为约定目的所明确需要，且仅按协议其他条款允许。",
+    "answer_summary": "系统回答指出 Vendor/Receiving Party 可以复制机密信息，但仅限为 Purpose 明确需要且符合协议其他规定的有限情形，并引用了“reproducing Confidential Information except as expressly required for the Purpose, and only as otherwise provided hereunder”这一核心规则。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标证据中的关键要点：允许复制/创建副本，但仅限为约定目的所明确需要且受协议其他条款限制；额外扩写不影响命中。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

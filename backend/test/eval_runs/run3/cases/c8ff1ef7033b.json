@@ -1,0 +1,25 @@
+{
+  "index": 230,
+  "request_id": "c8ff1ef7033b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "stony_hill_buyer_nda.txt",
+  "file_id": 190,
+  "file_mapped": true,
+  "latency_ms": 61297.19,
+  "query": "Consider the Non-Disclosure Agreement between Stony Hill and Buyer; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "(c) Buyer will not disclose, except to the extent required by law, to any parties other than the persons described in Paragraph 2(B) above that the Business is available for purchase or that evaluations, discussions or negotiations are taking place concerning a possible purchase;",
+  "rag_answer": "No — not explicitly.\n\nThe NDA does not contain a clause that specifically prevents the Buyer/Receiving Party from disclosing that this NDA itself was agreed upon or negotiated.\n\nIt does include related confidentiality restrictions:\n\n- **Paragraph 2(a)–(b)**: Buyer must keep the “Information” confidential and not disclose it to unauthorized parties.\n- **Paragraph 2(c)**: Buyer may not disclose, except as required by law, that **the Business is available for purchase** or that **evaluations, discussions, or negotiations are taking place concerning a possible purchase**.\n\nHowever, Paragraph 2(c) addresses disclosure about the **business sale/purchase process**, not disclosure about the existence or negotiation of the NDA itself. Therefore, if the question is about preventing disclosure of the fact that the Agreement was signed or negotiated, the document does not expressly provide such a clause.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论是：第(c)条规定 Buyer 除法律要求外，不得向第2(B)段以外的人披露 Business 可供出售，或正在就可能的购买进行评估、讨论或谈判。",
+    "answer_summary": "系统回答虽认为文档没有明确禁止披露 NDA 本身被达成或协商，但引用并复述了 Paragraph 2(c)：Buyer 不得披露 Business available for purchase 或 evaluations, discussions, or negotiations concerning a possible purchase。",
+    "gap": "无",
+    "reason": "系统回答已经覆盖金标证据的关键信息，即第(c)条对披露业务出售及购买谈判的限制。其额外限定是针对用户问题中的“Agreement/NDA本身”与“Business sale process”作区分，并未缺失金标要点，因此按从宽覆盖标准判为命中。"
+  },
+  "file_ids": [
+    190
+  ],
+  "skip_answer": false
+}

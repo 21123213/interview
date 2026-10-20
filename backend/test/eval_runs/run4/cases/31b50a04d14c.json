@@ -1,0 +1,25 @@
+{
+  "index": 66,
+  "request_id": "31b50a04d14c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "5-NSK-Confidentiality-Agreement-for-Suppliers.txt",
+  "file_id": 109,
+  "file_mapped": true,
+  "latency_ms": 28216.93,
+  "query": "Consider NSK's Confidentiality Agreement for Suppliers; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "3.1. In consideration of the Disclosing Party disclosing Confidential Information to the Receiving Party, the Receiving Party undertakes that it shall:\nb) not use or exploit the Confidential Information in any way except for the Purpose;",
+  "rag_answer": "Yes. The NSK Confidentiality Agreement for Suppliers restricts the use of Confidential Information to the stated Purpose.\n\nClause 3.1(b) states that the Receiving Party shall “not use or exploit the Confidential Information in any way except for the Purpose.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议规定接收方不得为约定 Purpose 以外的目的使用或利用机密信息。",
+    "answer_summary": "系统回答确认协议限制机密信息仅用于约定 Purpose，并引用 Clause 3.1(b) 的相同关键表述。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标要点，即机密信息的使用仅限于协议所述 Purpose，且引用条款与金标一致。"
+  },
+  "file_ids": [
+    109
+  ],
+  "skip_answer": false
+}

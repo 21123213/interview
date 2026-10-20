@@ -1,0 +1,25 @@
+{
+  "index": 86,
+  "request_id": "42d0ea45331a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AfriGIS_Client-NDA_Template_2019.txt",
+  "file_id": 112,
+  "file_mapped": true,
+  "latency_ms": 19225.11,
+  "query": "Consider AfriGIS's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The Receiving Party agrees that it will, during or after the course of their relationship and/or the term of this Agreement as described in clause 9, keep the Confidential Information in the strictest confidence and will not disclose it to any third party for any reason or purpose whatsoever without the prior written consent of the Disclosing Party, save in accordance with the provisions of this Agreement, and the Parties undertake to each other that their holding and subsidiary companies or agents shall be bound by the provisions of this Agreement.",
+  "rag_answer": "是的。AfriGIS 的 NDA 文档明确提到，协议终止或届满后，某些条款/义务仍可能继续有效。\n\n主要依据包括：\n\n- **第 1.10 条**：协议届满或终止不影响那些明确约定在届满或终止后继续有效的条款，也不影响因性质上必须继续有效的条款。\n- **第 3.3 条**：接收方在双方关系期间或之后、以及协议期限届满或终止后，仍须对机密信息严格保密。\n- **第 13.4 条**：争议解决条款在协议终止或取消后仍对双方具有约束力。\n- **第 15 条**：禁止挖角/招揽义务在协议届满或终止后 **12 个月**内继续适用。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "文档表明接收方在双方关系期间或之后、以及协议期限届满或终止后，仍需对机密信息严格保密，说明部分义务可在协议终止后继续有效。",
+    "answer_summary": "系统回答确认 AfriGIS 的 NDA 提到协议终止或届满后某些义务继续有效，并引用接收方在关系期间或之后、协议届满或终止后仍须对机密信息严格保密。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：协议终止后保密义务等部分义务仍可继续有效；虽未逐字提及“未经事先书面同意不得披露”或关联公司/代理人受约束，但不影响命中问题核心。"
+  },
+  "file_ids": [
+    112
+  ],
+  "skip_answer": false
+}

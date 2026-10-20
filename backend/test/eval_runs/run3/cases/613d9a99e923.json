@@ -1,0 +1,25 @@
+{
+  "index": 103,
+  "request_id": "613d9a99e923",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SINTEC-UK-LTD-Non-disclosure-agreement-2017.txt",
+  "file_id": 187,
+  "file_mapped": true,
+  "latency_ms": 17004.02,
+  "query": "Consider SINTEC-UK-LTD's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "This Non-Disclosure Agreement shall apply for a period of three (3) years from the date on which it is signed by both Parties; thereafter it will renew for a term of two (2) years, unless terminated in writing by one of the Parties eighteen (18) months prior to the respective expiration date. The duties of confidentiality hereunder shall survive the termination/expiration of this Non-Disclosure Agreement for a period of three (3) years.\nThe terms of this section shall survive the term of this Agreement.",
+  "rag_answer": "Yes. The document states that certain obligations survive termination:\n\n- Under **Section 6 (Term and validity period)**, the **duties of confidentiality** survive the termination/expiration of the Non-Disclosure Agreement for **three (3) years**.\n- Under **Section 8 (Patentable findings)**, the terms of that section expressly **survive the term of the Agreement**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出保密义务在协议终止/到期后继续存续三年，且相关条款在协议期限届满后仍存续。",
+    "answer_summary": "系统回答确认文档提到义务可存续，并指出保密义务在终止/到期后存续三年，且某节条款存续协议期限。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：保密义务在终止后存续，以及条款可存续协议期限，判定为正确。"
+  },
+  "file_ids": [
+    187
+  ],
+  "skip_answer": false
+}

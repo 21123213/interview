@@ -1,0 +1,25 @@
+{
+  "index": 148,
+  "request_id": "5655eb3dcc33",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SupplementOne-NDA.txt",
+  "file_id": 191,
+  "file_mapped": true,
+  "latency_ms": 22337.84,
+  "query": "Consider SupplementOne's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "Recipient shall give Discloser prompt notice of any such legal or governmental demand and reasonably cooperate with Discloser in any effort to seek a protective order or otherwise to contest such required disclosure, at Discloser’s expense.",
+  "rag_answer": "Yes. Under SupplementOne’s Non-Disclosure Agreement, Section 1)b)v), the Receiving Party may disclose Confidential Information as required by applicable law or by proper legal or governmental authority, but it must give the Disclosing Party prompt notice of any such legal or governmental demand and reasonably cooperate with the Disclosing Party in seeking a protective order or otherwise contesting the required disclosure, at the Disclosing Party’s expense.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方必须给予披露方关于法律或政府要求的及时通知，合理配合披露方寻求保护令或抗辩披露，费用由披露方承担。",
+    "answer_summary": "系统回答指出接收方必须给予披露方关于法律或政府要求的及时通知，合理配合披露方寻求保护令或抗辩披露，费用由披露方承担。",
+    "gap": "无",
+    "reason": "系统回答完全覆盖了金标证据中的所有关键要点（及时通知、配合寻求保护令或抗辩、费用由披露方承担），并准确回答了用户的问题。"
+  },
+  "file_ids": [
+    191
+  ],
+  "skip_answer": false
+}

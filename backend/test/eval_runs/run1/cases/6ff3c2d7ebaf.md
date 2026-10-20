@@ -1,0 +1,32 @@
+# Case `6ff3c2d7ebaf`
+
+- index: 138
+- file_key: `HNBA-2017-18-Confidentiality-Agreement.txt`
+- file_id: 139
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 21891.97
+
+## Query
+
+Consider HNBA's Confidentiality Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?
+
+## Gold
+
+The HNBA will keep a copy in its files for a period of two (2) years after the completion of each Candidate’s specific request.
+
+## RAG Answer
+
+No. Based on the provided excerpts, the HNBA Confidentiality Agreement does not permit the Receiving Party (the Board Member) to retain Confidential Information after its return or destruction.
+
+The document states that once the purpose of the disclosure is achieved, the HNBA will instruct the Board Member to destroy all Confidential Information supplied to them. It also states that the HNBA—not the Receiving Party—may keep a copy in its files for two years after completion of each Candidate’s specific request. There is no clause in the provided excerpts allowing the Receiving Party to retain Confidential Information after destruction or return.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: HNBA 会在每个候选人具体请求完成后，在其档案中保留一份机密信息副本两年。
+- answer_summary: 系统回答指出 HNBA（而非接收方/Board Member）可以在每个候选人具体请求完成后在其档案中保留副本两年。
+- gap: 无
+- reason: 系统回答已覆盖金标关键信息，即 HNBA 可在完成后保留副本两年；虽然系统回答对问题结论为 No，但并未与金标矛盾，且明确纳入了金标要点。

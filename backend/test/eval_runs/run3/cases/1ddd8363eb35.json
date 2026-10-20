@@ -1,0 +1,25 @@
+{
+  "index": 156,
+  "request_id": "1ddd8363eb35",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "TSE-TSE-OK-WHK-Mutual-NDA-Fill-in-Blanks-4-29-2019.txt",
+  "file_id": 196,
+  "file_mapped": true,
+  "latency_ms": 31418.95,
+  "query": "Consider the Mutual Non-Disclosure Agreement between TSE, OK, and WHK; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The parties shall continue to protect the secrecy of the Confidential Information for as long as the information remains confidential information or a trade secret, but for no less than five (5) years from the date the information to be kept confidential is received or the effective date of this Agreement, whichever is later.",
+  "rag_answer": "Yes. The document does not use the exact phrase “survive termination,” but it indicates that certain obligations continue after the business relationship ends.\n\nSpecifically:\n\n- **Section 12 (Term)** states that the parties “shall continue to protect the secrecy of the Confidential Information for as long as the information remains confidential information or a trade secret,” and in any event for **no less than five (5) years** from the later of the date the information was received or the effective date of the Agreement.\n\n- **Section 8 (Return of Confidential Information)** provides that if the business relationship is terminated and the receiving party retains one copy of Confidential Information for permitted purposes, that retained Confidential Information “shall remain subject to the terms and provisions of this Agreement.”\n\nTherefore, the Agreement contemplates that confidentiality and related obligations may continue after termination.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "当事人需继续保护机密信息，只要该信息仍属于机密信息或商业秘密，且自接收机密信息之日或协议生效日（以较晚者为准）起不少于五年。",
+    "answer_summary": "系统回答指出协议 Section 12 规定当事人应继续保护机密信息，只要其仍为机密信息或商业秘密，并且无论如何不少于五年，从接收信息或协议生效日期中较晚者起算；并据此认为部分义务在终止后仍可能继续。",
+    "gap": "无",
+    "reason": "系统回答已包含金标的关键信息：继续保护机密信息的期限、以信息仍为机密/商业秘密为条件、以及不少于五年且从较晚日期起算。虽然回答有扩写且未使用完全相同措辞，但关键点已覆盖。"
+  },
+  "file_ids": [
+    196
+  ],
+  "skip_answer": false
+}

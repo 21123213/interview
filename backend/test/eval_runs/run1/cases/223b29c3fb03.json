@@ -1,0 +1,25 @@
+{
+  "index": 121,
+  "request_id": "223b29c3fb03",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+  "file_id": 137,
+  "file_mapped": true,
+  "latency_ms": 11642.61,
+  "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "3. For the purposes of this Confidentiality and Non-Disclosure Undertaking, The Vendor undertakes;\n3.1. to use such Confidential Information only for purposes of performing as required in terms of its obligations / promises or duties arising out of the Agreement / understanding /Request for Quotation / Contract or Purchase Order and for no other purpose whatsoever,",
+  "rag_answer": "Yes. The document restricts the use of Confidential Information to the purposes stated in the Agreement.\n\nSpecifically, under clause 3.1, the Vendor undertakes to use Confidential Information **only for performing obligations, promises, or duties arising out of the Agreement, understanding, Request for Quotation, Contract, or Purchase Order**, and **for no other purpose whatsoever**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定供应商仅可将机密信息用于履行协议、理解、询价、合同或采购订单项下的义务/承诺/职责，且不得用于任何其他目的。",
+    "answer_summary": "系统回答指出文档限制机密信息使用，并引用第3.1条说明供应商仅可为履行协议、理解、询价、合同或采购订单项下的义务/承诺/职责使用机密信息，且不得用于任何其他目的。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，包括用途限制、相关协议文件类型以及“不得用于任何其他目的”的要求，判定为命中。"
+  },
+  "file_ids": [
+    137
+  ],
+  "skip_answer": false
+}

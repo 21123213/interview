@@ -1,0 +1,25 @@
+{
+  "index": 15,
+  "request_id": "06aa348a13c7",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Non-Disclosure-NDA-UW-Oshkosh_FINALV2.txt",
+  "file_id": 175,
+  "file_mapped": true,
+  "latency_ms": 20871.46,
+  "query": "Consider the Non-Disclosure Agreement between University of Wisconsin Oshkosh; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Non-Disclosure\nConfidential Information does not include information which:\n2. is made available to the Receiving Party as a matter of lawful right by a third party.",
+  "rag_answer": "Yes. The NDA excludes from “Confidential Information” any information that is “made available to the Receiving Party as a matter of lawful right by a third party.” Therefore, if the Receiving Party lawfully obtains similar information from a third party, that information is not treated as Confidential Information under the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不包括由第三方依法提供给接收方的信息。",
+    "answer_summary": "系统回答指出 NDA 将“由第三方依法提供给接收方的信息”排除在保密信息之外，并说明若接收方从第三方合法获得类似信息，则不作为保密信息处理。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，即第三方依法提供的信息不属于保密信息，且未与金标矛盾。"
+  },
+  "file_ids": [
+    175
+  ],
+  "skip_answer": false
+}

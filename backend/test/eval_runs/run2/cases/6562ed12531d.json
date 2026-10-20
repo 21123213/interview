@@ -1,0 +1,25 @@
+{
+  "index": 2,
+  "request_id": "6562ed12531d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 18737.05,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "(a) All Confidential Information, and all associated intellectual property rights therein, are and shall remain the exclusive property of IBC and its licensors. By disclosing Confidential Information to Vendor, IBC does not grant any express or implied right to Vendor to or under any patents, copyrights, trademarks, or trade secret information except as otherwise provided herein.",
+  "rag_answer": "Yes, the document indicates that the Agreement does **not** grant the Receiving Party broad rights to the Confidential Information.\n\nSpecifically, Section 4(a) states that all Confidential Information and associated intellectual property rights remain the exclusive property of IBC and its licensors, and that by disclosing Confidential Information to the Vendor, IBC does not grant any express or implied right to the Vendor to or under any patents, copyrights, trademarks, or trade secret information **except as otherwise provided in the Agreement**.\n\nHowever, this is not an absolute denial of all rights: the Agreement does grant limited rights to use and disclose the Confidential Information only for the stated Purpose and subject to the Agreement’s restrictions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息及其知识产权为 IBC 及其许可方专有；IBC 向 Vendor 披露保密信息不授予任何明示或暗示的专利、版权、商标或商业秘密权利，除非协议另有规定。",
+    "answer_summary": "系统回答指出协议不授予接收方广泛权利，并复述 Section 4(a) 的关键内容：保密信息及知识产权为 IBC 专有，披露不授予明示或暗示权利，除非协议另有规定；同时说明协议仍授予有限的使用和披露权利。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，且对“不授予任何权利”的例外/限制作了补充说明，与金标不矛盾。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

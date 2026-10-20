@@ -1,0 +1,25 @@
+{
+  "index": 111,
+  "request_id": "c64bd5bf987c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 43058.54,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "In the event that negotiations between the parties are terminated for any reason, and/or upon the Disclosing Party’s written request, each Receiving Party will forthwith either, at the Receiving Party’s option, return to the Disclosing Party or destroy or erase all Confidential Information furnished by the Disclosing Party as well as all documents, memoranda, analyses, compilations, studies, notes and other writings whatsoever prepared by the Receiving Party or its Representatives based in whole or in part on the Disclosing Party’s Confidential Information.",
+  "rag_answer": "Yes, but with a nuance.\n\nSection 12, “Return/Destruction of Documents,” specifies that if negotiations between the parties are terminated for any reason, and/or upon the Disclosing Party’s written request, each Receiving Party must promptly either return or destroy/erase all Confidential Information, including documents, memoranda, analyses, compilations, studies, notes, and other materials prepared based wholly or partly on the Confidential Information. The choice between return and destruction is at the Receiving Party’s option, and the return, erasure, or destruction must be certified in writing by an authorized officer.\n\nHowever, the excerpt does not expressly use “termination of the Agreement” as the trigger. It ties the obligation to termination of negotiations and/or a written request from the Disclosing Party. There are also exceptions: parties may retain Confidential Information where required by legal or regulatory obligations, and they are not required to erase electronically stored Confidential Information retained in ordinary backup files, provided any retained information remains subject to the Agreement’s confidentiality terms.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "在双方谈判因任何原因终止和/或披露方书面请求时，接收方可选择立即返还或销毁/删除披露方提供的全部机密信息，以及接收方或其代表基于全部或部分机密信息准备的所有文件、备忘录、分析、汇编、研究、笔记和其他书面材料。",
+    "answer_summary": "系统回答指出在谈判终止和/或披露方书面请求时，接收方必须及时选择返还或销毁/删除所有机密信息及基于机密信息准备的相关材料，并补充说明触发条件并非明确表述为“协议终止”。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标关键要点：谈判终止和/或披露方书面请求时，接收方可选择返还或销毁/删除机密信息及相关衍生材料；额外 nuance 和扩写不影响命中。"
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

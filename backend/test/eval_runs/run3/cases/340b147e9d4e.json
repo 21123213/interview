@@ -1,0 +1,25 @@
+{
+  "index": 220,
+  "request_id": "340b147e9d4e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "simply-fashion---standard-nda.txt",
+  "file_id": 186,
+  "file_mapped": true,
+  "latency_ms": 70734.73,
+  "query": "Consider Simply Fashion's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "As a condition to furnishing any information which is confidential and/or proprietary in nature to Potential Purchaser, the Company requires that Potential Purchaser agree to treat confidentially all written information of a proprietary or confidential nature, that the Company furnishes to Potential Purchaser (including, but not limited to, copies of the Leases), except as may otherwise herein be provided (collectively being the “Evaluation Materials”), and the Parties agree to keep confidential, communications by and between the Parties of a proprietary or confidential nature, arising from or relating to the Proposed Transaction.",
+  "rag_answer": "Based on the provided document excerpts, **No**. Simply Fashion’s Non-Disclosure Agreement does **not** appear to include an explicit clause preventing the Receiving Party — referred to in the document as the **“Potential Purchaser”** — from disclosing the fact that the Agreement was agreed upon or negotiated.\n\nThe confidentiality obligations in the provided excerpts mainly relate to:\n\n- **Evaluation Materials** containing confidential or proprietary information; and  \n- **communications between the Parties** that are of a proprietary or confidential nature and arise from or relate to the Proposed Transaction.\n\nHowever, the excerpts do **not** contain a specific provision prohibiting disclosure of the **existence of the Agreement**, the fact that negotiations occurred, or the fact that the parties entered into the NDA.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据表明该 NDA 要求 Potential Purchaser 对 Evaluation Materials 保密，并且双方约定对因拟议交易产生或相关的专有/保密通信予以保密。",
+    "answer_summary": "系统回答指出保密义务主要涵盖 Evaluation Materials，以及双方之间因拟议交易产生或相关的专有/保密通信，并据此判断没有明确条款禁止披露协议本身的存在或谈判事实。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标证据中的关键保密条款要点，且未与金标内容相矛盾；其对是否明确禁止披露协议存在或谈判事实的结论是基于该条款的解释，不影响对金标要点的命中。"
+  },
+  "file_ids": [
+    186
+  ],
+  "skip_answer": false
+}

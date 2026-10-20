@@ -1,0 +1,25 @@
+{
+  "index": 260,
+  "request_id": "ec3eee52ddf4",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-M5-Systems.txt",
+  "file_id": 168,
+  "file_mapped": true,
+  "latency_ms": 31066.83,
+  "query": "Consider the M5-Systems' Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "Any materials or documents of which have been furnished by the Discloser to the Recipient will be promptly returned, accompanied by copies of such documentation, after the evaluation set forth in Section 1 of this Agreement has been concluded.",
+  "rag_answer": "No. The document does not explicitly specify that the Receiving Party must destroy or return Confidential Information upon termination of the Agreement.\n\nIt only states in Section 5 (“Return of Materials”) that materials or documents furnished by the Discloser to the Recipient must be promptly returned, along with copies, after the evaluation described in Section 1 has been concluded. The Agreement does not expressly tie a return or destruction obligation to termination of the Agreement, nor does it include a general requirement to destroy Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据表明：披露方提供给接收方的材料或文档在协议第1条所述评估结束后应及时返还，并附上相关文档副本。",
+    "answer_summary": "系统回答指出协议未明确在终止时要求销毁或返还，但引用了材料返还条款：披露方提供材料或文档在评估结束后应及时返还并附副本。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标证据中的关键信息，即材料/文档在评估结束后需及时返还并附副本；其对“终止时是否明确要求”的否定限定也与金标证据不矛盾。"
+  },
+  "file_ids": [
+    168
+  ],
+  "skip_answer": false
+}

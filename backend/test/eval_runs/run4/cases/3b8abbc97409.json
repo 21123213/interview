@@ -1,0 +1,25 @@
+{
+  "index": 85,
+  "request_id": "3b8abbc97409",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AfriGIS_Client-NDA_Template_2019.txt",
+  "file_id": 112,
+  "file_mapped": true,
+  "latency_ms": 19248.56,
+  "query": "Consider AfriGIS's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "1.2.2 “Confidential Information” means any confidential information, documentation or data of whatever nature relating to a Party or its subsidiaries which may have been or which may be obtained by or disclosed to the other Party during the course of its relationship with such Party, whether in writing, in electronic form or pursuant to discussions, including without limitation: trade secrets, know-how, marketing and advertising strategies, strategic objectives, planning or ideas, research, business activities, business relationships, products or proposed products, proposals, pricing details, strategies, customer and client details, schematics, software, computer programmes and technology, operating procedures and methodologies, designs, drawings, functional and technical requirements and specifications and any other technical, business, financial or market information or any other information which may reasonably be regarded as being confidential and of a proprietary nature to such Party or any of its subsidiaries or holding companies and;",
+  "rag_answer": "No. AfriGIS’s Non-Disclosure Agreement does not limit Confidential Information to only technical information.\n\nClause 1.2.2 defines “Confidential Information” broadly as any confidential information, documentation, or data of whatever nature, including but not limited to technical information as well as business, financial, market, strategic, customer, pricing, research, software, design, and other proprietary information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明 Confidential Information 并非仅限技术信息，而是包括任何性质的保密信息、文档或数据，涵盖技术、业务、财务、市场等多种信息。",
+    "answer_summary": "系统回答称 NDA 未将 Confidential Information 限定为仅技术信息，并说明其定义广泛，包括技术信息以及业务、财务、市场、战略、客户、定价、研究、软件、设计和其他专有信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论：保密信息不限于技术信息，而是广泛定义并包含多种类型。"
+  },
+  "file_ids": [
+    112
+  ],
+  "skip_answer": false
+}

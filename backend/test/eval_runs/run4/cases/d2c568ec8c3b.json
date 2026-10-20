@@ -1,0 +1,25 @@
+{
+  "index": 107,
+  "request_id": "d2c568ec8c3b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BCG-Mutual-NDA.txt",
+  "file_id": 116,
+  "file_mapped": true,
+  "latency_ms": 50175.49,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Boston Consulting Group and Unknown Party; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "a. What is included, \"Confidential information\" is non-public information, know-how and trade secrets in any form that:",
+  "rag_answer": "No. The document does not state that Confidential Information is limited to technical information.\n\nIt defines “Confidential information” broadly as non-public information, know-how and trade secrets in any form that are either designated as “confidential” or would reasonably be understood to be confidential. It also lists exclusions, such as publicly available information, independently developed information, and certain volunteered comments or suggestions.\n\nNote: In the uploaded document, “BCG” refers to The Bleecker Consulting Group, LLC, not Boston Consulting Group.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出 Confidential information 包括非公开信息、know-how 和 trade secrets，且为任何形式；并未限定为仅技术信息。",
+    "answer_summary": "系统回答称文档未将 Confidential Information 限定为技术信息，并说明其定义广泛，包括 non-public information、know-how 和 trade secrets in any form。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点，即 Confidential Information 不限于技术信息，而是包含非公开信息、know-how 和 trade secrets 的任何形式；额外补充不影响命中。"
+  },
+  "file_ids": [
+    116
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,102 @@
+{
+  "overall": {
+    "n": 244,
+    "answer_acc": 0.9836
+  },
+  "per_file": {
+    "Sony%20Pictures%20Television%20NDA%20(Executed).txt": {
+      "n": 16,
+      "answer_acc": 0.9375
+    },
+    "RROI_Confidentiality_Agreement_Final.txt": {
+      "n": 14,
+      "answer_acc": 1.0
+    },
+    "SE_NDCA_and_PRE-QUAL_PACKAGE_March-2016.txt": {
+      "n": 14,
+      "answer_acc": 1.0
+    },
+    "WEB-NDA-Mutual-Customer-and-Allazo-Electronics-v2.txt": {
+      "n": 14,
+      "answer_acc": 1.0
+    },
+    "QEP-Williston-Form-of-Confidentiality-Agreement-BMO.txt": {
+      "n": 13,
+      "answer_acc": 1.0
+    },
+    "Standard%20NDA%20by%20Axial.txt": {
+      "n": 13,
+      "answer_acc": 1.0
+    },
+    "SupplementOne-NDA.txt": {
+      "n": 13,
+      "answer_acc": 1.0
+    },
+    "sample-nrel-bilateral-nda-template.txt": {
+      "n": 13,
+      "answer_acc": 1.0
+    },
+    "Non-Disclosure-NDA-UW-Oshkosh_FINALV2.txt": {
+      "n": 12,
+      "answer_acc": 1.0
+    },
+    "Roundhouse-Creative-Mutual-NDA.txt": {
+      "n": 12,
+      "answer_acc": 1.0
+    },
+    "TabunKitchenInvestments-NDA.txt": {
+      "n": 12,
+      "answer_acc": 1.0
+    },
+    "TSE-TSE-OK-WHK-Mutual-NDA-Fill-in-Blanks-4-29-2019.txt": {
+      "n": 11,
+      "answer_acc": 1.0
+    },
+    "oceaneering-non-disclosure-agreement.txt": {
+      "n": 11,
+      "answer_acc": 1.0
+    },
+    "QuickBooks-NDA-template.txt": {
+      "n": 10,
+      "answer_acc": 1.0
+    },
+    "SINTEC-UK-LTD-Non-disclosure-agreement-2017.txt": {
+      "n": 10,
+      "answer_acc": 1.0
+    },
+    "WECC_Confidentiality_Agreement.txt": {
+      "n": 10,
+      "answer_acc": 1.0
+    },
+    "simply-fashion---standard-nda.txt": {
+      "n": 9,
+      "answer_acc": 1.0
+    },
+    "Petrolube_NDA.txt": {
+      "n": 8,
+      "answer_acc": 1.0
+    },
+    "Tazza-CAFFE-Confidentiality-Agreement.txt": {
+      "n": 8,
+      "answer_acc": 0.875
+    },
+    "stony_hill_buyer_nda.txt": {
+      "n": 8,
+      "answer_acc": 1.0
+    },
+    "thoughtbot-mutual-nda.txt": {
+      "n": 7,
+      "answer_acc": 0.8571
+    },
+    "NU%20Confidentiality%20Non-Disclosure%20%20Information%20Security%20Agreement%20Final%20....txt": {
+      "n": 4,
+      "answer_acc": 0.75
+    },
+    "New_York_City_Bar_Association_Model_Form_of_Non-Disclosure_Agreement_2015.txt": {
+      "n": 2,
+      "answer_acc": 1.0
+    }
+  },
+  "failure_count": 4,
+  "finished_at": "2026-10-16T14:40:16"
+}

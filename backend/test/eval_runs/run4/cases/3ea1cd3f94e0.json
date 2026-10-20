@@ -1,0 +1,25 @@
+{
+  "index": 9,
+  "request_id": "3ea1cd3f94e0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "tpi-non-disclosure-agreement_1.txt",
+  "file_id": 195,
+  "file_mapped": true,
+  "latency_ms": 21113.57,
+  "query": "Consider tpi's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "4. Immediately upon a request by the Disclosing Party at any time, the Receiving Party will turn over to the Disclosing Party all Proprietary Information of the Disclosing Party and all documents or media containing any such Proprietary Information and any and all copies or extracts thereof or upon request of the Disclosing Party, the Receiving Party shall certify in writing that all materials containing Proprietary Information (including all copies thereof) have been destroyed.",
+  "rag_answer": "No. TPI’s Non-Disclosure Agreement does not appear to permit the Receiving Party to retain Confidential/Proprietary Information after return or destruction.\n\nUnder Paragraph 4, upon the Disclosing Party’s request, the Receiving Party must turn over **all Proprietary Information**, all documents or media containing it, and **any and all copies or extracts**, or certify in writing that all materials containing Proprietary Information, **including all copies**, have been destroyed. The provided document contains no exception allowing the Receiving Party to keep any copies or retained materials after such return or destruction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标条款要求接收方在披露方请求时返还或销毁全部专有信息及其所有副本/摘录，未允许接收方在返还或销毁后保留部分机密信息。",
+    "answer_summary": "系统回答称 TPI 的 NDA 不允许接收方在返还或销毁后保留机密/专有信息，并引用第4条要求返还全部专有信息、文档、媒体及所有副本或证明销毁，且无允许保留的例外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：必须返还或销毁全部材料及其所有副本，且未提及允许保留任何机密信息；其结论与金标一致。"
+  },
+  "file_ids": [
+    195
+  ],
+  "skip_answer": false
+}

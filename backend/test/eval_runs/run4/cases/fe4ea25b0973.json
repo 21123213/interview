@@ -1,0 +1,25 @@
+{
+  "index": 135,
+  "request_id": "fe4ea25b0973",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "amc-general-mutual-non-disclosure-agreement-en-gb.txt",
+  "file_id": 114,
+  "file_mapped": true,
+  "latency_ms": 15771.16,
+  "query": "Consider the Mutual Non-Disclosure Agreement between AMC and Other Party; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Nothing contained herein shall require the destruction or purging of Confidential Information maintained on routine computer system backup tapes, disks or similar storage devices.",
+  "rag_answer": "Yes. Under Section 4(b), the Receiving Party must return or certify destruction of all copies or extracts of Confidential Information upon request, but the agreement expressly states that nothing requires the destruction or purging of Confidential Information maintained on routine computer system backup tapes, disks, or similar storage devices. Thus, backup-retained Confidential Information may be retained.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议不要求销毁或清除保存在常规计算机系统备份磁带、磁盘或类似存储设备上的保密信息。",
+    "answer_summary": "系统回答指出协议明确不要求销毁或清除常规备份磁带、磁盘或类似存储设备上的保密信息，因此可保留备份中的保密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标关键信息，且与金标结论一致，没有矛盾。"
+  },
+  "file_ids": [
+    114
+  ],
+  "skip_answer": false
+}

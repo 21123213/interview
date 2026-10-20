@@ -1,0 +1,25 @@
+{
+  "index": 249,
+  "request_id": "0772d1f29220",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Fintricity-Blank.txt",
+  "file_id": 166,
+  "file_mapped": true,
+  "latency_ms": 18085.59,
+  "query": "Consider Fintricity's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "(e) \"Confidential Information\" shall mean all information of the disclosing party, whether commercial, financial, technical or otherwise, disclosed to the recipient in connection with the Business Purpose specified in the Schedule hereto (\"the Business Purpose\") (whether disclosed orally, in documentary form, by demonstration or otherwise) which is contained in any form whatsoever (including without limitation data, drawings, films, documents and computer readable media) and which is marked or otherwise designated to show expressly or by necessary implication that it is confidential or proprietary to the disclosing party.",
+  "rag_answer": "No. The NDA does not require every item of Confidential Information to be expressly identified.\n\nUnder Clause 1(e), “Confidential Information” means information disclosed in connection with the Business Purpose that is “marked or otherwise designated to show expressly or by necessary implication that it is confidential or proprietary to the disclosing party.”\n\nSo, while the information must be designated as confidential, it does not have to be expressly identified in every case; designation “by necessary implication” is sufficient.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据显示 Confidential Information 需要被标记或以其他方式指定为保密，但可以是 expressly 或 by necessary implication，因此并不要求所有保密信息都必须被披露方明确识别。",
+    "answer_summary": "系统回答指出 NDA 不要求每一项保密信息都被明确识别，并引用定义中的“marked or otherwise designated to show expressly or by necessary implication”，说明通过必要暗示指定即可。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标关键结论：保密信息可以 expressly 或 by necessary implication 被指定，因此不要求所有保密信息都被明确识别。"
+  },
+  "file_ids": [
+    166
+  ],
+  "skip_answer": false
+}

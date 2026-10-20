@@ -1,0 +1,25 @@
+{
+  "index": 231,
+  "request_id": "2d53d25c6109",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Artop-Inno-2017.txt",
+  "file_id": 163,
+  "file_mapped": true,
+  "latency_ms": 17946.34,
+  "query": "Consider the Non-Disclosure Agreement between Artop and Inno; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "Confidential information refers to date and information with respect to relevant businesses and technical information, whether in written or other forms, that have been disclosed by either Entrusting party or Recipient with clear label or designation of \"Confidential information\" (hereinafter referred to as \"Confidential information\"), excluding the following date and information:",
+  "rag_answer": "Yes. Under the NDA’s definition of Confidential Information, confidential information is limited to business and technical data and information disclosed by either the Entrusting Party or the Recipient **“with clear label or designation of ‘Confidential information.’”**  \n\nTherefore, the document appears to require that confidential information be expressly identified or marked by the disclosing party in order to qualify as Confidential Information, subject to the stated exclusions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定 Confidential Information 指与相关业务和技术信息有关的数据和信息，且需由 Entrusting Party 或 Recipient 披露并带有明确的“Confidential information”标签或标识。",
+    "answer_summary": "系统回答指出 Confidential Information 限于带有明确“Confidential information”标签或标识的业务和技术数据/信息，并因此认为文档要求披露方明确标识或标记机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即机密信息需要带有明确标签或标识，并据此回答了问题；虽然措辞和详略不同，但不影响命中。"
+  },
+  "file_ids": [
+    163
+  ],
+  "skip_answer": false
+}

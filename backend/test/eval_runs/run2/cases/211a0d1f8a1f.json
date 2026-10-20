@@ -1,0 +1,25 @@
+{
+  "index": 193,
+  "request_id": "211a0d1f8a1f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "MutualNDA_The_Knights_of_Unity.txt",
+  "file_id": 155,
+  "file_mapped": true,
+  "latency_ms": 12094.54,
+  "query": "Consider the Mutual Non-Disclosure Agreement between The Knights of Unity; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "6. All right, title and interest in and to the Confidential Information shall remain the exclusive property of the disclosing party and the Confidential Information shall be held in trust and confidence by the receiving party for the disclosing party. No interest, license or any right respecting the Confidential Information, other than set out herein, is granted to the receiving party hereunder by implication or otherwise.",
+  "rag_answer": "Yes. The Agreement states that all right, title, and interest in and to the Confidential Information remain the exclusive property of the disclosing party, and that no interest, license, or any right respecting the Confidential Information—other than as expressly set out in the Agreement—is granted to the receiving party by implication or otherwise.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议明确保密信息的所有权归披露方，除协议规定外不向接收方授予任何权益、许可或权利。",
+    "answer_summary": "回答确认协议规定保密信息权利归披露方，且除协议明示外不向接收方授予任何权益、许可或权利。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖金标关键结论，即协议不授予接收方任何未明示权利，判定正确。"
+  },
+  "file_ids": [
+    155
+  ],
+  "skip_answer": false
+}

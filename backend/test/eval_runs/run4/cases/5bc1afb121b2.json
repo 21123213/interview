@@ -1,0 +1,25 @@
+{
+  "index": 167,
+  "request_id": "5bc1afb121b2",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "eHandshake_Non_Disclosure_Agreement.txt",
+  "file_id": 127,
+  "file_mapped": true,
+  "latency_ms": 13291.51,
+  "query": "Consider eHandshake's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "6. If any of the Parties determine that they do not wish to proceed or continue with the Business Under Discussion, it will promptly advise the other Party of that decision in writing or by email. Upon receipt of such communication the Receiving Party shall destroy promptly all documents furnished and will not retain any copies, extracts or other reproductions in whole or in part of such Information. Notwithstanding the foregoing, the Receiving Party shall be entitled to retain that portion of the Information for legal, regulatory or internal compliance purposes, which will continue to be treated as confidential on the terms hereof.",
+  "rag_answer": "Yes. Under clause 6, although the Receiving Party must promptly destroy all furnished documents and not retain copies after the Business Under Discussion ends, it is expressly permitted to retain a portion of the Information for legal, regulatory, or internal compliance purposes. Any retained Information remains confidential under the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定接收方通常须销毁所有文件且不得保留副本，但允许其为法律、监管或内部合规目的保留部分信息，且该保留信息仍须按协议保密。",
+    "answer_summary": "系统回答指出接收方原则上须销毁文件，但明确允许其为法律、监管或内部合规目的保留部分信息，且保留信息继续受保密义务约束。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键例外：接收方可为 legal、regulatory 或 internal compliance 目的保留部分 Confidential Information，并说明保留信息仍须保密；与金标一致且无矛盾。"
+  },
+  "file_ids": [
+    127
+  ],
+  "skip_answer": false
+}

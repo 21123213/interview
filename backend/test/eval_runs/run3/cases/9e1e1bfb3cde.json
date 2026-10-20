@@ -1,0 +1,25 @@
+{
+  "index": 1,
+  "request_id": "9e1e1bfb3cde",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "New_York_City_Bar_Association_Model_Form_of_Non-Disclosure_Agreement_2015.txt",
+  "file_id": 174,
+  "file_mapped": true,
+  "latency_ms": 23229.3,
+  "query": "Consider New York City Bar Association's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "Buyer agrees that Buyer and its Representatives shall (i) use the Evaluation Material solely for the purpose of evaluating, negotiating and consummating the Transaction (or other legal, audit or compliance purposes permitted by this Agreement);13\n(iii) Notwithstanding the foregoing and for the avoidance of doubt, none of Buyer or any of its Representatives shall be permitted to make any disclosure of Evaluation Material or Discussions Disclosure if Buyer or any of its Representatives has, without the prior written consent of the Company’s board of directors, initiated any proxy contest, tender offer, other effort to enter into a business combination with the Company, or any plan or proposal described in Item 4 of Schedule 13D, or taken any other action in violation of Section 8, that would reasonably be expected to trigger such requirement of disclosure.\nNeither this Agreement nor any of the rights or obligations hereunder may be assigned by any party without the prior written consent of the non-assigning party.\nExcept with respect to the matters specifically set forth herein, neither party shall have any rights or obligations of any kind whatsoever with respect to a Transaction by virtue of this Agreement or any other written or oral expression by the parties or their respective Representatives unless and until a Definitive Transaction Agreement is executed and delivered.",
+  "rag_answer": "Yes. Under Section 2(a) of the New York City Bar Association Model Form of Non-Disclosure Agreement, the Buyer and its Representatives must use the confidential information—defined in the document as “Evaluation Material”—**solely for the purpose of evaluating, negotiating, and consummating the Transaction**, or for other legal, audit, or compliance purposes permitted by the Agreement.\n\nThe Agreement also restricts disclosure of Evaluation Material to only those Representatives who need it to facilitate the evaluation, negotiation, or consummation of the Transaction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "买方及其代表应将 Evaluation Material 仅用于评估、谈判和完成交易，或协议允许的其他法律、审计或合规目的。",
+    "answer_summary": "系统回答指出买方及其代表必须将机密信息/Evaluation Material 仅用于评估、谈判和完成交易，或协议允许的其他法律、审计或合规目的。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关于使用机密信息仅限协议目的的核心要点，与用户问题直接相关。"
+  },
+  "file_ids": [
+    174
+  ],
+  "skip_answer": false
+}

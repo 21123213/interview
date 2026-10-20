@@ -1,0 +1,25 @@
+{
+  "index": 242,
+  "request_id": "5d633a10db97",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "VELCO%20NDA%20rev0%20Dec%2014%202015.txt",
+  "file_id": 198,
+  "file_mapped": true,
+  "latency_ms": 31138.1,
+  "query": "Consider VELCO's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "The foregoing notwithstanding, the Recipient may disclose classified information to its employees or contractors (hereafter Representatives) to the extent each such Representative has a need to know such information to conduct the work referenced in the Whereas clauses, and shall comply with Recipient’s obligations under this Agreement.",
+  "rag_answer": "Yes. Under Section IV(3), the Receiving Party may disclose Classified Information to its employees or contractors (defined as “Representatives”) only to the extent each Representative has a “need to know” such information to perform the work described in the Agreement’s Whereas clauses. Those Representatives must comply with the Receiving Party’s obligations under the NDA, and the Receiving Party is responsible for any breach by them.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可以向其员工或承包商（Representatives）披露机密信息，但仅限于每个 Representatives 因执行 Whereas clauses 所述工作而有必要知悉，并且其须遵守接收方在本协议下的义务。",
+    "answer_summary": "系统回答指出接收方可向员工或承包商披露机密/分类信息，前提是有 need to know 以执行协议 Whereas clauses 所述工作，且 Representatives 须遵守接收方在 NDA 下的义务。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，包括允许向员工/承包商披露、need to know 限制、与 Whereas clauses 工作相关以及 Representatives 须遵守接收方义务；额外补充责任承担内容不影响命中。"
+  },
+  "file_ids": [
+    198
+  ],
+  "skip_answer": false
+}

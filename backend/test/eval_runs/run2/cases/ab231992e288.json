@@ -1,0 +1,25 @@
+{
+  "index": 314,
+  "request_id": "ab231992e288",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "nda-employee-template.txt",
+  "file_id": 165,
+  "file_mapped": true,
+  "latency_ms": 15275.03,
+  "query": "Consider Employer's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "All such information in tangible form shall be returned to Disclosing Party promptly upon written request by Disclosing Party or the termination or expiration of this Agreement, whichever occurs first, and shall not thereafter be retained in any form by Recipient.",
+  "rag_answer": "Yes. Section 4 (“Return of Information”) specifies that upon termination or expiration of the Agreement—or upon written request by the Disclosing Party, whichever occurs first—the Recipient must promptly return all Confidential Information in tangible form and may not retain it in any form. In lieu of return, the Recipient may destroy the Confidential Information, provided the destruction is certified in writing to the Disclosing Party by a duly authorized officer of the Recipient.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "在披露方书面请求或协议终止/到期（以较早者为准）时，接收方须立即返还所有有形形式的机密信息，且不得以任一形式保留。",
+    "answer_summary": "系统回答指出：在协议终止/到期或披露方书面请求（以较早者为准）时，接收方须立即返还所有有形形式的机密信息，且不得保留。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即返还有形形式机密信息、触发时点为书面请求或终止/到期以较早者为准、且不得保留；额外关于销毁的说明虽超出金标，但不影响命中。"
+  },
+  "file_ids": [
+    165
+  ],
+  "skip_answer": false
+}

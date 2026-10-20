@@ -1,0 +1,25 @@
+{
+  "index": 79,
+  "request_id": "c7b5a7134d54",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Roundhouse-Creative-Mutual-NDA.txt",
+  "file_id": 181,
+  "file_mapped": true,
+  "latency_ms": 18018.59,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Roundhouse and Creative; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "4. The terms of this Agreement shall not be construed to limit either Party’s right to develop independently or acquire products without use of the other Party’s Confidential Information. The disclosing party acknowledges that the Recipient may currently or in the future be developing information internally, or receiving information from other parties, that is similar to the Confidential Information. Nothing in this Agreement will prohibit the Recipient from developing or having developed for it products, concepts, systems or techniques that are similar to or compete with the products, concepts, systems or techniques contemplated by or embodied in the Confidential Information provided that the Recipient does not violate any of its obligations under this Agreement in connection with such development.\n5. Notwithstanding the above, the Parties agree that information shall not be deemed Confidential Information and the Recipient shall have no obligation to hold in confidence such information, where such information:\n(c) Is independently developed by the Recipient without reference to any Confidential Information disclosed hereunder; or",
+  "rag_answer": "Yes. The Mutual Non-Disclosure Agreement expressly allows the Receiving Party to independently develop information or products similar to the Confidential Information.\n\nSpecifically, Section 4 states that the Agreement does not limit either Party’s right to develop independently or acquire products without using the other Party’s Confidential Information, and it acknowledges that the Recipient may develop or receive similar information internally or from others. The Recipient is permitted to develop products, concepts, systems, or techniques similar to or competing with those embodied in the Confidential Information, provided it does not violate its obligations under the Agreement.\n\nSection 5(c) further clarifies that information independently developed by the Recipient without reference to the disclosed Confidential Information is not deemed Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议不限制任一方独立开发或获取产品而不使用对方机密信息；接收方可以开发或接收与机密信息类似的信息，也可开发类似或竞争的产品、概念、系统或技术，只要不违反协议义务；未参考机密信息独立开发的信息不视为机密信息。",
+    "answer_summary": "系统回答称协议明确允许接收方独立开发类似机密信息的产品或信息，并概括了第4条关于独立开发/获取、类似信息、竞争开发不禁止以及第5(c)条关于未参考机密信息独立开发的信息不视为机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键结论：接收方可独立开发类似机密信息，且未参考机密信息独立开发的信息不属于机密信息，与金标一致。"
+  },
+  "file_ids": [
+    181
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,32 @@
+# Case `6ee5aa4c74bb`
+
+- index: 100
+- file_key: `Kerber_Non_Disclosure_Agreement.txt`
+- file_id: 149
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 18540.83
+
+## Query
+
+Consider Kerber's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?
+
+## Gold
+
+If either party elects not to pursue any further business undertaking, each party will promptly return upon request all tangible information including any and all copies thereof relating to all Confidential Information.
+
+## RAG Answer
+
+No. The document does not expressly state that the Receiving Party must destroy or return Confidential Information upon termination of the Agreement.
+
+It does state that all tangible information remains the property of the furnishing party, and that if either party elects not to pursue any further business undertaking, each party must promptly return, upon request, all tangible information and all copies relating to Confidential Information. It does not mention destruction, nor does it tie the return obligation specifically to termination of the Agreement.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 若任一方选择不继续业务往来，各方应按请求立即返还所有有形信息及其所有副本，包括与保密信息相关的材料。
+- answer_summary: 系统回答指出：若任一方选择不继续业务往来，各方必须按请求立即返还所有有形信息及与保密信息相关的所有副本。
+- gap: 无
+- reason: 系统回答已覆盖金标中的关键信息，即按请求返还所有有形信息及其副本，并明确该义务与“不再继续业务往来”相关；虽进一步说明未明确绑定协议终止或未提及销毁，但不影响对金标要点的命中。

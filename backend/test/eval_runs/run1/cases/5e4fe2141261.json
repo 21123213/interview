@@ -1,0 +1,25 @@
+{
+  "index": 75,
+  "request_id": "5e4fe2141261",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Evelozcity%20OESA%20NDA.txt",
+  "file_id": 131,
+  "file_mapped": true,
+  "latency_ms": 45346.37,
+  "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "The Recipient shall not disclose any Confidential Information to any third parties other than to its affiliates, and its and their respective officers, directors, employees, consultants or professional advisers (collectively, “Representatives”) who have a need to know the Confidential Information for use in evaluating or pursuing a potential business relationship with Disclosing Party or its affiliates (“Permitted Use.”)",
+  "rag_answer": "Yes. Under Section 2 of the NDA, the Receiving Party may share Confidential Information with its employees, but only if they are “Representatives” who have a need to know the information for evaluating or pursuing a potential business relationship with the Disclosing Party. The Receiving Party must ensure those employees keep the information strictly confidential and use it only for the permitted purpose, and the Receiving Party remains liable for any failure by its employees to comply.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得向第三方披露机密信息，但可以向其关联公司以及各自的高级职员、董事、员工、顾问或专业顾问等“代表”披露，前提是他们有知悉必要，用于评估或推进与披露方或其关联方的潜在商业关系。",
+    "answer_summary": "系统回答称允许接收方与员工共享机密信息，但员工须属于有知悉必要的“代表”，且用于评估或推进与披露方的潜在商业关系；并补充了保密义务和接收方责任。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许向员工披露机密信息，但仅限于作为有知悉必要的代表、为评估或推进潜在商业关系的目的。额外内容虽超出金标，但不矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    131
+  ],
+  "skip_answer": false
+}

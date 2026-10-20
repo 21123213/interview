@@ -1,0 +1,25 @@
+{
+  "index": 89,
+  "request_id": "dd1aff454629",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AfriGIS_Client-NDA_Template_2019.txt",
+  "file_id": 112,
+  "file_mapped": true,
+  "latency_ms": 40861.72,
+  "query": "Consider AfriGIS's Non-Disclosure Agreement; Does the document include a clause that prohibits the Receiving Party from soliciting some of the Disclosing Party's representatives?",
+  "gold": "Unless agreed to the contrary between the parties each Party hereby undertakes in favour of the other that it will not at any time during the currency of this Agreement and for a period of 12 months after the expiry or termination of this Agreement (for any reason whatsoever), whether directly or indirectly:\n15.2. furnish any information or advice (whether written or oral) to any employee then employed by the other of them (or any member of each other's group of companies or any entity in which either is interested) to any prospective employer of such employee or use any other means which are directly or indirectly designed, or in the ordinary course of events calculated, to result in any such employee terminating his employment by the other of them (or any member of each other's group of companies or any entity in which either is interested) and/or becoming employed by or directly or indirectly in any way interested in or associated with any other person or entity.",
+  "rag_answer": "Yes. The document includes a non-solicitation clause at **clause 15 (“NON-SOLICITATION”)**.\n\nIt states that, unless agreed otherwise, each Party — including the Receiving Party — undertakes not to, directly or indirectly, during the term of the Agreement and for **12 months after its expiry or termination**:\n\n- **encourage, entice, incite or persuade any employee of the other Party** — including employees of group companies or entities in which either Party is interested — to terminate their employment; and/or  \n- **furnish information or advice to any employee of the other Party** for a prospective employer, or use other means likely to cause such an employee to terminate employment or become associated with another person or entity.\n\nSo, the Receiving Party is prohibited from soliciting certain personnel of the Disclosing Party, specifically **employees** (and related group/entity employees), though the clause does not expressly use the broader term “representatives.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据表明协议包含非招揽条款：除非另有约定，各方在协议期间及到期/终止后12个月内，不得直接或间接向另一方员工（包括集团/关联实体员工）提供信息或建议给潜在雇主，或采取导致其终止雇佣/加入其他主体的行为。",
+    "answer_summary": "系统回答指出存在 NON-SOLICITATION 条款，并概括了协议期间及终止后12个月内禁止直接或间接招揽另一方员工/集团关联员工、为其提供信息或建议或导致其终止雇佣等要点，同时说明条款未明确使用“representatives”一词。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标证据中的关键要点，包括非招揽义务、适用期间、禁止行为对象和方式；虽然指出未明确使用 representatives，但这与金标证据一致，不构成矛盾或遗漏。"
+  },
+  "file_ids": [
+    112
+  ],
+  "skip_answer": false
+}

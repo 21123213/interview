@@ -1,0 +1,25 @@
+{
+  "index": 57,
+  "request_id": "7ec4f5d8908d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "QuickBooks-NDA-template.txt",
+  "file_id": 180,
+  "file_mapped": true,
+  "latency_ms": 14077.88,
+  "query": "Consider QuickBooks's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "“Confidential Information” means any information, technical data or know-how, including, but not limited to, that which relates to research, products, services, customers, markets, software, developments, inventions, processes, designs, drawings, engineering, marketing or finances, disclosed orally or in written or electronic form, and which is marked or identified by the disclosing party as “proprietary” or “confidential”.",
+  "rag_answer": "Yes. Under the QuickBooks Non-Disclosure Agreement, Confidential Information is defined as information, technical data, or know-how “disclosed orally or in written or electronic form,” provided it is marked or identified by the disclosing party as “proprietary” or “confidential.” Therefore, verbally conveyed information can be considered Confidential Information if it meets that definition.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标定义 Confidential Information 包括以口头、书面或电子形式披露的信息，且需由披露方标记或识别为“proprietary”或“confidential”。",
+    "answer_summary": "系统回答称 Confidential Information 可包括“disclosed orally or in written or electronic form”的信息，并需被标记或识别为“proprietary”或“confidential”，因此口头传达的信息可构成 Confidential Information。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：口头披露可属于 Confidential Information，且需要被标记或识别为专有/保密。"
+  },
+  "file_ids": [
+    180
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 56,
+  "request_id": "d5d5a851779f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "QuickBooks-NDA-template.txt",
+  "file_id": 180,
+  "file_mapped": true,
+  "latency_ms": 17688.94,
+  "query": "Consider QuickBooks's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Any materials or documents that have been furnished by one party to the other will be promptly returned, accompanied by all copies of such documentation, after the business possibility has been rejected or concluded.",
+  "rag_answer": "No. The QuickBooks NDA template does not appear to permit the Receiving Party to retain any Confidential Information after return.\n\nUnder Section 5, “Return of Materials,” any materials or documents furnished by one party to the other must be promptly returned, “accompanied by all copies of such documentation,” after the business opportunity is rejected or concluded. The document does not include an exception allowing retention of Confidential Information after return or destruction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "一方提供给另一方的材料或文档，在业务可能性被拒绝或结束后，应连同所有副本迅速返还。",
+    "answer_summary": "系统回答指出 QuickBooks NDA 模板不允许接收方在返还后保留机密信息，并引用“返还材料”条款：提供材料后需连同所有副本迅速返还，且未包含允许返还或销毁后保留机密信息的例外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键信息，即材料及其所有副本应在业务机会被拒绝或结束后迅速返还，并进一步说明没有保留例外，因此与金标一致。"
+  },
+  "file_ids": [
+    180
+  ],
+  "skip_answer": false
+}

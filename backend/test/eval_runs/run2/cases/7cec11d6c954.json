@@ -1,0 +1,25 @@
+{
+  "index": 239,
+  "request_id": "7cec11d6c954",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Dollar-General-Portfolio.txt",
+  "file_id": 164,
+  "file_mapped": true,
+  "latency_ms": 14257.38,
+  "query": "Consider the Non-Disclosure Agreement between Dollar General and Portfolio Entity; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Buyer is evaluating certain property owned by Owner for the purpose of purchasing the property from Owner (the “Transaction”), and, to assist Buyer in evaluating a possible transaction with Owner, Owner is prepared to make available to the Buyer certain confidential, non-public or proprietary information concerning the property and the tenants (the “Confidential Materials”).",
+  "rag_answer": "不。该 NDA 并未规定 Confidential Information/Confidential Materials 仅包括技术信息。文档片段 1 将其定义为与物业及租户有关的“certain confidential, non-public or proprietary information”，即机密、非公开或专有信息，范围不限于技术信息。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密材料是与物业及租户有关的机密、非公开或专有信息，并非仅限技术信息。",
+    "answer_summary": "系统回答称该NDA未规定机密信息仅包括技术信息，并指出其定义为与物业及租户有关的机密、非公开或专有信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即机密信息/机密材料涉及物业和租户的机密、非公开或专有信息，不局限于技术信息。"
+  },
+  "file_ids": [
+    164
+  ],
+  "skip_answer": false
+}

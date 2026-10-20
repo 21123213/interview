@@ -1,0 +1,25 @@
+{
+  "index": 262,
+  "request_id": "62b41b4e2447",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-M5-Systems.txt",
+  "file_id": 168,
+  "file_mapped": true,
+  "latency_ms": 17359.22,
+  "query": "Consider the M5-Systems' Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "\"Confidential Information\" means any information, technical data, or know-how, including, but not limited to, that which relates to research, product plans, products, services, customers, markets, software, developments, inventions, processes, designs, drawings, engineering, hardware configuration information, marketing or finances, which Confidential Information is designated in writing to be confidential or proprietary, or if given orally, is confirmed promptly in writing as having been disclosed as confidential or proprietary.",
+  "rag_answer": "No. The document does **not** state that Confidential Information shall only include technical information.\n\nUnder Section 2, “Confidential Information” is defined broadly as **“any information, technical data, or know-how,”** including but not limited to matters relating to research, product plans, products, services, customers, markets, software, developments, inventions, processes, designs, drawings, engineering, hardware configuration information, **marketing or finances**. Therefore, it covers both technical and non-technical information, provided it is designated as confidential in writing or confirmed in writing if disclosed orally.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出“Confidential Information”不限于技术信息，而是包括任何信息、技术数据或 know-how，并列举研发、产品、服务、客户、市场、软件、发明、流程、设计、工程、硬件配置、营销或财务等，且需书面指定或口头披露后书面确认。",
+    "answer_summary": "系统回答明确称文件并未规定保密信息仅包括技术信息，并引用定义说明其包括任何信息、技术数据或 know-how，涵盖营销或财务等非技术信息，且需书面指定或口头披露后书面确认。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：保密信息定义范围宽泛、不限于技术信息，并包含非技术类别及书面确认要求；与用户问题中的判断一致。"
+  },
+  "file_ids": [
+    168
+  ],
+  "skip_answer": false
+}

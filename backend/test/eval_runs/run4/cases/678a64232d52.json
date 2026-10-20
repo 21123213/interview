@@ -1,0 +1,25 @@
+{
+  "index": 108,
+  "request_id": "678a64232d52",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BCG-Mutual-NDA.txt",
+  "file_id": 116,
+  "file_mapped": true,
+  "latency_ms": 55413.1,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Boston Consulting Group and Unknown Party; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "a. What is included, \"Confidential information\" is non-public information, know-how and trade secrets in any form that:\n Are designated as \"confidential\"; or\n A reasonable person knows or reasonably should understand to be confidential.",
+  "rag_answer": "No. Under the provided Mutual Non-Disclosure Agreement, Confidential Information does not need to be expressly identified or marked by the Disclosing Party in every case.\n\nSection 2(a) defines “Confidential information” as non-public information, know-how, and trade secrets that either:\n\n1. Are designated as “confidential”; **or**  \n2. A reasonable person knows or reasonably should understand to be confidential.\n\nTherefore, information that is not expressly identified as confidential may still be protected if a reasonable person would understand it to be confidential.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息包括非公开信息、know-how 和 trade secrets，只要被指定为 confidential，或合理人知道/应当理解其为 confidential。",
+    "answer_summary": "系统回答指出并非所有保密信息都必须明确标识，并复述了金标中的两种认定方式：被指定为 confidential，或合理人知道/应当理解其为 confidential。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，并据此正确回答文档不要求所有 Confidential Information 都必须明确标识。"
+  },
+  "file_ids": [
+    116
+  ],
+  "skip_answer": false
+}

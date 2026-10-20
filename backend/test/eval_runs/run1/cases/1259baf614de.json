@@ -1,0 +1,25 @@
+{
+  "index": 112,
+  "request_id": "1259baf614de",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "GreenStorm%20NDCSC.txt",
+  "file_id": 136,
+  "file_mapped": true,
+  "latency_ms": 58247.56,
+  "query": "Consider GreenStorm's Non-Disclosure Agreement; Does the document include a clause that prohibits the Receiving Party from soliciting some of the Disclosing Party's representatives?",
+  "gold": "The Parties hereby confirm that neither they nor anyone on their behalf or anyone else has solicited in any way, and no document received or that will be received shall be deemed to be a solicitation.",
+  "rag_answer": "No — based on the provided excerpts, the document does not include a clear clause prohibiting the Receiving Party from soliciting the Disclosing Party’s representatives.\n\nAlthough the Agreement is titled as including a “NON-SOLICITATION” component, Section 11 only states that the Parties confirm neither they nor anyone on their behalf has solicited in any way, and that documents received are not deemed to be a solicitation. It does not expressly prohibit soliciting the other Party’s representatives or employees.\n\nThe Non-Circumvention clause restricts contacting or dealing with parties introduced by or through the other Party for the purpose of avoiding payments, but that is not the same as a general prohibition on soliciting the Disclosing Party’s representatives.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据指出双方确认其自身及代表/任何人没有以任何方式 solicited，且收到或将收到的文件不得被视为 solicitation；并未明确给出禁止接收方招揽披露方代表的条款。",
+    "answer_summary": "系统回答称文件没有明确禁止接收方招揽披露方代表的条款，并指出 Section 11 仅确认双方及代表没有以任何方式 solicited，且收到的文件不视为 solicitation。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键信息：双方确认未 solicited，且文件不视为 solicitation。其结论“没有明确禁止招揽条款”与金标证据并不矛盾，因此判为命中。"
+  },
+  "file_ids": [
+    136
+  ],
+  "skip_answer": false
+}

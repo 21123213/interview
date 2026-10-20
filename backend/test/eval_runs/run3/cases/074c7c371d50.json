@@ -1,0 +1,25 @@
+{
+  "index": 139,
+  "request_id": "074c7c371d50",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SupplementOne-NDA.txt",
+  "file_id": 191,
+  "file_mapped": true,
+  "latency_ms": 10605.74,
+  "query": "Consider SupplementOne's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "Upon request of Discloser or termination of this Agreement, Recipient shall return all Confidential Information, copies, extracts, or notes derived from Confidential Information to Discloser or certify, in writing, the destruction thereof.",
+  "rag_answer": "Yes. SupplementOne’s NDA specifies that upon termination of the Agreement (or upon the Discloser’s request), the Recipient must return all Confidential Information, including copies, extracts, or notes derived from it, to the Discloser, or certify in writing that such information has been destroyed. This obligation survives termination.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Upon Discloser’s request or termination of the Agreement, Recipient must return all Confidential Information and derived copies/extracts/notes, or certify in writing that they were destroyed.",
+    "answer_summary": "The system states that upon termination or Discloser request, Recipient must return all Confidential Information, including copies, extracts, or notes derived from it, or certify in writing that such information has been destroyed.",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键要点：触发条件（终止或披露方要求）、义务内容（返还全部机密信息及衍生件，或书面证明销毁）。"
+  },
+  "file_ids": [
+    191
+  ],
+  "skip_answer": false
+}

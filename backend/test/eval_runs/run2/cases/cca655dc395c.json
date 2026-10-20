@@ -1,0 +1,25 @@
+{
+  "index": 64,
+  "request_id": "cca655dc395c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "JB-Machine-LLC-NDA-1.txt",
+  "file_id": 147,
+  "file_mapped": true,
+  "latency_ms": 21553.6,
+  "query": "Consider JB Machine LLC's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Confidential information also includes any information of the owner and a third party with which the Owner deals, including, but not limited to: financial information, business records, plans, trade secrets, product ideas, technical data of any type, contracts, billing records, pricing structure, discounts, property, investments, strategic alliances, partnerships, customer or client lists.",
+  "rag_answer": "No. The document does not limit Confidential Information to technical information only.\n\nIt defines Confidential Information broadly as any information or material proprietary to the Owner and generally not known to others, including but not limited to:\n\n- technical data,\n- financial information,\n- business records,\n- plans,\n- trade secrets,\n- product ideas,\n- contracts,\n- billing records,\n- pricing structure,\n- discounts,\n- property,\n- investments,\n- strategic alliances,\n- partnerships,\n- customer or client lists,\n- designs, expertise, descriptions, sketches, and other related information.\n\nTherefore, technical information is only one category among many types of Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不仅包括技术信息，还包括与Owner及第三方交易相关的各类信息，如财务信息、业务记录、计划、商业秘密、产品想法、技术数据、合同、账单记录、定价结构、折扣、财产、投资、战略联盟、伙伴关系、客户或客户名单等。",
+    "answer_summary": "系统回答明确否定了“仅包括技术信息”的说法，并列出财务信息、业务记录、计划、商业秘密、产品想法、技术数据、合同、账单记录、定价结构、折扣、财产、投资、战略联盟、伙伴关系、客户或客户名单等类别。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键结论，即保密信息范围不限于技术信息，并包含金标列出的主要类别，因此判定命中。"
+  },
+  "file_ids": [
+    147
+  ],
+  "skip_answer": false
+}

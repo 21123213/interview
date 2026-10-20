@@ -1,0 +1,25 @@
+{
+  "index": 290,
+  "request_id": "70aad96e1a9d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Seeed.txt",
+  "file_id": 171,
+  "file_mapped": true,
+  "latency_ms": 14206.14,
+  "query": "Consider Seeed's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "For purposes of this Agreement, “Confidential Information” shall mean the following:\nii. Technical, financial, business plan and customer information, including standard periodic financial statements and analyses, budgets, tax returns, benefit and compensation plans, customer list(s) and contact names, functional and technical specifications;",
+  "rag_answer": "No. Seeed’s NDA does not limit Confidential Information to technical information. Article 1 defines “Confidential Information” broadly to include records, files, analysis, documents, software, electronic data, test data, printouts, processes, designs, technical bulletins, manuals, diagrams, formulas, research, inventions, patents, and discoveries, as well as technical, financial, business plan, and customer information, and other valuable information designated as confidential expressly or by circumstances.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出“Confidential Information”包括技术、财务、业务计划和客户信息，并非仅限技术信息。",
+    "answer_summary": "系统回答称 NDA 未将 Confidential Information 限定为技术信息，并列出其包括技术、财务、业务计划和客户信息等广泛内容。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即 Confidential Information 包含技术、财务、业务计划和客户信息，因此正确回应了问题。"
+  },
+  "file_ids": [
+    171
+  ],
+  "skip_answer": false
+}

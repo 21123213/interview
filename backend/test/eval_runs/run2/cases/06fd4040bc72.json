@@ -1,0 +1,25 @@
+{
+  "index": 113,
+  "request_id": "06fd4040bc72",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "LiiON%20NDA%202-27-2015%20v1.0.txt",
+  "file_id": 151,
+  "file_mapped": true,
+  "latency_ms": 19842.1,
+  "query": "Consider LiiON's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "All Confidential Information disclosed pursuant to this Agreement is and shall remain the property of Disclosing Party.\nNo license or other rights under any patent, copy-right, trademark or trade secret are granted or implied by this Agreement.",
+  "rag_answer": "Yes. The LiiON NDA states that **all Confidential Information remains the property of the Disclosing Party** and that **“No license or other rights under any patent, copyright, trademark or trade secret are granted or implied by this Agreement.”**  \n\nIt does, however, permit the Receiving Party to use and make limited copies of the Confidential Information **only to the extent necessary for the agreed Purpose**, and requires return or destruction upon request.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论：所有保密信息仍归披露方所有；协议未授予任何专利、版权、商标或商业秘密许可或其他权利。",
+    "answer_summary": "系统回答确认协议不授予接收方权利，并指出保密信息仍属披露方，且未授予任何专利、版权、商标或商业秘密许可或其他权利；同时补充仅可为约定目的使用、复制以及返还/销毁。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标的核心要点，虽额外扩写使用限制，但与金标不矛盾，按从宽覆盖标准判定命中。"
+  },
+  "file_ids": [
+    151
+  ],
+  "skip_answer": false
+}

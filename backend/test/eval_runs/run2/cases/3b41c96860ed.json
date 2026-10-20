@@ -1,0 +1,25 @@
+{
+  "index": 213,
+  "request_id": "3b41c96860ed",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NCDG_Non-disclosure-agreement.txt",
+  "file_id": 157,
+  "file_mapped": true,
+  "latency_ms": 21052.0,
+  "query": "Consider NCDG's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "3. At any time upon request from the Disclosing Party or upon the conclusion of the Purpose or expiry of this Agreement, the Receiving Party, at its own cost, will return or procure the return, promptly and in any event within 14 days of receipt of such request, of each and every copy of Confidential Information given by the Disclosing Party, and satisfy the Disclosing Party that it no longer holds any further Confidential Information.",
+  "rag_answer": "No. Based on the provided NCDG Non-Disclosure Agreement, the document does not permit the Receiving Party to retain Confidential Information after its return.\n\nClause V(3) states that upon request, conclusion of the Purpose, or expiry of the Agreement, the Receiving Party must return “each and every copy” of Confidential Information and must satisfy the Disclosing Party that it “no longer holds any further Confidential Information.”\n\nThe provided clauses do not contain an exception allowing retention of some Confidential Information after return or destruction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标要求接收方在请求、目的完成或协议到期时，返回披露方提供的每一份机密信息副本，并证明其不再持有任何进一步机密信息。",
+    "answer_summary": "系统回答称协议不允许接收方在返还后保留机密信息，并引用条款要求返回每份副本且证明不再持有任何机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键义务，即返回全部机密信息副本并证明不再持有，且对问题给出正确否定结论。"
+  },
+  "file_ids": [
+    157
+  ],
+  "skip_answer": false
+}

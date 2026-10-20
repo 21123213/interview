@@ -1,0 +1,25 @@
+{
+  "index": 74,
+  "request_id": "05f61ccef469",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Roundhouse-Creative-Mutual-NDA.txt",
+  "file_id": 181,
+  "file_mapped": true,
+  "latency_ms": 10497.07,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Roundhouse and Creative; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "3. All Confidential Information disclosed under this Agreement shall be and remain the property of the disclosing Party and nothing contained in this Agreement shall be construed as granting or conferring any rights to such Confidential Information on the other Party.",
+  "rag_answer": "Yes. The Agreement states that all Confidential Information remains the property of the disclosing Party and that nothing in the Agreement shall be construed as granting or conferring any rights to such Confidential Information on the other Party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息始终属于披露方，协议不授予另一方任何权利。",
+    "answer_summary": "系统回答指出保密信息仍属于披露方，且协议不授予另一方任何权利。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键结论，并明确确认协议不授予接收方/另一方对保密信息的权利。"
+  },
+  "file_ids": [
+    181
+  ],
+  "skip_answer": false
+}

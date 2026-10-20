@@ -1,0 +1,25 @@
+{
+  "index": 66,
+  "request_id": "638bcced737e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Evelozcity%20OESA%20NDA.txt",
+  "file_id": 131,
+  "file_mapped": true,
+  "latency_ms": 11801.76,
+  "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "All Confidential Information shall remain the exclusive property of the Disclosing Party and nothing in this Agreement shall be deemed to grant the Recipient any license, right, title, or interest in or to the Confidential Information. The Recipient acquires no intellectual property license or rights under this Agreement except the limited right to review such Confidential Information.",
+  "rag_answer": "Yes. The Agreement states that all Confidential Information remains the exclusive property of the Disclosing Party and that nothing in the Agreement grants the Recipient any license, right, title, or interest in or to the Confidential Information. The Recipient acquires no intellectual property rights except a limited right to review the Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息仍归披露方所有，协议不授予接收方任何许可、权利、所有权或利益；接收方仅获得审阅保密信息的有限权利。",
+    "answer_summary": "系统回答指出保密信息仍为披露方专有财产，协议不授予接收方任何许可、权利、所有权或利益，且接收方除有限审阅权外不获得知识产权。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键结论，包括所有权保留、不授予任何权利/许可/所有权/利益，以及仅保留有限审阅权。"
+  },
+  "file_ids": [
+    131
+  ],
+  "skip_answer": false
+}

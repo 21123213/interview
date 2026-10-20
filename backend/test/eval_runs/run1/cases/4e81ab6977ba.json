@@ -1,0 +1,25 @@
+{
+  "index": 136,
+  "request_id": "4e81ab6977ba",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "HNBA-2017-18-Confidentiality-Agreement.txt",
+  "file_id": 139,
+  "file_mapped": true,
+  "latency_ms": 11185.72,
+  "query": "Consider HNBA's Confidentiality Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "Termination or expiration of this Agreement shall not relieve the Board Member of any obligation with respect to the Confidential Information disclosed or developed hereunder prior to termination.",
+  "rag_answer": "Yes. The Agreement states that termination or expiration “shall not relieve the Board Member of any obligation with respect to the Confidential Information disclosed or developed hereunder prior to termination.” This means certain confidentiality obligations survive termination of the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议终止或到期不免除董事会成员对终止前披露或开发的机密信息所负的义务。",
+    "answer_summary": "系统回答称 Yes，并引用协议中“终止或到期不免除董事会成员对终止前披露或开发的机密信息所负义务”的表述，说明保密义务在终止后仍存续。",
+    "gap": "无",
+    "reason": "系统回答直接覆盖并准确复述了金标关键要点，且结论与金标一致。"
+  },
+  "file_ids": [
+    139
+  ],
+  "skip_answer": false
+}

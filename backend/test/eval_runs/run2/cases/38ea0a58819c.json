@@ -1,0 +1,25 @@
+{
+  "index": 242,
+  "request_id": "38ea0a58819c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Dollar-General-Portfolio.txt",
+  "file_id": 164,
+  "file_mapped": true,
+  "latency_ms": 19755.88,
+  "query": "Consider the Non-Disclosure Agreement between Dollar General and Portfolio Entity; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "The Confidential Materials shall not include information that:\n(iii) is disclosed to Buyer by a third party on a non-confidential basis; or",
+  "rag_answer": "Yes, but only in a limited sense. The NDA does not expressly say the Receiving Party (Buyer) may obtain “similar” Confidential Information from a third party. However, Section 2 (“Excluded Information”) states that Confidential Materials do **not** include information that **“is disclosed to Buyer by a third party on a non-confidential basis.”**\n\nTherefore, if a third party provides the information to Buyer on a non-confidential basis, that information is excluded from the confidentiality obligations under the agreement. If the third-party information is itself confidential, or was obtained using the Confidential Materials, the document does not permit that treatment.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "第三方以非保密基础向 Buyer 披露的信息不属于 Confidential Materials。",
+    "answer_summary": "系统回答指出 NDA 未直接允许获取“similar”信息，但排除条款规定第三方以非保密基础向 Buyer 披露的信息不属于 Confidential Materials，因此可排除保密义务；若第三方信息本身保密或源自 Confidential Materials 则不允许。",
+    "gap": "无",
+    "reason": "系统回答准确引用并解释了金标关键信息，即第三方以非保密基础披露的信息被排除在 Confidential Materials 之外，与金标一致。"
+  },
+  "file_ids": [
+    164
+  ],
+  "skip_answer": false
+}

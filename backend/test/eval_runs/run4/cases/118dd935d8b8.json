@@ -1,0 +1,25 @@
+{
+  "index": 39,
+  "request_id": "118dd935d8b8",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "01_Bosch-Automotive-Service-Solutions-Mutual-Non-Disclosure-Agreement-7-12-17.txt",
+  "file_id": 108,
+  "file_mapped": true,
+  "latency_ms": 15645.04,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Bosch and Automotive Service Solutions; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Confidential Information includes, but is not limited to documents, drawings, models, apparatus, sketches, designs, schedules, product plans, marketing plans, technical procedures, manufacturing processes, software, prototypes, samples, methodologies, formulations, trade secrets, patent applications, know-how, experimental results, specifications and other business information.",
+  "rag_answer": "No. The document does **not** state that Confidential Information shall only include technical information.\n\nUnder Section 1 (“Confidential Information”), Confidential Information means **all nonpublic information relating to the Subject Matter** disclosed by a party, and it expressly includes, but is not limited to, items such as:\n\n- documents, drawings, models, apparatus, sketches, designs  \n- schedules, product plans, marketing plans  \n- technical procedures, manufacturing processes, software, prototypes, samples  \n- methodologies, formulations, trade secrets, patent applications, know-how  \n- experimental results, specifications  \n- **other business information**\n\nTherefore, Confidential Information is defined broadly and is not limited to technical information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出 Confidential Information 包括但不限於文档、图纸、模型、商业计划、营销计划、技术流程、制造流程、软件、原型、样品、方法论、配方、商业秘密、专利申请、专有技术、实验结果、规格及其他商业信息，因此不限于技术信息。",
+    "answer_summary": "系统回答明确表示文档没有规定 Confidential Information 仅包括技术信息，并列举了金标中的各类非技术/商业信息，如文档、图纸、模型、产品计划、营销计划、软件、商业秘密、专利申请、其他商业信息等。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键结论：Confidential Information 的定义宽泛且不限于技术信息，并包含了金标列举的主要信息类别，因此判定命中。"
+  },
+  "file_ids": [
+    108
+  ],
+  "skip_answer": false
+}

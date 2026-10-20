@@ -1,0 +1,25 @@
+{
+  "index": 87,
+  "request_id": "d31b246ed1ad",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AfriGIS_Client-NDA_Template_2019.txt",
+  "file_id": 112,
+  "file_mapped": true,
+  "latency_ms": 20465.44,
+  "query": "Consider AfriGIS's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "The obligations of the Receiving Party pursuant to the provisions of this Agreement shall not apply to any Confidential Information that –\n8.3 is developed independently of the Disclosing Party by the Receiving Party in circumstances that do not amount to a breach of the provisions of this Agreement;",
+  "rag_answer": "Yes, in effect—but only under a limited exclusion.\n\nUnder clause 8.3 of AfriGIS’s NDA, the Receiving Party’s confidentiality obligations do **not** apply to information that:\n\n> “is developed independently of the Disclosing Party by the Receiving Party in circumstances that do not amount to a breach of the provisions of this Agreement.”\n\nSo, if the Receiving Party independently develops information that is similar to the Confidential Information, and it does so **without using the Confidential Information or otherwise breaching the NDA**, the NDA treats that independently developed information as excluded Confidential Information.\n\nHowever, the document does not give a general right to copy, use, or disclose similar information merely because it resembles Confidential Information. The key condition is genuine independent development without breach.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方在不妨碍违反协议的情况下独立开发的信息，不受保密义务约束。",
+    "answer_summary": "系统回答指出根据第8.3条，接收方独立开发且不违反协议的信息不适用保密义务，因此可以在该条件下独立开发类似保密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键要点，即独立开发信息在满足不违反协议条件时不受保密义务约束。"
+  },
+  "file_ids": [
+    112
+  ],
+  "skip_answer": false
+}

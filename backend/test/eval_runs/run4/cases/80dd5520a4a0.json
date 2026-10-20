@@ -1,0 +1,25 @@
+{
+  "index": 136,
+  "request_id": "80dd5520a4a0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "amc-general-mutual-non-disclosure-agreement-en-gb.txt",
+  "file_id": 114,
+  "file_mapped": true,
+  "latency_ms": 44265.71,
+  "query": "Consider the Mutual Non-Disclosure Agreement between AMC and Other Party; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "(a) “Confidential Information” means any proprietary information that is disclosed in writing by Disclosing Party (defined herein) to Receiving Party (defined herein) and is duly and recognizably marked “Confidential” on each document / sheet.",
+  "rag_answer": "不可以。根据第 2(a) 条，“Confidential Information” 指以书面形式披露、并在每份文件/页上明确标记 “Confidential” 的专有信息；此外，Exhibit A 中特别列出的文件和信息也被视为 Confidential Information。该协议未明确将口头传达的信息纳入 Confidential Information，因此仅口头传达的信息通常不被视为机密信息，除非其被书面记录并标记，或列入 Exhibit A。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息指由披露方以书面形式向接收方披露、且在每份文件/页上明确标记“Confidential”的专有信息。",
+    "answer_summary": "系统回答指出机密信息需以书面形式披露并明确标记“Confidential”，因此口头传达的信息通常不被视为机密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键要件：书面披露和明确标记“Confidential”，并据此回答口头信息不被允许作为机密信息；额外扩写不影响命中。"
+  },
+  "file_ids": [
+    114
+  ],
+  "skip_answer": false
+}

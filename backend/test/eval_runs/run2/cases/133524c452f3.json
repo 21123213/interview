@@ -1,0 +1,25 @@
+{
+  "index": 200,
+  "request_id": "133524c452f3",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "MutualNDA_The_Knights_of_Unity.txt",
+  "file_id": 155,
+  "file_mapped": true,
+  "latency_ms": 28720.69,
+  "query": "Consider the Mutual Non-Disclosure Agreement between The Knights of Unity; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "4. Confidential Information may be disclosed by the receiving party to its employees, directors, officers, advisors, attorneys, auditors and agents only on a need-to-know basis in connection with the Opportunity, and each employee, director, officer, advisor, attorney, auditor or agent to whom Confidential Information is disclosed shall treat such Confidential Information in a manner consistent with this Agreement.",
+  "rag_answer": "Yes. Under the Agreement, the Receiving Party may disclose Confidential Information to certain third parties, including its advisors, attorneys, auditors, and agents, but only on a need-to-know basis in connection with the Opportunity. Those recipients must treat the information consistently with the Agreement, and the Receiving Party remains liable for their acts and omissions.\n\nThe Agreement does not expressly list “consultants,” but it does allow disclosure to “advisors,” which may cover professional advisors depending on interpretation. General disclosure to third parties is otherwise prohibited except as permitted by the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据表明接收方可在基于需要知悉原则且与Opportunity相关的条件下，向员工、董事、高管、顾问、律师、审计师和代理人披露保密信息，且被披露方需按协议处理该信息。",
+    "answer_summary": "系统回答指出接收方可向advisors、attorneys、auditors、agents等第三方在need-to-know基础上披露保密信息，且接收方需按协议处理；并说明advisors可能涵盖professional advisors。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标证据的核心要点：允许有限披露、基于need-to-know、与Opportunity相关、被披露方需按协议处理，并回应了agents和professional advisors/advisors的问题。虽未完整列出employees、directors、officers，但根据从宽判定标准，关键信息已命中。"
+  },
+  "file_ids": [
+    155
+  ],
+  "skip_answer": false
+}

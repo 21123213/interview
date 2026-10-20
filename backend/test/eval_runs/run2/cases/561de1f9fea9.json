@@ -1,0 +1,25 @@
+{
+  "index": 88,
+  "request_id": "561de1f9fea9",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Kenway-NDA-Form-Blank.txt",
+  "file_id": 148,
+  "file_mapped": true,
+  "latency_ms": 13214.11,
+  "query": "Consider Kenway's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "“Confidential Information:” means all confidential information (however recorded, preserved or disclosed) disclosed by a Party or its Representatives to the other Party and that Party's Representatives including but not limited to: the fact that discussions and negotiations are taking place concerning the Purpose and the status of those discussions and negotiations; any information that would be regarded as confidential by a reasonable business person relating to:\n(a) the business, affairs, customers, clients, suppliers, plans, intentions, or market opportunities of the Disclosing Party or of the Disclosing Party's Group;\n(b) the operations, processes, product information, know-how, designs, specifications, trade secrets or software of the Disclosing Party or of the Disclosing Party's Group; and\n“Purpose”: means the exchange of Confidential Information, trade secrets, know-how and samples in order to evaluate and pursue the objective of one or more potential business arrangements with respect to Kenway’s potential to supply the Company with information, products and/or designs that are proprietary to the Company.",
+  "rag_answer": "No. The document does **not** state that Confidential Information shall only include technical information.\n\nIt defines Confidential Information broadly as **all confidential information**, including but not limited to:\n\n- the fact that discussions/negotiations are taking place and their status;\n- business, affairs, customers, clients, suppliers, plans, intentions, or market opportunities;\n- operations, processes, product information, know-how, designs, specifications, trade secrets, or software;\n- any information or analysis derived from Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标结论：文档并未将保密信息限定为技术信息，而是将其定义为所有保密信息，包括但不限于谈判讨论事实及状态、商业事务、客户/供应商/计划/市场机会、运营流程、产品/know-how/设计/规格/商业秘密/软件等。",
+    "answer_summary": "系统回答明确指出文档没有规定保密信息仅包括技术信息，并概括了保密信息为所有保密信息，包括谈判讨论事实及状态、商业事务、运营流程、产品/know-how/设计/规格/商业秘密/软件等。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论和要点，即保密信息范围广泛且不限于技术信息，与金标一致。"
+  },
+  "file_ids": [
+    148
+  ],
+  "skip_answer": false
+}

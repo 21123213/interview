@@ -1,0 +1,25 @@
+{
+  "index": 21,
+  "request_id": "4428650b04e2",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IGC-Non-Disclosure-Agreement-LSE-Sample.txt",
+  "file_id": 141,
+  "file_mapped": true,
+  "latency_ms": 25180.27,
+  "query": "Consider the Non-Disclosure Agreement between IGC and LSE; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "Representative means employees, agents, officers, advisers and other representatives of the Recipient.\nThe Recipient may disclose the Disclosing Party's Confidential Information to those of its Representatives who need to know this Confidential Information for the Purpose, provided that:",
+  "rag_answer": "Yes, but only in a limited way.\n\nUnder the NDA, the Recipient generally must not disclose Confidential Information to any third party except as expressly permitted. The Agreement expressly permits the Recipient to disclose Confidential Information to its **Representatives** who **need to know** it for the Purpose.\n\n“Representative” is defined to include **employees, agents, officers, advisers and other representatives**. Therefore, sharing with agents and professional advisers/consultants may be allowed if they qualify as Representatives and the need-to-know requirement is satisfied.\n\nHowever, such disclosure is subject to conditions:\n\n- the Recipient must inform the Representative of the confidential nature of the information;\n- the Recipient must ensure the Representative complies with the NDA as if it were the Recipient;\n- if requested by the Disclosing Party, the Representative must enter into a confidentiality agreement on equivalent terms; and\n- the Recipient must keep a written record of the Representatives and remains liable for their non-compliance.\n\nSo, the document does allow limited sharing with certain third-party Representatives, such as agents and advisers/consultants, but only for the Purpose and subject to the above conditions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可以向其“Representatives”披露机密信息，这些代表包括员工、代理人、管理人员、顾问及其他代表，但必须是为了约定目的且确有知悉必要。",
+    "answer_summary": "系统回答指出 NDA 允许接收方在限定条件下向 Representatives 披露机密信息，且 Representative 包括 agents、advisers/consultants，并要求满足 need-to-know 和 Purpose 等条件。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键信息：允许向包括 agents 和 advisers/consultants 在内的 Representatives 披露机密信息，且限于为约定目的确有知悉必要；额外条件虽未在给定金标中完整列出，但不影响命中。"
+  },
+  "file_ids": [
+    141
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 77,
+  "request_id": "0e4d54b3e419",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AGProjects-NDA.txt",
+  "file_id": 113,
+  "file_mapped": true,
+  "latency_ms": 11565.2,
+  "query": "Consider the AGProjects' Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "Contemplate one or more meetings and various communications that will involve the disclosure by one of the parties [DISCLOSING PARTY] to the other party [RECEIVING PARTY] of technical, business, marketing, planning, pricing and other information and data, in written, oral, electronic, magnetic, photographic and/or other forms, including information and data regarding Internet-based transport solutions (Collectively CONFIDENTIAL INFORMATION).",
+  "rag_answer": "Yes. The AGProjects Non-Disclosure Agreement expressly contemplates disclosures of information “in written, oral, electronic, magnetic, photographic and/or other forms,” and collectively defines such information as **CONFIDENTIAL INFORMATION**. Therefore, verbally conveyed information can be considered Confidential Information under the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息包括以书面、口头、电子、磁性、摄影或其他形式披露的技术、业务、营销、计划、定价及其他信息。",
+    "answer_summary": "回答指出协议明确涵盖书面、口头、电子、磁性、摄影或其他形式的信息，并统称为保密信息，因此口头传达的信息可被视为保密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键点，即保密信息包含口头形式，结论与金标一致。"
+  },
+  "file_ids": [
+    113
+  ],
+  "skip_answer": false
+}

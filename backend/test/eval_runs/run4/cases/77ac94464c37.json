@@ -1,0 +1,25 @@
+{
+  "index": 70,
+  "request_id": "77ac94464c37",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ADVANIDE-NON-DISCLOSURE-AGREEMENT.txt",
+  "file_id": 111,
+  "file_mapped": true,
+  "latency_ms": 37620.66,
+  "query": "Consider ADVANIDE's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "2. Both Parties shall\nII. keep the Information relating to the other party secret and confidential and not disclose any of it to any third person and only make it available to the Receiving Party´s executive board, directors, employees, advisers or subsidiaries and affiliates who need to know the same for the Purpose;",
+  "rag_answer": "Yes, but only in a limited way.\n\nUnder the ADVANIDE NDA, the Receiving Party must not disclose the Confidential Information to “any third person,” except that it may make the Information available to the Receiving Party’s **executive board, directors, employees, advisers, or subsidiaries and affiliates** who **need to know it for the Business Purpose**. The Receiving Party must also ensure that its **employees and advisers** comply with the non-disclosure obligations.\n\nTherefore, the document allows sharing with certain persons who can be characterized as **advisers**, which may include professional advisors. However, **consultants and agents are not expressly listed**; they would likely need to qualify as “advisers” and be bound by the confidentiality obligations before the Information could be shared with them.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定双方应保密，不得向任何第三方披露，但仅可向接收方的执行委员会、董事、员工、顾问或子公司及关联公司披露，且这些人员需为相关目的知悉信息。",
+    "answer_summary": "系统回答指出 NDA 原则上禁止向任何第三方披露，但允许向接收方的 executive board、directors、employees、advisers、subsidiaries and affiliates 等需要知悉目的信息的人员分享；并进一步说明 consultants 和 agents 未被明确列出，可能需归入 advisers。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键限制和例外主体，即不得向任何第三方披露，但可有限分享给执行委员会、董事、员工、顾问、子公司及关联公司等需要知悉目的信息的人员。对 consultants、agents 和 professional advisors 的补充解释未与金标矛盾，且属于从问题语境出发的合理延伸，因此判定命中。"
+  },
+  "file_ids": [
+    111
+  ],
+  "skip_answer": false
+}

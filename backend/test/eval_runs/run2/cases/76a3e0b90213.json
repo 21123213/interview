@@ -1,0 +1,25 @@
+{
+  "index": 116,
+  "request_id": "76a3e0b90213",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "LiiON%20NDA%202-27-2015%20v1.0.txt",
+  "file_id": 151,
+  "file_mapped": true,
+  "latency_ms": 11545.0,
+  "query": "Consider LiiON's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The restrictions and obligations set forth in this Agreement shall survive any expiration or termination for five years from the date of such expiration or termination with respect to Confidential Information disclosed under this Agreement prior to the date of such expiration or termination.",
+  "rag_answer": "Yes. The LiiON Non-Disclosure Agreement expressly provides that certain obligations may survive termination or expiration.\n\nSection 7(a) states:\n\n> “The restrictions and obligations set forth in this Agreement shall survive any expiration or termination for five years from the date of such expiration or termination with respect to Confidential Information disclosed under this Agreement prior to the date of such expiration or termination.”\n\nSo, the Agreement says that the confidentiality restrictions and obligations continue for **five years after expiration or termination**, with respect to Confidential Information disclosed before that date.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA规定协议中的限制和义务在到期或终止后五年内继续有效，适用于此前披露的保密信息。",
+    "answer_summary": "系统回答确认协议提到义务可在终止或到期后继续有效，并引用Section 7(a)，说明保密限制和义务在到期或终止后五年内继续有效，适用于此前披露的保密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键信息，包括存续期限五年、适用于到期或终止前披露的保密信息，且与金标不矛盾。"
+  },
+  "file_ids": [
+    151
+  ],
+  "skip_answer": false
+}

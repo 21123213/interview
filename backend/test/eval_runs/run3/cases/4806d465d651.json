@@ -1,0 +1,25 @@
+{
+  "index": 91,
+  "request_id": "4806d465d651",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SE_NDCA_and_PRE-QUAL_PACKAGE_March-2016.txt",
+  "file_id": 185,
+  "file_mapped": true,
+  "latency_ms": 23241.72,
+  "query": "Consider the Agreement between SE_NDCA and PRE-QUAL PACKAGE; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The Receiving Party shall not be deemed to have retained or failed to destroy any Confidential Information which is an Imaged Document if such Confidential Information is deleted from local hard drives so long as no attempt is made to recover such Confidential Information from servers or back-up sources, provided that any such retained Confidential Information in an Imaged Document form shall remain subject to the disclosure and use restrictions set forth herein, notwithstanding any termination of this Agreement.\nHowever, the obligations contained herein shall remain in effect for a period of five (5) years from the date the Confidential Information was disclosed under this Agreement.",
+  "rag_answer": "Yes. The document states that certain obligations may survive termination:\n\n- Section 13 (“Term”) says the Agreement terminates three years after written notice, but the obligations remain in effect for five years from the date the Confidential Information was disclosed.\n- Section 5 (“Return or Destruction”) expressly provides that retained Confidential Information in an Imaged Document form remains subject to the disclosure and use restrictions “notwithstanding any termination of this Agreement.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "文档提到部分义务可在协议终止后继续存在：以 Imaged Document 形式保留的机密信息仍受披露和使用限制约束，且协议义务自机密信息披露之日起持续五年。",
+    "answer_summary": "系统回答确认存在终止后继续有效的义务，并指出保留的 Imaged Document 形式机密信息仍受披露和使用限制约束，且义务自机密信息披露之日起持续五年。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点，即某些义务在协议终止后仍继续存在，包括 Imaged Document 保留机密信息受限制以及义务持续五年；额外表述未与金标矛盾。"
+  },
+  "file_ids": [
+    185
+  ],
+  "skip_answer": false
+}

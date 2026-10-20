@@ -1,0 +1,25 @@
+{
+  "index": 47,
+  "request_id": "4ba84e4eb83c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "QEP-Williston-Form-of-Confidentiality-Agreement-BMO.txt",
+  "file_id": 179,
+  "file_mapped": true,
+  "latency_ms": 31661.14,
+  "query": "Consider the Confidentiality Agreement between QEP and BMO; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Notwithstanding the foregoing, the following shall not constitute Confidential Information for the purposes of this Agreement:\n(c) information which becomes available to the Receiving Company or the Receiving Company’s Representatives on a non-confidential basis from a source other than Owner or any of Owner’s Representatives, provided that such source was not subject to any confidentiality obligation or other prohibition against transmitting the information to the Receiving Company or any of the Receiving Company’s Representatives; and",
+  "rag_answer": "Yes, but only under the conditions set out in the definition of “Confidential Information.”\n\nUnder Section 2(a), information that becomes available to the Receiving Company or its Representatives on a **non-confidential basis from a source other than Owner or Owner’s Representatives** is **not** Confidential Information, provided that the source was **not subject to any confidentiality obligation or other prohibition against transmitting the information** to the Receiving Company or its Representatives.\n\nThe Agreement also excludes information that is **independently developed by the Receiving Company or its Representatives without use of, or reference to, the Confidential Information**.\n\nSo, the document permits the Receiving Party to acquire similar information from a third party, but only if the third-party information is obtained on a non-confidential basis and the third party was not restricted from disclosing it.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议规定，若信息以非保密方式从 Owner 及其代表以外的来源获得，且该来源不受保密义务或其他禁止传输限制，则该信息不构成 Confidential Information。",
+    "answer_summary": "系统回答指出，Receiving Party 可从第三方获取类似信息，但前提是信息以非保密方式获得，且第三方不受保密义务或其他禁止披露限制；这与金标一致。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即第三方来源、非保密获得以及来源无保密义务或禁止传输限制，虽增加了独立开发等内容，但不影响命中。"
+  },
+  "file_ids": [
+    179
+  ],
+  "skip_answer": false
+}

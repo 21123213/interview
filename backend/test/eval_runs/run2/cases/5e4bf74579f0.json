@@ -1,0 +1,25 @@
+{
+  "index": 259,
+  "request_id": "5e4bf74579f0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Fintricity-Blank.txt",
+  "file_id": 166,
+  "file_mapped": true,
+  "latency_ms": 25380.31,
+  "query": "Consider Fintricity's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "Each party may disclose Confidential Information received from the other party to other members of the recipient's company for use only in connection with the Business Purpose and each party shall be responsible for observance of the provisions of this Agreement by such other members of its respective group.",
+  "rag_answer": "Yes. Fintricity’s NDA restricts the use of Confidential Information to the stated purpose of the Agreement.\n\nSpecifically:\n\n- **Clause 1(e)** defines “Confidential Information” as information disclosed **in connection with the Business Purpose specified in the Schedule**.\n- **Clause 3(d)** states that a recipient must **not use or circulate Confidential Information within its own organisation except solely to the extent necessary for the purposes of the Business Purpose**, or for any other purpose that the disclosing party expressly authorises in writing.\n- **Clause 6** further provides that Confidential Information may be disclosed to other members of the recipient’s company **only for use in connection with the Business Purpose**.\n\nSo, the Agreement limits use of Confidential Information to the Business Purpose set out in the Agreement, unless the disclosing party gives prior written authorisation for another purpose.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息仅可披露给接收方公司其他成员，并且只能用于与 Business Purpose 相关；各方需确保其集团成员遵守协议条款。",
+    "answer_summary": "系统回答明确指出 NDA 将机密信息的使用限制于 Business Purpose，并说明机密信息可披露给接收方公司其他成员时也只能用于与 Business Purpose 相关。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即机密信息的使用和披露仅限于 Business Purpose；虽然未展开责任条款，但问题核心判断已命中。"
+  },
+  "file_ids": [
+    166
+  ],
+  "skip_answer": false
+}

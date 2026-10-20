@@ -1,0 +1,25 @@
+{
+  "index": 297,
+  "request_id": "d9345c51b732",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-SqillerBetaTesters.txt",
+  "file_id": 172,
+  "file_mapped": true,
+  "latency_ms": 20194.18,
+  "query": "Consider the Non-Disclosure Agreement between Sqiller and Beta Testers; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "Immediately upon the Disclosing Party’s request or by the last date defined in clause 3.2, the Receiving Party shall return/or destroy, at the Disclosing Party’s discretion and expense, all the Disclosing Party’s Confidential Information in its possession, irrespective of the media, and certify execution of this obligation in writing.",
+  "rag_answer": "Yes. The NDA specifies a return/destruction obligation in Section 3.8 (“Return of Confidential Information”).\n\nIt states that, immediately upon the Disclosing Party’s request, or by the last date defined in Section 3.2, the Receiving Party must return and/or destroy all Confidential Information in its possession, at the Disclosing Party’s discretion and expense, regardless of the medium, and must certify in writing that it has done so.\n\nSection 3.2 defines the relevant end date as the Expiration Date, or, if agreements relating to the Purpose were entered into before the Expiration Date, the date until the obligations under those agreements remain in effect.\n\nThere are limited exceptions for copies retained to comply with legal or regulatory obligations, or copies created under pre-existing data backup processes, provided those copies are not normally accessible to the Receiving Party’s staff or Authorized Persons.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方须立即按披露方要求或在第3.2条规定的最后期限前，按披露方选择和费用返还/销毁其持有的全部保密信息（不论介质），并书面证明已执行。",
+    "answer_summary": "系统回答指出NDA规定了返还/销毁义务：立即按披露方要求或第3.2条最后期限前，接收方须按披露方选择和费用返还/销毁全部保密信息（不论介质），并书面证明已执行。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，包括触发时点、返还/销毁义务、披露方决定和费用、适用范围、书面证明等；额外扩写不影响命中。"
+  },
+  "file_ids": [
+    172
+  ],
+  "skip_answer": false
+}

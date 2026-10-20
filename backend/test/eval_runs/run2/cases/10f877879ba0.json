@@ -1,0 +1,25 @@
+{
+  "index": 139,
+  "request_id": "10f877879ba0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt",
+  "file_id": 138,
+  "file_mapped": true,
+  "latency_ms": 38118.72,
+  "query": "Consider FullStory's Mutual Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "3. Recipient’s obligations under Section 2 will not apply to any of Discloser’s Confidential Information that Recipient can document:\n(d) was communicated by Discloser to an unaffiliated third party free of any obligation of confidence.",
+  "rag_answer": "Conditional yes.\n\nThe Agreement does not expressly give the Receiving Party a general right to acquire similar information from a third party. However, the Receiving Party’s confidentiality obligations under Section 2 do **not** apply to Confidential Information that the Receiving Party can document was:\n\n- communicated by the Discloser to an unaffiliated third party free of any obligation of confidence, or  \n- otherwise rightfully in the Receiving Party’s possession free of confidence, or  \n- independently developed without reference to the Confidential Information.\n\nSo, if the third-party information falls within one of these documented exceptions, the Receiving Party may use it. Otherwise, the Receiving Party may not use or disclose the Confidential Information except for the permitted business-evaluation Purpose.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方在 Section 2 下的义务不适用于其能证明已由披露方向非关联第三方在无保密义务下传达的保密信息。",
+    "answer_summary": "系统回答指出接收方义务不适用于其能证明披露方已向非关联第三方无保密义务传达的信息，并给出条件性允许使用的结论。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即接收方能证明信息曾被披露方无保密义务地传达给非关联第三方时，保密义务不适用；虽额外提及独立开发等其他例外，但不影响命中。"
+  },
+  "file_ids": [
+    138
+  ],
+  "skip_answer": false
+}

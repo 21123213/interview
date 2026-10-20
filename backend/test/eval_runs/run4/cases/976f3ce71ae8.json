@@ -1,0 +1,25 @@
+{
+  "index": 30,
+  "request_id": "976f3ce71ae8",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "wayne-fueling-systems-mutual-non-disclosure-agreement-final.txt",
+  "file_id": 200,
+  "file_mapped": true,
+  "latency_ms": 15822.66,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Wayne Fueling Systems and Unknown Party; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "“Confidential Information” as used in this agreement (the “Agreement”) shall mean all such information that is or has been disclosed by the Disclosing Party or its Affiliates (defined below):\n(ii) orally or visually, and then followed within ten (10) working days thereafter with a disclosure complying with the requirements of clause (i) above.",
+  "rag_answer": "Yes, but only conditionally. Under Section 1 of the Mutual Non-Disclosure Agreement, information disclosed **orally or visually** can be treated as **Confidential Information** only if it is followed **within ten (10) working days** by a disclosure that satisfies the written/electronic marking requirement—i.e., disclosed in writing, by email, or other tangible electronic storage medium and clearly marked **“Confidential”** or **“Proprietary.”**\n\nSo, verbally conveyed information is not automatically Confidential Information unless it is later confirmed in a compliant marked written/electronic disclosure within the required period.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "口头或视觉披露的信息可在其后十个工作日内以符合条款(i)要求的披露方式被确认为保密信息。",
+    "answer_summary": "系统回答指出口头或视觉披露的信息只有在十个工作日内随后以符合书面/电子标记要求的披露确认后，才可作为保密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键条件：口头/视觉披露需在其后十个工作日内以符合条款要求的披露确认；虽对条款(i)作了扩写，但与金标不矛盾。"
+  },
+  "file_ids": [
+    200
+  ],
+  "skip_answer": false
+}

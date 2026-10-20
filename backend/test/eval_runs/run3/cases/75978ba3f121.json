@@ -1,0 +1,25 @@
+{
+  "index": 203,
+  "request_id": "75978ba3f121",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WECC_Confidentiality_Agreement.txt",
+  "file_id": 202,
+  "file_mapped": true,
+  "latency_ms": 33079.02,
+  "query": "Consider WECC's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "b. Data Recipient agrees to not make available, disclose, provide or communicate Non-Public Information to any entity or individual, except:\nii. Contractors of Data Recipient who (1) have signed a non-disclosure agreement that covers the Non-Public Information and is at least as restrictive as this Agreement, and (2) need the Non-Public Information for the work being performed subject to the limitation on Market Sensitive Information below.",
+  "rag_answer": "Yes, but only in limited circumstances. The WECC Confidentiality Agreement permits the Data Recipient to disclose Non-Public Information to certain third parties, including:\n\n- **Employees** who have signed an acknowledgment or NDA at least as restrictive as the agreement and need the information for job functions;\n- **Contractors** who have signed an at-least-as-restrictive NDA and need the information for the work being performed;\n- Additional data recipients **as required by FERC orders, rules, or regulations**, provided they sign a comparable NDA;\n- Others **as agreed by WECC in writing**.\n\nThe document does **not expressly allow** sharing with “consultants, agents, and professional advisors” generally. Such sharing would be permitted only if they qualify as covered contractors or if WECC agrees in writing.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Data Recipient 原则上不得向任何实体或个人披露 Non-Public Information，但可向其 Contractor 披露，前提是该 Contractor 已签署至少同样严格的保密协议，且因履行工作而需要该信息，并受 Market Sensitive Information 限制。",
+    "answer_summary": "系统回答指出可在有限情况下向第三方披露，并明确提到 Contractor 在签署至少同样严格 NDA 且因工作需要时可获得信息；同时说明并未一般性允许向 consultants、agents、professional advisors 披露，除非其属于受覆盖 Contractor 或获得 WECC 书面同意。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标关键要点，即仅允许在 Contractor 签署同等或更严格保密协议且因工作需要时披露；其关于 consultants、agents、professional advisors 的表述与金标不矛盾，属于对金标例外范围的限定和扩写。"
+  },
+  "file_ids": [
+    202
+  ],
+  "skip_answer": false
+}

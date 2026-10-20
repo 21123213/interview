@@ -1,0 +1,25 @@
+{
+  "index": 236,
+  "request_id": "d6cf293e0a1a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "VELCO%20NDA%20rev0%20Dec%2014%202015.txt",
+  "file_id": 198,
+  "file_mapped": true,
+  "latency_ms": 17495.94,
+  "query": "Consider VELCO's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "For purposes of this agreement, CI shall mean any confidential, proprietary or trade secret information that is owned or controlled, or is specifically marked or identified as “Confidential”, by VELCO prior to disclosure to Recipient.",
+  "rag_answer": "No. The document does not state that Confidential Information shall only include technical information. It defines Confidential Information/Classified Information broadly, including confidential, proprietary, or trade secret information, and information communicated orally, visually, or in tangible/electronic form.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议中的 Confidential Information 指由 VELCO 拥有或控制，或事先标记/识别为“Confidential”的任何机密、专有或商业秘密信息，不限于技术信息。",
+    "answer_summary": "系统回答称文档没有规定 Confidential Information 仅包括技术信息，并指出其定义包括机密、专有或商业秘密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：Confidential Information 的定义不限于技术信息，且包含机密、专有或商业秘密信息，因此判定命中。"
+  },
+  "file_ids": [
+    198
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 237,
+  "request_id": "005a83875dc3",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Artop-Inno-2017.txt",
+  "file_id": 163,
+  "file_mapped": true,
+  "latency_ms": 25820.33,
+  "query": "Consider the Non-Disclosure Agreement between Artop and Inno; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "Neither Entrusting party nor Recipient party shall disclose or make public any confidential information to a third party(including the press) or otherwise make use of the confidential information without the written approval or authorization of the other party; Both parties are obliged to instruct their representatives not to disclose or make public any confidential information to a third party(including the press) or otherwise make use of the confidential information; Unless the disclosure, publicity and application of the confidential information is necessitated by the due performance of the obligations of the two parties in association with the undertaking and proceeding of the cooperative programs under normal circumstances(including obligations to be assumed by both parties in the future pursuant to the law and contracts signed by the two parties).",
+  "rag_answer": "Yes. The NDA restricts the use of Confidential Information to the purposes stated in the Agreement.\n\nSpecifically, it states that both parties must strictly limit access to Confidential Information to their responsible representatives **only for the purpose specified** under the Agreement, and that neither party may disclose or otherwise use Confidential Information without the other party’s written approval, except where disclosure/use is necessary for performing obligations under the cooperative program. The Agreement also permits retention/use as necessary for implementing binding laws, regulations, and obligations under the cooperative programs.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论是：未经另一方书面批准或授权，双方不得向第三方（包括媒体）披露、公开或以其他方式使用保密信息；双方还应指示其代表遵守同样限制；但若为正常履行双方与合作项目相关义务所必需，则允许披露、公开和应用该保密信息。",
+    "answer_summary": "系统回答认为协议确实将保密信息的使用限制在协议目的范围内，并指出双方不得未经对方书面批准披露或使用保密信息，例外是为履行合作义务所必需；同时提到对代表/人员访问保密信息的限制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的核心要点：禁止未经书面批准披露或使用保密信息、要求约束代表、以及履行合作义务所需的例外。虽然措辞和详略不同，并包含额外法规/保留使用等内容，但不影响对金标关键信息的命中。"
+  },
+  "file_ids": [
+    163
+  ],
+  "skip_answer": false
+}

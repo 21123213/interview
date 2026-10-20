@@ -1,0 +1,25 @@
+{
+  "index": 31,
+  "request_id": "3cf187dded11",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "wayne-fueling-systems-mutual-non-disclosure-agreement-final.txt",
+  "file_id": 200,
+  "file_mapped": true,
+  "latency_ms": 16182.28,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Wayne Fueling Systems and Unknown Party; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "2. The Receiving Party agrees, except as required by law, to:\n(iii) use the same degree of care as with its own confidential information, which shall be at least a reasonable standard of care, to prevent disclosure of the Confidential Information and Notes, except to its Affiliates, and its or their officers, directors, employees, agents, advisors, representatives, service providers, consultants and/or subcontractors (collectively, “Authorized Parties”), solely to the extent necessary to permit them to assist the Receiving Party in evaluating the Transaction; and",
+  "rag_answer": "Yes. Under Section 2 of the Mutual Non-Disclosure Agreement, the Receiving Party may disclose Confidential Information to its Affiliates and to its or their officers, directors, employees, agents, advisors, representatives, service providers, consultants, and/or subcontractors — collectively defined as “Authorized Parties” — but only to the extent necessary to permit them to assist the Receiving Party in evaluating the possible Transaction.\n\nBefore such disclosure, the Receiving Party must advise the Authorized Parties of the confidential nature of the Confidential Information, provide them with a copy of the Agreement, and direct them to abide by its terms. The Receiving Party remains responsible for any breach by it, its Affiliates, or its Authorized Parties.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可以在法律要求之外，按合理注意义务保护保密信息，并仅可为评估交易之必要向关联方及授权第三方（包括 agents、advisors、consultants 等）披露。",
+    "answer_summary": "系统回答明确 Yes，并指出接收方可向 Affiliates、officers、directors、employees、agents、advisors、representatives、service providers、consultants、subcontractors 等 Authorized Parties 披露，且仅限为评估交易必要。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：允许向包括 agents、advisors、consultants 在内的授权第三方共享，且限于评估交易必要；附加义务虽超出金标但不影响命中。"
+  },
+  "file_ids": [
+    200
+  ],
+  "skip_answer": false
+}

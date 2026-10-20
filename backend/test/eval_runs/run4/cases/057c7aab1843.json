@@ -1,0 +1,25 @@
+{
+  "index": 76,
+  "request_id": "057c7aab1843",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AGProjects-NDA.txt",
+  "file_id": 113,
+  "file_mapped": true,
+  "latency_ms": 13820.91,
+  "query": "Consider the AGProjects' Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "This Agreement shall apply to any CONFIDENTIAL INFORMATION that may have been provided to the RECEIVING PARTY prior to or after the date hereof, and shall continue to govern the delivery of CONFIDENTIAL INFORMATION until terminated by written notice from either party to the other, except that the obligations of the parties hereunder with regard to CONFIDENTIAL INFORMATION disclosed prior to termination shall continue for a period for two (2) years thereafter.",
+  "rag_answer": "Yes. The document states in Section 10 (“Duration”) that, after termination, the parties’ obligations regarding Confidential Information disclosed prior to termination shall continue for a period of two (2) years thereafter.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议在书面通知终止后仍继续适用于终止前已披露的机密信息，相关保密义务在终止后继续存续两年。",
+    "answer_summary": "系统回答确认协议存在终止后继续存续的义务，并指出终止前披露的机密信息相关义务在终止后继续两年。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即部分保密义务在协议终止后仍存续两年；虽然补充了条款编号等细节，但不影响命中。"
+  },
+  "file_ids": [
+    113
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 12,
+  "request_id": "e361e1426f13",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "tpi-non-disclosure-agreement_1.txt",
+  "file_id": 195,
+  "file_mapped": true,
+  "latency_ms": 21577.12,
+  "query": "Consider tpi's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "2. Proprietary Information shall be held in strict confidence by Receiving Party and shall not be used by Receiving Party except for\n(ii) the case where disclosure of the same is required under applicable law or by a governmental order, rule or regulation or by the regulations of any relevant stock exchange or other governmental authority (provided that the Receiving party shall give written notice of such required disclosure to the other party prior to the disclosure).",
+  "rag_answer": "Yes. Under the TPI Non-Disclosure Agreement, if disclosure of Proprietary Information is required under applicable law or by a governmental order, rule, regulation, or the regulations of a relevant stock exchange or other governmental authority, the Receiving Party must give **written notice** of such required disclosure to the other Party **prior to the disclosure**.\n\nThe document does not expressly use the phrase “judicial process,” but a court order or similar governmental authority would generally fall within the “governmental order” requirement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "若因适用法律、政府命令/规则/法规、证券交易所或其他政府当局要求而必须披露，接收方须在披露前向对方发出书面通知。",
+    "answer_summary": "系统回答指出在适用法律或政府命令、规则、法规、证券交易所或其他政府当局要求披露时，接收方必须在披露前向对方发出书面通知；并补充说明虽未明确写 judicial process，但法院命令通常可归入 governmental order。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：存在法定/监管/政府命令要求披露时的例外，以及披露前书面通知义务；补充解释与金标不矛盾。"
+  },
+  "file_ids": [
+    195
+  ],
+  "skip_answer": false
+}

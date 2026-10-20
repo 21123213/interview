@@ -1,0 +1,25 @@
+{
+  "index": 131,
+  "request_id": "fce1523cc693",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Standard%20NDA%20by%20Axial.txt",
+  "file_id": 189,
+  "file_mapped": true,
+  "latency_ms": 21006.32,
+  "query": "Consider Axial's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "Except as required by applicable federal, state or local law or regulation, the term \"Confidential Information\" as used in this Agreement shall not include information that:\n(d) was or is independently developed by the Recipient, as established by documentary evidence, without reference to Confidential Information; or",
+  "rag_answer": "Yes. Under Axial’s Standard NDA, information that is **independently developed by the Recipient** is excluded from “Confidential Information” if it is:\n\n- **established by documentary evidence**, and  \n- developed **without reference to the Confidential Information**.\n\nSo the Recipient may independently develop information that is similar to the Confidential Information, provided the development is truly independent and not based on, derived from, or informed by the Confidential Information.\n\nHowever, the NDA also prohibits using Confidential Information for purposes other than the agreed Purpose, including to **reverse engineer, disassemble, decompile, or design around** confidential intellectual property. It also does not grant the Recipient any license to the Disclosing Party’s intellectual property rights.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出，除法律要求外，若信息是接收方独立开发、有书面证据支持、且未参考保密信息，则该信息不属于“Confidential Information”。",
+    "answer_summary": "系统回答称允许接收方独立开发类似信息，并明确列出需有 documentary evidence 且 without reference to the Confidential Information，与金标关键要点一致。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：独立开发且未参考保密信息、有书面证据的信息可被排除在保密信息之外，因此可判断为命中。"
+  },
+  "file_ids": [
+    189
+  ],
+  "skip_answer": false
+}

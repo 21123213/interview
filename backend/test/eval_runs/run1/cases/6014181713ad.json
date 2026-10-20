@@ -1,0 +1,25 @@
+{
+  "index": 12,
+  "request_id": "6014181713ad",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "DBT%20Mutual%20NDA.txt",
+  "file_id": 123,
+  "file_mapped": true,
+  "latency_ms": 11852.37,
+  "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "1. Confidential Information “Confidential Information” means nonpublic information that disclosing party (“Disclosing Party”) designates as being confidential or which, under the circumstances surrounding disclosure the receiving party (“Receiving Party”) should know is treated as confidential by the Disclosing Party.",
+  "rag_answer": "No. Under the DBT Mutual NDA, Confidential Information is not limited to information expressly identified by the Disclosing Party. It includes nonpublic information that the Disclosing Party designates as confidential **or** that the Receiving Party should know is treated as confidential under the circumstances surrounding the disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出 Confidential Information 包括披露方指定为保密的信息，或根据披露情形接收方应知会被作为保密处理的信息，并不要求所有信息均被明确标识。",
+    "answer_summary": "系统回答称 No，并说明 Confidential Information 不限于披露方明确标识的信息，还包括披露方指定为保密或接收方在相关情形下应知会被作为保密处理的信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论和定义要点，即不要求所有 Confidential Information 都由披露方明确标识，同时包含了 designated confidential 和 should know under circumstances 两类情形。"
+  },
+  "file_ids": [
+    123
+  ],
+  "skip_answer": false
+}

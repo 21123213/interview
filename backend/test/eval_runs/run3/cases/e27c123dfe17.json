@@ -1,0 +1,25 @@
+{
+  "index": 223,
+  "request_id": "e27c123dfe17",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "simply-fashion---standard-nda.txt",
+  "file_id": 186,
+  "file_mapped": true,
+  "latency_ms": 21166.63,
+  "query": "Consider Simply Fashion's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Notwithstanding anything herein to the contrary, Potential Purchaser, its Affiliated Entities, and its Representatives may retain one or more copies of the Evaluation Materials for the purpose of defending any claim related to this Agreement or any transaction related hereto, or as may be required in accordance with Potential Purchaser’s, its Affiliated Entities, or its Representatives’ respective legal, compliance, computer programs, server, software, and/or automated backup archiving practices.",
+  "rag_answer": "Yes. Under Section 6 of Simply Fashion’s NDA, after the Receiving Party (the Potential Purchaser) returns or destroys the Evaluation Materials, it may still retain one or more copies of the Evaluation Materials if needed to defend any claim related to the Agreement or a related transaction, or as required by its legal, compliance, computer systems, software, or automated backup archiving practices.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标结论：尽管有相反规定，Potential Purchaser、其关联实体及其代表可保留一份或多份 Evaluation Materials，用于抗辩与协议或相关交易有关的索赔，或根据其法律、合规、计算机程序、服务器、软件和/或自动备份归档要求保留。",
+    "answer_summary": "系统回答称：Yes，在返还或销毁 Evaluation Materials 后，Receiving Party（Potential Purchaser）仍可为抗辩与协议或相关交易有关的索赔，或根据其法律、合规、计算机系统、软件或自动备份归档要求保留一份或多份 Evaluation Materials。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键信息：允许在返还或销毁后保留 Evaluation Materials，并说明了保留目的包括抗辩索赔以及法律/合规/计算机/备份等要求；虽未明确提到关联实体和代表，但问题关注 Receiving Party，核心结论一致。"
+  },
+  "file_ids": [
+    186
+  ],
+  "skip_answer": false
+}

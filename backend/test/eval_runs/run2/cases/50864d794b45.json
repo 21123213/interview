@@ -1,0 +1,25 @@
+{
+  "index": 98,
+  "request_id": "50864d794b45",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Kenway-NDA-Form-Blank.txt",
+  "file_id": 148,
+  "file_mapped": true,
+  "latency_ms": 13356.97,
+  "query": "Consider Kenway's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "“Representative”: means employees, agents, officers, advisers and other representatives of the Recipient.\nThe Recipient may disclose the Disclosing Party's Confidential Information to those of its Representatives who need to know this Confidential Information for the Purpose, provided that:",
+  "rag_answer": "Yes. Under Kenway’s NDA, the Receiving Party may share Confidential Information with its employees, because “Representative” is defined to include employees of the Recipient.\n\nHowever, disclosure is allowed only to those Representatives who “need to know” the Confidential Information for the Purpose, and the Recipient must:\n\n- inform them of the confidential nature of the information before disclosure;\n- ensure they comply with the Agreement as if they were the Recipient;\n- keep a written record of such Representatives; and\n- remain liable if any Representative breaches the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA将“Representative”定义为包括Recipient的employees等；Recipient可以向因Purpose而need to know的Representatives披露Confidential Information，但需满足相应条件。",
+    "answer_summary": "系统回答指出Receiving Party可与employees共享Confidential Information，因为Representative定义包括employees；并说明仅限因Purpose而need to know的Representatives，且需满足告知保密、确保遵守、保留记录、承担违约责任等条件。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：Representative包括employees，且可向need to know的Representatives披露Confidential Information；补充的条件与金标不矛盾，属于从宽可接受的扩写。"
+  },
+  "file_ids": [
+    148
+  ],
+  "skip_answer": false
+}

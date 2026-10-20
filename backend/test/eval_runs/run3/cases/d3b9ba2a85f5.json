@@ -1,0 +1,25 @@
+{
+  "index": 142,
+  "request_id": "d3b9ba2a85f5",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SupplementOne-NDA.txt",
+  "file_id": 191,
+  "file_mapped": true,
+  "latency_ms": 15160.38,
+  "query": "Consider SupplementOne's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "vi) The provisions of this Section 1)b) shall survive the termination of this Agreement.\nUpon request of Discloser or termination of this Agreement, Recipient shall return all Confidential Information, copies, extracts, or notes derived from Confidential Information to Discloser or certify, in writing, the destruction thereof. The provisions of this Section 1)d) shall survive the termination of this Agreement.",
+  "rag_answer": "Yes. SupplementOne’s Non-Disclosure Agreement expressly states that certain obligations survive termination.\n\nSpecifically, the document says:\n\n- “The provisions of this Section 1)b) shall survive the termination of this Agreement.”  \n  This refers to the restrictions on use and disclosure of Confidential Information.\n\n- “The provisions of this Section 1)d) shall survive the termination of this Agreement.”  \n  This refers to the obligation to return or certify destruction of Confidential Information upon Discloser’s request or termination.\n\nSo the Agreement does mention that some obligations may survive termination.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据表明该 NDA 明确提到某些条款在协议终止后继续有效，包括 Section 1)b) 和 Section 1)d)，后者涉及归还或销毁保密信息的义务。",
+    "answer_summary": "系统回答明确说明协议中存在终止后继续有效的义务，并具体引用了 Section 1)b) 和 Section 1)d) 的 survival 条款，且解释了其涉及保密信息使用/披露限制以及归还/销毁义务。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键信息：协议确实提到某些义务在终止后继续有效，并准确对应了金标中的具体条款。"
+  },
+  "file_ids": [
+    191
+  ],
+  "skip_answer": false
+}

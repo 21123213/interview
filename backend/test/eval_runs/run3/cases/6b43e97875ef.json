@@ -1,0 +1,25 @@
+{
+  "index": 194,
+  "request_id": "6b43e97875ef",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WEB-NDA-Mutual-Customer-and-Allazo-Electronics-v2.txt",
+  "file_id": 201,
+  "file_mapped": true,
+  "latency_ms": 24596.74,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Mutual Customer and Allazo Electronics; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Information in the following categories shall not be considered Confidential Information under this Agreement:\n(d) information that the Receiving Party can show was acquired by the Receiving Party from a third party who was not known by the Receiving Party to be under an obligation of confidence to the Disclosing Party; and\nThe terms of confidentiality under this Agreement shall not be construed to limit either party’s right to independently develop or acquire products without use of the other party’s Confidential Information. The Disclosing Party acknowledges that the Receiving Party may currently, or in the future, be developing information internally, or receiving information from other parties, that is similar to the Confidential Information.",
+  "rag_answer": "Yes. The Agreement allows the Receiving Party to acquire information similar to the Confidential Information from a third party, provided certain conditions are met.\n\nSpecifically:\n\n- **Section 3(d)** states that information is not considered Confidential Information if the Receiving Party can show it was acquired from a third party who was **not known by the Receiving Party to be under an obligation of confidence to the Disclosing Party**.\n\n- **Section 8** further confirms that the confidentiality terms do not limit either party’s right to independently develop or acquire products **without use of the other party’s Confidential Information**. It also acknowledges that the Receiving Party may receive information from other parties that is similar to the Confidential Information, as long as the Receiving Party does not violate its obligations under the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议允许接收方从第三方获取类似保密信息：若能证明信息来自并非已知对披露方负有保密义务的第三方，则不视为保密信息；同时保密条款不限制各方独立开发或获取产品的权利，且披露方承认接收方可能从其他方接收类似信息。",
+    "answer_summary": "系统回答确认协议允许接收方从第三方获取类似保密信息，并引用第三方不已知负有保密义务的条件，以及独立开发或获取产品不使用对方保密信息、可能从其他方接收类似信息等要点。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键结论和条件，虽为概括性表述并增加了条件性说明，但与金标不矛盾，足以判定命中。"
+  },
+  "file_ids": [
+    201
+  ],
+  "skip_answer": false
+}

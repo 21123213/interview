@@ -1,0 +1,25 @@
+{
+  "index": 64,
+  "request_id": "0855efed2251",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "epsteen_nda.txt",
+  "file_id": 128,
+  "file_mapped": true,
+  "latency_ms": 34483.35,
+  "query": "Consider Epsteen's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Buyer agrees not to disclose Confidential Information to anyone other than its/his/her advisors and affiliates who both (a) have a need to know the information in connection with the Transaction; and (b) have agreed by signing a copy of this agreement to be bound by the terms of this agreement.",
+  "rag_answer": "No, not generally.\n\nBased on the provided Epsteen NDA, the Receiving Party (“Buyer”) is **not expressly allowed to share Confidential Information with its own employees**. The confidentiality clause permits disclosure only to Buyer’s **advisors and affiliates**, and only if they:\n\n1. have a **need to know** the information in connection with the Transaction; and  \n2. have **signed a copy of the NDA** and agreed to be bound by its terms.\n\nTherefore, sharing Confidential Information with employees would only be permitted if those employees qualify as “advisors” or “affiliates” and satisfy those conditions; otherwise, the document does not authorize such sharing.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "买方不得向除其顾问和关联方以外的任何人披露机密信息，且这些顾问和关联方必须因交易而有知悉必要，并签署本协议受其约束。",
+    "answer_summary": "系统回答指出该NDA未一般性允许接收方与员工分享机密信息，仅允许向顾问和关联方披露，且需满足知悉必要并签署协议；若员工属于顾问或关联方并满足条件则可能允许，否则不允许。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标证据中的关键限制：仅限顾问和关联方、需有交易相关知悉必要、需签署协议受约束，并合理推导出员工通常不在明确允许范围内，除非其符合顾问/关联方身份及条件。"
+  },
+  "file_ids": [
+    128
+  ],
+  "skip_answer": false
+}

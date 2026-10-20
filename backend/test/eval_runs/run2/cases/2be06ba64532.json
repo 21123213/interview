@@ -1,0 +1,25 @@
+{
+  "index": 58,
+  "request_id": "2be06ba64532",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Inaturals_NDA.txt",
+  "file_id": 142,
+  "file_mapped": true,
+  "latency_ms": 39963.93,
+  "query": "Consider Inaturals's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "In the event that either party is required to disclose Confidential Information pursuant to judicial or administrative process in connection with any action, suit or proceeding, that party will give prompt notice to the party to whom the Confidential Information belongs and will make a good faith effort to obtain confidential treatment of the information in the action, suit or proceeding.",
+  "rag_answer": "Yes, but only for disclosures required pursuant to judicial or administrative process.\n\nUnder Section 3 of the Inaturals NDA, if either party is required to disclose Confidential Information pursuant to judicial or administrative process in connection with any action, suit, or proceeding, that party must give prompt notice to the party to whom the Confidential Information belongs and make a good faith effort to obtain confidential treatment.\n\nThe document does not expressly impose the same notice obligation for disclosures required by law or regulation generally; it only states that confidentiality obligations do not apply to information required by law to be disclosed.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "若任一方因司法或行政程序被要求披露保密信息，应给予信息所属方及时通知，并善意努力获得保密处理。",
+    "answer_summary": "系统回答指出仅在因司法或行政程序被要求披露时，需给予及时通知并善意努力获得保密处理，并复述了金标中的关键义务。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即司法或行政程序披露时的及时通知与善意寻求保密处理义务；其对法律或法规一般情形的限定未与金标矛盾。"
+  },
+  "file_ids": [
+    142
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 5,
+  "request_id": "3b8ffd8abcef",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "tpi-non-disclosure-agreement_1.txt",
+  "file_id": 195,
+  "file_mapped": true,
+  "latency_ms": 27879.95,
+  "query": "Consider tpi's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "NON-DISCLOSURE AGREEMENT\n1. “Proprietary Information,” as used herein, shall mean any and all samples, formula, methods, know-how, technology, software, material, engineering data, specifications, sketches, drawings, schematics, designs, manufacturing processes, test results, compilations, and any other material, information, ideas, concepts or knowledge which a party (the “Disclosing Party”) furnishes to another party (the “Receiving Party”):\nExamples of such Proprietary Information include, but are not limited to, pricing, computer programs, computer code, modules, scripts, algorithms, features, and modes of operation, inventions (whether or not patentable), techniques, processes, methodologies, know-how, schematics, testing procedures, design and function specifications, documentation, and the features, mode of operation and other details of Disclosing Party’s products and services, as well as the names and expertise of Disclosing Party’s employees, product development plans and forecasts.",
+  "rag_answer": "No.\n\nTPI’s Non-Disclosure Agreement does not state that Confidential Information shall only include technical information. The agreement defines “Proprietary Information” broadly to include samples, formulas, methods, know-how, technology, software, material, engineering data, specifications, sketches, drawings, schematics, designs, manufacturing processes, test results, compilations, and other material, information, ideas, concepts, or knowledge.\n\nIt also expressly gives non-technical examples, such as pricing, computer programs, computer code, modules, scripts, algorithms, features, modes of operation, inventions, techniques, processes, methodologies, documentation, employee names and expertise, product development plans, and forecasts.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明该 NDA 下的 Proprietary/Confidential Information 定义非常广泛，不仅包括技术信息，还包括定价、员工姓名与专长、产品开发计划和预测等非技术信息。",
+    "answer_summary": "系统回答称 NDA 并未规定 Confidential Information 仅包括技术信息，并列举了金标中的广泛定义及非技术示例，如定价、员工姓名与专长、产品开发计划和预测。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论：该协议中的保密/专有信息不限于技术信息，且给出了与金标一致的非技术示例。"
+  },
+  "file_ids": [
+    195
+  ],
+  "skip_answer": false
+}

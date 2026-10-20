@@ -1,0 +1,25 @@
+{
+  "index": 138,
+  "request_id": "e12f37c7adb5",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "amc-general-mutual-non-disclosure-agreement-en-gb.txt",
+  "file_id": 114,
+  "file_mapped": true,
+  "latency_ms": 23850.58,
+  "query": "Consider the Mutual Non-Disclosure Agreement between AMC and Other Party; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "Receiving Party must not copy, alter, modify, reverse engineer, or attempt to derive the composition or underlying information, structure or ideas of any Confidential Information and must not remove, overprint, deface or change any notice of confidentiality, copyright, trademark, logo, legend or other notices of ownership from any originals or copies of Confidential Information it receives from the Disclosing Party.",
+  "rag_answer": "No. The provided Mutual Non-Disclosure Agreement states in Section 4(a) that the Receiving Party “must not copy” any Confidential Information, and it does not include an express exception permitting the Receiving Party to create copies under certain circumstances.\n\nThe only related provision is Section 4(b), which says that nothing requires the destruction or purging of Confidential Information maintained on routine computer system backup tapes, disks, or similar storage devices. However, that is a limited retention/backup exception, not permission to create new copies of Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得复制机密信息；金标明确禁止复制、alter、modify、reverse engineer 等行为，并禁止移除或更改机密/所有权通知。",
+    "answer_summary": "系统回答称协议不允许接收方在某些情况下创建机密信息副本，并引用“must not copy”，同时说明备份保留条款不是创建新副本的许可。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关于接收方不得复制机密信息的关键要点，并与金标一致回答了问题；虽未展开金标中的其他禁止事项，但不影响命中。"
+  },
+  "file_ids": [
+    114
+  ],
+  "skip_answer": false
+}

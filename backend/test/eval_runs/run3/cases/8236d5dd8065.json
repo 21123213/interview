@@ -1,0 +1,25 @@
+{
+  "index": 181,
+  "request_id": "8236d5dd8065",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Tazza-CAFFE-Confidentiality-Agreement.txt",
+  "file_id": 193,
+  "file_mapped": true,
+  "latency_ms": 19284.36,
+  "query": "Consider the Confidentiality Agreement between Tazza and CAFFE; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Furthermore, the potential Franchisee agrees to not discuss or communicate any aspect whatsoever of the confidential information, be it directly or indirectly, to any agent, director, employee, or any other representative EXCEPT if these individuals (i) have been informed of the confidential nature of the information and (ii) have duly completed and signed the certificate presented in Annex “A”.",
+  "rag_answer": "Yes. The agreement permits the Receiving Party (the potential Franchisee) to share confidential information with employees only under specific conditions:\n\n1. The employees must have been informed of the confidential nature of the information; and  \n2. The employees must have completed and signed the confidentiality certificate in Annex “A”.\n\nOtherwise, the Receiving Party may not disclose or communicate confidential information to employees, agents, directors, or other representatives.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得直接或间接向员工、代理人、董事或其他代表披露机密信息，除非这些人员已被告知信息属机密，并已完整签署 Annex “A” 中的证书。",
+    "answer_summary": "回答指出协议允许在特定条件下与员工分享机密信息：员工必须被告知机密性质，并完成并签署 Annex “A” 的保密证书；否则不得披露。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键条件和要点，即员工分享机密信息的两个前提：被告知机密性质并签署 Annex “A” 证书，因此判定命中。"
+  },
+  "file_ids": [
+    193
+  ],
+  "skip_answer": false
+}

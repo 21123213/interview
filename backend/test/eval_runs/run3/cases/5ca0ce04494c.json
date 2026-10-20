@@ -1,0 +1,25 @@
+{
+  "index": 177,
+  "request_id": "5ca0ce04494c",
+  "correct": false,
+  "error_type": "contradiction",
+  "file_key": "Tazza-CAFFE-Confidentiality-Agreement.txt",
+  "file_id": 193,
+  "file_mapped": true,
+  "latency_ms": 27140.72,
+  "query": "Consider the Confidentiality Agreement between Tazza and CAFFE; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "Any copies of the materials that may have been made must be destroyed (subject to applicable laws and in consideration of requirements for internal auditing, in which case the provisions of the present Agreement will continue to be applied to the confidential information which remains to be processed) in compliance with the procedure determined by the Franchisor concerning the destruction of similar confidential material.",
+  "rag_answer": "No. Based on the provided document fragments, the Confidentiality Agreement does not explicitly state that any obligations survive the termination of the Agreement. The fragments include confidentiality, return of information, injunction, severability, governing law, and binding effect provisions, but no termination or survival clause is mentioned.",
+  "judge": {
+    "correct": false,
+    "error_type": "contradiction",
+    "gold_summary": "金标指出：已制作的材料副本必须销毁，但若因适用法律或内部审计要求需保留并继续处理保密信息，则本协议的相关条款仍将继续适用，表明部分义务/条款在协议终止后仍可能存续。",
+    "answer_summary": "系统回答称文档未明确说明任何义务在协议终止后存续，且未提到终止或存续条款。",
+    "gap": "未覆盖金标中关于‘继续处理保密信息时协议条款仍适用’这一存续/延续义务的关键信息，并错误否认存在相关条款。",
+    "reason": "系统回答与金标矛盾：金标明确包含协议条款在特定情况下继续适用的表述，而系统回答声称没有存续条款并回答 No。"
+  },
+  "file_ids": [
+    193
+  ],
+  "skip_answer": false
+}

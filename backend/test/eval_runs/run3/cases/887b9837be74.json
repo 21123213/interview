@@ -1,0 +1,25 @@
+{
+  "index": 201,
+  "request_id": "887b9837be74",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WECC_Confidentiality_Agreement.txt",
+  "file_id": 202,
+  "file_mapped": true,
+  "latency_ms": 23965.05,
+  "query": "Consider WECC's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "b. For the purposes of this Agreement, Non-Public Information shall not include:\niii. Information that was or is independently developed by Data Recipient as demonstrated by Data Recipient’s documentation.",
+  "rag_answer": "Yes. The WECC Confidentiality Agreement does not prohibit the receiving party from independently developing information that is similar to Confidential Information.\n\nThe document uses the term **“Data Recipient”** rather than “Receiving Party,” and it expressly excludes from the definition of Non-Public Information:\n\n> “Information that was or is independently developed by Data Recipient as demonstrated by Data Recipient’s documentation.”\n\nTherefore, if the Data Recipient can demonstrate through its own documentation that similar information was independently developed, that information is not treated as Non-Public Information under the Agreement. However, the Agreement’s confidentiality obligations still apply to any Non-Public Information actually received from WECC.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议规定，经数据接收方自身文件证明其独立开发的信息不属于非公开信息/保密信息。",
+    "answer_summary": "系统回答指出 WECC 协议允许独立开发类似信息，并引用了关键条款：由 Data Recipient 独立开发并有其文件证明的信息不属于 Non-Public Information。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，包括独立开发信息排除于保密/非公开信息之外，以及需由接收方文件证明；额外解释与金标不矛盾。"
+  },
+  "file_ids": [
+    202
+  ],
+  "skip_answer": false
+}

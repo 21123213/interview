@@ -1,0 +1,25 @@
+{
+  "index": 97,
+  "request_id": "7e9021c906a2",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "FNHA-2019RFP-02-NDA-form.txt",
+  "file_id": 133,
+  "file_mapped": true,
+  "latency_ms": 18120.97,
+  "query": "Consider FNHA's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "Company will not make copies of, disclose, discuss, publish or disseminate Confidential Information any third person or entity.",
+  "rag_answer": "No. Based on the provided FNHA Non-Disclosure Agreement, the Receiving Party (“Company”) is expressly prohibited from making copies of Confidential Information: “Company will not make copies of, disclose, discuss, publish or disseminate Confidential Information any third person or entity.”\n\nThe document only contains a limited exception for discussions of Confidential Information with FNHA staff or other persons if expressly permitted by FNHA and conducted under FNHA-directed terms and conditions. It does not state that copies may be created under those circumstances.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方/Company 不得制作 Confidential Information 的副本（并不得向第三方披露、讨论、发布或传播）。",
+    "answer_summary": "系统回答称不允许，并引用金标原文，指出 Company 被明确禁止制作 Confidential Information 的副本；还说明文件仅允许在特定条件下讨论，并未允许制作副本。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论：NDA 不允许接收方制作 Confidential Information 的副本，且引用了金标中的核心条款。"
+  },
+  "file_ids": [
+    133
+  ],
+  "skip_answer": false
+}

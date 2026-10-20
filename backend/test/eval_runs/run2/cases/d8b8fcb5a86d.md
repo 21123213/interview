@@ -1,0 +1,35 @@
+# Case `d8b8fcb5a86d`
+
+- index: 117
+- file_key: `LiiON%20NDA%202-27-2015%20v1.0.txt`
+- file_id: 151
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 14205.66
+
+## Query
+
+Consider LiiON's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?
+
+## Gold
+
+3. Inapplicability of Restrictions. There shall be no restrictions under this Agree-ment with respect to any portion of the Confidential Information which:
+(d) is independently developed by Receiving Party without breach of the re-strictions contained in this Agreement.
+
+## RAG Answer
+
+Yes. Under LiiON’s Non-Disclosure Agreement, the restrictions do **not** apply to information that is **independently developed by the Receiving Party without breach of the restrictions** in the Agreement.
+
+Specifically, Section 3 (“Inapplicability of Restrictions”) states that there are no restrictions on any portion of Confidential Information that “is independently developed by Receiving Party without breach of the restrictions contained in this Agreement.”
+
+So, if the Receiving Party independently develops information similar to Confidential Information **without using or otherwise violating the Agreement’s confidentiality restrictions**, the Agreement does not restrict that independent development.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 协议规定，若保密信息是由接收方在违反协议限制的情况下独立开发，则不受限制；即独立开发且未违反限制的信息不受协议限制。
+- answer_summary: 系统回答指出，接收方在违反协议限制的情况下独立开发的信息不受限制，并引用第3条说明独立开发且未违反限制时协议不施加限制。
+- gap: 无
+- reason: 系统回答准确覆盖了金标关键要点：接收方独立开发且未违反协议限制的信息不受保密限制，且与金标一致。

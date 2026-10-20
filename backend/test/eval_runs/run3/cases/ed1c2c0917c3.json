@@ -1,0 +1,25 @@
+{
+  "index": 12,
+  "request_id": "ed1c2c0917c3",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Non-Disclosure-NDA-UW-Oshkosh_FINALV2.txt",
+  "file_id": 175,
+  "file_mapped": true,
+  "latency_ms": 18310.84,
+  "query": "Consider the Non-Disclosure Agreement between University of Wisconsin Oshkosh; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "1. All information disclosed by one party to the other to evaluate the Project and/or Purpose that is designated in writing as “Confidential” at the time of disclosure or if disclosed orally is designated in writing as “Confidential” within fifteen (15) days of disclosure is “Confidential Information.”",
+  "rag_answer": "Yes. Under Section 1 of the NDA, information disclosed orally may be considered “Confidential Information” if it is designated in writing as “Confidential” within fifteen (15) days of the oral disclosure.\n\nHowever, there is some internal ambiguity because Section 6 states that Confidential Information “will be provided in writing and marked ‘Confidential.’” Even so, Section 1 expressly contemplates oral disclosures becoming confidential if later designated in writing within 15 days.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "口头披露的信息若在披露后十五（15）日内被书面指定为“Confidential”，可构成“Confidential Information”。",
+    "answer_summary": "系统回答指出口头披露的信息可在披露后15天内书面指定为“Confidential”时被视为“Confidential Information”，并补充说明 Section 6 的表述可能带来歧义，但 Section 1 明确允许该情形。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：口头信息若在规定期限内书面指定为保密，可作为 Confidential Information；额外扩写不改变命中。"
+  },
+  "file_ids": [
+    175
+  ],
+  "skip_answer": false
+}

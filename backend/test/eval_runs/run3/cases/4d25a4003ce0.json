@@ -1,0 +1,25 @@
+{
+  "index": 124,
+  "request_id": "4d25a4003ce0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 18105.85,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Each party, as a Receiving Party, agrees that it will:\n(c) not disclose such Confidential Information to any person other than to those of its and/or its affiliated companies’ respective employees, stockholders, partners, members, directors, officers, advisors, agents, accountants, attorneys, representatives and/or consultants (collectively, “Representatives”), in each case, who (i) need to know such Confidential Information to facilitate the evaluation, negotiation and, if applicable, consummation of the Potential Transaction, and (ii) are advised of the confidential and proprietary nature of such Confidential Information and are bound by confidentiality obligations (which may be contained in such Representatives’ engagement agreements) that limit the further use and disclosure of such Confidential Information;",
+  "rag_answer": "Yes. Under Section 3(c) of the Sony Pictures Television NDA, the Receiving Party may share Confidential Information with its employees, as well as employees of its affiliated companies, but only if those employees:\n\n1. **Need to know** the Confidential Information to facilitate the evaluation, negotiation, and, if applicable, consummation of the Potential Transaction; and  \n2. Are **advised of the confidential and proprietary nature** of the information and are **bound by confidentiality obligations** limiting further use and disclosure.\n\nThe Receiving Party remains responsible for any breach of the Agreement by such employees or other Representatives.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定接收方不得向外部人员披露机密信息，但可向接收方及其关联公司的员工等代表披露，前提是该员工确有知悉必要以推进潜在交易，并被明确告知机密性质且受保密义务约束。",
+    "answer_summary": "系统回答指出根据 NDA 第 3(c) 条，接收方可以与自身及关联公司员工分享机密信息，但必须满足“确有知悉必要”和“被告知机密性质并受保密义务约束”两个条件。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：允许向员工等特定代表披露机密信息，并准确列出了两项限制条件；额外提及责任归属不构成矛盾。"
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

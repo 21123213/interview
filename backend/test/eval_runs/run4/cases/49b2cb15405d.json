@@ -1,0 +1,25 @@
+{
+  "index": 220,
+  "request_id": "49b2cb15405d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_Street_Stream_Franchise.txt",
+  "file_id": 162,
+  "file_mapped": true,
+  "latency_ms": 18541.99,
+  "query": "Consider Street Stream's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Authorised Person means, in relation to the Recipient, any of the following only to the extent that they are engaged in respect of the Purpose: its officers, directors, employees, and any other person who has been previously approved in writing by the Disclosers;\nThe Recipient may disclose any of the Confidential Information to any of its Authorised Persons, provided that it informs them beforehand of the duties of confidence under this Agreement, ensures that they undertake to the Recipient to comply with the same duties of confidence, keeps a written account of each of the disclosures, advises the Disclosers immediately it becomes aware of any breach by an Authorised Person, and gives upon any request by the Disclosers evidence of compliance with this clause.",
+  "rag_answer": "Yes. Under the Street Stream NDA, the Receiving Party may disclose Confidential Information to its employees because “Authorised Person” includes the Recipient’s officers, directors, and employees, but only to the extent they are engaged in respect of the Purpose.\n\nClause 3.1 permits disclosure to Authorised Persons subject to conditions, including informing them of the confidentiality duties beforehand, ensuring they undertake to comply, keeping a written record of disclosures, notifying the Disclosers immediately of any breach, and providing evidence of compliance if requested.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 允许 Receiving Party 向属于 Authorised Person 的 employees 披露 Confidential Information，但仅限其参与约定 Purpose，并须满足事先告知保密义务、确保其承诺遵守、保留披露记录、立即通知违约、按请求提供合规证据等条件。",
+    "answer_summary": "系统回答称 Yes，并指出 employees 属于 Authorised Person，但仅限其参与 Purpose；同时列出向 Authorised Persons 披露的条件，包括事先告知保密义务、确保承诺遵守、保留书面记录、立即通知违约、提供合规证据。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论：员工属于 Authorised Person，可在参与 Purpose 的范围内接收机密信息，并满足相应保密与记录义务。虽然未提及 Authorised Person 定义中‘经书面批准的其他人员’这一扩展内容，但不影响对员工是否可分享机密信息这一问题的命中。"
+  },
+  "file_ids": [
+    162
+  ],
+  "skip_answer": false
+}

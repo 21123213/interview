@@ -1,0 +1,25 @@
+{
+  "index": 50,
+  "request_id": "f3c85795358a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+  "file_id": 129,
+  "file_mapped": true,
+  "latency_ms": 11901.49,
+  "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "\"Confidential Information\" shall include, without limitation, any –\n5.1. technical, commercial or financial information;\n5.2. know-how and trade secrets;\n5.3. processes, machinery, designs, drawings, technical specifications and data relating to the Project;\n5.4. any of the above information of third parties, including but not limited to supplier and customer information relating to the Project,\nin whatever form and which relates to the Disclosing Party's business practices or promotion of the Disclosing Party's business plans, policies or practices, and which information is either communicated to or otherwise acquired by the Receiving Party from the Disclosing Party during the course of the Parties' discussions with one another, whether or not such information is formally designated as confidential.",
+  "rag_answer": "No. The agreement does **not** require all Confidential Information to be expressly identified or marked as confidential by the Disclosing Party.\n\nUnder clause 5, Confidential Information includes information communicated to or otherwise acquired by the Receiving Party from the Disclosing Party **“whether or not such information is formally designated as confidential.”**",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据显示 Confidential Information 的定义包含多种信息，并明确说明相关信息“whether or not such information is formally designated as confidential”，即不要求所有机密信息必须由披露方正式标识或指定为机密。",
+    "answer_summary": "系统回答称协议不要求所有 Confidential Information 必须由披露方明确标识或标记为机密，并引用 clause 5 中“whether or not such information is formally designated as confidential”作为依据。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标证据中的关键结论和核心条款表述，即机密信息的定义不依赖于披露方是否正式指定其为机密，因此判定命中。"
+  },
+  "file_ids": [
+    129
+  ],
+  "skip_answer": false
+}

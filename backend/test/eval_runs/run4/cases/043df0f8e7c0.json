@@ -1,0 +1,25 @@
+{
+  "index": 225,
+  "request_id": "043df0f8e7c0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "UALR-Standard-Non-disclosure-AgreementTemplate.txt",
+  "file_id": 197,
+  "file_mapped": true,
+  "latency_ms": 15566.31,
+  "query": "Consider UALR's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "6. No license, express or implied, in the Confidential Information is granted to either party other than to use the information in the manner and to the extent authorized by this Agreement. Each Party shall retain the title and full ownership rights to their respective “Confidential Information”.",
+  "rag_answer": "Yes. The UALR Non-Disclosure Agreement states that **no license, express or implied, in the Confidential Information is granted to either party other than to use the information in the manner and to the extent authorized by the Agreement**. It also states that **each party retains title and full ownership rights to its respective Confidential Information**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议未向任何一方明示或暗示授予机密信息许可，仅允许在协议授权的方式和范围内使用；各方保留其机密信息的所有权和全部权利。",
+    "answer_summary": "系统回答指出协议未授予任何一方明示或暗示的机密信息许可，仅在协议授权的方式和范围内可使用，并且各方保留机密信息的所有权和全部权利。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键信息：不授予许可、仅限授权使用、保留所有权，与问题语境一致且未与金标矛盾。"
+  },
+  "file_ids": [
+    197
+  ],
+  "skip_answer": false
+}

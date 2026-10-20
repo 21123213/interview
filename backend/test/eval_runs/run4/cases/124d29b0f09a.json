@@ -1,0 +1,25 @@
+{
+  "index": 65,
+  "request_id": "124d29b0f09a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "5-NSK-Confidentiality-Agreement-for-Suppliers.txt",
+  "file_id": 109,
+  "file_mapped": true,
+  "latency_ms": 16206.02,
+  "query": "Consider NSK's Confidentiality Agreement for Suppliers; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Representatives: any employees, officers, directors, professional advisors or consultants in relation to each Party and any of its Affiliates, who are actively and directly engaged in the Purpose;\n4.1. Notwithstanding clause 3.1 of this Agreement, the Receiving Party may disclose the Confidential Information:\na) to its and its Affiliate’s Representatives, provided always that the Receiving Party procures that such Representatives shall comply with the confidentiality obligations as set out in clause 3 of this Agreement, and the Receiving Party agrees to be liable for the actions or omissions of such Representatives in relation to the Confidential Information as if they were the actions or omissions of the Receiving Party; and",
+  "rag_answer": "Yes. Under NSK’s Confidentiality Agreement for Suppliers, the Receiving Party may disclose Confidential Information to its employees, but only as part of the permitted exception in Clause 4.1(a).\n\nClause 1 defines “Representatives” to include employees, officers, directors, professional advisors, or consultants of a Party or its Affiliates who are “actively and directly engaged in the Purpose.” Clause 4.1(a) allows disclosure of Confidential Information to the Receiving Party’s and its Affiliates’ Representatives, provided that:\n\n- the Receiving Party ensures those Representatives comply with the confidentiality obligations in Clause 3; and  \n- the Receiving Party remains liable for their acts or omissions regarding the Confidential Information as if they were its own.\n\nSo, sharing with employees is allowed only where the employees are Representatives actively and directly engaged in the Purpose, and the required confidentiality controls and liability conditions are met.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Receiving Party 可向“Representatives”披露 Confidential Information，而 Representatives 包括其及关联方的员工、高管、董事、专业顾问或顾问，且需直接参与 Purpose；披露须确保其遵守保密义务，并由 Receiving Party 对其行为承担责任。",
+    "answer_summary": "系统回答称允许向员工披露，但员工需属于 Clause 1 定义的 Representatives（包括员工且 actively and directly engaged in the Purpose），并满足 Clause 4.1(a) 的条件：确保其遵守 Clause 3 保密义务，且 Receiving Party 对其行为承担责任。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：员工属于可接收 Confidential Information 的 Representatives，且披露需满足保密义务和 Receiving Party 责任条件，与金标一致。"
+  },
+  "file_ids": [
+    109
+  ],
+  "skip_answer": false
+}

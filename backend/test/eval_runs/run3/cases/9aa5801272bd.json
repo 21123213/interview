@@ -1,0 +1,25 @@
+{
+  "index": 216,
+  "request_id": "9aa5801272bd",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "sample-nrel-bilateral-nda-template.txt",
+  "file_id": 184,
+  "file_mapped": true,
+  "latency_ms": 21701.71,
+  "query": "Consider the Non-Disclosure Agreement between NREL and Another Company; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "d. The obligations of confidentiality set forth in this Agreement do not apply to information which\n(v) is required to be disclosed by U.S. law, including, with respect to Alliance, a Freedom of Information Act request if no exemption is deemed by DOE to be applicable, and, with respect to both Parties, a court order from a court of competent jurisdiction, provided that Receiving Party promptly notifies Disclosing Party and uses diligent efforts to limit such disclosure.",
+  "rag_answer": "Yes. The document requires the Receiving Party to promptly notify the Disclosing Party if disclosure is required by law or by a court order.\n\nSpecifically, the confidentiality obligations do not apply to information “required to be disclosed by U.S. law,” including a Freedom of Information Act request if no exemption is deemed applicable, and a “court order from a court of competent jurisdiction,” provided that the Receiving Party:\n\n1. promptly notifies the Disclosing Party; and  \n2. uses diligent efforts to limit the disclosure.\n\nThe document does not expressly use the words “regulation” or “judicial process,” but it covers U.S. law and court orders.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密义务不适用于依法必须披露的信息，包括涉及 Alliance 的 FOIA 请求（若 DOE 认为无豁免）和有管辖权法院命令；前提是接收方及时通知披露方，并尽勤勉努力限制披露。",
+    "answer_summary": "系统回答指出文档要求接收方在因法律或法院命令被要求披露时及时通知披露方，并尽勤勉努力限制披露；同时说明文档未明确使用 regulation 或 judicial process，但覆盖 U.S. law 和 court orders。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：接收方在因法律或法院命令要求披露保密信息时必须及时通知披露方，并采取措施限制披露。虽然未逐字提及 FOIA/DOE 豁免细节，但不影响对问题核心命中。"
+  },
+  "file_ids": [
+    184
+  ],
+  "skip_answer": false
+}

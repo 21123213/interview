@@ -1,0 +1,25 @@
+{
+  "index": 26,
+  "request_id": "2424c0a0db4d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Data Use Agreement New York City.txt",
+  "file_id": 121,
+  "file_mapped": true,
+  "latency_ms": 22957.89,
+  "query": "Consider the Data Use Agreement in New York City; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "A. Data Recipient agrees to use the Data solely for the purposes set forth in Attachment B to this Agreement, and for no other purposes.\nExcept as otherwise provided in this Agreement, Data Recipient shall not, at any time, directly or indirectly disclose, share, give, loan, sell, or otherwise grant access to the Data provided pursuant to this Agreement, in part or in whole, to any other person or organization.",
+  "rag_answer": "Yes. The Data Use Agreement restricts the use of the confidential Data to the purposes stated in the Agreement.\n\nSpecifically, Section IV states that the Data Recipient “agrees to use the Data solely for the purposes set forth in Attachment B to this Agreement, and for no other purposes.” Section II also confirms that Attachment B describes the permitted use of the Data. In addition, Section III provides that the Data Recipient may not use, incorporate, or derive products or items from the Data “other than for the purpose stated in Attachment B.” The Agreement further requires the Data Recipient to maintain the confidentiality and security of the Data and prohibits unauthorized disclosure or use.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议要求数据接收方仅将数据用于附件B规定的目的，不得用于其他目的；除协议另有规定外，不得直接或间接向任何其他人或组织披露、共享、提供、借出、出售或以其他方式授予访问数据。",
+    "answer_summary": "系统回答确认协议将机密数据的使用限制在协议规定目的内，并引用“仅用于附件B所列目的，且不得用于其他目的”；同时概括说明协议要求保密并禁止未经授权披露或使用。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：数据仅可限于协议/附件B规定目的使用，并禁止未经授权披露或提供访问；虽然未逐字列举所有禁止行为，但从宽判定已命中核心信息且无矛盾。"
+  },
+  "file_ids": [
+    121
+  ],
+  "skip_answer": false
+}

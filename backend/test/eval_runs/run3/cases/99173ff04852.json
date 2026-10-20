@@ -1,0 +1,25 @@
+{
+  "index": 93,
+  "request_id": "99173ff04852",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SE_NDCA_and_PRE-QUAL_PACKAGE_March-2016.txt",
+  "file_id": 185,
+  "file_mapped": true,
+  "latency_ms": 35234.78,
+  "query": "Consider the Agreement between SE_NDCA and PRE-QUAL PACKAGE; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "The Receiving Party shall not be deemed to have retained or failed to destroy any Confidential Information which is an Imaged Document if such Confidential Information is deleted from local hard drives so long as no attempt is made to recover such Confidential Information from servers or back-up sources, provided that any such retained Confidential Information in an Imaged Document form shall remain subject to the disclosure and use restrictions set forth herein, notwithstanding any termination of this Agreement.",
+  "rag_answer": "Yes. Under Section 5, the Receiving Party must generally return or destroy all written Confidential Information and not retain copies, but there is a limited exception: Confidential Information that exists as an “Imaged Document” may be retained if it has been deleted from local hard drives and no attempt is made to recover it from servers or back-up sources. Any such retained Imaged Document remains subject to the Agreement’s disclosure and use restrictions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方若将机密信息以Imaged Document形式删除本地硬盘且不尝试从服务器或备份恢复，则不视为保留或未销毁，但保留的Imaged Document仍受披露和使用限制约束。",
+    "answer_summary": "系统回答指出存在Imaged Document的有限例外：删除本地硬盘且不尝试从服务器或备份恢复时可保留，且保留的Imaged Document仍受协议披露和使用限制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，包括Imaged Document例外、删除本地硬盘、不得尝试从服务器或备份恢复，以及保留后仍受披露和使用限制；额外说明不影响命中。"
+  },
+  "file_ids": [
+    185
+  ],
+  "skip_answer": false
+}

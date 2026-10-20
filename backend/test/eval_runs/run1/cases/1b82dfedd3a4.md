@@ -1,0 +1,35 @@
+# Case `1b82dfedd3a4`
+
+- index: 140
+- file_key: `HNBA-2017-18-Confidentiality-Agreement.txt`
+- file_id: 139
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 22088.33
+
+## Query
+
+Consider HNBA's Confidentiality Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?
+
+## Gold
+
+The Board Member will not use or disclose Confidential Information to any third party for any purpose other than the performance of his or her duties as a Board Member of the HNBA unless and until the HNBA expressly authorizes the disclosure in writing. Board Member specifically agrees not to use any personally identifiable information provided by or on behalf of the HNBA, its contractors, affiliates, vendors, sponsors or employees, for any direct marketing and not to transfer such information to any third party.
+2. The Board Member agrees to restrict dissemination of Confidential Information to those persons employed by the Board Member (or the Board Member’s employer) who require access to the Confidential Information so as to assist the Board Member in carrying out his or her duties to the HNBA and then only if such personnel has a clear understanding of the confidentiality obligations imposed by this agreement and also agrees to maintain the confidentiality of the Confidential Information in accordance with the terms hereof by signing this Agreement before any Confidential Information is disclosed.
+
+## RAG Answer
+
+Based on the provided HNBA Confidentiality Agreement excerpts, **no**, the document does **not** allow the Receiving Party (the Board Member) to share Confidential Information with third parties such as consultants, agents, or professional advisors.
+
+The Agreement states that the Board Member **will not use or disclose Confidential Information to any third party** except for the performance of his or her duties as an HNBA Board Member, and **unless and until the HNBA expressly authorizes the disclosure in writing**. It only permits dissemination to persons **employed by the Board Member or the Board Member’s employer** who require access to assist in carrying out HNBA duties, provided they understand the confidentiality obligations and sign the Agreement before receiving Confidential Information.
+
+There are limited exceptions, such as information already publicly available, lawfully obtained from an independent third party, previously known or independently developed, or legally required disclosure with notice and reasonable confidentiality efforts, but these do not establish a general right to share Confidential Information with consultants, agents, or professional advisors.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: HNBA保密协议规定，董事会成员不得向任何第三方使用或披露保密信息，除非为履行HNBA董事会成员职责且获得HNBA书面明确授权；仅可在签署保密协议并理解义务的前提下，向董事会成员或其雇主雇佣且确需接触信息以协助履职的人员披露。
+- answer_summary: 系统回答指出协议不允许接收方（董事会成员）向顾问、代理人、专业顾问等第三方分享保密信息；仅允许向董事会成员或其雇主雇佣且确需协助履职并签署协议的人员披露，且向第三方披露需HNBA书面授权。
+- gap: 无
+- reason: 系统回答准确覆盖了金标的关键要点：不得向第三方披露、除非HNBA书面授权、仅可限制性地披露给需协助履职且已签署协议的人员，并明确否认允许与顾问、代理人、专业顾问分享保密信息。额外提及有限例外未与金标矛盾。

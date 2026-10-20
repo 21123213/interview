@@ -1,0 +1,25 @@
+{
+  "index": 222,
+  "request_id": "77d18d5a0dfd",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_-_GWI_-_Technohubs_version_V1.txt",
+  "file_id": 158,
+  "file_mapped": true,
+  "latency_ms": 25510.78,
+  "query": "Consider the Non-Disclosure Agreement between GWI and Technohubs; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "It will ensure that these employees are equally obliged to observe secrecy, whereby the obligation shall survive the termination of their respective employment contracts.",
+  "rag_answer": "No. Based on the provided document excerpts, the NDA does not state that obligations of the Agreement survive the termination of the Agreement.\n\nThe only “survival” language is in Section 5.1, which says that employees’ secrecy obligation survives the termination of their respective employment contracts:\n\n> “It will ensure that these employees are equally obliged to observe secrecy, whereby the obligation shall survive the termination of their respective employment contracts.”\n\nThis refers to termination of employment contracts, not termination of the NDA itself.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "文档提到员工保密义务在其各自雇佣合同终止后仍然存续。",
+    "answer_summary": "系统回答明确引用了该金标内容，并说明这是员工保密义务在雇佣合同终止后存续，而非 NDA 协议终止后的存续。",
+    "gap": "无",
+    "reason": "系统回答已经包含金标关键信息，即员工保密义务在雇佣合同终止后存续；其结论虽认为该条款不等同于协议终止后的存续，但与金标证据不矛盾，属于对金标信息的解释和覆盖。"
+  },
+  "file_ids": [
+    158
+  ],
+  "skip_answer": false
+}

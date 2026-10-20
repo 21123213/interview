@@ -1,0 +1,25 @@
+{
+  "index": 172,
+  "request_id": "f2f0974e0d05",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "mcgill_mitacs_terms-january2013.txt",
+  "file_id": 153,
+  "file_mapped": true,
+  "latency_ms": 16127.51,
+  "query": "Consider the Terms of Collaboration Agreement between McGill University and Mitacs; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "j. Confidential Information: any information disclosed by one Party (the ‘Discloser’) to another party (the ‘Recipient’) relating directly or indirectly to the Project, which is identified by the disclosing Party, either orally or in writing, as confidential, either at the time of disclosure or, if disclosed orally, confirmed in writing within thirty (30) days following the original disclosure.",
+  "rag_answer": "Yes. Under the agreement’s definition of “Confidential Information,” information disclosed by one Party is confidential only if the disclosing Party identifies it as confidential, either orally or in writing, at the time of disclosure; if disclosed orally, it must be confirmed in writing within 30 days.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Confidential Information 必须是由披露方口头或书面标识为保密的信息；如为口头披露，还需在披露后30天内书面确认。",
+    "answer_summary": "系统回答指出，只有披露方口头或书面标识为保密的信息才属于 Confidential Information，且口头披露需在30天内书面确认。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：披露方需将信息标识为保密，口头披露需后续书面确认；与金标一致。"
+  },
+  "file_ids": [
+    153
+  ],
+  "skip_answer": false
+}

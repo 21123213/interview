@@ -1,0 +1,25 @@
+{
+  "index": 211,
+  "request_id": "393315442a83",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NCDG_Non-disclosure-agreement.txt",
+  "file_id": 157,
+  "file_mapped": true,
+  "latency_ms": 17784.66,
+  "query": "Consider NCDG's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The undertaking set forth in this Clause 7 shall survive the termination of this Agreement.\n3. The rights and obligations of each Party with respect to all Confidential Information of the other Party that is received under this Agreement shall remain in effect for a period of five (5) years from the date of disclosure of Confidential Information.",
+  "rag_answer": "Yes. The NCDG Non-Disclosure Agreement mentions that some obligations survive termination.\n\nSpecifically, under **Clause VI – Non-Disclosure of Negotiations**, it states:\n\n> “The undertaking set forth in this Clause 7 shall survive the termination of this Agreement.”\n\nIn addition, **Clause VII – Term and Termination** provides that rights and obligations relating to Confidential Information received under the Agreement “shall remain in effect for a period of five (5) years from the date of disclosure of Confidential Information,” which may also extend beyond the Agreement’s termination.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NCDG NDA 明确提到第7条承诺在协议终止后继续有效，并且相关权利与义务在保密信息披露后五年内仍有效。",
+    "answer_summary": "系统回答确认协议提到部分义务在终止后存续，并引用了第7条承诺终止后继续有效，以及保密信息权利义务自披露后五年内仍有效。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键信息：第7条承诺在协议终止后继续有效，以及保密信息相关权利义务在披露后五年内继续有效；虽有条款编号或解释性表述，但不影响命中。"
+  },
+  "file_ids": [
+    157
+  ],
+  "skip_answer": false
+}

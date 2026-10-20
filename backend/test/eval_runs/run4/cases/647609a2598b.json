@@ -1,0 +1,25 @@
+{
+  "index": 158,
+  "request_id": "647609a2598b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "dhs-nda.txt",
+  "file_id": 124,
+  "file_mapped": true,
+  "latency_ms": 24071.29,
+  "query": "Consider DHS's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "(1) Upon the completion of my engagement as an employee, consultant, or subcontractor under the contract, or the completion of my work on the PCII Program, whichever occurs first, I will surrender promptly to the PCII Program Manager or his designee, or to the appropriate PCII officer, PCII of any type whatsoever that is in my possession.\nI agree that I shall return all information to which I have had access or which is in my possession\n2) upon the conclusion of my duties, association, or support to DHS; and/or",
+  "rag_answer": "Yes. The DHS Non-Disclosure Agreement specifies return/surrender obligations, but it does not require destruction of the information.\n\n- For **PCII**, the signatory must **promptly surrender** all PCII in their possession upon completion of their engagement, work, or association with the PCII Program, as applicable.  \n- For **SSI and SBU**, the signatory must **return all information** upon demand, upon conclusion of duties, association, or support to DHS, or upon determination that further access is not required.\n\nThe Agreement does not expressly mention “termination of the Agreement” as the trigger, nor does it require destruction of Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标要求接收方在完成参与合同/PCII Program 工作或结束对 DHS 的职责/关联/支持时，迅速交还/归还其持有或接触到的 PCII/所有信息；未明确提到销毁义务。",
+    "answer_summary": "系统回答指出 DHS NDA 规定了交还/归还义务：PCII 需在完成参与、工作或关联时迅速交还；SSI/SBU 需在需求、结束职责/关联/支持或不再需要访问时归还；同时说明未明确要求销毁机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即存在归还/交还机密信息或 PCII 的义务，并且未声称需要销毁；虽然表述更详细，但与金标一致。"
+  },
+  "file_ids": [
+    124
+  ],
+  "skip_answer": false
+}

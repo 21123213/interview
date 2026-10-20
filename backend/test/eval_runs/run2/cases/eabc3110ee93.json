@@ -1,0 +1,25 @@
+{
+  "index": 0,
+  "request_id": "eabc3110ee93",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "HNBA-2017-18-Confidentiality-Agreement.txt",
+  "file_id": 139,
+  "file_mapped": true,
+  "latency_ms": 12806.59,
+  "query": "Consider HNBA's Confidentiality Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "1. The Board Member agrees that the Confidential Information he or she receives shall be used solely for the benefit of the HNBA Board Work, and that all rights to the proprietary and novel features contained in the Confidential Information are reserved by the disclosing Party. The Board Member will not use or disclose Confidential Information to any third party for any purpose other than the performance of his or her duties as a Board Member of the HNBA unless and until the HNBA expressly authorizes the disclosure in writing.",
+  "rag_answer": "Yes. The HNBA Confidentiality Agreement restricts the Board Member’s use of Confidential Information to the purposes stated in the Agreement.\n\nSpecifically, it provides that Confidential Information received by the Board Member “shall be used solely for the benefit of the HNBA Board Work,” and the Board Member may not use or disclose it for any purpose other than performing his or her duties as an HNBA Board Member unless the HNBA expressly authorizes the disclosure in writing.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密协议要求董事会成员仅将机密信息用于HNBA董事会工作/履职目的，不得为其他目的使用或向第三方披露，除非HNBA书面明确授权。",
+    "answer_summary": "系统回答确认协议限制机密信息使用，并指出信息只能用于HNBA Board Work，且除履行董事职责外不得用于其他目的或披露，除非HNBA书面授权。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中关于使用目的限制的核心要点，虽未提及披露方保留权利，但不影响对问题的命中。"
+  },
+  "file_ids": [
+    139
+  ],
+  "skip_answer": false
+}

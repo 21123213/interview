@@ -1,0 +1,25 @@
+{
+  "index": 29,
+  "request_id": "7f4a83e090a1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "INFOMAGNET%20NDA.txt",
+  "file_id": 143,
+  "file_mapped": true,
+  "latency_ms": 16204.27,
+  "query": "Consider INFOMAGNET's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "(a) \"Confidential Information\" means non public information that the Disclosing Party either designates as being confidential or which, under the circumstances surrounding disclosure ought to be treated as confidential.",
+  "rag_answer": "No.\n\nThe NDA does **not** require that all Confidential Information be expressly identified by the Disclosing Party. It defines “Confidential Information” as non-public information that the Disclosing Party **either designates as confidential or which, under the circumstances surrounding disclosure, ought to be treated as confidential**. Thus, information may be confidential even if it is not expressly marked or identified as such.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "“Confidential Information”指非公开信息，披露方将其指定为机密，或根据披露情形应被视为机密；并非要求所有机密信息都必须被明确标识。",
+    "answer_summary": "系统回答称不需要，并说明 NDA 将“Confidential Information”定义为披露方指定为机密、或根据披露情形应被视为机密的信息，因此即使未明确标识也可能属于机密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖金标关键定义，并据此对问题作出正确判断；虽然比金标更直接回答 No，但与金标含义一致且未矛盾。"
+  },
+  "file_ids": [
+    143
+  ],
+  "skip_answer": false
+}

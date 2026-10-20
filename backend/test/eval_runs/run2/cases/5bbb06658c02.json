@@ -1,0 +1,25 @@
+{
+  "index": 60,
+  "request_id": "5bbb06658c02",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Inaturals_NDA.txt",
+  "file_id": 142,
+  "file_mapped": true,
+  "latency_ms": 13966.92,
+  "query": "Consider Inaturals's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "The Recipient will communicate such information only to such employees and contractors or agents who have a need to know such information, and only to such employees and contractors or agents having written agreements with the Recipient obligating them to keep such information confidential.",
+  "rag_answer": "Yes. The NDA allows the Receiving Party to share Confidential Information with its employees, but only under specific conditions: the employees must have a “need to know” the information, and they must be bound by written agreements with the Receiving Party obligating them to keep the information confidential.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方只能向确有知悉必要的员工、承包商或代理披露机密信息，且这些人必须已与接收方签订书面协议并承担保密义务。",
+    "answer_summary": "系统回答称NDA允许接收方向员工分享机密信息，但条件是员工必须有“need to know”，并已与接收方签订书面协议承担保密义务。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标针对“员工”披露的核心条件：仅限有知悉必要，且需有书面保密协议；虽然未提及承包商或代理，但用户问题聚焦员工，因此关键信息已命中。"
+  },
+  "file_ids": [
+    142
+  ],
+  "skip_answer": false
+}

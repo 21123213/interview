@@ -1,0 +1,25 @@
+{
+  "index": 301,
+  "request_id": "de9d561f9eed",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-SqillerBetaTesters.txt",
+  "file_id": 172,
+  "file_mapped": true,
+  "latency_ms": 18965.11,
+  "query": "Consider the Non-Disclosure Agreement between Sqiller and Beta Testers; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Immediately upon the Disclosing Party’s request or by the last date defined in clause 3.2, the Receiving Party shall return/or destroy, at the Disclosing Party’s discretion and expense, all the Disclosing Party’s Confidential Information in its possession, irrespective of the media, and certify execution of this obligation in writing. This obligation shall not apply to (i) copies retained in compliance with a Party’s legal or regulatory obligations or (ii) copies made as part of preexisting data back-up processes, if such copies are not accessible to the Receiving Party’s staff or Authorized Persons in the normal course of business.",
+  "rag_answer": "Yes. Under the provided NDA, the Receiving Party may retain certain Confidential Information after the return/destruction obligation.\n\nClause 3.8 (“Return of Confidential Information”) requires return or destruction of all Confidential Information, but expressly excludes:\n\n1. copies retained in compliance with a Party’s legal or regulatory obligations; and  \n2. copies made as part of preexisting data back-up processes, provided such copies are not accessible to the Receiving Party’s staff or Authorized Persons in the normal course of business.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方原则上应归还或销毁全部保密信息，但该义务不适用于两类保留：为满足法律或监管义务而保留的副本，以及作为既有数据备份流程一部分制作的副本，且后者在正常业务过程中不得对接收方员工或授权人员可访问。",
+    "answer_summary": "系统回答指出允许接收方在归还/销毁义务后保留某些保密信息，并列出两项例外：法律或监管义务要求的保留，以及既有数据备份流程中的保留，且备份副本在正常业务过程中不可被员工或授权人员访问。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键结论：允许在特定条件下保留保密信息，并完整列出了法律/监管义务和既有备份流程两项例外及其访问限制，与金标一致。"
+  },
+  "file_ids": [
+    172
+  ],
+  "skip_answer": false
+}

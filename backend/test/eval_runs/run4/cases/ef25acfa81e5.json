@@ -1,0 +1,25 @@
+{
+  "index": 228,
+  "request_id": "ef25acfa81e5",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "UALR-Standard-Non-disclosure-AgreementTemplate.txt",
+  "file_id": 197,
+  "file_mapped": true,
+  "latency_ms": 16661.44,
+  "query": "Consider UALR's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "3. Notwithstanding any other provisions of the Agreement, each party acknowledges that Confidential Information shall not include any information which:\nd. has been independently developed by an employee of the Receiving Party that has not had access directly or indirectly to Confidential Information, and Receiving Party can substantiate any claim of independent development by written evidence; or",
+  "rag_answer": "Yes, subject to conditions. Under Article 3(d), information “has been independently developed by an employee of the Receiving Party that has not had access directly or indirectly to Confidential Information” is excluded from Confidential Information, provided the Receiving Party can substantiate the independent development claim by written evidence.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不包括由未直接或间接接触保密信息的接收方员工独立开发的信息，且接收方须能以书面证据证实该独立开发。",
+    "answer_summary": "系统回答指出在满足条件下，接收方员工未直接或间接接触保密信息而独立开发的信息被排除在保密信息之外，并且需要以书面证据证实独立开发。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键要点：独立开发信息不属于保密信息、员工未接触保密信息、以及需要书面证据证实。"
+  },
+  "file_ids": [
+    197
+  ],
+  "skip_answer": false
+}

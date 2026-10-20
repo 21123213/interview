@@ -1,0 +1,25 @@
+{
+  "index": 178,
+  "request_id": "0206cb1461f8",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Mutual-Non-Disclosure-Agreement-Inventor-Product-Development-Experts-Inc..txt",
+  "file_id": 156,
+  "file_mapped": true,
+  "latency_ms": 21406.9,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Inventor and Product Development Experts, Inc.; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The obligations of each receiving party hereunder shall survive for a period of five years after the disclosure of the Confidential Information or until such time as all Confidential Information of the other party disclosed hereunder becomes publicly known and made generally available through no action or inaction of the receiving party, whichever is earlier.",
+  "rag_answer": "Yes. The document includes a survival provision: the obligations of each receiving party survive for five years after disclosure of the Confidential Information, or until the Confidential Information becomes publicly known and generally available, whichever is earlier. It does not expressly use the phrase “survive the termination of the Agreement,” but it does state that certain obligations continue after disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方的保密义务在披露后存续五年，或直到对方保密信息通过接收方无过错的方式公开并普遍可得，以较早者为准。",
+    "answer_summary": "系统回答指出文档包含存续条款，接收方义务在披露后存续五年，或直到保密信息公开并普遍可得，以较早者为准；并说明虽未明确使用“协议终止后存续”的措辞，但确实表明某些义务会继续存在。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：保密义务存续五年、以较早者为准、公开信息即终止。虽然对“termination”措辞作了限定，但并未与金标矛盾，且从宽标准下已命中关键信息。"
+  },
+  "file_ids": [
+    156
+  ],
+  "skip_answer": false
+}

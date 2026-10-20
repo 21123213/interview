@@ -1,0 +1,25 @@
+{
+  "index": 72,
+  "request_id": "303a906899af",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Evelozcity%20OESA%20NDA.txt",
+  "file_id": 131,
+  "file_mapped": true,
+  "latency_ms": 17694.91,
+  "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "The Recipient shall not disclose any Confidential Information to any third parties other than to its affiliates, and its and their respective officers, directors, employees, consultants or professional advisers (collectively, “Representatives”) who have a need to know the Confidential Information for use in evaluating or pursuing a potential business relationship with Disclosing Party or its affiliates (“Permitted Use.”)",
+  "rag_answer": "Yes. Under Section 2 of the Evelozcity NDA, the Receiving Party may share Confidential Information with limited third parties: its affiliates, and its and their respective officers, directors, employees, consultants, or professional advisers—collectively “Representatives”—provided they have a “need to know” the information for evaluating or pursuing a potential business relationship with the Disclosing Party or its affiliates.\n\nHowever, the agreement does not expressly list “agents” among the permitted recipients. It does permit disclosure to consultants and professional advisers, subject to confidentiality obligations and the Recipient’s liability for its Representatives’ compliance.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得向第三方披露保密信息，但可向其关联方及各自的董事、高管、员工、顾问或专业顾问等“代表”披露，前提是其有评估或推进与披露方或其关联方潜在业务关系的必要知悉。",
+    "answer_summary": "系统回答指出接收方可向有限第三方披露，包括关联方、董事、高管、员工、顾问或专业顾问，并明确说明协议未列明“agents”，但允许向顾问和专业顾问披露。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许接收方在必要知悉和业务关系评估/推进目的下向关联方及顾问、专业顾问等代表披露，并准确指出未明确允许向 agents 披露。"
+  },
+  "file_ids": [
+    131
+  ],
+  "skip_answer": false
+}

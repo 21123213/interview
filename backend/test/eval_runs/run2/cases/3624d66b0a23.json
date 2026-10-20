@@ -1,0 +1,25 @@
+{
+  "index": 165,
+  "request_id": "3624d66b0a23",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "lti-two-way-cda-template.txt",
+  "file_id": 152,
+  "file_mapped": true,
+  "latency_ms": 21936.34,
+  "query": "Consider LTI's Two-Way Confidential Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "Where the Proprietary Information has not been or cannot be reduced to written form at the time of disclosure and such disclosure is made orally or visually, complete written summaries of all proprietary aspects of any such oral or visual disclosures shall have been delivered to the receiving Party within 20 calendar days of said oral or visual disclosures; provided, however, that Proprietary Information that is not marked or reduced to writing is protected under this Non-Disclosure Agreement if the context and manner in which such Proprietary Information is disclosed would indicate to a reasonable person familiar with the pharmaceutical industry that such Proprietary Information can be reasonably expected to be treated as confidential.",
+  "rag_answer": "Yes. LTI’s Two-Way Confidential Disclosure Agreement uses the term **“Proprietary Information”** rather than “Confidential Information,” and it can include information conveyed verbally.\n\nUnder Section 2, Proprietary Information generally must be in writing, marked, and delivered by a letter of transmittal. However, if information is disclosed **orally or visually** and cannot be reduced to writing at the time of disclosure, it may still be protected if:\n\n- a complete written summary of the proprietary aspects is delivered to the receiving party within **20 calendar days**; or\n- even if it is not marked or reduced to writing, the context and manner of disclosure would indicate to a reasonable person familiar with the pharmaceutical industry that the information should be treated as confidential.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "口头或视觉披露的专有信息，若披露时未或不能书面化，需在20个日历日内向接收方交付完整书面摘要；即使未标记或书面化，若披露语境和方式会让熟悉制药行业的合理人认为应保密，也受该协议保护。",
+    "answer_summary": "系统回答认为口头传达的信息可受保护，并指出口头或视觉披露后需在20个日历日内交付完整书面摘要，或即使未标记/未书面化，只要合理人认为应保密也可受保护。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：口头/视觉披露信息在满足20日内书面摘要或合理人语境标准时可受保护，且结论与金标一致。"
+  },
+  "file_ids": [
+    152
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 124,
+  "request_id": "126c5286e93b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BT_NDA.txt",
+  "file_id": 117,
+  "file_mapped": true,
+  "latency_ms": 20563.95,
+  "query": "Consider BT's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Confidential information specifically excludes the following:\n1.1.2 where it becomes available to the Receiving Party on a non-confidential basis from a source other than the Disclosing Party or the individual members of the Disclosing Party, as the case may be;",
+  "rag_answer": "Yes. Under the BT NDA, the Receiving Party may acquire information similar to the Confidential Information from a third party **if it becomes available to the Receiving Party on a non-confidential basis from a source other than the Disclosing Party**.\n\nSpecifically, clause 1.1.2 excludes from “Confidential Information” any information that becomes available to the Receiving Party on a non-confidential basis from a source other than the Disclosing Party or the individual members of the Disclosing Party. Therefore, the document does not treat such third-party, non-confidentially obtained information as Confidential Information.\n\nHowever, if the information is still Confidential Information disclosed by the Disclosing Party, the Receiving Party remains bound by the confidentiality and use restrictions in the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息不包括接收方从披露方以外的来源以非机密方式获得的信息。",
+    "answer_summary": "系统回答指出，如果信息从披露方以外的来源以非机密方式获得，则不被视为机密信息，并引用了 clause 1.1.2。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，即接收方可以从第三方/其他来源获取以非机密方式公开的信息，且该信息被排除在机密信息之外；额外补充不改变判定。"
+  },
+  "file_ids": [
+    117
+  ],
+  "skip_answer": false
+}

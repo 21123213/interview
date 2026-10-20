@@ -1,0 +1,25 @@
+{
+  "index": 158,
+  "request_id": "f4496273f6fa",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "khronos-mutual-nda.txt",
+  "file_id": 150,
+  "file_mapped": true,
+  "latency_ms": 12904.99,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Khronos and Khronos; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Notwithstanding the above, Confidential Information will not include any information that is\n(b) rightfully received from a third party without any obligation of confidentiality;",
+  "rag_answer": "Yes. The Khronos Mutual Non-Disclosure Agreement allows the Receiving Party to acquire information from a third party if that information is **rightfully received from a third party without any obligation of confidentiality**.\n\nUnder the Agreement’s definition of “Confidential Information,” information that is “rightfully received from a third party without any obligation of confidentiality” is expressly excluded from Confidential Information. Therefore, the Receiving Party is not restricted from obtaining such information from a third party, provided it is received rightfully and without a confidentiality obligation.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不包括从第三方合法获得且无保密义务的信息。",
+    "answer_summary": "系统回答指出接收方可以获取来自第三方的信息，只要该信息是合法获得且不承担保密义务，并说明此类信息被排除在保密信息之外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即从第三方合法获得且无保密义务的信息不属于保密信息，因此判定命中。"
+  },
+  "file_ids": [
+    150
+  ],
+  "skip_answer": false
+}

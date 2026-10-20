@@ -1,0 +1,25 @@
+{
+  "index": 304,
+  "request_id": "11656140a156",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-SqillerBetaTesters.txt",
+  "file_id": 172,
+  "file_mapped": true,
+  "latency_ms": 13774.92,
+  "query": "Consider the Non-Disclosure Agreement between Sqiller and Beta Testers; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "1.2. “Confidential Information” means information related to a Party, its Group Companies, its Authorized Persons, this Agreement or any agreement to which this Agreement is annexed or upon which this Agreement’s Purpose is based, that a Party receives or accesses, except information that\n(iv) is obtained by the Receiving Party from third parties without any obligation of confidentiality to the Disclosing Party.",
+  "rag_answer": "Yes. Under clause 1.2 of the NDA, “Confidential Information” excludes information that is obtained by the Receiving Party from third parties without any obligation of confidentiality to the Disclosing Party. Therefore, the Receiving Party may acquire similar information from a third party if it is obtained without a confidentiality obligation to the Disclosing Party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA第1.2条规定，“机密信息”不包括接收方从第三方获得的、对披露方不负有保密义务的信息。",
+    "answer_summary": "系统回答指出第1.2条将接收方从第三方获得的、对披露方无保密义务的信息排除在机密信息之外，因此接收方可以在无保密义务的情况下从第三方获取类似信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键条款和例外条件，即第三方获取且对披露方无保密义务的信息不属于机密信息，因此判定为正确。"
+  },
+  "file_ids": [
+    172
+  ],
+  "skip_answer": false
+}

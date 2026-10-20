@@ -1,0 +1,25 @@
+{
+  "index": 103,
+  "request_id": "620d6a09383f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Kerber_Non_Disclosure_Agreement.txt",
+  "file_id": 149,
+  "file_mapped": true,
+  "latency_ms": 17618.59,
+  "query": "Consider Kerber's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "1. For the purpose of this Agreement, “Confidential Information” means information, technical or commercial, whether in visual or machine readable form, received by one party from the other which is marked “Confidential” or “Proprietary”, or which would logically be considered confidential or proprietary in view of its relationship to the whole disclosure.",
+  "rag_answer": "No. The agreement does not require that **all** Confidential Information be expressly identified by the Disclosing Party.\n\nUnder Section 1, Confidential Information includes information that is:\n\n- **marked “Confidential” or “Proprietary,”** or  \n- **would logically be considered confidential or proprietary** in view of its relationship to the whole disclosure.\n\nHowever, for information initially furnished orally, the disclosing party must identify it as confidential or proprietary at the time of disclosure and confirm it in writing within 30 days.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息不仅包括被明确标记为“Confidential”或“Proprietary”的信息，也包括在整体披露关系下逻辑上会被认为机密或专有的信息。",
+    "answer_summary": "系统回答称协议并不要求所有机密信息都必须由披露方明确标识，并指出机密信息包括被标记为“Confidential”或“Proprietary”的信息，或在整体披露关系下逻辑上会被认为机密/专有的信息；还补充了口头披露的标识与书面确认要求。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：机密信息并非必须全部明确标识，因为符合逻辑上应被视为机密/专有的信息也属于机密信息；补充内容与金标不矛盾。"
+  },
+  "file_ids": [
+    149
+  ],
+  "skip_answer": false
+}

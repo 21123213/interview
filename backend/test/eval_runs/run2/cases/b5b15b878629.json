@@ -1,0 +1,25 @@
+{
+  "index": 287,
+  "request_id": "b5b15b878629",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-ROI-Corporation.txt",
+  "file_id": 170,
+  "file_mapped": true,
+  "latency_ms": 15207.89,
+  "query": "Consider ROI Corporation's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "I further agree not to write or mark the Appraisal(s), nor shall I copy or reproduce any information in any manner whatsoever without the prior consent of ROI Corporation.",
+  "rag_answer": "Yes, but only in a limited way: the NDA states that the Receiving Party “shall not copy or reproduce any information in any manner whatsoever without the prior consent of ROI Corporation.” Therefore, creating a copy of Confidential Information is not permitted generally; it would only be allowed if ROI Corporation gives prior consent.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得以任何方式复制或再现任何信息，除非事先获得 ROI Corporation 同意。",
+    "answer_summary": "系统回答指出 NDA 规定接收方不得复制信息，除非获得 ROI Corporation 事先同意，因此仅在事先同意情况下才允许复制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：禁止复制，但可在 ROI Corporation 事先同意下允许复制，与金标一致。"
+  },
+  "file_ids": [
+    170
+  ],
+  "skip_answer": false
+}

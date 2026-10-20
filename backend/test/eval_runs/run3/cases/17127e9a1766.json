@@ -1,0 +1,25 @@
+{
+  "index": 4,
+  "request_id": "17127e9a1766",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NU%20Confidentiality%20Non-Disclosure%20%20Information%20Security%20Agreement%20Final%20....txt",
+  "file_id": 176,
+  "file_mapped": true,
+  "latency_ms": 83977.73,
+  "query": "Consider NU's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "2. I will not leave confidential or sensitive data in view of others who do not have a legitimate business reason to view the data and I will only share confidential data with persons having authorized access.\n3. I will not share my computer user login IDs and passwords with anyone, at any time, for any reason, except in cases necessary to facilitate computer maintenance and repairs.",
+  "rag_answer": "Yes, but only conditionally. The provided NU agreement does not explicitly use the term “Receiving Party,” but it permits confidential data to be shared only with persons who have authorized access and a legitimate business need. Certain information may be disclosed only to the extent necessary to carry out employment responsibilities. Employees who are granted access must read and acknowledge the confidentiality agreement before access.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密/敏感数据只能与具有授权访问且具备合法业务需要的人分享；不得向无合法业务理由查看数据的人暴露机密数据，并严格限制共享登录ID和密码。",
+    "answer_summary": "系统回答指出NU协议允许机密数据仅在接收方具有授权访问和合法业务需要时分享，并可因履行就业职责而向员工披露必要信息，同时要求获得访问的员工先阅读并确认保密协议。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即机密信息只能与具有授权访问和合法业务需要的人分享，这与问题所问是否可与员工分享机密信息的核心结论一致；未展开密码限制不影响对主要问题的命中，且未与金标矛盾。"
+  },
+  "file_ids": [
+    176
+  ],
+  "skip_answer": false
+}

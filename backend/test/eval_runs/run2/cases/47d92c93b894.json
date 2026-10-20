@@ -1,0 +1,25 @@
+{
+  "index": 47,
+  "request_id": "47d92c93b894",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IPTK-CO-MutualNon-DisclosureAgreement.txt",
+  "file_id": 145,
+  "file_mapped": true,
+  "latency_ms": 32773.01,
+  "query": "Consider the Mutual Non-Disclosure Agreement between IPTK and CO; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "Except as described elsewhere in this Agreement, the Recipient and those of its employees, officers, agents and affiliates permitted access hereunder will hold the Confidential Information in confidence and will take all necessary steps to pre-serve the confidential and proprietary nature of the Confidential Information. Without limiting the foregoing, the Recipient (1) will not disclose any Confidential Information to persons within its organization who do not have a need to know in order for the Recipient to engage in the Purpose; (2) will not disclose any Confidential Information to any person outside of its organization unless such person has a need to know in order for the Recipient to engage in the Purpose, and such person is bound by fiduci-ary or contractual duties of confidentiality to the Recipient that are at least as stringent as those contained in this Agreement;",
+  "rag_answer": "Yes. Under Section 4 (“Nondisclosure”) of the IPTK–CO Mutual Non-Disclosure Agreement, the Receiving Party may share Confidential Information with third parties, including agents and attorneys/professional advisors, but only if:\n\n1. the third party has a **need to know** the information for the Agreement’s stated Purpose; and  \n2. the third party is bound by fiduciary or contractual confidentiality duties that are **at least as stringent** as those in the Agreement.\n\nThe Agreement also requires the Receiving Party, if reasonably required, to cause employees, officers, agents, affiliates, and attorneys with access to sign a confidentiality/non-disclosure agreement for the benefit of the Discloser. Consultants are not expressly listed in the permitted-access language, but they may qualify as outside third parties or agents if the above conditions are satisfied.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据表明，接收方可以向组织外人员披露保密信息，但前提是该人员因接收方实现协议目的而确有 need to know，且受到与协议至少同样严格的信托或合同保密义务约束。",
+    "answer_summary": "系统回答称允许向第三方（包括 agents、attorneys/professional advisors，以及可能符合条件的 consultants）分享保密信息，但必须满足：第三方有 need to know，且其保密义务至少与协议同样严格。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即对外披露需满足 need to know 和至少同样严格的保密义务，并对问题中的第三方共享作出了肯定回答；虽补充了 consultants 和内部义务细节，但与金标不矛盾。"
+  },
+  "file_ids": [
+    145
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 273,
+  "request_id": "8d4611b2c5be",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-ONSemi_IndustryAnalystConf-2011.txt",
+  "file_id": 169,
+  "file_mapped": true,
+  "latency_ms": 25373.37,
+  "query": "Consider the Non-Disclosure Agreement between ON Semiconductor and Industry Analysts; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "Recipient agrees that all Confidential Information received is and will remain the sole property of Discloser. Neither the execution of this Agreement, nor the furnishing of any Confidential Information hereunder shall be construed as a grant by implication, estoppel or otherwise, of a license by either party to the other to make, have made, use or sell any product using Confidential Information or as a license under any patent, patent application, utility model, copyright, maskwork right, or any other intellectual property right.",
+  "rag_answer": "Yes. The Agreement expressly indicates that it does not grant the Receiving Party rights to the Confidential Information.\n\nUnder Section 9, “No Transfer or License of Intellectual Property,” the Recipient agrees that all Confidential Information received “is and will remain the sole property of Discloser.” It further states that neither the execution of the Agreement nor the furnishing of Confidential Information shall be construed as granting, by implication, estoppel, or otherwise, any license or right to use the Confidential Information or any intellectual property rights related to it.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出：接收方承认所有保密信息仍为披露方唯一财产；协议签署或提供保密信息不应被解释为通过默示、禁止反言或其他方式授予任何一方制造、使用或销售相关产品的许可，或授予专利、著作权、掩模作品权等知识产权许可。",
+    "answer_summary": "系统回答称协议明确不授予接收方对保密信息的权利，并说明保密信息仍为披露方唯一财产；协议签署或提供保密信息不应被解释为通过默示、禁止反言或其他方式授予使用保密信息或相关知识产权的权利。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：保密信息所有权归披露方，且协议不构成对保密信息或相关知识产权的许可授予。虽未逐项列举金标中的具体许可类型和产品使用表述，但从宽判断已命中核心结论。"
+  },
+  "file_ids": [
+    169
+  ],
+  "skip_answer": false
+}

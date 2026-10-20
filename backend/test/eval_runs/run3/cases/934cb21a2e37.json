@@ -1,0 +1,25 @@
+{
+  "index": 158,
+  "request_id": "934cb21a2e37",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "TSE-TSE-OK-WHK-Mutual-NDA-Fill-in-Blanks-4-29-2019.txt",
+  "file_id": 196,
+  "file_mapped": true,
+  "latency_ms": 13251.56,
+  "query": "Consider the Mutual Non-Disclosure Agreement between TSE, OK, and WHK; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Notwithstanding the foregoing, the receiving party may retain one copy of the Confidential Information received from the disclosing party for historical, compliance, warranty and/or legal purposes, but the retained Confidential Information shall remain subject to the terms and provisions of this Agreement.",
+  "rag_answer": "Yes. Under Section 8 (“Return of Confidential Information”), after the relationship is not established or is terminated, the Receiving Party may be required to return or destroy Confidential Information. However, the agreement expressly permits the Receiving Party to retain **one copy** of the Confidential Information for **historical, compliance, warranty, and/or legal purposes**, provided that the retained copy remains subject to the terms and provisions of the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可以为历史、合规、保证和/或法律目的保留一份机密信息副本，且保留的机密信息仍受协议条款约束。",
+    "answer_summary": "系统回答确认允许接收方保留一份机密信息副本，用于历史、合规、保证和/或法律目的，并说明保留副本仍受协议条款约束。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点：允许保留一份副本、具体目的以及保留内容仍受协议约束；额外扩写不影响命中。"
+  },
+  "file_ids": [
+    196
+  ],
+  "skip_answer": false
+}

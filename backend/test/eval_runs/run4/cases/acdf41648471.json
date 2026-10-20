@@ -1,0 +1,25 @@
+{
+  "index": 109,
+  "request_id": "acdf41648471",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BCG-Mutual-NDA.txt",
+  "file_id": 116,
+  "file_mapped": true,
+  "latency_ms": 27786.7,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Boston Consulting Group and Unknown Party; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "Termination of this agreement will not change any of the rights and duties made while this agreement is in effect.\nExcept as permitted above, neither of us will use nor disclose the other's confidential information for three years after we receive it.\n5. General rights, obligations and miscellaneous.",
+  "rag_answer": "Yes. The document indicates that certain obligations continue after the agreement ends. It states that “Termination of this agreement will not change any of the rights and duties made while this agreement is in effect,” and it includes obligations that extend beyond the term, such as:\n\n- Confidential information restrictions for three years after receipt; and  \n- A non-solicitation obligation for employees during the term and for twelve months thereafter.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议终止不改变生效期间产生的权利义务；保密信息接收后三年内不得使用或披露；相关内容位于一般权利义务条款。",
+    "answer_summary": "系统回答确认协议终止后某些义务仍继续，并引用“终止不改变权利义务”以及保密信息三年限制，还补充了非招揽义务。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键结论：终止不改变权利义务，以及保密义务在接收后三年内继续存在；额外扩写不影响命中。"
+  },
+  "file_ids": [
+    116
+  ],
+  "skip_answer": false
+}

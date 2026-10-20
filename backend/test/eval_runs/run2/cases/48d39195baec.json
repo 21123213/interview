@@ -1,0 +1,25 @@
+{
+  "index": 19,
+  "request_id": "48d39195baec",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IGC-Non-Disclosure-Agreement-LSE-Sample.txt",
+  "file_id": 141,
+  "file_mapped": true,
+  "latency_ms": 18169.32,
+  "query": "Consider the Non-Disclosure Agreement between IGC and LSE; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "At the request of the Disclosing Party, the Recipient shall:\n(c) Certify in writing to the Disclosing Party that it has complied with the requirements of this clause, provided that a Recipient may retain documents and materials containing, reflecting, incorporating, or based on the Disclosing Party's Confidential Information to the extent required by law or any applicable governmental or regulatory authority and to the extent reasonable to permit the Recipient to keep evidence that it has performed its obligations under this Agreement.",
+  "rag_answer": "Yes. Under Clause 3.1 of the NDA, although the Recipient must generally destroy or return Confidential Information and erase it from its systems to the extent possible, it may retain documents and materials containing, reflecting, incorporating, or based on Confidential Information:\n\n- to the extent required by law or any applicable governmental or regulatory authority; and  \n- to the extent reasonable to keep evidence that it has performed its obligations under the Agreement.\n\nAny retained Confidential Information remains subject to the terms of the NDA.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标允许接收方在特定情况下保留包含、反映、纳入或基于保密信息的文件和材料，范围限于法律或政府/监管机构要求，以及合理保留证据证明其已履行协议义务。",
+    "answer_summary": "系统回答确认允许保留，并列明两项与金标一致的保留依据：法律或政府/监管机构要求，以及合理保留履行义务的证据。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关于允许保留保密信息的核心关键信息，虽然补充了保留信息仍受 NDA 约束，但不影响命中判定。"
+  },
+  "file_ids": [
+    141
+  ],
+  "skip_answer": false
+}

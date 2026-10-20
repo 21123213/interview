@@ -1,0 +1,25 @@
+{
+  "index": 13,
+  "request_id": "f1873d7e0314",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 18381.53,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "(a) Vendor shall:\n(i) Not use any Confidential Information except as required for the Purpose.\nIt shall not be modified except by a written agreement dated subsequent to the date of this Agreement and signed by both parties. None of the provisions of this Agreement shall be deemed to have been waived by any act or acquiescence on the part of IBC, the Vendor, their agents, or employees, but only by an instrument in writing signed by an authorized employee of IBC and the Vendor.\n(f) This Agreement shall be binding upon and inure to the benefit of each party’s respective successors and lawful assigns; provided, however, that Vendor may not assign this Agreement (whether by operation of law, sale of securities or assets, merger or otherwise), in whole or in part, without the prior written approval of IBC.",
+  "rag_answer": "Yes. Under the Agreement, the Vendor is expressly prohibited from using Confidential Information “except as required for the Purpose” (Section 2(a)(i)). The “Purpose” is defined in the recitals as obtaining technical information from IBC to develop functionality in the Provider’s copy of the PMS System so that Provider licensees participating in the HCAI System can electronically submit Claim Requests and receive Claim Responses or other information from the HCAI System.\n\nThe Agreement also specifically excludes certain uses, such as developing or providing a gateway or web-hosted service that consolidates the exchange of Claim Information between Providers and IBC, or a web-based or application service provider-based practice management system. In addition, Section 2(a)(iv) restricts disclosure, reproduction, summarization, and distribution of Confidential Information to what is expressly required for the Purpose.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议限制供应商仅可按约定Purpose所需使用机密信息，不得将机密信息用于其他目的。",
+    "answer_summary": "系统回答确认文档限制使用机密信息，并引用“except as required for the Purpose”，同时进一步解释Purpose及相关使用/披露限制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即机密信息只能按协议Purpose所需使用，判定为命中。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

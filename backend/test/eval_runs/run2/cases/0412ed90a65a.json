@@ -1,0 +1,25 @@
+{
+  "index": 147,
+  "request_id": "0412ed90a65a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ingram-non-disclosure.txt",
+  "file_id": 144,
+  "file_mapped": true,
+  "latency_ms": 26951.21,
+  "query": "Consider Ingram's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "This shall not, however, prevent Recipient from disclosing to others or using in any manner Confidential Information:\n(ii) which has been furnished or made known to the undersigned by third parties as a matter of right without restriction of disclosure, or;",
+  "rag_answer": "Yes. The NDA expressly permits the Receiving Party to disclose or use information that “has been furnished or made known to the undersigned by third parties as a matter of right without restriction of disclosure.”  \n\nHowever, this only applies to information actually obtained from a third party without disclosure restrictions; it does not create a general right to acquire merely “similar” information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 不阻止接收方披露或使用由第三方合法提供/告知且无披露限制的信息。",
+    "answer_summary": "系统回答指出 NDA 允许接收方披露或使用由第三方合法提供且无披露限制的信息，并进一步说明该例外仅适用于实际从第三方无限制获得的信息，不等同于一般允许获取 merely similar 信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即第三方合法提供且无披露限制的信息不受 NDA 限制；其补充说明未与金标矛盾，属于更精确的范围限定。"
+  },
+  "file_ids": [
+    144
+  ],
+  "skip_answer": false
+}

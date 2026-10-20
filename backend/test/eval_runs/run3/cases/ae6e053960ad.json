@@ -1,0 +1,25 @@
+{
+  "index": 236,
+  "request_id": "ae6e053960ad",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "stony_hill_buyer_nda.txt",
+  "file_id": 190,
+  "file_mapped": true,
+  "latency_ms": 18681.2,
+  "query": "Consider the Non-Disclosure Agreement between Stony Hill and Buyer; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "(d) Buyer will not utilize, now or at any time in the future, any trade secret(s), as that term may be defined under statutory or common law, that is/are included in the furnished Information for any purpose other than evaluating the possible purchase of the Business, including, without limitation, not utilizing same in the conduct of Buyer's or any other party's present or future business(es);\n(e) In addition to the prohibition against utilizing trade secret(s), Buyer will not utilize any other furnished information for any purpose other than evaluating the possible purchase of the Business; and",
+  "rag_answer": "Yes. The NDA restricts the use of the confidential “Information” to the purposes stated in the Agreement.\n\nSpecifically, Paragraph 2(d) prohibits the Buyer from using any trade secrets included in the furnished Information “for any purpose other than evaluating the possible purchase of the Business.” Paragraph 2(e) extends that restriction to all other furnished information, stating that the Buyer “will not utilize any other furnished information for any purpose other than evaluating the possible purchase of the Business.”\n\nThe Agreement also limits disclosure to persons within the Buyer’s organization or independent advisers/consultants who have a need to know the Information for purposes of evaluating or structuring the possible purchase.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 限制 Buyer 不得将包含在提供信息中的商业秘密或其他任何提供信息用于除评估可能购买该业务之外的目的。",
+    "answer_summary": "系统回答称 NDA 将保密信息的使用限制在协议所述目的，并具体说明第 2(d) 条禁止 Buyer 将商业秘密用于除评估可能购买该业务之外的目的，第 2(e) 条将该限制扩展至所有其他提供信息。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标的关键要点，即商业秘密和其他提供信息均只能用于评估可能购买该业务，且没有与金标矛盾；额外补充的披露限制不影响命中判定。"
+  },
+  "file_ids": [
+    190
+  ],
+  "skip_answer": false
+}

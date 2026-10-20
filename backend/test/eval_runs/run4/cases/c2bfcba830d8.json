@@ -1,0 +1,25 @@
+{
+  "index": 217,
+  "request_id": "c2bfcba830d8",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_Street_Stream_Franchise.txt",
+  "file_id": 162,
+  "file_mapped": true,
+  "latency_ms": 17438.44,
+  "query": "Consider Street Stream's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "Confidential Information means any information in whatever form (whether in writing, electronic or digital form, verbally or by inspection of documents, computer systems or sites or pursuant to discussions or by any other means ) which is confidential in nature, designated orally or in writing by the Disclosers as confidential or which may reasonably be considered by a business person to be commercially sensitive provided by the Disclosers (directly or indirectly) by any means to the Recipient (or to any Authorised Person) including without limitation via its legal representatives before or after the date of this Agreement in connection with or in anticipation of the Purpose including:",
+  "rag_answer": "Yes. The NDA expressly allows verbally conveyed information to be considered Confidential Information.\n\nClause 1.1 defines “Confidential Information” as information “in whatever form (whether in writing, electronic or digital form, verbally or by inspection of documents, computer systems or sites or pursuant to discussions or by any other means)” that is confidential in nature, designated orally or in writing as confidential, or may reasonably be considered commercially sensitive.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息包括任何形式（书面、电子/数字、口头/verbal、通过检查或讨论等），并且可由披露方口头或书面指定为保密。",
+    "answer_summary": "系统回答称 NDA 明确允许口头传达的信息构成保密信息，并引用定义中的 verbally、orally or in writing 等表述。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：口头/verbal 信息可属于保密信息，且可被口头或书面指定为保密；没有与金标矛盾。"
+  },
+  "file_ids": [
+    162
+  ],
+  "skip_answer": false
+}

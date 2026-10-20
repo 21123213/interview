@@ -1,0 +1,25 @@
+{
+  "index": 325,
+  "request_id": "576cffa90d11",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "nda_form_motorola.txt",
+  "file_id": 159,
+  "file_mapped": true,
+  "latency_ms": 39342.67,
+  "query": "Consider Motorola's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "1. All information, materials and assets in the Motorola Mobility facility I am visiting, including without limitation any products, prototypes, strategies, business plans or other information I observe, am told about, or otherwise come in contact with, belongs to Motorola (“Confidential Motorola Information”)",
+  "rag_answer": "No — the provided Motorola Event Non-Disclosure Agreement does not explicitly state that the Agreement does not grant the Receiving Party any rights to the Confidential Information.\n\nIt only indicates that Confidential Motorola Information “belongs to Motorola” and that the visitor will not disclose, share, publish, or utilize it without prior authorization.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论：在 Motorola Mobility 设施中观察、被告知或接触到的所有信息、材料和资产均属于 Motorola，并被定义为“Confidential Motorola Information”。",
+    "answer_summary": "系统回答指出协议未明确声明不授予接收方任何权利，但同时说明 Confidential Motorola Information 属于 Motorola，且访客不得未经授权披露、分享、发布或使用该信息。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标中的关键信息，即保密信息属于 Motorola，且未与金标矛盾，也未声称找不到信息；其对问题的限定性结论不影响金标要点的命中。"
+  },
+  "file_ids": [
+    159
+  ],
+  "skip_answer": false
+}

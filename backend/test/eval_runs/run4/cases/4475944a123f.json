@@ -1,0 +1,25 @@
+{
+  "index": 43,
+  "request_id": "4475944a123f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "01_Bosch-Automotive-Service-Solutions-Mutual-Non-Disclosure-Agreement-7-12-17.txt",
+  "file_id": 108,
+  "file_mapped": true,
+  "latency_ms": 23247.54,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Bosch and Automotive Service Solutions; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Disclosing Party may serve written request on Recipient for return or destruction of its Confidential Information at any time up to six (6) months after the termination or expiry of this Agreement and Recipient shall, within thirty (30) days of such request or termination, return to the Disclosing Party (or its designees) or certify as destroyed all Confidential Information, in whatever form, including written or electronically recorded information and all copies thereof (other than copies retained in automatic back-up and archive systems), provided however that Recipient shall be entitled to retain one copy of the Confidential Information with its legal counsel or other appropriate corporate representative to evidence the exchange of information hereunder and in connection with legal or statutory requirements.",
+  "rag_answer": "Yes. Under Section 6 (“Reproduction and Return of Confidential Information”), the Receiving Party must return or certify destruction of Confidential Information upon request, but it is permitted to retain:\n\n- **One copy** with its legal counsel or other appropriate corporate representative, to evidence the exchange and for legal or statutory requirements; and  \n- **Copies retained in automatic back-up and archive systems**.\n\nAll retained copies remain subject to the Agreement’s confidentiality and use restrictions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方通常须返还或销毁全部保密信息，但可保留自动备份和归档系统中的副本，并可保留一份保密信息交由法律顾问或其他适当公司代表，以证明信息交换并满足法律或法定要求。",
+    "answer_summary": "系统回答称接收方在返还或销毁时，可以保留一份给法律顾问或其他适当公司代表，用于证明信息交换及满足法律或法定要求，也可以保留自动备份和归档系统中的副本。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即允许保留自动备份/归档副本以及一份给法律顾问或公司代表的保密信息；额外说明不影响命中。"
+  },
+  "file_ids": [
+    108
+  ],
+  "skip_answer": false
+}

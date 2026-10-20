@@ -1,0 +1,35 @@
+# Case `790cedce2bbe`
+
+- index: 219
+- file_key: `NDA_Street_Stream_Franchise.txt`
+- file_id: 162
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 55478.01
+
+## Query
+
+Consider Street Stream's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?
+
+## Gold
+
+The Recipient's obligations under this Agreement do not apply to, and the term Confidential Information does not include, any information to the extent to which the Recipient can prove to the Disclosers’ reasonable satisfaction has been agreed by the Disclosers in writing as being excluded from Confidential Information.
+The Recipient shall not be in breach of its obligations under this Agreement to the extent that any Confidential Information received by it may be required by law or regulation having force of law; or the rules of any court or other body of competent jurisdiction; or any governmental body to be disclosed, provided in each case the Recipient, to the extent permitted by the foregoing requirement, immediately notifies the Disclosers in writing of any request or requirement for disclosure and of all relevant surrounding circumstances prior to disclosure and takes into account any representations made by the Disclosers in relation to the disclosure.
+
+## RAG Answer
+
+Based on the provided NDA, the document does **not expressly allow** the Receiving Party to acquire information similar to the Confidential Information from a third party.
+
+The only exclusion in the provided clauses is in **Clause 4.1**, which states that the Recipient’s obligations do not apply to information that the Recipient can prove has been **agreed by the Disclosers in writing** as excluded from Confidential Information. There is no standard “received from a third party” exception in the provided text.
+
+Therefore, unless the information is outside the definition of Confidential Information in **Clause 1.1** or has been expressly excluded in writing by the Disclosers, the NDA does not appear to permit the Receiving Party to acquire or use similar Confidential Information from a third party.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 金标指出：接收方义务不适用于接收方能证明已获披露方书面同意排除出保密信息的信息；同时，若法律、监管、法院或政府机关要求披露，接收方在及时通知披露方并考虑其相关陈述的情况下不构成违约。
+- answer_summary: 系统回答称：NDA 未明确允许接收方从第三方获取类似保密信息；唯一相关排除是接收方能证明信息已被披露方书面同意排除出保密信息；若信息不属于保密定义或未被书面排除，则不允许。
+- gap: 无
+- reason: 系统回答覆盖了金标中与问题直接相关的关键要点，即接收方义务不适用于经披露方书面同意排除出保密信息的信息，并正确指出文本中没有标准的第三方获取例外；其未展开法定披露例外，但该点与用户问题关系较弱，不影响命中。

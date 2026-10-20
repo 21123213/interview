@@ -1,0 +1,25 @@
+{
+  "index": 138,
+  "request_id": "83268c6b8033",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt",
+  "file_id": 138,
+  "file_mapped": true,
+  "latency_ms": 14370.99,
+  "query": "Consider FullStory's Mutual Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "A disclosure by Recipient of any of Discloser’s Confidential Information (a) in response to a valid order by a court or other governmental body; (b) as otherwise required by law; or (c) necessary to establish the rights of either party under this Agreement will not be considered to be a breach of this Agreement by the Recipient; provided, however, that Recipient provides prompt prior written notice to the Discloser to enable Discloser to seek a protective order or otherwise prevent the disclosure.",
+  "rag_answer": "Yes. Under Section 3 of FullStory’s Mutual Non-Disclosure Agreement, a disclosure by the Recipient of Confidential Information in response to a valid order by a court or other governmental body, or as otherwise required by law, is not considered a breach only if the Recipient provides prompt prior written notice to the Disclosing Party.\n\nThis notice must be given so the Disclosing Party can seek a protective order or otherwise prevent the disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方因法院命令、法律要求或为确立权利而披露保密信息不视为违约，但前提是接收方提供及时的事先书面通知，以便披露方寻求保护令或阻止披露。",
+    "answer_summary": "系统回答称接收方在依法或按法院/政府命令披露时，只有在向披露方提供及时的事先书面通知的情况下才不构成违约，且通知目的是让披露方寻求保护令或阻止披露。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中关于依法披露需通知披露方的关键要点，包括及时、事先、书面通知以及供披露方寻求保护令或阻止披露的目的，因此判定命中。"
+  },
+  "file_ids": [
+    138
+  ],
+  "skip_answer": false
+}

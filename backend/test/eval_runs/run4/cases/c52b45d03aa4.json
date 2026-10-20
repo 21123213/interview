@@ -1,0 +1,25 @@
+{
+  "index": 32,
+  "request_id": "c52b45d03aa4",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "wayne-fueling-systems-mutual-non-disclosure-agreement-final.txt",
+  "file_id": 200,
+  "file_mapped": true,
+  "latency_ms": 39380.99,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Wayne Fueling Systems and Unknown Party; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "6. If either party or any of their respective Affiliates or Authorized Parties is requested or required, by interrogatories, subpoena or similar legal process, to disclose any Confidential Information or Notes, such party agrees to provide the Disclosing Party with prompt notice of each such request, to the extent practicable, so that the Disclosing Party may seek an appropriate protective order, waive compliance by the Receiving Party with the provisions of this Agreement, or both.",
+  "rag_answer": "Yes. Section 6 of the agreement requires that if either party, or any of its Affiliates or Authorized Parties, is requested or required by interrogatories, subpoena, or similar legal process to disclose Confidential Information or Notes, that party must provide the Disclosing Party with prompt notice of the request, to the extent practicable. This allows the Disclosing Party to seek an appropriate protective order, waive compliance, or both.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "第6条规定，如果一方或其关联方/授权方被要求通过质询、传票或类似法律程序披露机密信息或笔记，该方应在可行范围内及时向披露方发出通知，以便披露方寻求保护令、豁免合规或两者兼有。",
+    "answer_summary": "系统回答称第6条要求：若一方或其关联方/授权方因质询、传票或类似法律程序被要求披露机密信息或笔记，应在可行范围内及时向披露方发出通知，以便披露方寻求保护令、豁免合规或两者兼有。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标关键要点：存在通知义务、触发条件为质询/传票/类似法律程序、需及时通知披露方、目的包括寻求保护令或豁免合规。"
+  },
+  "file_ids": [
+    200
+  ],
+  "skip_answer": false
+}

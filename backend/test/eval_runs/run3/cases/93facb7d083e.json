@@ -1,0 +1,25 @@
+{
+  "index": 36,
+  "request_id": "93facb7d083e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Petrolube_NDA.txt",
+  "file_id": 178,
+  "file_mapped": true,
+  "latency_ms": 39974.39,
+  "query": "Consider Petrolube's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "3.2) In consideration of the provision to it of, and its right to use, Samples, Petro-Lube agrees:\n3.2.3) Not to use any Sample for any purpose other than to perform those Evaluations as directed by (Your Company Name).",
+  "rag_answer": "Yes, but only in a limited way.\n\nThe Agreement restricts Petro-Lube’s use of **Samples** to performing the Evaluations directed by Your Company Name (Clause 3.2.3) and limits access to employees who need it for Evaluation purposes (Clause 3.2.4).\n\nHowever, the provided text does **not** clearly impose a general restriction on the use of all **Confidential Information** for the Agreement’s stated purposes. Clause 4.1 instead states that confidential technical/commercial data need not be disclosed, and if disclosed, may be regarded as non-confidential unless the parties agree otherwise in writing.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出协议要求 Petro-Lube 不得将任何 Sample 用于除按 Your Company Name 指示进行 Evaluations 之外的其他目的。",
+    "answer_summary": "系统回答称协议限制 Petro-Lube 将 Sample 仅用于按 Your Company Name 指示进行的 Evaluations，并引用 Clause 3.2.3；同时说明文本未明确对全部 Confidential Information 施加一般性用途限制。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标关键要点，即 Samples 的使用被限制为按 Your Company Name 指示进行 Evaluations；其额外说明不影响对金标信息的命中。"
+  },
+  "file_ids": [
+    178
+  ],
+  "skip_answer": false
+}

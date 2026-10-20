@@ -1,0 +1,25 @@
+{
+  "index": 81,
+  "request_id": "066e480665b7",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ExcelerateStandardNDAFormat.txt",
+  "file_id": 132,
+  "file_mapped": true,
+  "latency_ms": 12197.63,
+  "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "a. This Agreement shall terminate at the end of the period of years as provided for in paragraph 4 above, or upon the delivery of written notice of termination by a Party to the other Party; however, the obligations of a receiving Party pursuant to Paragraph 4 shall remain in effect for the term specified therein.\nb. Notwithstanding the termination of this agreement, the supplied data must be maintained and protected in accordance with its provisions for three (3) years following the termination of this agreement.",
+  "rag_answer": "Yes. Excelerate’s Non-Disclosure Agreement states that some obligations survive termination. Specifically, Section 10 provides that upon termination, the receiving party’s obligations under Paragraph 4 remain in effect for the specified term, and that notwithstanding termination, supplied data must be maintained and protected for three (3) years following termination. It also requires proprietary data to be returned or destroyed at the conclusion of the agreement, except for one copy retained by legal counsel.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议终止后，接收方根据第4段的义务在指定期限内继续有效；且提供的数据在终止后需按协议规定维护和保护3年。",
+    "answer_summary": "系统回答确认存在终止后仍然有效的义务，并具体说明接收方根据Paragraph 4的义务继续有效，以及提供的数据在终止后需维护和保护3年。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的两个关键要点：第4段义务在终止后仍有效，以及数据在终止后需保护3年；额外信息不影响判定。"
+  },
+  "file_ids": [
+    132
+  ],
+  "skip_answer": false
+}

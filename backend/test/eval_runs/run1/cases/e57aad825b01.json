@@ -1,0 +1,25 @@
+{
+  "index": 27,
+  "request_id": "e57aad825b01",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "DoiT-ICN-NonDisclosure-Agreement.txt",
+  "file_id": 125,
+  "file_mapped": true,
+  "latency_ms": 19978.65,
+  "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "3. All CONFIDENTIAL INFORMATION furnished hereunder shall be returned at the conclusion of each meeting between Vendor and the State.",
+  "rag_answer": "The document does not explicitly state that the Receiving Party must destroy or return Confidential Information upon termination of the Agreement.\n\nIt does provide that all Confidential Information furnished under the Agreement “shall be returned at the conclusion of each meeting” between the Vendor and the State. It also states that certain obligations survive termination, but it does not specifically address destruction or return upon termination itself.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定所有在此协议下提供的机密信息应在 Vendor 与 State 每次会议结束时归还。",
+    "answer_summary": "系统回答指出文档未明确说明终止时销毁或归还，但引用了关键条款：所有机密信息应在 Vendor 与 State 每次会议结束时归还。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标中的关键信息，即机密信息应在每次会议结束时归还；其关于终止时未明确说明的补充不构成对金标要点的遗漏或矛盾。"
+  },
+  "file_ids": [
+    125
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 116,
+  "request_id": "a629e131ead0",
+  "correct": false,
+  "error_type": "contradiction",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 125798.94,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "Notwithstanding the foregoing, (i) the parties and their Representatives may each retain Confidential Information to the extent required pursuant to legal or regulatory requirements (including internal compliance procedures instituted to satisfy regulatory obligations), and (ii) because electronic systems may retain information for archival purposes or pursuant to automated computer backup procedures, neither party nor its Representatives shall be required to erase electronically stored Confidential Information that has been saved to a back-up file in accordance with such party or its Representatives’ ordinary electronic back-up practices; provided, that any such information so retained shall be held in compliance with the terms of this Agreement.",
+  "rag_answer": "No — the provided excerpts do not explicitly state that obligations of the Agreement survive termination.\n\nThe Agreement says it continues for two years (Section 11) and requires return or destruction of Confidential Information upon termination of negotiations or upon written request (Section 12). Section 12 also says any retained information “shall be held in compliance with the terms of this Agreement,” which may imply continuing confidentiality obligations for retained information, but the document does not expressly say that some obligations survive termination.",
+  "judge": {
+    "correct": false,
+    "error_type": "contradiction",
+    "gold_summary": "金标证据显示协议允许在法定/监管或电子备份情形下保留机密信息，并明确要求任何保留的信息须继续按本协议条款持有，实质上表明部分义务在终止/保留后仍存续。",
+    "answer_summary": "系统回答称文档未明确说明义务在终止后存续，仅认为‘held in compliance with the terms of this Agreement’可能暗示继续保密义务，但结论为 No。",
+    "gap": "未承认金标中‘any such information so retained shall be held in compliance with the terms of this Agreement’足以支持部分义务在保留/终止后继续受协议约束；结论与金标相反。",
+    "reason": "系统回答虽提到金标关键短语，但明确否认文档提到义务存续，与金标证据支持的结论矛盾，因此不命中。"
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

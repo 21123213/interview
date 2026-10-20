@@ -1,0 +1,25 @@
+{
+  "index": 151,
+  "request_id": "7d04befa484f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SupplementOne-NDA.txt",
+  "file_id": 191,
+  "file_mapped": true,
+  "latency_ms": 26408.13,
+  "query": "Consider SupplementOne's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "(6) Although some sensitive personal information, such as medical records, addresses, telephone numbers, and social security numbers may be publicly available through other sources, the Recipient shall not disclose or use such information in any manner except as expressly authorized in this Agreement.\ni) Recipient shall not use the Confidential Information for any purpose except to evaluate and prepare a response to RFP CSP903918 for a Pharmacy Benefits Manager (PBM) for the Bureau of Workers’ Compensation Pharmacy Program, issued by DAS on behalf of Discloser, as contemplated by this Agreement.",
+  "rag_answer": "Yes. SupplementOne’s Non-Disclosure Agreement restricts the use of Confidential Information to the purposes stated in the Agreement.\n\nSpecifically, Section 1)b) (“Restrictions on Use”) states that the Recipient “shall not use the Confidential Information for any purpose except to evaluate and prepare a response to RFP CSP903918 for a Pharmacy Benefits Manager (PBM) for the Bureau of Workers’ Compensation Pharmacy Program,” as contemplated by the Agreement.\n\nThe Agreement also restricts disclosure and reproduction of Confidential Information to what is necessary for that same purpose, and provides that sensitive personal information may not be disclosed or used except as expressly authorized in the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标结论是：SupplementOne 的 NDA 将保密信息的使用限制为协议中明确规定的目的，即仅为评估和准备 RFP CSP903918（为 Bureau of Workers’ Compensation Pharmacy Program 选择 PBM）而使用；同时敏感个人信息除非协议明确授权，不得披露或使用。",
+    "answer_summary": "系统回答确认 NDA 将保密信息的使用限制为协议所述目的，并引用了仅为评估和准备 RFP CSP903918 对 PBM 的响应而使用保密信息；还提到敏感个人信息不得披露或使用，除非协议明确授权。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：限制保密信息仅用于协议明确目的，并提及敏感个人信息的限制；额外信息不影响判定。"
+  },
+  "file_ids": [
+    191
+  ],
+  "skip_answer": false
+}

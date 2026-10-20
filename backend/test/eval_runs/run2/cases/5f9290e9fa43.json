@@ -1,0 +1,25 @@
+{
+  "index": 277,
+  "request_id": "5f9290e9fa43",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-ONSemi_IndustryAnalystConf-2011.txt",
+  "file_id": 169,
+  "file_mapped": true,
+  "latency_ms": 13711.33,
+  "query": "Consider the Non-Disclosure Agreement between ON Semiconductor and Industry Analysts; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "This Agreement imposes no obligation upon Recipient with respect to Confidential Information which is:\n(d) independently known by or independently developed by the Recipient without the use of Confidential Information disclosed by the Discloser; or",
+  "rag_answer": "Yes. The NDA provides an exception for information that is **independently known by or independently developed by the Recipient without the use of Confidential Information disclosed by the Discloser**.\n\nTherefore, the Receiving Party may independently develop information similar to Confidential Information, **provided it does not use the Discloser’s Confidential Information** to do so. The agreement also does not grant any license or intellectual property rights.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议规定接收方对于独立知悉或独立开发、且未使用披露方保密信息的信息不承担义务。",
+    "answer_summary": "系统回答指出 NDA 提供例外：接收方可独立知悉或独立开发信息，只要未使用披露方保密信息，因此允许独立开发类似信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即独立开发且未使用披露方保密信息的例外，并据此回答允许独立开发类似信息；额外内容不影响命中。"
+  },
+  "file_ids": [
+    169
+  ],
+  "skip_answer": false
+}

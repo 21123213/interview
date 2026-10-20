@@ -1,0 +1,25 @@
+{
+  "index": 41,
+  "request_id": "b080c3bc5123",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "QEP-Williston-Form-of-Confidentiality-Agreement-BMO.txt",
+  "file_id": 179,
+  "file_mapped": true,
+  "latency_ms": 17545.39,
+  "query": "Consider the Confidentiality Agreement between QEP and BMO; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "Notwithstanding the foregoing, the following shall not constitute Confidential Information for the purposes of this Agreement:\n(d) information that is independently developed by the Receiving Company or its Representatives without use of, or reference to, the Confidential Information.",
+  "rag_answer": "Yes. The document expressly allows the Receiving Party to independently develop information, including information that may be similar to the Confidential Information, provided that the information is developed **without use of, or reference to, the Confidential Information**.\n\nUnder the definition of “Confidential Information” in the agreement, information that is independently developed by the Receiving Company or its Representatives without using or referring to the Confidential Information is excluded from the definition of Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方或其代表在不使用、不参考保密信息的情况下独立开发的信息，不构成保密信息。",
+    "answer_summary": "系统回答指出文档允许接收方独立开发与保密信息类似的信息，只要其未使用或参考保密信息；并说明此类独立开发信息被排除在保密信息定义之外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即独立开发且未使用或参考保密信息的信息不属于保密信息；虽然表述为“允许”较金标更直接，但核心结论一致，从宽判定命中。"
+  },
+  "file_ids": [
+    179
+  ],
+  "skip_answer": false
+}

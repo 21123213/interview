@@ -1,0 +1,25 @@
+{
+  "index": 17,
+  "request_id": "028327ace86e",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IGC-Non-Disclosure-Agreement-LSE-Sample.txt",
+  "file_id": 141,
+  "file_mapped": true,
+  "latency_ms": 17009.64,
+  "query": "Consider the Non-Disclosure Agreement between IGC and LSE; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "Confidential Information means all confidential information (however recorded, preserved or disclosed) disclosed by a party or its Representatives to the other party and that party's Representatives including but not limited to:\n(c) Any information that would be regarded as confidential by a reasonable business person relating to:",
+  "rag_answer": "No. Based on the provided NDA text, the document does **not** require that all Confidential Information be expressly identified, marked, or designated by the Disclosing Party.\n\nThe definition of **Confidential Information** is broad and includes:\n\n- “all confidential information (however recorded, preserved or disclosed)” disclosed by a party or its Representatives; and\n- “any information that would be regarded as confidential by a reasonable business person” relating to the Disclosing Party’s business, affairs, customers, suppliers, plans, intentions, market opportunities, operations, processes, product information, know-how, designs, trade secrets, or software.\n\nThere is no clause in the provided excerpts stating that Confidential Information must be expressly identified or marked by the Disclosing Party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标给出 Confidential Information 的宽泛定义，包括所有保密信息以及合理商业人认为保密的信息，未限定必须由披露方明示标识。",
+    "answer_summary": "系统回答称不要求所有 Confidential Information 被明示标识，并引用了相同的关键定义：包括所有保密信息以及合理商业人认为保密的信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键信息，并直接回答了问题；虽为改述和扩写，但核心要点一致。"
+  },
+  "file_ids": [
+    141
+  ],
+  "skip_answer": false
+}

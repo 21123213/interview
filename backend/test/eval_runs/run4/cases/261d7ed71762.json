@@ -1,0 +1,25 @@
+{
+  "index": 111,
+  "request_id": "261d7ed71762",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BCG-Mutual-NDA.txt",
+  "file_id": 116,
+  "file_mapped": true,
+  "latency_ms": 46424.96,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Boston Consulting Group and Unknown Party; Does the document include a clause that prohibits the Receiving Party from soliciting some of the Disclosing Party's representatives?",
+  "gold": "During the term of the agreement and for a period of twelve (12) months thereafter, each party agrees not to solicit or recruit any employee of each other without the prior written consent of that party. Both BCG and Partner hereby agree that it will not solicit for hire, in any capacity whatsoever, any of each other’s employees, contractors or other such affiliated resources without prior written consent from the other party.",
+  "rag_answer": "Yes. The provided Mutual NDA includes a non-solicitation clause that prohibits each party from soliciting certain personnel of the other party.\n\nSpecifically, the “Non-solicitation—Employees” clause states that during the term of the agreement and for 12 months afterward, each party agrees not to solicit or recruit any employee of the other party without prior written consent. It also says that BCG and Partner will not solicit for hire, in any capacity, any of each other’s employees, contractors, or other affiliated resources without prior written consent.\n\nSo, yes: the document restricts solicitation of some “representatives” of the other party—namely employees, contractors, and affiliated resources—but it does not impose a blanket prohibition on all representatives without consent.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议期间及之后12个月，双方未经事先书面同意不得招揽或招募对方员工；BCG和Partner也不得招揽雇佣对方员工、承包商或其他关联资源。",
+    "answer_summary": "系统回答确认存在非招揽条款，并说明在协议期间及之后12个月内未经事先书面同意不得招揽对方员工，同时提及BCG和Partner不得招揽对方员工、承包商或其他关联资源。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点，包括12个月期限、事先书面同意、员工/承包商/关联资源以及BCG和Partner的义务，且与金标不矛盾。"
+  },
+  "file_ids": [
+    116
+  ],
+  "skip_answer": false
+}

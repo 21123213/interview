@@ -1,0 +1,25 @@
+{
+  "index": 47,
+  "request_id": "52ddb4c21072",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "01_Bosch-Automotive-Service-Solutions-Mutual-Non-Disclosure-Agreement-7-12-17.txt",
+  "file_id": 108,
+  "file_mapped": true,
+  "latency_ms": 20351.55,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Bosch and Automotive Service Solutions; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "If Recipient is requested, ordered or required by a regulatory agency or any other government authority or a court to disclose any Confidential Information, Recipient shall promptly notify Disclosing Party of such request, order or requirement so that Disclosing Party may have the opportunity to contest the disclosure, including seeking a protective order, or waive Recipient’s compliance with this Agreement.",
+  "rag_answer": "是。根据第7条“DISCLOSURES REQUIRED BY LAW”，如果接收方被监管机构、政府机关或法院要求、命令或强制披露任何保密信息，接收方必须及时通知披露方，以便披露方有机会抗辩该披露、寻求保护令或豁免接收方遵守协议。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "若接收方因监管机构、政府机关或法院的要求、命令或强制而需披露保密信息，接收方应及时通知披露方，以便披露方抗辩、寻求保护令或豁免接收方遵守协议。",
+    "answer_summary": "系统回答称接收方若被监管机构、政府机关或法院要求、命令或强制披露保密信息，必须及时通知披露方，以便披露方有机会抗辩、寻求保护令或豁免接收方遵守协议。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，包括触发主体（监管机构、政府机关或法院）、通知义务（及时通知披露方）以及披露方的救济机会（抗辩、保护令、豁免），且未与金标矛盾。"
+  },
+  "file_ids": [
+    108
+  ],
+  "skip_answer": false
+}

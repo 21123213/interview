@@ -1,0 +1,25 @@
+{
+  "index": 113,
+  "request_id": "5f4b8c1b58dc",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "GreenStorm%20NDCSC.txt",
+  "file_id": 136,
+  "file_mapped": true,
+  "latency_ms": 22523.64,
+  "query": "Consider GreenStorm's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "The receiving Party shall not disclose or communicate Confidential Information to any third party, except as herein provided.",
+  "rag_answer": "No. Based on the provided GreenStorm NDA excerpts, the Receiving Party is generally prohibited from disclosing or communicating Confidential Information to any third party, “except as herein provided,” and the excerpts do not contain an express exception allowing sharing with consultants, agents, or professional advisors.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得向任何第三方披露或传达保密信息，除非本协议另有规定。",
+    "answer_summary": "系统回答指出接收方通常禁止向任何第三方披露或传达保密信息，且摘录中没有允许向顾问、代理人、专业顾问分享的明确例外，并引用了“except as herein provided”。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：接收方不得向第三方披露保密信息，且仅在本协议规定范围内存在例外；其结论与金标一致。"
+  },
+  "file_ids": [
+    136
+  ],
+  "skip_answer": false
+}

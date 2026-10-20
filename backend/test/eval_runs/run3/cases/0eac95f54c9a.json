@@ -1,0 +1,25 @@
+{
+  "index": 239,
+  "request_id": "0eac95f54c9a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "thoughtbot-mutual-nda.txt",
+  "file_id": 194,
+  "file_mapped": true,
+  "latency_ms": 14820.57,
+  "query": "Consider the Mutual Non-Disclosure Agreement between thoughtbot and Unknown Party; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Confidential information means any information disclosed to by one party to the other, either directly or indirectly in writing, orally or by inspection of tangible or intangible objects, including without limitation documents, business plans, source code, software, documentation, financial analysis, marketing plans, customer names, customer list, customer data.",
+  "rag_answer": "No. The document does not state that Confidential Information shall only include technical information.\n\nSection 2 defines Confidential Information broadly to include “without limitation documents, business plans, source code, software, documentation, financial analysis, marketing plans, customer names, customer list, customer data,” and other information disclosed directly or indirectly in writing, orally, or by inspection.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论是保密信息定义广泛，不限于技术信息，包括文件、商业计划、源代码、软件、文档、财务分析、营销计划、客户名称、客户列表、客户数据等。",
+    "answer_summary": "系统回答称文档并未规定保密信息仅包括技术信息，并引用了金标中的广泛定义和非限制性列举内容。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即保密信息定义广泛且不限于技术信息，并准确列举了金标中的主要类别。"
+  },
+  "file_ids": [
+    194
+  ],
+  "skip_answer": false
+}

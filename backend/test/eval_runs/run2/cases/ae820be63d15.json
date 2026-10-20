@@ -1,0 +1,25 @@
+{
+  "index": 338,
+  "request_id": "ae820be63d15",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "New_York_City_Bar_Association_Model_Form_of_Non-Disclosure_Agreement_2015.txt",
+  "file_id": 174,
+  "file_mapped": true,
+  "latency_ms": 23806.54,
+  "query": "Consider New York City Bar Association's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "Notwithstanding the foregoing, “Evaluation Material” does not include any information or data that: (i) is or was independently developed by Buyer or any of its Representatives without the benefit of any Evaluation Material;7",
+  "rag_answer": "Yes — but only in limited, carefully defined ways.\n\nIn the New York City Bar Association model NDA, the “Receiving Party” is generally the **Buyer**, and “Confidential Information” corresponds to **Evaluation Material**.\n\nThe document allows independent development in two relevant respects:\n\n1. **Independently developed information is excluded from Evaluation Material.**  \n   Under Section 1(b), “Evaluation Material” does **not** include information or data that is or was **independently developed by Buyer or any of its Representatives without the benefit of any Evaluation Material**.  \n   Therefore, if the Buyer independently develops information that happens to be similar to the Company’s confidential information, and it does so without using or deriving from the Evaluation Material, that independently developed information is not treated as Evaluation Material under the agreement.\n\n2. **Residual knowledge may be used.**  \n   Under Section 11, Representatives of Buyer who have received or been exposed to Evaluation Material may further develop their **general knowledge, skills, and experience**, including general ideas, concepts, know-how, and techniques. The agreement states that the subsequent use of such general knowledge, skills, and experience, as retained in their **unaided memories**, will not in itself constitute a breach.\n\nHowever, the document also makes clear that information is Evaluation Material if it is prepared by Buyer or its Representatives to the extent it **uses, contains, reflects, is derived from, or incorporates** Evaluation Material. So similar information that is actually derived from the confidential Evaluation Material would remain subject to confidentiality restrictions.\n\n**Bottom line:** Yes, the agreement permits independent development and use of residual general knowledge, but it does not permit the Buyer to use or disclose information that is derived from or incorporates the Company’s Evaluation Material.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Evaluation Material 不包括 Buyer 或其代表在未利用 Evaluation Material 的情况下独立开发的信息或数据。",
+    "answer_summary": "系统回答明确指出 Evaluation Material 不包括 Buyer 或其代表在没有利用 Evaluation Material 的情况下独立开发的信息，并说明独立开发且不源自保密材料的信息不受该保密限制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即独立开发且未利用 Evaluation Material 的信息被排除在 Evaluation Material 之外；虽然回答包含额外内容，但不影响命中。"
+  },
+  "file_ids": [
+    174
+  ],
+  "skip_answer": false
+}

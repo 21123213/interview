@@ -1,0 +1,25 @@
+{
+  "index": 196,
+  "request_id": "53fbf8670f6c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Template-Media-News-Group-inc.txt",
+  "file_id": 173,
+  "file_mapped": true,
+  "latency_ms": 18248.33,
+  "query": "Consider Media News Group, Inc.'s Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "5. Recipient may disclose the Confidential Information in the event and to the extent Recipient reasonably believes any Confidential Information is required to be disclosed by Recipient under the terms of: (i) a valid and effective subpoena; (ii) a statute or regulation binding upon Recipient; (iii) an order issued by a court of competent jurisdiction; or (iv) by a demand or information request from an executive, regulatory or administrative agency or other governmental authority. Recipient shall endeavor to promptly notify the Disclosing Party of the existence, terms and circumstances surrounding such potential disclosure unless recipient reasonably believes that applicable law prohibits Recipient from informing the Disclosing Party of the potential disclosure.",
+  "rag_answer": "Yes. Under Section 5 of the NDA, if the Recipient is required to disclose Confidential Information by a subpoena, statute or regulation, court order, or governmental demand, the Recipient “shall endeavor to promptly notify” the Disclosing Party of the existence, terms, and circumstances of the potential disclosure. This notification obligation does not apply if the Recipient reasonably believes applicable law prohibits it from informing the Disclosing Party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定接收方在因传票、法规、法院命令或政府要求而可能披露保密信息时，应尽努力及时通知披露方相关披露的存在、条款和情况，但若接收方合理认为适用法律禁止通知则除外。",
+    "answer_summary": "系统回答确认 NDA 第 5 条要求/促使接收方在因传票、法规、法院命令或政府要求而需披露保密信息时，尽努力及时通知披露方，并说明了适用法律禁止通知的例外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：通知义务、触发披露的法律/监管/司法情形，以及法律禁止通知时的例外；未与金标矛盾。"
+  },
+  "file_ids": [
+    173
+  ],
+  "skip_answer": false
+}

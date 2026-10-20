@@ -1,0 +1,25 @@
+{
+  "index": 143,
+  "request_id": "d6a431886312",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "HNBA-2017-18-Confidentiality-Agreement.txt",
+  "file_id": 139,
+  "file_mapped": true,
+  "latency_ms": 20875.74,
+  "query": "Consider HNBA's Confidentiality Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "2. The Board Member agrees to restrict dissemination of Confidential Information to those persons employed by the Board Member (or the Board Member’s employer) who require access to the Confidential Information so as to assist the Board Member in carrying out his or her duties to the HNBA and then only if such personnel has a clear understanding of the confidentiality obligations imposed by this agreement and also agrees to maintain the confidentiality of the Confidential Information in accordance with the terms hereof by signing this Agreement before any Confidential Information is disclosed.",
+  "rag_answer": "Yes. The HNBA Confidentiality Agreement allows the receiving party, the Board Member, to share Confidential Information only with persons employed by the Board Member or the Board Member’s employer who require access to assist with the Board Member’s HNBA duties.\n\nThis is permitted only if those personnel clearly understand the confidentiality obligations and agree to maintain confidentiality by signing the Agreement before any Confidential Information is disclosed.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "允许将保密信息仅披露给 Board Member 或其雇主雇佣、且因协助履行 HNBA 职责而需要接触的人员；这些人员必须清楚保密义务，并在披露前签署协议承诺保密。",
+    "answer_summary": "系统回答指出允许 Board Member 向因其职责需要接触保密信息的雇员或其雇主的人员共享，并要求这些人员理解保密义务且在披露前签署协议。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键限制条件和签署要求，与金标一致。"
+  },
+  "file_ids": [
+    139
+  ],
+  "skip_answer": false
+}

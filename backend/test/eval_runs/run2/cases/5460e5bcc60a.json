@@ -1,0 +1,25 @@
+{
+  "index": 95,
+  "request_id": "5460e5bcc60a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Kenway-NDA-Form-Blank.txt",
+  "file_id": 148,
+  "file_mapped": true,
+  "latency_ms": 36090.92,
+  "query": "Consider Kenway's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "The Recipient shall keep the Disclosing Party's Confidential Information confidential and, except with the prior written consent of the Disclosing Party, shall:\n(c) not copy, reduce to writing or otherwise record the Confidential Information except as strictly necessary for the Purpose (and any such copies, reductions to writing and records shall be the property of the Disclosing Party);",
+  "rag_answer": "Yes. Under Kenway’s NDA, the Recipient is generally prohibited from copying Confidential Information, but it may make a copy if doing so is **strictly necessary for the Purpose**.\n\nSpecifically, Clause 2.1(c) states that the Recipient shall **not copy, reduce to writing or otherwise record the Confidential Information except as strictly necessary for the Purpose**. Any such copies are also stated to be the **property of the Disclosing Party**, and Clause 2.1(f) requires the Recipient to keep a written record of any copy made.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方原则上不得复制保密信息，但如为协议目的严格必要，则可以复制；该等复制件属于披露方财产。",
+    "answer_summary": "系统回答指出接收方通常不得复制保密信息，但在为协议目的严格必要的情况下可以复制，并提到复制件属于披露方财产。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即允许在“为协议目的严格必要”的特定情况下复制保密信息，且未与金标矛盾；额外信息不影响判定。"
+  },
+  "file_ids": [
+    148
+  ],
+  "skip_answer": false
+}

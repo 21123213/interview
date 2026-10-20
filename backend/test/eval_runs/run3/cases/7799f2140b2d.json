@@ -1,0 +1,25 @@
+{
+  "index": 8,
+  "request_id": "7799f2140b2d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Non-Disclosure-NDA-UW-Oshkosh_FINALV2.txt",
+  "file_id": 175,
+  "file_mapped": true,
+  "latency_ms": 20711.79,
+  "query": "Consider the Non-Disclosure Agreement between University of Wisconsin Oshkosh; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "1. All information disclosed by one party to the other to evaluate the Project and/or Purpose that is designated in writing as “Confidential” at the time of disclosure or if disclosed orally is designated in writing as “Confidential” within fifteen (15) days of disclosure is “Confidential Information.”\n6. Confidential Information will be used only to evaluate the Project and/or Purpose and will be provided in writing and marked \"Confidential.\"",
+  "rag_answer": "Yes. The NDA requires Confidential Information to be expressly identified by the Disclosing Party.\n\nUnder Section 1, information is only “Confidential Information” if it is:\n\n- designated in writing as “Confidential” at the time of disclosure, if disclosed in writing; or  \n- designated in writing as “Confidential” within 15 days of disclosure, if disclosed orally.\n\nSection 6 also states that Confidential Information will be provided in writing and marked “Confidential.”\n\nTherefore, information that is not expressly marked or designated as “Confidential” by the Disclosing Party is not treated as Confidential Information under the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA将保密信息定义为：披露时书面标注为“Confidential”，或口头披露后15日内书面标注为“Confidential”；并规定保密信息应以书面形式提供并标注“Confidential”。",
+    "answer_summary": "系统回答指出NDA要求保密信息由披露方明确标识，并引用第1条和第6条：书面披露需当时标注，口头披露需在15日内书面标注，保密信息需书面提供并标注。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点，即保密信息需要由披露方明确/书面标识，并准确引用了第1条和第6条的要求。"
+  },
+  "file_ids": [
+    175
+  ],
+  "skip_answer": false
+}

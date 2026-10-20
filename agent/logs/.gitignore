@@ -1,0 +1,12 @@
+# 运行时写出的观测文件；保留目录结构
+*
+!.gitignore
+!transcript/
+!trace/
+!metrics/
+transcript/**
+!transcript/.gitkeep
+trace/**
+!trace/.gitkeep
+metrics/**
+!metrics/.gitkeep

@@ -1,0 +1,25 @@
+{
+  "index": 96,
+  "request_id": "1d092db4b9e1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Aspiegel_NDA_template.txt",
+  "file_id": 115,
+  "file_mapped": true,
+  "latency_ms": 16771.95,
+  "query": "Consider Aspiegel's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "Confidential Information: means all confidential information (however recorded, preserved or disclosed) disclosed by a Party or its Representatives to the other Party and that Party's Representatives including but not limited to:\n(a) the fact that discussions and negotiations are taking place concerning the Purpose and the status of those discussions and negotiations;\n(b) the existence and terms of this Agreement;",
+  "rag_answer": "Yes.\n\nThe Aspiegel NDA template treats the fact of negotiations and the existence of the Agreement as Confidential Information:\n\n- Clause 1 defines “Confidential Information” to include **“the fact that discussions and negotiations are taking place concerning the Purpose and the status of those discussions and negotiations”**.\n- It also includes **“the existence and terms of this Agreement.”**\n- Clause 2 then requires the Recipient Party to keep all Confidential Information secret and confidential, and not to disclose it to any third party without the Disclosing Party’s written consent, except as permitted under the Agreement.\n\nSo the document does include a clause preventing the Receiving Party from disclosing that the Agreement was agreed upon or that negotiations were taking place, subject to the limited exceptions in Clause 4.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出保密信息包括谈判正在进行的事实及其状态，以及协议的存在和条款，因此该NDA包含防止披露这些事实的条款。",
+    "answer_summary": "系统回答确认包含，并指出保密信息定义涵盖谈判事实/状态以及协议存在和条款，且接收方须保密，不得未经授权披露。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标关键要点，结论与金标一致；额外说明不判错。"
+  },
+  "file_ids": [
+    115
+  ],
+  "skip_answer": false
+}

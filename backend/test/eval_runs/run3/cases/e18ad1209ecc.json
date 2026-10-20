@@ -1,0 +1,25 @@
+{
+  "index": 127,
+  "request_id": "e18ad1209ecc",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Standard%20NDA%20by%20Axial.txt",
+  "file_id": 189,
+  "file_mapped": true,
+  "latency_ms": 20655.36,
+  "query": "Consider Axial's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "Upon the expiration or termination of this Agreement, or at the Disclosing Party's request at any time during the term of this Agreement, the Recipient and its Representatives shall promptly return to the Disclosing Party all copies, whether in written, electronic or other form or media, of the Disclosing Party's Confidential Information, or destroy all such copies and confirm the same in writing to the Disclosing Party; provided, that the Recipient and its Representatives may retain such Confidential Information as is necessary to enable it to comply with its reasonable document retention policies.",
+  "rag_answer": "Yes. Axial’s standard NDA specifies that upon expiration or termination of the Agreement, the Recipient (i.e., the Receiving Party) and its Representatives must promptly return all copies of the Disclosing Party’s Confidential Information in any form or media, or destroy all such copies and confirm the destruction in writing.\n\nHowever, the agreement allows the Recipient to retain Confidential Information only as necessary to comply with its reasonable document retention policies.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议到期或终止时，或披露方随时要求时，接收方及其代表应立即返还所有机密信息副本，或销毁并书面确认；接收方可仅为遵守合理文件保留政策而保留必要机密信息。",
+    "answer_summary": "系统回答指出 Axial NDA 规定协议到期或终止时，接收方及其代表必须立即返还所有机密信息副本，或销毁并书面确认；同时允许接收方仅为遵守合理文件保留政策保留必要机密信息。",
+    "gap": "无",
+    "reason": "用户问题聚焦协议终止时是否需要返还或销毁机密信息，系统回答已覆盖金标核心要点，包括终止时返还或销毁、书面确认以及合理文件保留政策例外，因此判定命中。"
+  },
+  "file_ids": [
+    189
+  ],
+  "skip_answer": false
+}

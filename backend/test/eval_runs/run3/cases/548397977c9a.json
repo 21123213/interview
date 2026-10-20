@@ -1,0 +1,25 @@
+{
+  "index": 92,
+  "request_id": "548397977c9a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SE_NDCA_and_PRE-QUAL_PACKAGE_March-2016.txt",
+  "file_id": 185,
+  "file_mapped": true,
+  "latency_ms": 15143.44,
+  "query": "Consider the Agreement between SE_NDCA and PRE-QUAL PACKAGE; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "Confidential Information shall not include:\n(d) information which is developed by or for Receiving Party independently of the Disclosing Party’s Confidential Information.",
+  "rag_answer": "Yes. Under the Agreement, information that is **developed by or for the Receiving Party independently of the Disclosing Party’s Confidential Information** is expressly excluded from the definition of Confidential Information.\n\nHowever, mere similarity is not enough: the Receiving Party must be able to demonstrate that the information was independently developed and was not based on, contains, or reflects the Disclosing Party’s Confidential Information. If the Receiving Party used the Confidential Information in developing the similar information, that information would likely be treated as Confidential Information and subject to the Agreement’s restrictions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议明确将接收方独立于披露方机密信息开发的信息排除在机密信息定义之外，因此允许接收方独立开发类似信息。",
+    "answer_summary": "系统回答指出独立于披露方机密信息开发的信息不属于机密信息，并进一步说明必须证明是独立开发且未基于或反映披露方机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键结论：接收方独立开发的信息可被排除在机密信息之外，因此协议允许独立开发类似信息；其补充条件与金标中“独立于机密信息开发”的要求一致，不构成矛盾。"
+  },
+  "file_ids": [
+    185
+  ],
+  "skip_answer": false
+}

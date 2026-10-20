@@ -1,0 +1,25 @@
+{
+  "index": 118,
+  "request_id": "8fcc860ae05d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BT_NDA.txt",
+  "file_id": 117,
+  "file_mapped": true,
+  "latency_ms": 14856.04,
+  "query": "Consider BT's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "When used herein, Confidential Information shall mean any information and data (in electronic form, in hard copy or given verbally) of a confidential or proprietary nature which is disclosed by the Disclosing Party to the Receiving Party, including but not limited to, group corporate strategy and initiatives, customer information, Target information, proprietary technical, financial, personnel and/or commercial information with respect to the Proposed Transaction, Transnet or the Target and any information which is disclosed pursuant to this Agreement and marked “Confidential” by the Disclosing Party.",
+  "rag_answer": "No. The document does not state that Confidential Information shall only include technical information. It defines Confidential Information broadly as any information and data of a confidential or proprietary nature, including but not limited to group corporate strategy and initiatives, customer information, Target information, proprietary technical, financial, personnel and/or commercial information, and any information marked “Confidential.” Technical information is only one example among many.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Confidential Information 并非仅限技术信息，而是包括任何机密或专有性质的信息和数据，包括但不限于集团战略、客户信息、Target 信息、技术、财务、人员和商业信息等，以及被标记为“Confidential”的信息。",
+    "answer_summary": "系统回答明确指出文档没有规定 Confidential Information 只包括技术信息，并说明其定义范围广泛，技术信息只是其中之一。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即 Confidential Information 的定义不限于技术信息，且列举了包括技术、财务、人员、商业信息等在内的广泛范围，与金标一致。"
+  },
+  "file_ids": [
+    117
+  ],
+  "skip_answer": false
+}

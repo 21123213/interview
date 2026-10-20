@@ -1,0 +1,25 @@
+{
+  "index": 156,
+  "request_id": "e9eee7f51aed",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Data_Use_and_Non_Disclosure_Data_Disclosed_to_MDCH_Trauma_Registry_Final_465518_7.txt",
+  "file_id": 122,
+  "file_mapped": true,
+  "latency_ms": 18198.61,
+  "query": "Consider the Data Use and Non-Disclosure Agreement between MDCH Trauma Registry; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "With regard to the data disclosed to MDHHS under this Agreement, the MDHHS agrees to:\n3. Limit access to these data only to those MDHHS employees whose job responsibilities require access to the information;",
+  "rag_answer": "Yes, but only in a limited way.\n\nThe agreement states that, with respect to the data disclosed to MDHHS, MDHHS must **“limit access to these data only to those MDHHS employees whose job responsibilities require access to the information.”**\n\nSo the receiving party may share confidential information with employees only on a need-to-know basis, not generally.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议要求 MDHHS 将访问限制为仅限于其工作职责需要访问这些信息的那些 MDHHS 员工。",
+    "answer_summary": "系统回答指出协议要求将数据访问限制为仅限于工作职责需要访问的 MDHHS 员工，因此接收方只能按 need-to-know 的方式与员工共享机密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键要点，即仅允许工作职责需要访问的员工接触相关数据，并据此得出允许有限共享的结论，与金标一致。"
+  },
+  "file_ids": [
+    122
+  ],
+  "skip_answer": false
+}

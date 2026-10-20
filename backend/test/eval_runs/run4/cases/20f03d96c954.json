@@ -1,0 +1,25 @@
+{
+  "index": 188,
+  "request_id": "20f03d96c954",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Template-Media-News-Group-inc.txt",
+  "file_id": 173,
+  "file_mapped": true,
+  "latency_ms": 26588.09,
+  "query": "Consider Media News Group, Inc.'s Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "4. Except as otherwise provided in this Agreement, without the prior written consent of the Disclosing Party, Recipient shall not disclose to any person or entity (other than its Representatives who are involved in its evaluation of the Purpose) any information with respect to the occurrence or content of any discussions or negotiations between the Parties.",
+  "rag_answer": "Yes, but only in a limited/indirect way.\n\nSection 4 of the Media News Group, Inc. NDA states that, except as otherwise provided, the Recipient shall not disclose to any person or entity — other than its Representatives involved in evaluating the Purpose — “any information with respect to the occurrence or content of any discussions or negotiations between the Parties” without the Disclosing Party’s prior written consent.\n\nThis clause can prevent disclosure of the fact that discussions or negotiations occurred. However, the document does not expressly contain a separate clause prohibiting disclosure of the fact that the Agreement itself was agreed upon, signed, or exists.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标第4条规定，未经披露方事先书面同意，接收方不得向除参与目的评估的代表外的任何人或实体披露双方讨论或谈判的发生或内容。",
+    "answer_summary": "系统回答引用并复述了第4条的关键内容：未经披露方事先书面同意，接收方不得向相关人员以外的任何人或实体披露双方讨论或谈判的发生或内容，并指出该条款可防止披露谈判发生的事实。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标的关键条款和要点，即第4条禁止未经授权披露双方讨论或谈判的发生或内容。其额外说明关于协议本身存在/签署未明确禁止，不构成与金标矛盾，也不影响命中金标关键信息。"
+  },
+  "file_ids": [
+    173
+  ],
+  "skip_answer": false
+}

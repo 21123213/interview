@@ -1,0 +1,25 @@
+{
+  "index": 209,
+  "request_id": "42389922e5da",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NCDG_Non-disclosure-agreement.txt",
+  "file_id": 157,
+  "file_mapped": true,
+  "latency_ms": 15292.84,
+  "query": "Consider NCDG's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "3. ‘Confidential Information’ means any information or sensitive data , which shall include but is not limited to, design, fabrication & assembly drawings, know-how, processes, product specifications, raw materials, trade secrets, market opportunities, or business or financial affairs of the Parties or their customers, product samples, inventions, concepts and any other technical and/or commercial information, disclosed directly or indirectly and in any form\nwhatsoever (including, but not limited to, disclosure made in writing, oral or in the form of samples, models, computer programs, drawings or other instruments) furnished by the Disclosing Party to the Receiving Party under this Agreement.",
+  "rag_answer": "No. The NCDG Non-Disclosure Agreement does **not** state that Confidential Information shall only include technical information.\n\nUnder the definition of “Confidential Information,” it means **any information or sensitive data**, including but not limited to drawings, know-how, processes, product specifications, raw materials, trade secrets, market opportunities, business or financial affairs, product samples, inventions, concepts, and **any other technical and/or commercial information**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明 Confidential Information 指任何信息或敏感数据，不限于技术信息，包括技术/商业信息及其他多项内容。",
+    "answer_summary": "系统回答称 NCDG NDA 并未规定 Confidential Information 仅包括技术信息，并指出其定义涵盖任何信息或敏感数据，包括技术/商业信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标关键结论：定义不是仅限技术信息，而是包括任何信息/敏感数据及技术或商业信息，因此判定命中。"
+  },
+  "file_ids": [
+    157
+  ],
+  "skip_answer": false
+}

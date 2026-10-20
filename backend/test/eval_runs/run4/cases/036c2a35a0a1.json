@@ -1,0 +1,25 @@
+{
+  "index": 221,
+  "request_id": "036c2a35a0a1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_Street_Stream_Franchise.txt",
+  "file_id": 162,
+  "file_mapped": true,
+  "latency_ms": 21869.92,
+  "query": "Consider Street Stream's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "The Disclosers may (but are not obliged to) disclose during the term of this Agreement, and/or may have already disclosed, Confidential Information to the Recipient for the Purpose and, in consideration of the Disclosers disclosing any Confidential Information to the Recipient and the payment to the Recipient of £1 (one pound) the receipt of which is acknowledged by the Recipient), the Recipient undertakes to the Disclosers that it shall, and shall procure that its Authorised Persons shall:\n2.1.2 not Use any Confidential Information in any way except to the extent reasonably necessary for the Purpose, and not Use or benefit from any Confidential Information to procure any commercial advantage over the Disclosers; and",
+  "rag_answer": "Yes.\n\nUnder clause 2.1.2 of the Street Stream Franchise NDA, the Recipient must:\n\n- “not Use any Confidential Information in any way except to the extent reasonably necessary for the Purpose”; and  \n- “not Use or benefit from any Confidential Information to procure any commercial advantage over the Disclosers.”\n\nThe Agreement defines the “Purpose” as the “Franchise agreement.” Therefore, the document restricts the Recipient’s use of Confidential Information to the stated Purpose, subject to the Agreement’s limited exceptions, such as legally required disclosures.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论：Street Stream 的 NDA 要求接收方不得以除为 Purpose 合理必要之外的方式使用保密信息，也不得为获得对披露方的商业优势而使用或获益于保密信息。",
+    "answer_summary": "系统回答称 Yes，并引用条款 2.1.2，说明接收方只能在为 Purpose 合理必要范围内使用保密信息，且不得用于获取商业优势；还补充说明 Purpose 为 Franchise agreement。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键限制要点，即保密信息仅限为协议所述 Purpose 合理必要使用；额外补充内容不影响判定。"
+  },
+  "file_ids": [
+    162
+  ],
+  "skip_answer": false
+}

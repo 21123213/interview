@@ -1,0 +1,25 @@
+{
+  "index": 46,
+  "request_id": "085f4d29e2f6",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "EFCAConfidentialityAgreement.txt",
+  "file_id": 126,
+  "file_mapped": true,
+  "latency_ms": 31579.85,
+  "query": "Consider EFCA's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "4.1 EFCA shall:\n4.1.2 make no commercial use of the same or any part thereof without the prior written consent of the disclosing party.",
+  "rag_answer": "Based on the provided excerpts, **the document does not expressly restrict the use of Confidential Information solely to the purposes stated in the Agreement**.\n\nIt does impose related restrictions, including:\n\n- keeping Confidential Information confidential;\n- limiting disclosure to EFCA employees, directors, and principals with a need to know;\n- prohibiting commercial use without the disclosing party’s prior written consent; and\n- continuing confidentiality obligations even after completion of any purpose for which information was disclosed.\n\nHowever, the available text does not contain a clear clause stating that Confidential Information may only be used for the Agreement’s stated purpose.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "EFCA 不得未经披露方事先书面同意，对保密信息或其任何部分进行商业使用。",
+    "answer_summary": "系统回答指出文件禁止未经披露方事先书面同意的商业使用。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标中的关键信息，即禁止未经披露方事先书面同意的商业使用，因此判定命中。"
+  },
+  "file_ids": [
+    126
+  ],
+  "skip_answer": false
+}

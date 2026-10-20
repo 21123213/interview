@@ -1,0 +1,25 @@
+{
+  "index": 51,
+  "request_id": "07f50b18bb5d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+  "file_id": 129,
+  "file_mapped": true,
+  "latency_ms": 11399.34,
+  "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "That portion of the Confidential Information that may be found in analyses, compilations, studies, or\nother documents prepared by the Receiving Party, its agents, employees, oral Confidential Information and any written Confidential Information not so requested and returned will be held by the Receiving Party and kept subject to the terms of this Agreement or destroyed.\nTermination shall not, however, affect the rights and obligations contained herein with respect to Confidential Information furnished by one Party to another Party prior to termination.",
+  "rag_answer": "Yes. Clause 12.2 of the Agreement states that although the Agreement endures for the duration of the Project, “termination shall not … affect the rights and obligations contained herein with respect to Confidential Information furnished by one Party to another Party prior to termination.” This means obligations relating to previously disclosed Confidential Information can survive termination.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议终止不影响终止前一方提供给另一方的保密信息相关权利和义务；相关保密信息可能由接收方保留并继续受协议约束或销毁。",
+    "answer_summary": "系统回答指出协议包含终止后继续有效的义务，并引用终止不影响终止前提供的保密信息相关权利和义务。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标关于终止后保密信息相关权利和义务继续存在的关键结论，与用户问题一致。"
+  },
+  "file_ids": [
+    129
+  ],
+  "skip_answer": false
+}

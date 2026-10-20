@@ -1,0 +1,25 @@
+{
+  "index": 276,
+  "request_id": "48ea541c855d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-ONSemi_IndustryAnalystConf-2011.txt",
+  "file_id": 169,
+  "file_mapped": true,
+  "latency_ms": 14376.1,
+  "query": "Consider the Non-Disclosure Agreement between ON Semiconductor and Industry Analysts; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "Termination shall not, however, affect the rights and obligations included herein with respect to Confidential Information disclosed hereunder prior to termination.",
+  "rag_answer": "Yes. The document states in the “Term and Termination” section that termination “shall not, however, affect the rights and obligations included herein with respect to Confidential Information disclosed hereunder prior to termination.” This indicates that certain confidentiality-related obligations survive the termination of the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "终止不影响终止前披露的机密信息所对应的权利和义务，表明部分义务在协议终止后仍存续。",
+    "answer_summary": "系统回答确认文档在“Term and Termination”部分说明终止不影响终止前披露机密信息的相关权利和义务，并指出某些保密相关义务在终止后存续。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键结论和原句信息，并正确回应了用户问题。"
+  },
+  "file_ids": [
+    169
+  ],
+  "skip_answer": false
+}

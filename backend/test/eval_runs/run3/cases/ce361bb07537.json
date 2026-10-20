@@ -1,0 +1,25 @@
+{
+  "index": 109,
+  "request_id": "ce361bb07537",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SINTEC-UK-LTD-Non-disclosure-agreement-2017.txt",
+  "file_id": 187,
+  "file_mapped": true,
+  "latency_ms": 14174.09,
+  "query": "Consider SINTEC-UK-LTD's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "The Receiving Party shall treat as strictly confidential any and all information disclosed to it by SINTEC and shall not disclose said information to third parties or use it for its own business purposes or for other customers without the prior written consent of SINTEC. The Receiving Par-ty shall use the information only for SINTEC's specified or authorized purposes in each case.",
+  "rag_answer": "Yes. The Agreement restricts the Receiving Party’s use of Confidential Information to SINTEC’s specified or authorized purposes.\n\nIn particular, Clause 2 states that the Receiving Party may not use the information for its own business purposes or for other customers without SINTEC’s prior written consent, and must use the information “only for SINTEC’s specified or authorized purposes in each case.” Clause 3 similarly limits disclosure to employees to what is “absolutely necessary” for those specified or authorized purposes.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方须严格保密 SINTEC 披露的信息，不得向第三方披露或用于自身业务/其他客户，除非获得 SINTEC 事先书面同意；且只能用于 SINTEC 指定或授权的目的。",
+    "answer_summary": "系统回答确认协议限制接收方只能将机密信息用于 SINTEC 指定或授权目的，并说明不得未经书面同意用于自身业务或其他客户，还提及披露限制。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中关于机密信息只能用于 SINTEC 指定或授权目的、未经书面同意不得用于自身业务或其他客户等关键要点，与金标一致。"
+  },
+  "file_ids": [
+    187
+  ],
+  "skip_answer": false
+}

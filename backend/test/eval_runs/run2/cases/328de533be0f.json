@@ -1,0 +1,25 @@
+{
+  "index": 145,
+  "request_id": "328de533be0f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ingram-non-disclosure.txt",
+  "file_id": 144,
+  "file_mapped": true,
+  "latency_ms": 26220.7,
+  "query": "Consider Ingram's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "The Recipient agrees not to copy, duplicate, disclose or deliver all or any portion of the Confidential Information to a third party or permit any other third party to inspect, copy or duplicate the same except those parties deemed necessary by the undersigned to evaluate a possible business relationship (including agents, advisors, affiliates, accountants, attorneys, consultants, and lenders).",
+  "rag_answer": "Yes. Under the Non-Disclosure Agreement, the Receiving Party may disclose Confidential Information to certain third parties—including agents, advisors, accountants, attorneys, consultants, affiliates, and lenders—but only if they are deemed necessary to evaluate a possible business relationship.\n\nSuch disclosure is permitted only if the third parties:\n1. require the information for purposes related to the agreement; and  \n2. are informed of the confidential nature of the information and agree to be bound by the NDA terms.\n\nThe Receiving Party is also responsible for any breach by those third parties.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出：原则上不得向第三方披露、复制或交付保密信息，但允许向由签署方认为为评估可能业务关系所必需的第三方披露，包括代理人、顾问、关联方、会计师、律师、咨询顾问和贷款人等。",
+    "answer_summary": "系统回答称允许向包括代理人、顾问、会计师、律师、咨询顾问、关联方和贷款人在内的第三方披露，但仅限为评估可能业务关系所必需；并补充第三方需与协议目的相关、受保密约束且接收方对其违约负责。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键结论：允许在评估可能业务关系所必需时向包括咨询顾问、代理人和专业顾问在内的第三方共享部分保密信息；补充条件虽超出金标，但不影响关键点命中。"
+  },
+  "file_ids": [
+    144
+  ],
+  "skip_answer": false
+}

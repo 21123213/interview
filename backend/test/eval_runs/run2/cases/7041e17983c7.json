@@ -1,0 +1,25 @@
+{
+  "index": 149,
+  "request_id": "7041e17983c7",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ingram-non-disclosure.txt",
+  "file_id": 144,
+  "file_mapped": true,
+  "latency_ms": 15239.23,
+  "query": "Consider Ingram's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "Recipient recognizes the need for LSUK to disclose certain Confidential Information to be used solely for the purpose of evaluating any discussions in furtherance of this business relationship using an automated print on demand facility.",
+  "rag_answer": "Yes. The document restricts the use of Confidential Information to the purposes stated in the Agreement.\n\nSpecifically, it states that Confidential Information may be used **solely for evaluating discussions in furtherance of a possible business relationship** involving the automated print-on-demand facility. It also limits disclosure to parties who require the information for that purpose and who are bound by the confidentiality terms.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息仅可用于评估与自动按需打印设施相关的业务关系讨论。",
+    "answer_summary": "系统回答确认文件限制保密信息仅用于评估与自动按需打印设施有关的业务关系讨论，并补充了披露对象限制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即保密信息仅用于评估相关业务讨论且涉及自动按需打印设施；额外信息不构成矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    144
+  ],
+  "skip_answer": false
+}

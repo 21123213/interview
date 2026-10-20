@@ -1,0 +1,25 @@
+{
+  "index": 195,
+  "request_id": "0cd617549320",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WEB-NDA-Mutual-Customer-and-Allazo-Electronics-v2.txt",
+  "file_id": 201,
+  "file_mapped": true,
+  "latency_ms": 22644.66,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Mutual Customer and Allazo Electronics; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "The Receiving Party (i) shall limit access to all Confidential Information to its employees, agents, representatives, consultants and contractors who shall reasonably require access to the Confidential Information for the purpose set forth above and to third party vendors for the purpose of obtaining price quotations,",
+  "rag_answer": "Yes. The document allows the Receiving Party to share Confidential Information with its employees, but only on a limited, need-to-know basis.\n\nSpecifically, the Receiving Party may limit access to Confidential Information to employees, agents, representatives, consultants, and contractors who reasonably require access for the purpose of evaluating or carrying out the business relationship. The Receiving Party must also ensure that such persons are aware of, understand, and comply with the Agreement’s confidentiality obligations, and the Agreement requires Non-Disclosure Agreements with employees before internal disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可将机密信息的访问限制给其员工、代理人、代表、顾问和承包商，且这些人员须为相关目的合理需要访问；还包括第三方供应商用于获取报价。",
+    "answer_summary": "系统回答确认允许接收方与员工分享机密信息，并说明仅限合理需要访问的员工、代理人、代表、顾问和承包商。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：接收方可在合理需要访问的范围内向员工分享机密信息；未提及第三方供应商不影响对员工问题的命中。"
+  },
+  "file_ids": [
+    201
+  ],
+  "skip_answer": false
+}

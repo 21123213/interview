@@ -1,0 +1,25 @@
+{
+  "index": 122,
+  "request_id": "dbf600942b6f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 21028.28,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "In the event that the Receiving Party is required to disclose any portion of any Confidential Information of the Disclosing Party (i) by operation of law or in connection with a judicial or governmental proceeding or arbitration (whether by oral questions, interrogatories, requests for information, subpoena, civil investigative demand or similar process), (ii) pursuant to the rules or regulations of the United States Securities and Exchange Commission (or any other applicable securities regulatory body) or (iii) pursuant to the rules or regulations of any securities exchange on which the Receiving Party’s or its parent company’s securities are listed or similar self-regulatory body, then such disclosure will be permissible only if and after the Receiving Party promptly notifies the Disclosing Party of such requirement (to the extent legally permitted) so that the Disclosing Party (at its sole cost and expense) may seek an appropriate protective order or other appropriate remedy and/or waive compliance with the provisions of this Agreement.",
+  "rag_answer": "Yes. Under Section 4 of the Sony Pictures Television NDA, if the Receiving Party is required to disclose Confidential Information by law, regulation, judicial or governmental proceeding, arbitration, securities regulatory rules, or similar process, such disclosure is permitted only if and after the Receiving Party promptly notifies the Disclosing Party of the requirement, to the extent legally permitted. This allows the Disclosing Party to seek a protective order or other remedy, or waive compliance.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "当接收方因法律、法规、司法/政府程序、仲裁或证券监管规则等被要求披露机密信息时，只有在法律允许范围内及时通知披露方后，该披露才被允许，以便披露方寻求保护令或其他救济，或放弃合规。",
+    "answer_summary": "系统回答确认需要通知，并指出在法律、法规、司法/政府程序、仲裁、证券监管规则等要求披露时，接收方必须及时通知披露方，披露方因此可寻求保护令或其他救济，或放弃合规。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点：法律/监管/司法程序触发披露时的及时通知义务、通知的法律允许范围、以及披露方寻求保护令或放弃合规的目的，且未与金标矛盾。"
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

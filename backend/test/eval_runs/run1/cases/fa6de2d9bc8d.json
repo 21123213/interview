@@ -1,0 +1,25 @@
+{
+  "index": 48,
+  "request_id": "fa6de2d9bc8d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+  "file_id": 129,
+  "file_mapped": true,
+  "latency_ms": 29840.3,
+  "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "6.3. Subject to 6.5, the Receiving Party agrees that it will not, during the existence of this Agreement disclose the Confidential Information to any Third Party for any reason or purpose whatsoever, without the prior written consent of the Disclosing Party and only to the extent of such consent, save in accordance with the provisions of this Agreement.\nNeither Party will make or issue any formal or informal announcement or statement to the press or any Third Party in connection with this Agreement without the prior written consent of the other Party.",
+  "rag_answer": "Yes. The provided document includes **Clause 23 (Publicity)**, which states:\n\n> “Neither Party will make or issue any formal or informal announcement or statement to the press or any Third Party in connection with this Agreement without the prior written consent of the other Party.”\n\nThis prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated, if such disclosure amounts to a formal or informal announcement or statement in connection with the Agreement, unless the other Party gives prior written consent.\n\nThe snippet does not contain a separate express clause stating that the existence of the Agreement itself is “Confidential Information,” but the Publicity clause restricts third-party or press disclosures about the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标包含保密义务条款，并明确约定任何一方未经对方事先书面同意，不得就本协议向媒体或第三方作出正式或非正式公告或声明。",
+    "answer_summary": "系统回答指出文档包含 Publicity 条款，并引用了金标中关于不得未经对方事先书面同意就协议向媒体或第三方作出正式或非正式公告或声明的内容，认为该条款可限制披露协议达成或谈判的事实。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即存在禁止未经同意就协议进行公告或声明的条款，能够回应问题中是否防止披露协议已达成或谈判的事实；措辞和条款编号差异不影响命中。"
+  },
+  "file_ids": [
+    129
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 189,
+  "request_id": "2e5c663b8b54",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Template-Media-News-Group-inc.txt",
+  "file_id": 173,
+  "file_mapped": true,
+  "latency_ms": 14325.6,
+  "query": "Consider Media News Group, Inc.'s Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "1. The term “Confidential Information” shall mean any confidential, proprietary, financial or otherwise non-public information, in written or electronic form, relating to the Disclosing Party, or the Purpose that is disclosed before, on or after the Effective Date, by the Disclosing Party to the Recipient or its affiliates, or to any of such Recipient’s or its affiliates’ employees, officers, directors, partners, shareholders, agents, attorneys, accountants or advisors (collectively, “Representatives”), whether disclosed or accessed in written, electronic or other form, including, without limitation: (a) information concerning the Disclosing Party’s and its affiliates’ business affairs, finances, forecasts, sales and other financial results, records and budgets, and business, marketing, development, sales and other commercial strategies; and (b) notes, analyses, compilations, reports, forecasts, data, statistics, summaries, interpretations and other materials prepared by or for Recipient or its Representatives that contain, are based on, or otherwise reflect or are derived, in whole or in part, from any of the foregoing.",
+  "rag_answer": "No. The document does **not** state that Confidential Information shall only include technical information.\n\nIt defines “Confidential Information” broadly to include “any confidential, proprietary, financial or otherwise non-public information,” including information about the Disclosing Party’s business affairs, finances, forecasts, sales, financial results, budgets, and business/marketing/development/sales/commercial strategies, among other materials.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据表明“Confidential Information”定义广泛，包括任何机密、专有、财务或其他非公开信息，并列举商业事务、财务、预测、销售、预算、商业/营销/开发/销售/商业策略等，不限于技术信息。",
+    "answer_summary": "系统回答指出文档没有规定 Confidential Information 仅包括技术信息，并说明其定义广泛，涵盖机密、专有、财务或其他非公开信息，包括商业事务、财务、预测、销售、财务结果、预算及商业/营销/开发/销售/商业策略等。",
+    "gap": "无",
+    "reason": "系统回答准确命中金标关键结论：文档并未将 Confidential Information 限定为技术信息，而是采用广泛定义，并列举了财务、商业事务等非技术信息。"
+  },
+  "file_ids": [
+    173
+  ],
+  "skip_answer": false
+}

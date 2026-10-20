@@ -1,0 +1,25 @@
+{
+  "index": 11,
+  "request_id": "e4f3080ea9ac",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 16684.24,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Confidential Information shall not include any information, other than Personal Information, however designated, that:\n(iii) became known to Vendor from a source other than IBC other than by the breach of an obligation of confidentiality owed to IBC; or",
+  "rag_answer": "Yes. Under the agreement, the Receiving Party (Vendor) may obtain information from a source other than IBC, including a third party, provided that:\n\n1. The information is **not Personal Information**; and  \n2. The information did not become known to the Vendor **by breaching an obligation of confidentiality owed to IBC**.\n\nIn that case, the information is **excluded from “Confidential Information”** under the NDA.\n\nThe agreement also separately excludes information that the Vendor **independently develops without relying on IBC’s Confidential Information**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不包括除个人信息外、从 IBC 以外来源获知且并非通过违反对 IBC 的保密义务获知的信息。",
+    "answer_summary": "系统回答称接收方（Vendor）可从 IBC 以外的第三方来源获取信息，只要该信息不是个人信息且不是通过违反对 IBC 的保密义务获知，则该信息不属于保密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许从第三方/其他来源获取，排除个人信息，并排除通过违反对 IBC 保密义务获得的信息；额外补充内容不影响命中。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

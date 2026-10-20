@@ -1,0 +1,25 @@
+{
+  "index": 114,
+  "request_id": "a37f8d45d477",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 23537.62,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "“Confidential Information” shall mean all information disclosed, directly or indirectly, through any means of communication or observation, by or on behalf of one party hereto (the \"Disclosing Party\") to the other party hereto (the \"Receiving Party\") on or after the date hereof, that relates to or is derived from the Disclosing Party’s business, strategic, marketing, technological or creative affairs, or to any other matter that the Receiving Party is advised or has reason to know is the confidential or proprietary information of the Disclosing Party.",
+  "rag_answer": "No. The document does not state that Confidential Information includes only technical information.\n\nUnder Section 1, “Confidential Information” is defined broadly to include information relating to or derived from the Disclosing Party’s **business, strategic, marketing, technological or creative affairs**, as well as any other matter the Receiving Party is advised or has reason to know is confidential or proprietary.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标说明 Confidential Information 的定义并非仅限技术信息，而是广泛涵盖披露方业务、战略、营销、技术或创意事务相关信息，以及接收方被提示或有理由知悉为保密或专有信息的事项。",
+    "answer_summary": "系统回答指出文档并未规定 Confidential Information 仅包括技术信息，并说明其定义广泛，涵盖 business, strategic, marketing, technological or creative affairs，以及接收方知悉或应知悉为保密/专有信息的其他事项。",
+    "gap": "无",
+    "reason": "系统回答明确否定了仅限技术信息的说法，并覆盖了金标中关于 Confidential Information 广泛定义的关键类别和要点，因此判定命中。"
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

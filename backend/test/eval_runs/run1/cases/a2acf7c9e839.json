@@ -1,0 +1,25 @@
+{
+  "index": 137,
+  "request_id": "a2acf7c9e839",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "HNBA-2017-18-Confidentiality-Agreement.txt",
+  "file_id": 139,
+  "file_mapped": true,
+  "latency_ms": 23661.18,
+  "query": "Consider HNBA's Confidentiality Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "3. The HNBA agrees that the Board Member shall not be liable for any disclosure or use of any Confidential Information if:\n(c) The Board Member can demonstrate by documentary evidence or otherwise that such Confidential Information was known to him or her prior to its disclosure to the Board Member by the HNBA or was independently developed by the Board Member prior to such disclosure for purposes unrelated to his or her service as a Board Member; or",
+  "rag_answer": "Yes, but only in a limited, exception-based sense.\n\nUnder the HNBA Confidentiality Agreement, the Board Member (the receiving party) is not liable for disclosure or use of Confidential Information if the Board Member can demonstrate, by documentary evidence or otherwise, that the information “was independently developed by the Board Member prior to such disclosure for purposes unrelated to his or her service as a Board Member.”\n\nSo the document recognizes that information independently developed before HNBA disclosed the Confidential Information may be treated differently. However, it does not expressly grant a general right to develop similar information after receiving Confidential Information; any use or disclosure of Confidential Information remains subject to the agreement’s restrictions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定，Board Member 若能证明相关 Confidential Information 在 HNBA 披露前已为其所知，或在披露前由其独立开发且用于与其担任 Board Member 职务无关的目的，则不对该信息的披露或使用承担责任。",
+    "answer_summary": "系统回答指出，在 HNBA Confidentiality Agreement 下，Board Member 若能证明信息是在 HNBA 披露前由其独立开发、且用于与其担任 Board Member 职务无关的目的，则不承担责任；同时说明这不是接收后的一般性开发权利。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点，即披露前独立开发且用途与 Board Member 职务无关时可免责；其补充说明与金标不矛盾，因此判定为命中。"
+  },
+  "file_ids": [
+    139
+  ],
+  "skip_answer": false
+}

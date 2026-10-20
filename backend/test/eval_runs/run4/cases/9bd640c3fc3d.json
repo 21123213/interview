@@ -1,0 +1,25 @@
+{
+  "index": 169,
+  "request_id": "9bd640c3fc3d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "eHandshake_Non_Disclosure_Agreement.txt",
+  "file_id": 127,
+  "file_mapped": true,
+  "latency_ms": 50956.25,
+  "query": "Consider eHandshake's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "1. The Receiving Party agrees to treat all information provided by the Providing Party in connection with the Business Under Discussion to the Receiving Partner and/or any of its partners, directors, officers, employees, affiliates, insurers, agents, advisors or auditors (the “Representatives”), regardless of the manner in which it is so furnished, together with any analyses, compilations, data, studies or other documents or records, whether of an oral, written or electronically retrievable nature (collectively the “Information”), as strictly confidential.\n2. The Receiving Party shall limit the possession and use of the Information to a “need-to-know” basis among its Representatives.",
+  "rag_answer": "Yes, but only in a limited way.\n\nThe Agreement allows the Receiving Party to share or use the Confidential Information on a “need-to-know” basis among its “Representatives,” which expressly include agents, advisors, auditors, and similar persons. However, disclosure to any other person or third party is generally prohibited unless:\n\n1. the Providing Party gives written consent; or  \n2. disclosure is required by law, regulation, legal process, or governmental request.\n\nThe document does not specifically mention “consultants,” so sharing with consultants would require them to qualify as Representatives/advisors under the Agreement or obtain written consent.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明接收方可将保密信息在 Representatives 范围内按 need-to-know 原则持有和使用，Representatives 包括 agents、advisors、auditors 等。",
+    "answer_summary": "系统回答指出协议允许接收方在 Representatives 范围内按 need-to-know 原则分享/使用保密信息，并明确 Representatives 包括 agents、advisors、auditors 等；同时说明对其他人一般需书面同意或法律要求。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：保密信息可在 Representatives 范围内按 need-to-know 原则分享/使用，且 Representatives 包括 agents、advisors/auditors 等。额外关于 consultants 的说明虽超出金标，但不与金标矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    127
+  ],
+  "skip_answer": false
+}

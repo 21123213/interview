@@ -1,0 +1,25 @@
+{
+  "index": 50,
+  "request_id": "64b90748fa92",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IPTK-CO-MutualNon-DisclosureAgreement.txt",
+  "file_id": 145,
+  "file_mapped": true,
+  "latency_ms": 18355.11,
+  "query": "Consider the Mutual Non-Disclosure Agreement between IPTK and CO; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Except as described elsewhere in this Agreement, the Recipient and those of its employees, officers, agents and affiliates permitted access hereunder will hold the Confidential Information in confidence and will take all necessary steps to pre-serve the confidential and proprietary nature of the Confidential Information. Without limiting the foregoing, the Recipient (1) will not disclose any Confidential Information to persons within its organization who do not have a need to know in order for the Recipient to engage in the Purpose; (2) will not disclose any Confidential Information to any person outside of its organization unless such person has a need to know in order for the Recipient to engage in the Purpose, and such person is bound by fiduci-ary or contractual duties of confidentiality to the Recipient that are at least as stringent as those contained in this Agreement;",
+  "rag_answer": "Yes. The document permits the Receiving Party to share Confidential Information with its employees, but only under confidentiality and “need-to-know” conditions.\n\nSpecifically, Clause 4 states that the Recipient and its employees, officers, agents, and affiliates permitted access must hold the Confidential Information in confidence. It also prohibits disclosure to persons within the Recipient’s organization who do not have a need to know the information for the Purpose. In addition, if reasonably required, the Recipient must cause employees with access to sign a confidentiality/non-disclosure agreement at least as stringent as the NDA.\n\nTherefore, the Receiving Party may share some Confidential Information with employees only to the extent necessary for the stated Purpose and subject to the confidentiality obligations in the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议允许接收方及其被允许访问的员工、管理人员、代理人和关联方在保密义务下接触机密信息；但不得向组织内无 need-to-know 的人披露，向组织外披露也需满足 need-to-know 且受至少同等严格保密义务约束。",
+    "answer_summary": "系统回答称 Yes，接收方可与员工共享机密信息，但须满足保密义务和 need-to-know 条件，并引用了相关条款说明不得向无 need-to-know 的内部人员披露，以及员工需受保密义务约束。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论：允许接收方在保密和 need-to-know 条件下与员工共享机密信息；额外扩写内容不构成矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    145
+  ],
+  "skip_answer": false
+}

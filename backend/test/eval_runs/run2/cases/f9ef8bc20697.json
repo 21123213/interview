@@ -1,0 +1,25 @@
+{
+  "index": 247,
+  "request_id": "f9ef8bc20697",
+  "correct": false,
+  "error_type": "contradiction",
+  "file_key": "NDA-Fintricity-Blank.txt",
+  "file_id": 166,
+  "file_mapped": true,
+  "latency_ms": 51173.25,
+  "query": "Consider Fintricity's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "12 Each party agrees not to circumvent this agreement through the use of subterfuge involving the use of third parties.\n14 Neither party shall make or permit others to make any reference to the subject matter of the Agreement, or the Confidential Information or use the name of the other party in any public announcements, promotional, marketing or sales materials or efforts without the prior written consent of the other party and such consent shall not be unreasonably withheld or delayed.",
+  "rag_answer": "Based on the provided document excerpts, **no explicit clause** prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated.\n\nClause 14 restricts “any reference to the subject matter of the Agreement, or the Confidential Information” in public announcements, promotional, marketing or sales materials without prior written consent. However, it does not expressly prohibit disclosure of the Agreement’s existence, execution, or negotiation.\n\nThe general confidentiality obligations apply to “Confidential Information” as defined in Clause 1, which is not expressly stated to include the fact that the parties negotiated or entered into the NDA.",
+  "judge": {
+    "correct": false,
+    "error_type": "contradiction",
+    "gold_summary": "金标证据显示协议包含第12条反规避条款，以及第14条限制任何一方未经对方事先书面同意，在公开公告、推广、营销或销售材料中引用协议主题、保密信息或使用对方名称，因此存在限制披露/公开引用协议相关内容的条款。",
+    "answer_summary": "系统回答提到第14条限制在公开公告、推广、营销或销售材料中对协议主题或保密信息的引用，但结论称没有明确条款禁止披露协议被同意或谈判的事实。",
+    "gap": "未正确覆盖金标中第14条（及第12条）对公开引用/披露协议相关内容的限制，反而与金标证据的结论相矛盾，称不存在明确条款。",
+    "reason": "金标证据指向协议存在限制公开引用协议主题、保密信息及相关名称的条款，系统回答虽引用了第14条内容，但明确声称没有条款阻止披露协议达成或谈判事实，与金标要点矛盾，因此判为不命中。"
+  },
+  "file_ids": [
+    166
+  ],
+  "skip_answer": false
+}

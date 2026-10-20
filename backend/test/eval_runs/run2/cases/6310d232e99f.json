@@ -1,0 +1,25 @@
+{
+  "index": 118,
+  "request_id": "6310d232e99f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "LiiON%20NDA%202-27-2015%20v1.0.txt",
+  "file_id": 151,
+  "file_mapped": true,
+  "latency_ms": 12479.52,
+  "query": "Consider LiiON's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Notwithstanding the foregoing, Receiving Party may retain one copy in a confidential file for archival purposes.",
+  "rag_answer": "Yes. Under Section 4 (“Ownership”) of the LiiON NDA, the Receiving Party may retain **one copy** of the Confidential Information in a **confidential file for archival purposes**, notwithstanding the general requirement to return or destroy Confidential Information upon request.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可以在返还或销毁要求之后，仍保留一份机密信息副本于机密档案中用于存档。",
+    "answer_summary": "系统回答称接收方可保留一份机密信息副本于机密档案用于存档，并说明这是返还或销毁一般要求的例外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即允许保留一份副本用于存档；额外条款定位信息不影响命中。"
+  },
+  "file_ids": [
+    151
+  ],
+  "skip_answer": false
+}

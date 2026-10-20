@@ -1,0 +1,25 @@
+{
+  "index": 130,
+  "request_id": "653ed92b787f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt",
+  "file_id": 138,
+  "file_mapped": true,
+  "latency_ms": 13650.63,
+  "query": "Consider FullStory's Mutual Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Confidential Information includes all of the following, whether or not reduced to tangible form: software codes and computer programs; trade secrets, patents, patent applications, and copyrights; know-how, processes, research, development, ideas, and inventions (whether patentable or not); formulas and algorithms; technical drawings, schematics, design, diagrams, models, and flow charts; documentation and specifications; databases and materials; financial information and projections; business plans and needs; employee information; customer lists, sales information and forecasts, marketing plans, customer leads, customer information and anticipated markets; and other information of a similar nature, and any other trade secrets or non-public business information belonging or pertaining to either of the parties.",
+  "rag_answer": "No. FullStory’s Mutual Non-Disclosure Agreement does **not** state that Confidential Information shall only include technical information.\n\nSection 1 defines “Confidential Information” broadly and includes both technical and non-technical information, such as software code, trade secrets, patents, know-how, financial information and projections, business plans, employee information, customer lists, sales information, marketing plans, customer leads, and other non-public business information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论：Confidential Information 不限于技术信息，而是包括技术信息以及财务、业务计划、员工信息、客户信息、营销信息等非技术信息。",
+    "answer_summary": "系统回答称文档并未规定 Confidential Information 仅包括技术信息，并说明其定义广泛，包含技术信息和非技术信息，如财务信息、业务计划、员工信息、客户列表、营销计划等。",
+    "gap": "无",
+    "reason": "系统回答正确覆盖了金标关键结论，即 Confidential Information 不仅限于技术信息，且列举了金标中的非技术信息类型，与金标一致。"
+  },
+  "file_ids": [
+    138
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 215,
+  "request_id": "e0bc1e94e486",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "sample-nrel-bilateral-nda-template.txt",
+  "file_id": 184,
+  "file_mapped": true,
+  "latency_ms": 30338.39,
+  "query": "Consider the Non-Disclosure Agreement between NREL and Another Company; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "Receiving Party will not disclose such information to any third party for the duration of the Confidentiality Period without the prior written approval of Disclosing Party.\nc. Receiving Party will provide access to Proprietary Information and NREL Protected Information that is within the Scope and that is disclosed in compliance with Paragraph 2.a, above, only to Receiving Party's employees, agents, and independent contractors who are required to have access specifically related to the Purpose, and, with respect to Alliance, to DOE or its designee for auditing and inspection purposes only.",
+  "rag_answer": "Yes, but only in a limited way.\n\nThe NDA generally prohibits the Receiving Party from disclosing Confidential Information to any third party without the Disclosing Party’s prior written approval. However, it does allow the Receiving Party to provide access to Confidential Information to its own employees, agents, and independent contractors who are required to have access for the stated Purpose, provided they are informed of the confidentiality restrictions and bound by confidentiality obligations at least as strict as those in the Agreement.\n\nThe document does not explicitly mention “consultants” or “professional advisors.” If they qualify as the Receiving Party’s agents or independent contractors, sharing may be permitted under the limited access provision; otherwise, sharing with them would require the Disclosing Party’s prior written approval.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方在保密期内不得未经披露方事先书面批准向任何第三方披露机密信息；但可仅向接收方的员工、代理和独立承包商提供与目的相关的访问，并在 Alliance 情况下向 DOE 或其指定人提供审计/检查用途访问。",
+    "answer_summary": "回答指出 NDA 一般禁止未经书面批准向第三方披露，但允许接收方向其员工、代理和独立承包商提供与目的相关的访问；并说明未明确提及顾问或专业顾问，若其属于代理/独立承包商则可分享，否则需事先书面批准。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键限制和允许分享范围，即原则上不得向第三方披露、需事先书面批准，但可向员工、代理、独立承包商提供与目的相关的访问；其对顾问和专业顾问的补充判断与金标不矛盾。"
+  },
+  "file_ids": [
+    184
+  ],
+  "skip_answer": false
+}

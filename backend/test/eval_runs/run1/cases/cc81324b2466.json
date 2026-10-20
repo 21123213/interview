@@ -1,0 +1,25 @@
+{
+  "index": 34,
+  "request_id": "cc81324b2466",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "DoiT-ICN-NonDisclosure-Agreement.txt",
+  "file_id": 125,
+  "file_mapped": true,
+  "latency_ms": 18128.18,
+  "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Vendor shall restrict disclosure of such CONFIDENTIAL INFORMATION to its employees with a need to know (and advise such employees of the obligations assumed herein), and shall not disclose such CONFIDENTIAL INFORMATION to any third party without prior written approval of the State.",
+  "rag_answer": "Yes. Under the agreement, the receiving party (the Vendor) may disclose Confidential Information to its employees who have a need to know, provided it advises those employees of the obligations assumed under the agreement. Disclosure to any third party, however, requires prior written approval.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "允许接收方（Vendor）仅向有 need to know 的员工披露机密信息，并需告知其协议义务；未经 State 事先书面批准不得向第三方披露。",
+    "answer_summary": "回答称可以，接收方（Vendor）可向有 need to know 的员工披露机密信息，前提是告知员工协议义务；向第三方披露需事先书面批准。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关于允许向有 need to know 的员工披露并告知义务的核心要点；第三方披露需事先书面批准也与金标一致，虽未明确 State 但不影响关键命中。"
+  },
+  "file_ids": [
+    125
+  ],
+  "skip_answer": false
+}

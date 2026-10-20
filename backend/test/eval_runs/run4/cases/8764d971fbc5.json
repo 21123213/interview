@@ -1,0 +1,25 @@
+{
+  "index": 160,
+  "request_id": "8764d971fbc5",
+  "correct": false,
+  "error_type": "contradiction",
+  "file_key": "eHandshake_Non_Disclosure_Agreement.txt",
+  "file_id": 127,
+  "file_mapped": true,
+  "latency_ms": 42808.45,
+  "query": "Consider eHandshake's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "6. If any of the Parties determine that they do not wish to proceed or continue with the Business Under Discussion, it will promptly advise the other Party of that decision in writing or by email. Upon receipt of such communication the Receiving Party shall destroy promptly all documents furnished and will not retain any copies, extracts or other reproductions in whole or in part of such Information.",
+  "rag_answer": "Yes. The document specifies destruction, not return.\n\nUnder Clause 6, if either Party decides not to proceed or continue with the Business Under Discussion and notifies the other Party, the Receiving Party must promptly destroy all furnished documents and must not retain any copies, extracts, or reproductions of the Information.\n\nHowever, there is an exception: the Receiving Party may retain a portion of the Information for legal, regulatory, or internal compliance purposes, and that retained Information remains subject to confidentiality obligations.\n\nThe document does not expressly address termination of the Agreement itself, but it does address destruction of Confidential Information when the parties decide not to proceed with the Business Under Discussion.",
+  "judge": {
+    "correct": false,
+    "error_type": "contradiction",
+    "gold_summary": "任一方决定不继续 Business Under Discussion 并通知对方后，接收方须立即销毁所有提供的文档，不得保留任何复制件、摘录或部分复制；金标未明确针对 Agreement termination。",
+    "answer_summary": "系统回答称依据 Clause 6，接收方须立即销毁所有提供的文档且不得保留复制件，明确是销毁而非返还；但同时声称接收方可基于法律、监管或内部合规目的保留部分信息，并指出文档未明确 Agreement termination。",
+    "gap": "系统回答的合规保留例外与金标“不得保留任何复制件”直接矛盾；金标也未涉及 Agreement termination 本身。",
+    "reason": "系统回答覆盖了金标中“立即销毁且不得保留复制件”的关键信息，但额外声称可为合规目的保留部分信息，这与金标证据明确矛盾，因此判定为未命中。"
+  },
+  "file_ids": [
+    127
+  ],
+  "skip_answer": false
+}

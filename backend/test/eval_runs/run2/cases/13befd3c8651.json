@@ -1,0 +1,25 @@
+{
+  "index": 180,
+  "request_id": "13befd3c8651",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Model%20NDA%20(recommended%20by%20SWA).txt",
+  "file_id": 154,
+  "file_mapped": true,
+  "latency_ms": 15416.05,
+  "query": "Consider SWA's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "6. The Receiving Party shall immediately upon request by the Disclosing party deliver back to the Disclosing Party all Confidential information disclosed to the Receiving party, including all copies(if any) mode under above clauses.",
+  "rag_answer": "No. The SWA Model NDA does not specify that the Receiving Party must destroy or return Confidential Information automatically upon termination of the Agreement.\n\nIt only states in Clause 6 that the Receiving Party must “immediately upon request by the Disclosing Party” deliver back all Confidential Information, including all copies made under the Agreement. There is no express termination-triggered destruction or return obligation in the provided document.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方应在披露方请求后立即返还所有机密信息，包括根据协议条款制作的所有副本。",
+    "answer_summary": "系统回答指出第6条规定接收方必须在披露方请求后立即返还所有机密信息及副本，并说明没有自动在协议终止时销毁或返还的义务。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即接收方在披露方请求时立即返还机密信息及其副本；虽然补充说明不存在终止自动触发义务，但这与金标内容不矛盾。"
+  },
+  "file_ids": [
+    154
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 4,
+  "request_id": "6abc24f7fc11",
+  "correct": false,
+  "error_type": "irrelevant",
+  "file_key": "tpi-non-disclosure-agreement_1.txt",
+  "file_id": 195,
+  "file_mapped": true,
+  "latency_ms": 40398.07,
+  "query": "Consider tpi's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+  "gold": "Neither Party shall assign this Agreement to any third party, without the prior written consent of the other Party.",
+  "rag_answer": "Based on the provided document excerpts, **no**. The TPI Non-Disclosure Agreement does not appear to include an explicit clause preventing the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated.\n\nThe confidentiality provisions primarily restrict the Receiving Party from disclosing or using **“Proprietary Information”** and “confidential and proprietary information,” not the existence or negotiation of the Agreement itself.",
+  "judge": {
+    "correct": false,
+    "error_type": "irrelevant",
+    "gold_summary": "金标证据指出协议包含“任何一方未经对方事先书面同意，不得将本协议转让给任何第三方”的条款。",
+    "answer_summary": "系统回答称 TPI 保密协议似乎没有明确禁止接收方披露协议已达成或已谈判事实的条款，保密限制主要针对专有信息。",
+    "gap": "系统回答未覆盖金标关键信息，即协议中关于禁止转让/需事先书面同意的条款。",
+    "reason": "判定以金标证据为准；系统回答虽然回应了用户问题，但没有包含金标给出的关键条款内容，因此未命中金标要点。"
+  },
+  "file_ids": [
+    195
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 42,
+  "request_id": "1d5e6500f73c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "01_Bosch-Automotive-Service-Solutions-Mutual-Non-Disclosure-Agreement-7-12-17.txt",
+  "file_id": 108,
+  "file_mapped": true,
+  "latency_ms": 15807.31,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Bosch and Automotive Service Solutions; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "Recipient shall have no obligation of confidentiality with respect to any information which:\n5.4. is independently developed by an employee, agent or consultant of Recipient without reference to the Confidential Information; or\nDisclosing Party understands that Recipient may develop or have developed information internally, or receive or have received information from other parties that is similar to the Confidential Information.",
+  "rag_answer": "Yes. The Agreement expressly contemplates that the Recipient may independently develop information or competing products similar to the Confidential Information.\n\nUnder Section 13 (“Independent Developments”), the Disclosing Party acknowledges that the Recipient may develop internally, or receive from others, information similar to the Confidential Information, and the Agreement does not represent that the Recipient will not independently develop competing products, provided the Recipient does so without breaching the Agreement.\n\nAdditionally, Section 5.4 excludes from confidentiality obligations any information independently developed by the Recipient’s employee, agent, or consultant without reference to the Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出：接收方若未参考保密信息而独立开发相关信息，则不受保密义务约束；同时披露方理解接收方可能自行开发或从其他方获得与保密信息类似的信息。",
+    "answer_summary": "系统回答称协议允许/承认接收方可独立开发与保密信息类似的信息，并提到第5.4节将未参考保密信息的独立开发排除在保密义务外，且披露方理解接收方可内部开发或从他方获得类似信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即接收方可独立开发类似信息且该信息不受保密义务约束，并明确提到未参考保密信息的独立开发例外；虽然增加了第13节和竞争产品等内容，但未与金标矛盾，不影响命中判定。"
+  },
+  "file_ids": [
+    108
+  ],
+  "skip_answer": false
+}

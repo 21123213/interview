@@ -1,0 +1,25 @@
+{
+  "index": 128,
+  "request_id": "09d2ab5d48d9",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt",
+  "file_id": 138,
+  "file_mapped": true,
+  "latency_ms": 21945.86,
+  "query": "Consider FullStory's Mutual Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "No licenses or rights under any patent, copyright, trademark, or trade secret are granted or are to be implied by this Agreement; Recipient does not acquire any right in or to the Confidential Information except the limited right to use it for the Purpose.\n7. All Confidential Information disclosed under this Agreement will be and will remain the property of the Discloser; all such information in tangible form will be returned to Discloser promptly upon written request or upon the termination or expiration of this Agreement, and will not thereafter be retained in any form by Recipient or its Affiliates or any of their employees.",
+  "rag_answer": "Yes. The document states that no licenses or rights under any patent, copyright, trademark, or trade secret are granted or implied by the Agreement. It also says the Recipient “does not acquire any right in or to the Confidential Information except the limited right to use it for the Purpose.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议不授予任何专利、版权、商标或商业秘密许可或权利；接收方除为特定目的有限使用外，不获得对保密信息的任何权利。",
+    "answer_summary": "系统回答称协议没有授予任何专利、版权、商标或商业秘密许可或权利，且接收方除为特定目的有限使用外不获得保密信息权利。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中关于不授予权利的核心结论，足以命中用户问题。"
+  },
+  "file_ids": [
+    138
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 191,
+  "request_id": "675a5a546090",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WEB-NDA-Mutual-Customer-and-Allazo-Electronics-v2.txt",
+  "file_id": 201,
+  "file_mapped": true,
+  "latency_ms": 32653.01,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Mutual Customer and Allazo Electronics; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "Information that is to be treated as Confidential under this Agreement shall\n(ii) be disclosed orally or visually and be identified by the Disclosing Party as confidential and then summarized in tangible form, marked in accordance with Section\nB. include\n(ii) information, in any form or medium, regarding pricing, customers and prospective customers, vendors and vendor lists, costed bills of materials, processes (including but not limited to manufacturing processes), know-how, designs (including but not limited to designs of enclosures and printed circuit boards), formulae, computer programs, databases, methods of operation, sales techniques, business methods or plans, marketing plans and strategies, finances, management, plant and equipment, or any other business information relating to the Disclosing Party, whether constituting a trade secret, proprietary information or otherwise, which has value to the Disclosing Party and is treated by the Disclosing Party as being confidential.",
+  "rag_answer": "Yes. Under Section 2.A(ii), information disclosed orally or visually can be treated as Confidential Information if the Disclosing Party identifies it as confidential at the time of disclosure and then summarizes it in tangible form, marks it as confidential, and delivers that summary to the Receiving Party within thirty days after the first disclosure.\n\nSo verbal disclosure is allowed, but it is not automatically Confidential unless those identification and written-summary requirements are met.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "口头或视觉披露的信息若由披露方标识为保密，并以有形形式总结、按约定标记，则可被视为保密信息。",
+    "answer_summary": "系统回答确认口头/视觉披露的信息可以被视为保密信息，条件是披露方在披露时标识为保密，并以有形形式总结、标记；还补充了需在首次披露后三十日内送达摘要的要求。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：口头传达的信息在满足披露方标识保密并以有形形式总结/标记等条件时可视为保密信息。额外加入的三十日送达要求虽未在给定金标中出现，但不影响对核心问题的命中。"
+  },
+  "file_ids": [
+    201
+  ],
+  "skip_answer": false
+}

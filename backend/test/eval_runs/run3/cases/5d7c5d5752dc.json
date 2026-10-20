@@ -1,0 +1,25 @@
+{
+  "index": 133,
+  "request_id": "5d7c5d5752dc",
+  "correct": true,
+  "error_type": "partial",
+  "file_key": "Standard%20NDA%20by%20Axial.txt",
+  "file_id": 189,
+  "file_mapped": true,
+  "latency_ms": 28922.68,
+  "query": "Consider Axial's Non-Disclosure Agreement; Does the document include a clause that prohibits the Receiving Party from soliciting some of the Disclosing Party's representatives?",
+  "gold": "During the term of this Agreement and for a period of twelve (12) months after the expiration or termination of this Agreement, without the Disclosing Party’s prior written consent, the Recipient and its Representatives shall not contact or solicit an employee of the Disclosing Party for the purpose of hiring them, solicit the business of any client, customer or licensee of the Disclosing Party or outside of the ordinary course of business, directly or indirectly contact or participate in communications with any disclosed companies, entities or persons (including each of their affiliates, parents or subsidiaries).",
+  "rag_answer": "Yes. Section 10 of the Axial Standard Non-Disclosure Agreement, titled “Non-Solicitation and Non-Circumvention,” includes such a clause. It prohibits the Recipient and its Representatives, during the term and for 12 months afterward, from contacting or soliciting an employee of the Disclosing Party for the purpose of hiring them, and from soliciting the business of the Disclosing Party’s clients, customers, or licensees, unless the Disclosing Party gives prior written consent.\n\nThere is an exception: the Recipient and its Representatives are not restricted from hiring a Disclosing Party employee who responds to a general solicitation for employment that is not directed toward the Disclosing Party’s employees.",
+  "judge": {
+    "correct": true,
+    "error_type": "partial",
+    "gold_summary": "NDA 包含禁止招揽条款：协议期间及到期/终止后 12 个月内，未经披露方事先书面同意，接收方及其代表不得招揽披露方员工以雇佣，不得招揽披露方客户/客户/许可方，也不得在正常业务过程外直接或间接联系或参与与披露公司、实体或人员的沟通。",
+    "answer_summary": "系统回答确认存在禁止招揽条款，指出在协议期间及之后 12 个月内，未经事先书面同意，接收方及其代表不得联系或招揽披露方员工以雇佣，也不得招揽披露方客户、客户或许可方，并补充了通用招聘例外。",
+    "gap": "未明确覆盖金标中关于“在正常业务过程外直接或间接联系或参与与任何披露公司、实体或人员（包括关联公司、母公司或子公司）沟通”的限制。",
+    "reason": "系统回答已覆盖金标的核心要点，即存在禁止招揽条款、12个月限制、事先书面同意要求、禁止招揽员工和披露方客户/许可方；虽然遗漏了关于披露公司/实体/人员沟通限制的次要细节，但不影响命中主要结论。"
+  },
+  "file_ids": [
+    189
+  ],
+  "skip_answer": false
+}

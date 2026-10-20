@@ -1,0 +1,25 @@
+{
+  "index": 163,
+  "request_id": "8dafee032248",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "eHandshake_Non_Disclosure_Agreement.txt",
+  "file_id": 127,
+  "file_mapped": true,
+  "latency_ms": 34379.05,
+  "query": "Consider eHandshake's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "1. The Receiving Party agrees to treat all information provided by the Providing Party in connection with the Business Under Discussion to the Receiving Partner and/or any of its partners, directors, officers, employees, affiliates, insurers, agents, advisors or auditors (the “Representatives”), regardless of the manner in which it is so furnished, together with any analyses, compilations, data, studies or other documents or records, whether of an oral, written or electronically retrievable nature (collectively the “Information”), as strictly confidential.",
+  "rag_answer": "否。该协议第1条将“Information”定义为与 Business Under Discussion 相关的、由提供方向接收方提供的全部信息，包括口头、书面或可电子检索的信息，以及分析、汇编、数据、研究或其他文件/记录；并未限定为仅技术信息。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明协议中的 Information/机密信息包括与 Business Under Discussion 相关并由提供方提供的全部信息，并不限于技术信息。",
+    "answer_summary": "系统回答称协议第1条将 Information 定义为与 Business Under Discussion 相关的、由提供方向接收方提供的全部信息，包括口头、书面或可电子检索的信息及分析、数据等，并未限定为仅技术信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：机密信息范围是提供方提供的所有与业务讨论相关的信息，而非仅技术信息，并直接回答了问题为“否”。"
+  },
+  "file_ids": [
+    127
+  ],
+  "skip_answer": false
+}

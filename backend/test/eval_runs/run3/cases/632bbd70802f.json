@@ -1,0 +1,25 @@
+{
+  "index": 126,
+  "request_id": "632bbd70802f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Standard%20NDA%20by%20Axial.txt",
+  "file_id": 189,
+  "file_mapped": true,
+  "latency_ms": 17683.35,
+  "query": "Consider Axial's Non-Disclosure Agreement; Does the document mention whether or not the Receiving Party is allowed to reverse engineer any objects which embody the Disclosing Party's Confidential Information?",
+  "gold": "The Recipient shall protect and safeguard the confidentiality of all Confidential Information with at least the same degree of care as the Recipient would protect its own confidential information, but in no event with less than a commercially reasonable degree of care; not use the Confidential Information, or permit it to be accessed or used, for any purpose other than the Purpose, including without limitation, to reverse engineer, disassemble, decompile or design around confidential intellectual property; not disclose any such Confidential Information to any person or entity, except to the Recipient's Representatives who need to know the Confidential Information in relation to the Purpose and are informed of the obligations hereunder and agree to abide by the same.",
+  "rag_answer": "Yes. Axial’s Standard NDA addresses reverse engineering in Section 3, “Recipient Obligations.”\n\nIt states that the Recipient may not use the Confidential Information, or allow it to be accessed or used, for any purpose other than the stated Purpose, **including without limitation, to reverse engineer, disassemble, decompile, or design around confidential intellectual property**.\n\nTherefore, the Receiving Party is **not allowed** to reverse engineer objects or materials embodying the Disclosing Party’s Confidential Information, except as permitted for the defined Purpose and consistent with the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议规定接收方不得将保密信息用于约定目的之外的任何用途，包括不得对保密知识产权进行反向工程、反汇编、反编译或规避设计。",
+    "answer_summary": "系统回答指出NDA明确提到反向工程，接收方不得将保密信息用于约定目的之外的用途，包括不得反向工程、反汇编、反编译或规避设计，并结论为接收方不被允许进行反向工程，除非为约定目的且符合协议。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：协议明确限制反向工程，并说明接收方不得为约定目的之外使用保密信息或进行反向工程。虽然增加了条款位置与例外说明，但未与金标矛盾。"
+  },
+  "file_ids": [
+    189
+  ],
+  "skip_answer": false
+}

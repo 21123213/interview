@@ -1,0 +1,25 @@
+{
+  "index": 286,
+  "request_id": "0cb46f170c01",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-ROI-Corporation.txt",
+  "file_id": 170,
+  "file_mapped": true,
+  "latency_ms": 17940.62,
+  "query": "Consider ROI Corporation's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "The Receiving Party shall take all practical steps to keep the Disclosing Party’s Confidential Information confidential and shall restrict access to the Confidential Information to those agents and professional advisers to whom disclosure is necessary in pursuit of the Approved Purpose.",
+  "rag_answer": "Yes, but only in a limited way.\n\nThe NDA permits the Receiving Party to restrict access to Confidential Information to “those agents and professional advisers to whom disclosure is necessary in pursuit of the Approved Purpose.” The Receiving Party must also inform such employees, agents, and professional advisers of the Agreement’s provisions and ensure their compliance.\n\nThe document does not explicitly mention “consultants.” If a consultant qualifies as an agent or professional adviser, disclosure may be permitted under the same condition that it is necessary for the Approved Purpose. Otherwise, the NDA does not expressly allow sharing with consultants.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方应采取实际步骤保密，并将保密信息的接触限制为实现批准目的所必需的代理和专业顾问。",
+    "answer_summary": "系统回答指出 NDA 允许接收方将保密信息接触限制给为实现批准目的而必要的代理和专业顾问，并补充需告知相关人员并确保合规；同时说明未明确提到 consultants，但若其属于 agent/professional adviser 则可在必要条件下披露。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即允许向为实现批准目的所必需的代理和专业顾问披露，并强调限制接触和保密义务；关于 consultants 的补充说明与金标不矛盾，属于合理扩展。"
+  },
+  "file_ids": [
+    170
+  ],
+  "skip_answer": false
+}

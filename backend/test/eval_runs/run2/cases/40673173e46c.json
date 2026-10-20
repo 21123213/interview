@@ -1,0 +1,25 @@
+{
+  "index": 299,
+  "request_id": "40673173e46c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-SqillerBetaTesters.txt",
+  "file_id": 172,
+  "file_mapped": true,
+  "latency_ms": 39703.94,
+  "query": "Consider the Non-Disclosure Agreement between Sqiller and Beta Testers; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The Receiving Party’s obligations relating to securing and protecting Confidential Information shall remain in effect for the later of either (i) 5 (five) years after the last date defined in clause 3.2 or (ii) until the Confidential Information may reasonably be considered as no longer confidential.",
+  "rag_answer": "Yes. Although the provided excerpts do not use the word “termination” explicitly, they state that certain obligations continue beyond the exchange period and may therefore survive the Agreement’s expiration/termination.\n\nSpecifically, Section 3.5 provides that the Receiving Party’s obligations to secure and protect Confidential Information remain in effect for the later of:\n\n1. five years after the last date defined in Section 3.2; or  \n2. until the Confidential Information may reasonably be considered no longer confidential.\n\nSection 3.8 also imposes return/destruction obligations upon the Disclosing Party’s request or by the last date defined in Section 3.2.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方保护保密信息的义务在协议终止/到期后仍继续，期限为第3.2条最后日期后五年，或至保密信息不再合理被视为保密为止，以较晚者为准。",
+    "answer_summary": "系统回答确认存在存续义务，并指出第3.5条规定接收方保护保密信息的义务在第3.2条最后日期后五年或信息不再合理被视为保密时以较晚者为准继续有效。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即接收方保密义务在协议终止后仍存续，并准确说明了存续期限；额外关于第3.8条的内容不影响命中判定。"
+  },
+  "file_ids": [
+    172
+  ],
+  "skip_answer": false
+}

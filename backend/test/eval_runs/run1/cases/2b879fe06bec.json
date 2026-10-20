@@ -1,0 +1,25 @@
+{
+  "index": 79,
+  "request_id": "2b879fe06bec",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ExcelerateStandardNDAFormat.txt",
+  "file_id": 132,
+  "file_mapped": true,
+  "latency_ms": 17976.82,
+  "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "Each Party's Proprietary Information may include, but is not limited to, patents, copyrights, design methods, ideas, concepts, data, formulas, manufacturing techniques, know-how, business plans, customer lists, solicitation response strategies, technical solutions to client requirements, system architectures, proposal preparation techniques and pricing policies, software, methodologies, technologies, processes, financial information, and sales and marketing information.",
+  "rag_answer": "No. The document does not state that confidential/proprietary information is limited to technical information.\n\nUnder Paragraph 1 of the Excelerate Non-Disclosure Agreement, “Proprietary Information” means proprietary or confidential information owned or controlled by a party and may include, but is not limited to, patents, copyrights, design methods, ideas, concepts, data, formulas, manufacturing techniques, know-how, business plans, customer lists, solicitation response strategies, technical solutions, system architectures, proposal preparation techniques, pricing policies, software, methodologies, technologies, processes, financial information, and sales and marketing information.\n\nTherefore, the definition is broader than technical information alone.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标说明 Proprietary Information 可能包含但不限于专利、版权、设计方法、想法、概念、数据、公式、制造技术、know-how、商业计划、客户名单、投标响应策略、面向客户需求的技术解决方案、系统架构、方案准备技术、定价政策、软件、方法论、技术、流程、财务信息和销售营销信息等，因此不限于技术信息。",
+    "answer_summary": "系统回答指出文档并未规定 Confidential/Proprietary Information 仅限于技术信息，并列举了包括专利、版权、设计方法、数据、商业计划、客户名单、技术解决方案、系统架构、软件、方法论、财务信息和销售营销信息在内的多种类型，结论为定义比技术信息更广。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：保密/专有信息并非只包括技术信息，且包含多种非技术信息类别，与金标一致。"
+  },
+  "file_ids": [
+    132
+  ],
+  "skip_answer": false
+}

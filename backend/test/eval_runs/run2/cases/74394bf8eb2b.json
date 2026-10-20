@@ -1,0 +1,25 @@
+{
+  "index": 85,
+  "request_id": "74394bf8eb2b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "JBF_NDA_rev-2017033-1.txt",
+  "file_id": 146,
+  "file_mapped": true,
+  "latency_ms": 11274.33,
+  "query": "Consider JBF's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "2. The Receiving Party shall use the Confidential Information solely for the Purpose and shall not use the Confidential Information in any manner except as reasonably required for the Purpose.",
+  "rag_answer": "Yes. JBF’s Non-Disclosure Agreement restricts the use of Confidential Information to the stated Purpose.\n\nSpecifically, Section 2 states that the Receiving Party “shall use the Confidential Information solely for the Purpose” and “shall not use the Confidential Information in any manner except as reasonably required for the Purpose.” The “Purpose” is defined in the Agreement as aiding the other Party in evaluating whether the Parties wish to enter into a commercial relationship.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方必须仅将保密信息用于协议规定的 Purpose，除为实现 Purpose 合理必需外，不得以其他方式使用。",
+    "answer_summary": "系统回答称 JBF NDA 限制保密信息仅用于 stated Purpose，并引用 Section 2 中“solely for the Purpose”及“not use... except as reasonably required for the Purpose”的关键条款。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标的关键要点：保密信息只能用于协议目的，且除合理必需外不得以其他方式使用；额外补充的 Purpose 定义不影响命中判定。"
+  },
+  "file_ids": [
+    146
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 153,
+  "request_id": "a42196e92382",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ceii-and-nda.txt",
+  "file_id": 119,
+  "file_mapped": true,
+  "latency_ms": 15481.85,
+  "query": "Consider the Non-Disclosure Agreement between CEII and NDA; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "The Receiving Party shall use the Confidential Information solely for the purpose of its internal evaluation. The Receiving Party shall not make any other use, in whole or in part, of any such Confidential Information without the prior written consent of the respective Disclosing Party.\nThe Receiving Party shall not use CEII, in whole or in part, for any purpose other than that for which the CEII was specifically provided, without the prior written consent of the respective Disclosing Party.",
+  "rag_answer": "Yes. The document restricts the use of Confidential Information to the purposes stated in the Agreement.\n\nSpecifically, Section 3 provides that the Receiving Party “shall use the Confidential Information solely for the purpose of its internal evaluation” and “shall not make any other use, in whole or in part,” of the Confidential Information without the prior written consent of the Disclosing Party.\n\nFor CEII, Section 4 further states that the Receiving Party “shall not use CEII, in whole or in part, for any purpose other than that for which the CEII was specifically provided,” without prior written consent.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方只能为内部评估目的使用机密信息，未经披露方事先书面同意不得作其他使用；CEII 也只能用于其被特别提供的目的，未经事先书面同意不得用于其他目的。",
+    "answer_summary": "系统回答确认协议限制机密信息仅用于约定目的，并指出接收方只能为内部评估使用机密信息、未经披露方事先书面同意不得作其他使用；同时指出 CEII 不得用于除其被特别提供目的之外的其他用途，除非获得事先书面同意。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键限制：机密信息仅限内部评估使用、其他使用需事先书面同意，以及 CEII 仅限其被特别提供的目的使用。"
+  },
+  "file_ids": [
+    119
+  ],
+  "skip_answer": false
+}

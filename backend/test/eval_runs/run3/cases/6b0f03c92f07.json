@@ -1,0 +1,25 @@
+{
+  "index": 204,
+  "request_id": "6b0f03c92f07",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "WECC_Confidentiality_Agreement.txt",
+  "file_id": 202,
+  "file_mapped": true,
+  "latency_ms": 28505.59,
+  "query": "Consider WECC's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "a. Notwithstanding anything to the contrary herein, Data Recipient may disclose Non-Public Information to a governmental authority as required by law, provided that to the extent permitted by law:\ni. Data Recipient notifies WECC as soon as reasonably possible of the required disclosure;\nb. If Data Recipient is an entity subject to state or federal freedom of information laws or an employee of such an entity, Data Recipient certifies that the Non-Public Information is eligible for restriction from public disclosure and agrees to:\nii. Notify WECC as soon as reasonably possible of any request for the Non-Public Information; and",
+  "rag_answer": "Yes. The document (using “Data Recipient” and “WECC” rather than “Receiving Party” and “Disclosing Party”) requires notification for compelled disclosures.\n\nUnder the “Compelled Disclosures” section, if the Data Recipient is required by law to disclose Non-Public Information to a governmental authority, then, to the extent permitted by law, the Data Recipient must:\n\n- notify WECC as soon as reasonably possible of the required disclosure;\n- not disclose the Non-Public Information until WECC has had a reasonable opportunity to respond; and\n- cooperate with WECC as reasonably requested to protect WECC’s interests in the Non-Public Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定：若数据接收方依法被要求向政府机构披露非公开信息，在法律允许范围内应尽快通知 WECC；若涉及信息公开法请求，也应尽快通知 WECC。",
+    "answer_summary": "系统回答指出文档要求数据接收方在依法向政府机构披露非公开信息时，在法律允许范围内尽快通知 WECC，并补充了等待 WECC 回应及配合保护利益等要求。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即被法律要求披露时必须尽快通知 WECC；额外扩写不影响判定。"
+  },
+  "file_ids": [
+    202
+  ],
+  "skip_answer": false
+}

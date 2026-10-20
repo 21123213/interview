@@ -1,0 +1,25 @@
+{
+  "index": 110,
+  "request_id": "fe143eb8bede",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Sony%20Pictures%20Television%20NDA%20(Executed).txt",
+  "file_id": 188,
+  "file_mapped": true,
+  "latency_ms": 22172.79,
+  "query": "Consider Sony Pictures Television's Non-Disclosure Agreement; Does the document mention whether or not the Receiving Party is allowed to reverse engineer any objects which embody the Disclosing Party's Confidential Information?",
+  "gold": "Each party, as a Receiving Party, agrees that it will:\n(e) not decompile, disassemble or reverse engineer all or any part of such Confidential Information.",
+  "rag_answer": "Yes. Section 3(e) of the Sony Pictures Television NDA states that the Receiving Party agrees **not to decompile, disassemble, or reverse engineer all or any part of the Disclosing Party’s Confidential Information**.\n\nThe document does not expressly use the phrase “objects which embody” the Confidential Information, but it clearly prohibits reverse engineering of any part of the Confidential Information itself.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得对披露方的保密信息进行反编译、拆解或逆向工程。",
+    "answer_summary": "系统回答指出 NDA 规定接收方不得对保密信息的任何部分进行反编译、拆解或逆向工程，并说明文档未明确使用“objects which embody”措辞。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即明确禁止接收方逆向工程保密信息；虽补充说明未使用“objects which embody”的表述，但不影响命中金标要点。"
+  },
+  "file_ids": [
+    188
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 106,
+  "request_id": "6e8dd6f5c766",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Geheimhaltungsvereinbarung_Abschlussarbeiten_HFU_englisch.txt",
+  "file_id": 135,
+  "file_mapped": true,
+  "latency_ms": 13081.11,
+  "query": "Consider the Non-Disclosure Agreement between Hochschule Furtwangen University and Thesis Participants; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "(2) The duty of confidentiality does not apply when and in as far as the contracting party in receipt of information can show that\n3. the information in question has been developed by the receiving party’s staff independently without such information having been made available to them or",
+  "rag_answer": "Yes. Under § 2(2)(3), the duty of confidentiality does not apply if the receiving party can show that the information was developed independently by its staff without the confidential information having been made available to them. Therefore, information that is merely similar to confidential information may be independently developed, provided it was not derived from or influenced by the disclosed confidential information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密义务不适用于接收方员工独立开发的信息，且该信息未向接收方提供/披露。",
+    "answer_summary": "系统回答指出在 §2(2)(3) 下，若接收方能证明信息由其员工独立开发且未接触保密信息，则保密义务不适用，并进一步说明类似信息可独立开发只要未从保密信息衍生或受影响。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：接收方独立开发且未获得保密信息时，保密义务不适用；其扩展表述与金标含义一致，未构成矛盾。"
+  },
+  "file_ids": [
+    135
+  ],
+  "skip_answer": false
+}

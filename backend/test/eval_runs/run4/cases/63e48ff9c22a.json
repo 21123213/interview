@@ -1,0 +1,25 @@
+{
+  "index": 174,
+  "request_id": "63e48ff9c22a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Mutual-Non-Disclosure-Agreement-Inventor-Product-Development-Experts-Inc..txt",
+  "file_id": 156,
+  "file_mapped": true,
+  "latency_ms": 12261.41,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Inventor and Product Development Experts, Inc.; Does the document mention whether or not the Receiving Party is allowed to reverse engineer any objects which embody the Disclosing Party's Confidential Information?",
+  "gold": "Neither party shall reverse engineer, disassemble or decompile any prototypes, software or other tangible objects which embody the other party's Confidential Information and which are provided to the party hereunder.",
+  "rag_answer": "Yes. The document expressly prohibits reverse engineering: “Neither party shall reverse engineer, disassemble or decompile any prototypes, software or other tangible objects which embody the other party's Confidential Information and which are provided to the party hereunder.” Therefore, the Receiving Party is not allowed to reverse engineer such objects.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "双方均不得对体现对方保密信息且根据协议提供的原型、软件或其他有形对象进行逆向工程、反汇编或反编译。",
+    "answer_summary": "系统回答指出文件明确禁止逆向工程，并完整引用了金标中的禁止条款，说明接收方不得进行逆向工程。",
+    "gap": "无",
+    "reason": "系统回答包含了金标中的关键禁止性条款，并正确回答了是否允许逆向工程的问题，因此命中。"
+  },
+  "file_ids": [
+    156
+  ],
+  "skip_answer": false
+}

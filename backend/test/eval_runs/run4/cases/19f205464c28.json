@@ -1,0 +1,25 @@
+{
+  "index": 63,
+  "request_id": "19f205464c28",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "5-NSK-Confidentiality-Agreement-for-Suppliers.txt",
+  "file_id": 109,
+  "file_mapped": true,
+  "latency_ms": 40179.26,
+  "query": "Consider NSK's Confidentiality Agreement for Suppliers; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "4.1. Notwithstanding clause 3.1 of this Agreement, the Receiving Party may disclose the Confidential Information:\nb) as may be required by an order of any court of competent jurisdiction or governmental body in which case the Receiving Party shall, to the extent permitted by law, use reasonable endeavours to provide the Disclosing Party with prompt written notice of any such requirement prior to any disclosure so that the Disclosing Party may seek a protection order or other appropriate remedy.",
+  "rag_answer": "Yes. Under Clause 4.1(b) of the NSK Confidentiality Agreement for Suppliers, if the Receiving Party is required to disclose Confidential Information by an order of a court of competent jurisdiction or a governmental body, the Receiving Party must, to the extent permitted by law, use reasonable endeavours to give the Disclosing Party prompt written notice before disclosure, so the Disclosing Party can seek a protective order or other remedy. If no protective order or remedy is obtained, the Receiving Party may disclose only the portion legally required to be disclosed.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "根据第4.1(b)条，如果接收方因有管辖权的法院或政府机构的命令被要求披露机密信息，接收方应在法律允许范围内尽合理努力，在披露前及时向披露方发出书面通知，以便披露方寻求保护令或其他适当救济。",
+    "answer_summary": "系统回答指出根据第4.1(b)条，接收方因法院或政府机构命令必须披露机密信息时，应在法律允许范围内尽合理努力于披露前及时书面通知披露方，以便其寻求保护令或其他救济。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键要点：存在披露义务/通知义务、通知须及时且书面、在法律允许范围内尽合理努力、通知应在披露前作出、目的是让披露方寻求保护令或其他救济，因此判定命中。"
+  },
+  "file_ids": [
+    109
+  ],
+  "skip_answer": false
+}

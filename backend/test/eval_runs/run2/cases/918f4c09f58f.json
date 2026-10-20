@@ -1,0 +1,25 @@
+{
+  "index": 4,
+  "request_id": "918f4c09f58f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IBC-PMS-NDA-agreement.txt",
+  "file_id": 140,
+  "file_mapped": true,
+  "latency_ms": 16157.57,
+  "query": "Consider the Non-Disclosure Agreement between IBC and PMS; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "(g) If any provision of this Agreement shall be held by a court of competent jurisdiction to be illegal, invalid or unenforceable, the remaining provisions shall remain in full force and effect.\nAll sections of this Agreement relating to the rights and obligations of the parties concerning Confidential Information disclosed during the term of the Agreement shall survive any such termination.",
+  "rag_answer": "Yes. The agreement states that if IBC terminates the agreement, “all sections of this Agreement relating to the rights and obligations of the parties concerning Confidential Information disclosed during the term of the Agreement shall survive any such termination.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议中与保密信息相关的权利义务条款在协议终止后仍存续；另含可分割性条款。",
+    "answer_summary": "系统回答确认协议规定：与协议期间披露的保密信息相关的权利义务条款在任何终止后存续。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中关于保密义务/机密信息相关条款在协议终止后存续的关键要点，符合用户问题所需信息。"
+  },
+  "file_ids": [
+    140
+  ],
+  "skip_answer": false
+}

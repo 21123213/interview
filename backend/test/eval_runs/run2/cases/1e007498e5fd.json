@@ -1,0 +1,25 @@
+{
+  "index": 176,
+  "request_id": "1e007498e5fd",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "mcgill_mitacs_terms-january2013.txt",
+  "file_id": 153,
+  "file_mapped": true,
+  "latency_ms": 20744.54,
+  "query": "Consider the Terms of Collaboration Agreement between McGill University and Mitacs; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "Recipient may disclose the Confidential Information only to such of its employees, directors, officers, agents, consultants and administrators who have a need-to-know such information for the Project provided that they are advised of the confidential nature of the Confidential Information and are under an obligation to maintain its confidentiality.",
+  "rag_answer": "Yes, but only in a limited way.\n\nUnder Section 7.1 of the agreement, the Recipient may disclose Confidential Information **only to its employees, directors, officers, agents, consultants, and administrators** who have a **need-to-know** for the Project, provided that those individuals:\n\n- are advised of the confidential nature of the information, and  \n- are under an obligation to maintain its confidentiality.\n\nThe document does **not expressly list “professional advisors”** in that permitted group, so “professional advisors” are not clearly allowed unless they fall within “agents,” “consultants,” or another permitted category.\n\nFor any other person or third party, the Recipient must not disclose Confidential Information **without the prior written approval of the Discloser**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方仅可在必要知悉范围内，向其员工、董事、高管、代理人、顾问和管理人员披露保密信息，且这些人须被告知保密性质并承担保密义务。",
+    "answer_summary": "系统回答指出接收方仅可向员工、董事、高管、代理人、顾问和管理人员中有必要知悉的人披露保密信息，并要求其被告知保密性质且承担保密义务；同时说明未明确列出专业顾问。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键要点，即允许披露的对象范围、必要知悉限制以及保密告知和保密义务要求；对专业顾问的额外说明不与金标矛盾。"
+  },
+  "file_ids": [
+    153
+  ],
+  "skip_answer": false
+}

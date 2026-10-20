@@ -1,0 +1,25 @@
+{
+  "index": 229,
+  "request_id": "1d5e12cb1283",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "UALR-Standard-Non-disclosure-AgreementTemplate.txt",
+  "file_id": 197,
+  "file_mapped": true,
+  "latency_ms": 16428.83,
+  "query": "Consider UALR's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "One copy of such documentation shall be retained by Receiving Party for archival/legal purposes.",
+  "rag_answer": "Yes. The UALR Non-Disclosure Agreement permits the Receiving Party to retain one copy of the Confidential Information/documentation for archival/legal purposes.\n\nSpecifically, it states that upon the Disclosing Party’s request, the Receiving Party shall return all Confidential Information and supporting documentation, but “One copy of such documentation shall be retained by Receiving Party for archival/legal purposes.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可保留一份相关文档/资料用于档案或法律目的。",
+    "answer_summary": "系统回答明确指出允许接收方保留一份机密信息/文档用于档案或法律目的，并引用了相同要点。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键信息：接收方可保留一份文档用于档案/法律目的，因此判定命中。"
+  },
+  "file_ids": [
+    197
+  ],
+  "skip_answer": false
+}

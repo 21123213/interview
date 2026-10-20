@@ -1,0 +1,25 @@
+{
+  "index": 63,
+  "request_id": "201bb12367b3",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "JB-Machine-LLC-NDA-1.txt",
+  "file_id": 147,
+  "file_mapped": true,
+  "latency_ms": 20073.81,
+  "query": "Consider JB Machine LLC's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "The Recipient understands and respects that the Owner has all proprietary rights to these materials, and that these materials are entrusted to the Recipient on basis of execution of contract tied to this Non-disclosure agreement.\nThe Recipient acknowledges and understands that, as between the Owner and the Recipient, the informaiton and all related intellectual property rights are, and shall, at all times, be, the property of the Owner, even if suggestions, comments, or ideas made by the Recipient are incorporated into the confidential information or related materials during the validity of this Agreement.",
+  "rag_answer": "Yes. The Agreement states that the Recipient “shall not acquire any intellectual property rights under this Agreement, except the right to limited use of information as set forth and specified above.” It also confirms that the confidential information and all related intellectual property rights remain the property of the Owner at all times.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出保密信息及相关知识产权始终归 Owner 所有，Recipient 仅基于合同受托接触材料，不获得 Owner 的专有权利。",
+    "answer_summary": "系统回答称 Recipient 不依据协议获得任何知识产权，仅有限使用；并确认保密信息及相关知识产权始终属于 Owner。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论：Owner 保留全部专有权利/知识产权，Recipient 不获得权利或仅有限使用，因此判定命中。"
+  },
+  "file_ids": [
+    147
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 124,
+  "request_id": "50f9a7a14e54",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "eulerhermes-nda.txt",
+  "file_id": 130,
+  "file_mapped": true,
+  "latency_ms": 14706.55,
+  "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "WHEREAS, the Company has expressed a willingness to furnish to Euler Hermes and its Affiliates certain confidential financial statements and other financial information relating to the affairs of the Company, whether submitted in oral, written, magnetic, electronic, or other form and regardless of whether expressly identified as confidential (“Confidential Information”).",
+  "rag_answer": "No. The Euler Hermes NDA does not require that all Confidential Information be expressly identified as confidential by the Disclosing Party.\n\nThe agreement states that Confidential Information includes confidential financial statements and other financial information “whether submitted in oral, written, magnetic, electronic, or other form and regardless of whether expressly identified as confidential.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Euler Hermes NDA 不要求所有 Confidential Information 必须由披露方明确标识为保密；相关财务信息无论是否明确标识均属于 Confidential Information。",
+    "answer_summary": "系统回答称不需要明确标识，并说明 Confidential Information 包括无论是否明确标识为保密的信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论，即 NDA 不要求所有保密信息必须被明确标识，且没有与金标矛盾。"
+  },
+  "file_ids": [
+    130
+  ],
+  "skip_answer": false
+}

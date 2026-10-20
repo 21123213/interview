@@ -1,0 +1,25 @@
+{
+  "index": 177,
+  "request_id": "6fd9b10c8245",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Mutual-Non-Disclosure-Agreement-Inventor-Product-Development-Experts-Inc..txt",
+  "file_id": 156,
+  "file_mapped": true,
+  "latency_ms": 17491.41,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Inventor and Product Development Experts, Inc.; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "\"Confidential Information\" means any information disclosed by either party to the other party, either directly or indirectly, in writing, orally or by inspection of tangible objects, including without limitation documents, prototypes, samples, plant and equipment, research, product plans, products, services, customer lists, software, developments, inventions, processes, designs, drawings, engineering, hardware configuration, marketing materials or finances, which is designated as \"Confidential,\" \"Proprietary\" or some similar designation. Information communicated orally shall be considered Confidential Information if such information is confirmed in writing as being Confidential Information within a reasonable time after the initial disclosure.",
+  "rag_answer": "Yes. Under the agreement, “Confidential Information” is defined as information disclosed by either party that is designated as “Confidential,” “Proprietary,” or a similar designation. Oral information is considered Confidential Information only if it is confirmed in writing as confidential within a reasonable time after the initial disclosure.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息必须被指定为“Confidential”、“Proprietary”或类似标识；口头信息需在合理时间内书面确认为保密信息。",
+    "answer_summary": "系统回答指出协议要求信息被指定为“Confidential”、“Proprietary”或类似标识，并且口头信息只有在合理时间内书面确认为保密信息时才构成保密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即保密信息需要明确标识，且口头信息需书面确认，因此判定命中。"
+  },
+  "file_ids": [
+    156
+  ],
+  "skip_answer": false
+}

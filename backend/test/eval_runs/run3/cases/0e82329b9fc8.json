@@ -1,0 +1,25 @@
+{
+  "index": 22,
+  "request_id": "0e82329b9fc8",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "oceaneering-non-disclosure-agreement.txt",
+  "file_id": 177,
+  "file_mapped": true,
+  "latency_ms": 27702.81,
+  "query": "Consider Oceaneering's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "8. Upon Oceaneering’s written request, Recipient shall promptly: (i) deliver to Oceaneering and cease to use all Confidential Information in Recipient’s (including its Representatives’) possession, custody or control; or (ii) destroy the same and delete all electronic records containing the Confidential Information, provided that Oceaneering may require Recipient to certify in writing such destruction and deletion.",
+  "rag_answer": "No. Based on the provided document, the Receiving Party is not permitted to retain Confidential Information after Oceaneering’s written request for return or destruction.\n\nSection 8 requires the Recipient, upon Oceaneering’s written request, to promptly either:\n\n1. deliver to Oceaneering and cease to use all Confidential Information in its possession, custody, or control, including that of its Representatives; or  \n2. destroy the Confidential Information and delete all electronic records containing it.\n\nThe Agreement does not include an express exception allowing the Recipient to retain some Confidential Information after return or destruction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标第8条要求接收方在Oceaneering书面请求后，立即交还并停止使用全部机密信息，或销毁并删除所有包含机密信息的电子记录，且可要求书面认证；未允许保留机密信息。",
+    "answer_summary": "系统回答称文档不允许接收方在返还或销毁后保留机密信息，并引用第8条的交还/停止使用或销毁/删除电子记录要求，且指出没有允许保留的例外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：接收方必须交还并停止使用全部机密信息，或销毁并删除电子记录；其结论“不允许保留”与金标一致。"
+  },
+  "file_ids": [
+    177
+  ],
+  "skip_answer": false
+}

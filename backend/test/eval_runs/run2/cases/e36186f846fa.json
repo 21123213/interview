@@ -1,0 +1,25 @@
+{
+  "index": 57,
+  "request_id": "e36186f846fa",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Inaturals_NDA.txt",
+  "file_id": 142,
+  "file_mapped": true,
+  "latency_ms": 31573.88,
+  "query": "Consider Inaturals's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "The Recipient will communicate such information only to such employees and contractors or agents who have a need to know such information, and only to such employees and contractors or agents having written agreements with the Recipient obligating them to keep such information confidential.",
+  "rag_answer": "Yes, but only in a limited way.\n\nUnder the NDA, the Receiving Party may communicate Confidential Information **only to employees and contractors or agents** who:\n\n1. have a **need to know** the information, and  \n2. have **written confidentiality agreements** with the Receiving Party.\n\nThe document does **not expressly allow** sharing with **consultants or professional advisors** unless they qualify as “contractors or agents” and meet those conditions. Otherwise, the NDA generally prohibits disclosure to third parties without the other party’s prior written consent, subject to limited exceptions such as information already in the public domain or required by law.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方只能向有必要知悉且已与接收方签订保密书面协议的员工和承包商/代理披露机密信息。",
+    "answer_summary": "系统回答指出可在有限条件下向员工和承包商/代理披露，且必须满足 need to know 和书面保密协议；并说明未明确允许顾问或专业顾问，除非其属于承包商/代理。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键限制条件：仅限员工和承包商/代理、需有必要知悉、需有书面保密协议；对问题中提到的 consultants/professional advisors 也作出了与金标一致的限定性说明。"
+  },
+  "file_ids": [
+    142
+  ],
+  "skip_answer": false
+}

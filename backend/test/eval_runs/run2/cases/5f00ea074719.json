@@ -1,0 +1,25 @@
+{
+  "index": 26,
+  "request_id": "5f00ea074719",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "INFOMAGNET%20NDA.txt",
+  "file_id": 143,
+  "file_mapped": true,
+  "latency_ms": 27359.09,
+  "query": "Consider INFOMAGNET's Non-Disclosure Agreement; Does the document mention whether or not the Receiving Party is allowed to reverse engineer any objects which embody the Disclosing Party's Confidential Information?",
+  "gold": "(d) Receiving Party may not reverse engineer, decompile or disassemble any software disclosed to Receiving Party.",
+  "rag_answer": "Yes. The NDA addresses reverse engineering in Section 2(d):\n\n> “Receiving Party may not reverse engineer, decompile or disassemble any software disclosed to Receiving Party.”\n\nSo the Receiving Party is **not allowed to reverse engineer any software disclosed** under the agreement. However, the document does not expressly extend this prohibition to all “objects” embodying Confidential Information generally.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA规定接收方不得对披露给接收方的软件进行反向工程、反编译或反汇编。",
+    "answer_summary": "系统回答引用了Section 2(d)，并明确说明接收方不得对披露的软件进行反向工程；同时补充文档未将该限制明确扩展到所有承载保密信息的对象。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键信息，即接收方不得对披露软件进行反向工程、反编译或反汇编，且没有与金标矛盾。"
+  },
+  "file_ids": [
+    143
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 113,
+  "request_id": "17eb79b28b3c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "BCG-Mutual-NDA.txt",
+  "file_id": 116,
+  "file_mapped": true,
+  "latency_ms": 43317.13,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Boston Consulting Group and Unknown Party; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "Each of us may disclose the other's confidential information if required to comply with a court order or other government demand that has the force of law. Before doing so, each of us must seek the highest level of protection available and, when possible, give the other enough prior notice to provide a reasonable chance to seek a protective order.",
+  "rag_answer": "是的，但有条件。文档规定：若一方因法院命令或其他具有法律效力的政府要求而必须披露对方保密信息，该方可以披露；但在披露前，其必须寻求可获得的最高级别保护，并在可能情况下给予对方足够的事先通知，以便对方有机会寻求保护令。\n\n因此，通知义务并非绝对，而是“在可能情况下”要求事先通知。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "若因法院命令或其他具有法律效力的政府要求必须披露，可以披露；但披露前须寻求可获得的最高级别保护，并在可能情况下给予对方足够事先通知，以便对方有机会寻求保护令。",
+    "answer_summary": "系统回答指出可以因法院命令或其他具有法律效力的政府要求披露，但披露前须寻求最高级别保护，并在可能情况下给予对方足够事先通知以便寻求保护令；同时说明通知义务并非绝对。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键要点：法定/司法要求下的披露许可、寻求最高保护、可能情况下的事先通知及保护令机会，并且没有与金标矛盾。"
+  },
+  "file_ids": [
+    116
+  ],
+  "skip_answer": false
+}

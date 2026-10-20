@@ -1,0 +1,25 @@
+{
+  "index": 140,
+  "request_id": "2d3b1fe21872",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "amc-general-mutual-non-disclosure-agreement-en-gb.txt",
+  "file_id": 114,
+  "file_mapped": true,
+  "latency_ms": 22306.65,
+  "query": "Consider the Mutual Non-Disclosure Agreement between AMC and Other Party; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "(c) Confidential Information does not include any information that Receiving Party can document:\n(iv) is rightfully obtained by Receiving Party from a third party without any obligation of confidentiality to Disclosing Party.",
+  "rag_answer": "Yes, but only under a specific condition.\n\nSection 2(c)(iv) of the Mutual Non-Disclosure Agreement states that “Confidential Information” does **not** include information that the Receiving Party can **document** was **rightfully obtained from a third party** and that the third party obtained or disclosed it **without any obligation of confidentiality to the Disclosing Party**.\n\nSo, if the Receiving Party can document that information similar to or corresponding to the Confidential Information was rightfully obtained from a third party that had no confidentiality obligation to the Disclosing Party, then that information is excluded from the definition of Confidential Information.\n\nHowever, the document does not simply allow acquisition of “similar” information in general. The key requirements are:\n\n1. The Receiving Party must be able to **document** the third-party source; and  \n2. The third-party information must have been obtained **rightfully** and **without any confidentiality obligation to the Disclosing Party**.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息不包括接收方能记录证明其从第三方合法获得、且该第三方对披露方不承担保密义务的信息。",
+    "answer_summary": "系统回答指出 Section 2(c)(iv) 规定机密信息不包括接收方能记录证明其从第三方合法获得、且第三方对披露方无保密义务的信息，并说明需满足记录证明、合法获得和无保密义务等条件。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键要点：接收方能够记录证明、从第三方合法获得、第三方对披露方无保密义务，从而排除机密信息定义；其额外解释与金标不矛盾。"
+  },
+  "file_ids": [
+    114
+  ],
+  "skip_answer": false
+}

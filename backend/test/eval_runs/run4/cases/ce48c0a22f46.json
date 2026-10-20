@@ -1,0 +1,25 @@
+{
+  "index": 208,
+  "request_id": "ce48c0a22f46",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA_ResConnect.txt",
+  "file_id": 161,
+  "file_mapped": true,
+  "latency_ms": 45763.41,
+  "query": "Consider ResConnect's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "2.1. Either party agrees that it shall ensure that it and its associated companies and their respective officers and employees shall keep confidential, both during and after the duration of the agreement, all information which:\nAnd undertakes not to disclose any of such information to any third party without the prior written permission of the other party except as required by any applicable law or government regulation, and provided that each party may\ndisclose the agreement on a confidential basis to its public accountants, attorneys and financial advisors and/or funders.",
+  "rag_answer": "No—not explicitly.\n\nThe provided ResConnect NDA imposes confidentiality and non-disclosure obligations (Sections 2.1–2.4) and limits certain uses of specific materials/information (e.g., Section 3.2 allows access only for purposes specifically related to Mandarin’s use of the material; Section 4.1 restricts ResRequest information to the Business Partner’s sole use). However, the excerpt does not contain a general clause stating that all Confidential Information may be used only for the purposes stated in the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据显示 NDA 第 2.1 条主要规定双方及其关联公司、人员应对信息保密，不得未经书面许可向第三方披露，除非法律要求；并允许在保密基础上向会计师、律师、财务顾问和/或资助人披露协议。未明确表述 Confidential Information 只能用于协议所述目的。",
+    "answer_summary": "系统回答称文档并未明确限制 Confidential Information 仅用于协议所述目的，同时指出 NDA 第 2.1–2.4 条设定了保密和不披露义务，并举例说明其他条款仅对特定材料或信息的使用作有限限制。",
+    "gap": "无",
+    "reason": "系统回答的核心结论与金标一致：金标证据只体现保密/披露限制，并未支持“使用仅限于协议所述目的”的明确限制；系统回答也提到了保密和不披露义务，覆盖了金标关键要点。"
+  },
+  "file_ids": [
+    161
+  ],
+  "skip_answer": false
+}

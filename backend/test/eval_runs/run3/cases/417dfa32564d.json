@@ -1,0 +1,25 @@
+{
+  "index": 67,
+  "request_id": "417dfa32564d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "RROI_Confidentiality_Agreement_Final.txt",
+  "file_id": 182,
+  "file_mapped": true,
+  "latency_ms": 44716.75,
+  "query": "Consider RROI's Confidentiality Agreement; Does the document include a clause that prohibits the Receiving Party from soliciting some of the Disclosing Party's representatives?",
+  "gold": "The Recipient will not, and the Recipient will cause its Representatives not to, solicit for hire or employment, directly or indirectly, any officer or employee of the Disclosing Party or its direct and indirect subsidiaries that the Recipient becomes aware of or is in contact with in connection with its evaluation of a Transaction.\n11. Standstill: During the Term, neither the Recipient nor any of its Affiliates (including any Person or entity, directly or indirectly, through one or more intermediaries, controlling the Recipient, under common control with the Recipient controlled by the Recipient or acting jointly or in concert with the Recipient) shall, without the specific prior approval of the board of directors of the Disclosing Party which approval may be given on such terms as the board of directors of the Disclosing Party may determine:\n(iii) to purchase, directly or indirectly, “solicit\", or participate or join with any Person in the “solicitation\" of, any “proxies\" (as such terms are defined in the Securities Act (Alberta)) to vote, to seek to advise or to influence any Person with respect to the voting of any voting securities of the Disclosing Party;",
+  "rag_answer": "Yes. The document includes a Non-Solicitation clause (Clause 8). It prohibits the Recipient/Receiving Party, and requires its Representatives not to, directly or indirectly solicit for hire or employment any officer or employee of the Disclosing Party or its direct and indirect subsidiaries that the Recipient becomes aware of or is in contact with in connection with its evaluation of a Transaction.\n\nThe clause includes limited exceptions for general newspaper/periodical advertising or general use of a personnel search agency, but the Recipient may not pursue hiring once advised that the person is an officer or employee of the Disclosing Party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标确认文件包含禁止接收方及其代表直接/间接为雇佣目的招揽披露方高管或员工的条款；另在 Standstill 中涉及禁止 solicitation of proxies。",
+    "answer_summary": "系统回答确认存在 Non-Solicitation 条款，并说明禁止接收方及其代表直接/间接为雇佣目的招揽披露方高管或员工。",
+    "gap": "未提及 Standstill 中关于 proxies 的 solicitation，但该点不是问题核心。",
+    "reason": "系统回答已覆盖金标关于禁止招揽披露方代表/员工的关键结论，且未与金标矛盾。"
+  },
+  "file_ids": [
+    182
+  ],
+  "skip_answer": false
+}

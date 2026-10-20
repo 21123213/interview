@@ -1,0 +1,25 @@
+{
+  "index": 225,
+  "request_id": "9ceb5dc693b4",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "simply-fashion---standard-nda.txt",
+  "file_id": 186,
+  "file_mapped": true,
+  "latency_ms": 31087.61,
+  "query": "Consider Simply Fashion's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "4. In the event that Potential Purchaser, its Affiliated Entities, and/or its Representatives receive a request or are required to disclose any of the Evaluation Materials, pursuant to any applicable law, rule, regulation, regulatory authority, subpoena, order, summons, lawsuit, or other applicable judicial or governmental order, or any other legal process, Potential Purchaser shall provide the Company with prompt notice so that the Company may seek a protective order or other appropriate remedy at the Company’s expense.",
+  "rag_answer": "Yes. Under Section 4 of the Simply Fashion NDA, if the Potential Purchaser, its Affiliated Entities, or its Representatives receive a request or are required to disclose any Evaluation Materials pursuant to applicable law, regulation, subpoena, order, lawsuit, or other judicial or governmental process, they must provide the Company with prompt notice so the Company can seek a protective order or other appropriate remedy at the Company’s expense.\n\nHowever, notice to the Company is not required if the disclosure is in connection with a routine audit or examination by, or a blanket document request from, a governmental or regulatory authority, provided the Potential Purchaser informs that authority of the confidential nature of the Evaluation Materials.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定：若 Potential Purchaser、其关联实体或代表收到请求，或依据适用法律、法规、监管机关、传票、命令、诉讼、其他司法或政府程序或法律程序被要求披露 Evaluation Materials，Potential Purchaser 应及时通知 Company，以便 Company 寻求保护令或其他适当救济，费用由 Company 承担。",
+    "answer_summary": "系统回答明确称“是”，并复述 Section 4：若 Potential Purchaser、其关联实体或代表因适用法律、监管、传票、命令、诉讼或其他司法/政府程序被要求披露 Evaluation Materials，必须及时通知 Company，以便 Company 寻求保护令或其他适当救济，费用由 Company 承担。",
+    "gap": "无",
+    "reason": "系统回答已经覆盖金标的关键要点：存在法律/监管/司法程序要求披露时的及时通知义务，以及通知目的与费用承担。虽然系统回答额外补充了例外情形，但按从宽覆盖标准，额外内容不影响对金标关键信息的命中。"
+  },
+  "file_ids": [
+    186
+  ],
+  "skip_answer": false
+}

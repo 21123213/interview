@@ -1,0 +1,25 @@
+{
+  "index": 140,
+  "request_id": "43743e936913",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SupplementOne-NDA.txt",
+  "file_id": 191,
+  "file_mapped": true,
+  "latency_ms": 24563.41,
+  "query": "Consider SupplementOne's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "This Agreement does not transfer ownership of Confidential Information or grant a license thereto. Discloser retains all right, title and interest in and to all Confidential Information and its reproductions.",
+  "rag_answer": "Yes, the document indicates that the Agreement does not grant ownership or license rights to the Receiving Party.\n\nSpecifically, SupplementOne’s NDA states:\n\n> “Retention of Rights. This Agreement does not transfer ownership of Confidential Information or grant a license thereto. Discloser retains all right, title and interest in and to all Confidential Information and its reproductions.”\n\nHowever, the Agreement does allow the Recipient to use the Confidential Information for a limited purpose: evaluating and preparing a response to RFP CSP903918 for a Pharmacy Benefits Manager for the Bureau of Workers’ Compensation Pharmacy Program.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议不转让机密信息所有权，也不授予许可；披露方保留机密信息及其复制件的所有权利、所有权和利益。",
+    "answer_summary": "系统回答确认协议未向接收方授予所有权或许可，并引用了与金标一致的关键条款。",
+    "gap": "无",
+    "reason": "系统回答已完整覆盖金标关键信息，即协议不转让机密信息所有权、不授予许可，且披露方保留全部权利；额外补充的有限用途说明不影响关键点命中。"
+  },
+  "file_ids": [
+    191
+  ],
+  "skip_answer": false
+}

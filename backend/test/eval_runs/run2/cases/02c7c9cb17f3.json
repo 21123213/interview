@@ -1,0 +1,25 @@
+{
+  "index": 333,
+  "request_id": "02c7c9cb17f3",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "nda_gtl_inria.txt",
+  "file_id": 160,
+  "file_mapped": true,
+  "latency_ms": 20041.31,
+  "query": "Consider the Non-Disclosure Agreement between GTL and Inria; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "The Grenoble Traffic Lab (GTL) Data and all related documentation and information provided by Inria will be used only for the limited purpose of evaluation hereunder, and will not be used for any other purpose, or in any manner adversarial to Inria.",
+  "rag_answer": "Yes. The NDA restricts the use of the confidential/GTL data to the purposes stated in the Agreement.\n\nUnder Section 2 (Scope), Inria discloses “proprietary and confidential traffic-related data” only for “Research and Academic use purposes,” and the GTL Data and related documentation “will be used only for the limited purpose of evaluation hereunder,” and “will not be used for any other purpose” or distributed to third parties.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "GTL 数据及 Inria 提供的相关文档和信息仅用于协议中规定的有限评估目的，不得用于其他目的，也不得以对 Inria 不利的方式使用。",
+    "answer_summary": "系统回答确认 NDA 将机密/GTL 数据的使用限制在协议所述目的内，并指出 GTL 数据及相关文档仅用于有限评估目的，不得用于其他目的。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即 GTL 数据和相关文档只能用于协议规定的有限评估目的，不得用于其他目的；虽然未明确提到“不得以对 Inria 不利的方式使用”，但问题核心是是否限制使用目的，已命中。"
+  },
+  "file_ids": [
+    160
+  ],
+  "skip_answer": false
+}

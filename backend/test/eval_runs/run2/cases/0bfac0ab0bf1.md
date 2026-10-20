@@ -1,0 +1,45 @@
+# Case `0bfac0ab0bf1`
+
+- index: 15
+- file_key: `IGC-Non-Disclosure-Agreement-LSE-Sample.txt`
+- file_id: 141
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 26363.73
+
+## Query
+
+Consider the Non-Disclosure Agreement between IGC and LSE; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?
+
+## Gold
+
+Confidential Information means all confidential information (however recorded, preserved or disclosed) disclosed by a party or its Representatives to the other party and that party's Representatives including but not limited to:
+(a) The fact that discussions and negotiations are taking place concerning the Purpose and the status of those discussions and negotiations;
+(b) The existence and terms of this Agreement;
+No party shall make, or permit any person to make, any public announcement concerning this Agreement, the Purpose or its prospective interest in the Purpose without the prior written consent of the other party (such consent not to be unreasonably withheld or delayed) except as required by law or any governmental or regulatory authority (including, without limitation, any relevant securities exchange) or by any court or other authority of competent jurisdiction. No party shall make use of the other party's name or any information acquired through its dealings with the other party for publicity or marketing purposes without the prior written consent of the other party.
+
+## RAG Answer
+
+Yes.
+
+The NDA treats the fact that the Agreement exists, its terms, and the fact/status of discussions or negotiations as Confidential Information:
+
+- **Clause 1.1**: “Confidential Information” includes:
+  - “(a) The fact that discussions and negotiations are taking place concerning the Purpose and the status of those discussions and negotiations”; and
+  - “(b) The existence and terms of this Agreement”.
+
+- **Clause 2.1(c)**: The Recipient must **not disclose or make available** Confidential Information to any third party, except as expressly permitted by the Agreement.
+
+- **Clause 2.5**: No party may make, or permit anyone to make, any **public announcement** concerning the Agreement, the Purpose, or its prospective interest in the Purpose without the other party’s prior written consent, except where required by law, a governmental/regulatory authority, or a court.
+
+So the Receiving Party is generally prevented from disclosing that the Agreement was negotiated/agreed upon, subject to the permitted exceptions.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 金标证据表明保密信息包括双方就目的进行讨论/谈判的事实及状态、协议的存在和条款；未经对方事先书面同意，不得就协议、目的或相关利益进行公开宣布，法律、监管或法院要求除外。
+- answer_summary: 系统回答确认存在此类限制，并指出保密信息包括谈判/讨论事实及状态、协议存在和条款；接收方不得向第三方披露，且未经书面同意不得进行公开宣布，除非法律、监管或法院要求。
+- gap: 无
+- reason: 系统回答覆盖了金标中的关键要点，即协议存在、条款以及谈判事实均属于保密信息，且公开披露需受限制；扩写条款编号和额外限制不影响命中。

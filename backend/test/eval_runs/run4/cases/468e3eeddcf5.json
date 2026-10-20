@@ -1,0 +1,25 @@
+{
+  "index": 155,
+  "request_id": "468e3eeddcf5",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Data_Use_and_Non_Disclosure_Data_Disclosed_to_MDCH_Trauma_Registry_Final_465518_7.txt",
+  "file_id": 122,
+  "file_mapped": true,
+  "latency_ms": 49233.46,
+  "query": "Consider the Data Use and Non-Disclosure Agreement between MDCH Trauma Registry; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+  "gold": "With regard to the data disclosed to MDHHS under this Agreement, the MDHHS agrees to:\n2. Notify Reporting Entity within a reasonable time prior to disclosing data that is required by law so that Reporting Entity may have an opportunity to object to such disclosure if necessary;",
+  "rag_answer": "Yes, but only in a limited form. The document states that MDHHS, as the party receiving the data, agrees to “Notify Reporting Entity within a reasonable time prior to disclosing data that is required by law so that Reporting Entity may have an opportunity to object to such disclosure if necessary.”\n\nHowever, the provided excerpt does not expressly extend this notification obligation to disclosures required by “regulation” or “judicial process,” nor does it use the general terms “Receiving Party,” “Disclosing Party,” or “Confidential Information.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "MDHHS 同意在法律要求披露数据之前，在合理时间内通知 Reporting Entity，以便其有机会对该披露提出异议。",
+    "answer_summary": "系统回答指出 MDHHS 作为接收方同意在法律要求披露数据之前合理时间内通知 Reporting Entity，使其有机会提出异议，并说明该义务未明确扩展到法规或司法程序。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即法律要求披露前需合理时间通知披露/报告方以便异议；其额外限定范围与金标一致，不构成矛盾。"
+  },
+  "file_ids": [
+    122
+  ],
+  "skip_answer": false
+}

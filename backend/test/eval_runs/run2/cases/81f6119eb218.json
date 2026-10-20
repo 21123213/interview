@@ -1,0 +1,25 @@
+{
+  "index": 210,
+  "request_id": "81f6119eb218",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NCDG_Non-disclosure-agreement.txt",
+  "file_id": 157,
+  "file_mapped": true,
+  "latency_ms": 15524.87,
+  "query": "Consider NCDG's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "4. Such Confidential Information shall also include but shall not be limited to:\na) information disclosed by the Disclosing Party in writing marked as confidential at the time of disclosure;\nb) information disclosed by the Disclosing Party orally which is slated to be confidential at the time of disclosure;\nc) information disclosed in any other manner is designated in writing as Confidential Information at the time of disclosure; or\nd) notwithstanding sub-clauses a,b & c of this definition, any information whose nature makes it obvious that it is confidential.",
+  "rag_answer": "No. The NCDG Non-Disclosure Agreement does not require that **all** Confidential Information be expressly identified or marked by the Disclosing Party.\n\nUnder the definition of “Confidential Information,” the Agreement includes information disclosed in writing marked as confidential, oral information “slated” as confidential, and other information designated in writing as confidential at the time of disclosure. However, it also expressly states that Confidential Information includes, **notwithstanding those marking/designation requirements**, “any information whose nature makes it obvious that it is confidential.”\n\nTherefore, express identification is required for certain categories of disclosed information, but not for all Confidential Information; information that is obviously confidential by its nature is covered even without explicit designation.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息不仅包括书面标记、口头声明或事后书面指定的信息，还包括虽未明确标识但性质上明显属于机密的信息。",
+    "answer_summary": "系统回答指出 NCDG NDA 并不要求所有机密信息都必须由披露方明确标识；除书面标记、口头声明、书面指定外，性质明显机密的信息也属于机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键例外条款，即并非所有机密信息都需要明确标识，明显机密的信息也包含在内，结论与金标一致。"
+  },
+  "file_ids": [
+    157
+  ],
+  "skip_answer": false
+}

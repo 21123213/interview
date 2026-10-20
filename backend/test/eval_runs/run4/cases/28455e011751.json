@@ -1,0 +1,25 @@
+{
+  "index": 36,
+  "request_id": "28455e011751",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "01_Bosch-Automotive-Service-Solutions-Mutual-Non-Disclosure-Agreement-7-12-17.txt",
+  "file_id": 108,
+  "file_mapped": true,
+  "latency_ms": 17994.56,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Bosch and Automotive Service Solutions; Does the document mention whether or not the Receiving Party is allowed to reverse engineer any objects which embody the Disclosing Party's Confidential Information?",
+  "gold": "Recipient shall not without Disclosing Party’s prior written consent reverse engineer, disassemble or decompile any prototypes, software or other objects which embody the Disclosing Party’s Confidential Information to obtain access to Disclosing Party’s trade secrets and to the extent such consent is granted Recipient shall receive and hold such Confidential Information subject to the terms of this Agreement.",
+  "rag_answer": "Yes. The document explicitly addresses reverse engineering.\n\nUnder Section 2 (“Period of Confidentiality and Non-Use”), the Receiving Party (“Recipient”) is **not allowed** to reverse engineer, disassemble, or decompile any prototypes, software, or other objects that embody the Disclosing Party’s Confidential Information **unless the Disclosing Party gives prior written consent**.\n\nThe agreement states that such reverse engineering is prohibited “without Disclosing Party’s prior written consent,” and even if consent is granted, the Recipient must still handle the Confidential Information subject to the terms of the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得未经披露方事先书面同意对体现保密信息的原型、软件或其他对象进行逆向工程、反汇编或反编译；若获得同意，仍须按协议条款持有该保密信息。",
+    "answer_summary": "系统回答指出文件明确规定：接收方不得在未经披露方事先书面同意的情况下对体现保密信息的原型、软件或其他对象进行逆向工程、反汇编或反编译；即使获得同意，也仍须按协议条款处理保密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即是否允许逆向工程以及需要披露方事先书面同意，且未与金标矛盾。"
+  },
+  "file_ids": [
+    108
+  ],
+  "skip_answer": false
+}

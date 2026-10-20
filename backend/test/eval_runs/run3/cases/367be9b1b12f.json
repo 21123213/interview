@@ -1,0 +1,25 @@
+{
+  "index": 155,
+  "request_id": "367be9b1b12f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "TSE-TSE-OK-WHK-Mutual-NDA-Fill-in-Blanks-4-29-2019.txt",
+  "file_id": 196,
+  "file_mapped": true,
+  "latency_ms": 33438.72,
+  "query": "Consider the Mutual Non-Disclosure Agreement between TSE, OK, and WHK; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "During the course of the Discussions, the parties may, from time to time, disclose or provide to each other, in writing or otherwise, directly, or as a consequence of their business relationship, their own trade secrets, accumulated technical or business knowledge or proprietary information as well as information which either party is required to keep confidential by contractual obligations to third parties (hereafter \"Confidential Information\").",
+  "rag_answer": "No. The Mutual Non-Disclosure Agreement does not state that Confidential Information shall only include technical information.\n\nUnder Section 1, “Confidential Information” includes each party’s “trade secrets, accumulated technical or business knowledge or proprietary information,” as well as information the party is required to keep confidential due to third-party contractual obligations. It also states that, subject to the exceptions in Section 5, any information disclosed by a party shall be treated as Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Confidential Information 不限于 technical information，而是包括 trade secrets、accumulated technical or business knowledge、proprietary information，以及因第三方合同义务需保密的信息。",
+    "answer_summary": "系统回答指出文件并未规定 Confidential Information 仅包括 technical information，并列举其包括 trade secrets、accumulated technical or business knowledge、proprietary information 以及因第三方合同义务需保密的信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键结论：Confidential Information 的范围不止于 technical information，并准确列出金标证据中的主要类别。"
+  },
+  "file_ids": [
+    196
+  ],
+  "skip_answer": false
+}

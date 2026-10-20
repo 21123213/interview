@@ -1,0 +1,25 @@
+{
+  "index": 88,
+  "request_id": "eb6a58e135ce",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ExcelerateStandardNDAFormat.txt",
+  "file_id": 132,
+  "file_mapped": true,
+  "latency_ms": 24752.08,
+  "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "6. The conditions of Paragraph 4 hereof shall not apply to information which:\nb. Was\n(ii) is later received by the receiving Party from a third party, unless the receiving Party knows or has reason to know of an obligation of secrecy of the third party to the disclosing Party with respect to such information; or",
+  "rag_answer": "Yes. Under Excelerate’s NDA, the confidentiality obligations in Paragraph 4 do **not** apply to information that the Receiving Party later receives from a third party, **unless** the Receiving Party knows or has reason to know that the third party has an obligation of secrecy to the disclosing Party.\n\nIn other words, the Receiving Party may acquire similar/proprietary information from a third party without being bound by the NDA’s confidentiality restrictions, provided the third party is not under a secrecy obligation to the disclosing Party.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA 的 Paragraph 4 保密义务不适用于接收方后来从第三方获得的信息，除非接收方知道或有理由知道该第三方对披露方负有保密义务。",
+    "answer_summary": "系统回答指出 Paragraph 4 不适用于后来从第三方收到的信息，除非接收方知道或有理由知道第三方对披露方有保密义务，并据此认为接收方可以获取类似信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：第三方获取信息的例外以及知道/有理由知道第三方负有保密义务的限制，且与金标不矛盾。"
+  },
+  "file_ids": [
+    132
+  ],
+  "skip_answer": false
+}

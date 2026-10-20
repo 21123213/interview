@@ -1,0 +1,25 @@
+{
+  "index": 6,
+  "request_id": "6e23b723a070",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+  "file_id": 120,
+  "file_mapped": true,
+  "latency_ms": 16358.48,
+  "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Confidential Information does not include:\n> information received from a third party who was free to disclose such information.",
+  "rag_answer": "Yes. The NDA states that “Confidential Information” does not include “information received from a third party who was free to disclose such information.”  \n\nTherefore, if the Receiving Party (the Mentor) obtains information from a third party who had the right to disclose it, that information is not treated as Confidential Information under the agreement. However, the document does not expressly address information merely “similar” to Confidential Information; it only excludes third-party information if the third party was free to disclose it.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不包括从有权自由披露该信息的第三方处获得的信息。",
+    "answer_summary": "系统回答指出 NDA 规定保密信息不包括从可自由披露信息的第三方处获得的信息，并说明若接收方从有权披露的第三方获得信息，则该信息不作为保密信息处理。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键要点，即来自可自由披露的第三方的信息不属于保密信息；额外说明未直接覆盖“similar”措辞不影响命中。"
+  },
+  "file_ids": [
+    120
+  ],
+  "skip_answer": false
+}

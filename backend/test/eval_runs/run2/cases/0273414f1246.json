@@ -1,0 +1,25 @@
+{
+  "index": 310,
+  "request_id": "0273414f1246",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-for-Gar-Kenyon-Suppliers.txt",
+  "file_id": 167,
+  "file_mapped": true,
+  "latency_ms": 11032.1,
+  "query": "Consider the Non-Disclosure Agreement between Gar and Kenyon; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "Information disclosed in other that written form shall be considered Confidential Information only to the extent GK summarizes the same in a written form that is transmitted to SUPPLIER within thirty (30) calendar days of the non-written disclosures.",
+  "rag_answer": "Yes, but only conditionally.\n\nUnder the NDA, information disclosed in a non-written form (such as verbally) is considered Confidential Information only if Gar Kenyon summarizes that information in writing and transmits the written summary to the Supplier within 30 calendar days of the non-written disclosure. Otherwise, verbally conveyed information is not automatically treated as Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "非书面披露的信息仅在被 GK 以书面形式总结并在 30 个日历日内发送给 SUPPLIER 时，才被视为 Confidential Information。",
+    "answer_summary": "口头/非书面信息只有在 Gar Kenyon 将其总结为书面并在 30 个日历日内发送给 Supplier 时才属于 Confidential Information，否则不会自动视为保密信息。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标的关键条件：非书面披露需书面总结并在 30 个日历日内发送给 Supplier 才构成 Confidential Information，且与金标不矛盾。"
+  },
+  "file_ids": [
+    167
+  ],
+  "skip_answer": false
+}

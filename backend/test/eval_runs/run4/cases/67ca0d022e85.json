@@ -1,0 +1,25 @@
+{
+  "index": 99,
+  "request_id": "67ca0d022e85",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Aspiegel_NDA_template.txt",
+  "file_id": 115,
+  "file_mapped": true,
+  "latency_ms": 19999.43,
+  "query": "Consider Aspiegel's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "The confidentiality undertakings at clauses 2 and 3 above shall not apply to any Confidential Information which the Recipient Party can prove:\n(d) is developed by the Recipient Party independently of the information disclosed by the Disclosing Party.",
+  "rag_answer": "Yes. Under Clause 4.1(d), the confidentiality undertakings do **not** apply to information that the Recipient Party can prove was **developed independently of the information disclosed by the Disclosing Party**.\n\nTherefore, the Receiving Party may independently develop information that is similar to the Confidential Information, provided it can demonstrate that it was developed without reliance on or use of the Disclosing Party’s Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论是：保密义务不适用于接收方能够证明是由其独立开发的信息，即接收方可独立开发与披露信息相似的信息，只要能证明独立开发。",
+    "answer_summary": "系统回答指出：根据相关条款，保密义务不适用于接收方能证明为独立开发的信息，因此接收方可以独立开发与保密信息相似的信息，前提是证明未依赖或使用披露方的保密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：独立开发信息的例外以及接收方需能够证明独立开发。虽然系统回答加入了条款编号和解释性表述，但并未与金标矛盾，且核心命中。"
+  },
+  "file_ids": [
+    115
+  ],
+  "skip_answer": false
+}

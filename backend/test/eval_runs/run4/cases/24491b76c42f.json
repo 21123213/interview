@@ -1,0 +1,25 @@
+{
+  "index": 90,
+  "request_id": "24491b76c42f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "AfriGIS_Client-NDA_Template_2019.txt",
+  "file_id": 112,
+  "file_mapped": true,
+  "latency_ms": 34302.33,
+  "query": "Consider AfriGIS's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "For avoidance of doubt, in this Agreement “third party” means any party other than Client and AfriGIS and their holding and subsidiary companies or agents.\n3.4 Notwithstanding anything to the contrary contained in this Agreement the Parties agree that the Confidential Information may be disclosed by the Receiving Party to its professional advisors on a need-to-know basis; provided that that Party takes whatever steps are necessary to procure that such professional advisors agree to abide by the terms of this Agreement to prevent the unauthorised disclosure of the Confidential Information to third parties.",
+  "rag_answer": "Yes, but only in a limited way.\n\n- Clause 3.4 expressly allows the Receiving Party to disclose Confidential Information to its **professional advisors** on a **need-to-know basis**, provided the Receiving Party takes steps to ensure those advisors agree to abide by the NDA and prevents unauthorized disclosure to third parties.\n- Clause 3.3 generally prohibits disclosure to any **third party** without the Disclosing Party’s prior written consent, except as allowed by the Agreement.\n- The definition of “third party” in clause 3.3 excludes Client and AfriGIS and their holding/subsidiary companies or **agents**, so agents are not treated as third parties and are bound by the Agreement.\n- The document does **not** expressly allow sharing with “consultants” unless they qualify as professional advisors; otherwise, prior written consent would be required.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据表明：Receiving Party 可在“need-to-know”基础上向 professional advisors 披露 Confidential Information，但须确保这些顾问遵守协议并防止未经授权向第三方披露；同时，“third party”定义排除了 Client、AfriGIS 及其控股/子公司或 agents。",
+    "answer_summary": "系统回答指出：协议允许在有限条件下向 professional advisors 按 need-to-know 披露，并要求其受协议约束；“third party”定义排除 agents；consultants 仅在构成 professional advisors 时才可分享，否则需事先书面同意。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：允许向 professional advisors 在 need-to-know 条件下披露、需采取保护措施、以及 agents 不属于“third party”的定义；对 consultants 的补充说明未与金标矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    112
+  ],
+  "skip_answer": false
+}

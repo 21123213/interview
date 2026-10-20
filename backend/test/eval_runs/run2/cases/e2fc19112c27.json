@@ -1,0 +1,25 @@
+{
+  "index": 219,
+  "request_id": "e2fc19112c27",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NCDG_Non-disclosure-agreement.txt",
+  "file_id": 157,
+  "file_mapped": true,
+  "latency_ms": 10458.12,
+  "query": "Consider NCDG's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "The Receiving Party is entitled to use the Confidential Information but only for the Purpose.",
+  "rag_answer": "Yes.\n\nUnder NCDG’s Non-Disclosure Agreement, the use of Confidential Information is expressly restricted to the purposes stated in the Agreement. Specifically, Section 9 (“Use of Confidential Information”) provides that the Receiving Party “is entitled to use the Confidential Information but only for the Purpose.”\n\nThe “Purpose” is defined in the Agreement as the evaluations, discussions, negotiations, and execution regarding a contractual relationship between the Parties in respect of the Project.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可以使用保密信息，但仅限用于协议约定的目的。",
+    "answer_summary": "系统回答确认保密信息的使用被限制在协议目的内，并引用第9条说明接收方仅可为“Purpose”使用保密信息。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标关键信息，即保密信息仅可用于协议约定的目的。"
+  },
+  "file_ids": [
+    157
+  ],
+  "skip_answer": false
+}

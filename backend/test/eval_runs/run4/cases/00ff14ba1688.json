@@ -1,0 +1,25 @@
+{
+  "index": 126,
+  "request_id": "00ff14ba1688",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "CBP%20Non-Disclosure%20Form_October2018.txt",
+  "file_id": 203,
+  "file_mapped": true,
+  "latency_ms": 37388.48,
+  "query": "Consider CBP's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+  "gold": "(1) Upon the completion of my engagement as an employee, consultant, or subcontractor under the contract, or the completion of my work on the PCII Program, whichever occurs first, I will surrender promptly to the PCII Program Manager or his designee, or to the appropriate PCII officer, PCII of any type whatsoever that is in my possession.\nI agree that I shall return all information to which I have had access or which is in my possession\n2) upon the conclusion of my duties, association, or support to DHS; and/or",
+  "rag_answer": "The document does **not explicitly state a general “destroy or return upon termination of the Agreement”** requirement.\n\nHowever, it does require **return/surrender** of certain information upon completion or conclusion of access:\n\n- **PCII**: must be promptly surrendered upon completion of the signer’s engagement as an employee, consultant, or subcontractor, or completion of work on the PCII Program, whichever occurs first.  \n- **SSI and SBU**: all information must be returned upon demand by an authorized individual, upon conclusion of duties, association, or support to DHS, or upon a determination that further access is not required.\n\nThe document does **not mention destruction** of Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据表明，在签署人完成作为员工、顾问或分包商的参与，或完成PCII项目工作，或结束对DHS的职责、关联或支持时，需要及时交出/归还PCII及所有其接触或持有的信息；未提及销毁要求。",
+    "answer_summary": "系统回答指出文档未明确要求一般意义上的“终止协议时销毁或归还”，但确实要求归还/交出信息：PCII在完成参与或项目工作时需及时交出；所有信息在结束职责、关联或支持DHS等情形下需归还；且文档未提及销毁。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即存在在结束参与、职责或支持时归还/交出信息的义务，并正确指出未提及销毁要求。虽然措辞上强调没有一般性的“termination of Agreement”表述，但不与金标实质矛盾，因此判定命中。"
+  },
+  "file_ids": [
+    203
+  ],
+  "skip_answer": false
+}

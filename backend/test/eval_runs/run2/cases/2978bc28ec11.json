@@ -1,0 +1,25 @@
+{
+  "index": 326,
+  "request_id": "2978bc28ec11",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "nda_form_motorola.txt",
+  "file_id": 159,
+  "file_mapped": true,
+  "latency_ms": 14131.28,
+  "query": "Consider Motorola's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "1. All information, materials and assets in the Motorola Mobility facility I am visiting, including without limitation any products, prototypes, strategies, business plans or other information I observe, am told about, or otherwise come in contact with, belongs to Motorola (“Confidential Motorola Information”)",
+  "rag_answer": "No. The document does not state that Confidential Information is limited to technical information. It defines “Confidential Motorola Information” broadly as all information, materials, and assets in the Motorola Mobility facility, including without limitation products, prototypes, strategies, business plans, or other information that the visitor observes, is told about, or otherwise comes into contact with.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息不限于技术信息，而是广泛包括在Motorola Mobility设施内的所有信息、材料、资产，以及观察、被告知或接触到的产品、原型、策略、商业计划等信息。",
+    "answer_summary": "系统回答指出文档没有将机密信息限定为技术信息，并说明其定义为设施内所有信息、材料、资产，包括但不限于产品、原型、策略、商业计划或其他被观察、被告知或接触到的信息。",
+    "gap": "无",
+    "reason": "系统回答直接回应了问题，并覆盖了金标中关于机密信息范围广泛、不限于技术信息的关键要点。"
+  },
+  "file_ids": [
+    159
+  ],
+  "skip_answer": false
+}

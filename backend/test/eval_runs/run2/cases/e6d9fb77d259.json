@@ -1,0 +1,25 @@
+{
+  "index": 232,
+  "request_id": "e6d9fb77d259",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Artop-Inno-2017.txt",
+  "file_id": 163,
+  "file_mapped": true,
+  "latency_ms": 17646.19,
+  "query": "Consider the Non-Disclosure Agreement between Artop and Inno; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "Nevertheless, the party possessing the confidential information may keep one piece of the duplicates of the documents or materials described above only for the purpose enshrined in Article 4 hereunder, without breaching other provisions of this agreement.",
+  "rag_answer": "Yes. Under the NDA between Artop and Inno, the Receiving Party may retain a limited amount of Confidential Information after the required return/destruction.\n\nSpecifically, when the cooperative program ceases or a party quits, the party possessing the Confidential Information must destroy or return all Confidential Information and duplicates within five working days or upon written request. However, it may keep **one piece of the duplicates** of the documents or materials, **only for the purpose stated in Article 4**, and without breaching other provisions of the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方/持有机密信息的一方可以保留一份相关文件或材料的副本，仅用于协议第4条规定的目的，且不违反其他条款。",
+    "answer_summary": "系统回答指出允许保留一份副本，仅限用于第4条所述目的，并且不得违反协议其他条款。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键要点：可保留一份副本、限于第4条目的、不违反其他条款。"
+  },
+  "file_ids": [
+    163
+  ],
+  "skip_answer": false
+}

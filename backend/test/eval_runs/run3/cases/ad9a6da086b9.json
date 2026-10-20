@@ -1,0 +1,25 @@
+{
+  "index": 10,
+  "request_id": "ad9a6da086b9",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Non-Disclosure-NDA-UW-Oshkosh_FINALV2.txt",
+  "file_id": 175,
+  "file_mapped": true,
+  "latency_ms": 20934.62,
+  "query": "Consider the Non-Disclosure Agreement between University of Wisconsin Oshkosh; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "Confidential Information does not include information which:\n(c) is independently discovered by an employee, agent, or representative of the Receiving Party who had no knowledge of the Confidential Information disclosed; or",
+  "rag_answer": "Yes, but only in a limited sense.\n\nUnder Section 1(c) of the Non-Disclosure Agreement, “Confidential Information” **does not include information that is independently discovered by an employee, agent, or representative of the Receiving Party who had no knowledge of the Confidential Information disclosed**.\n\nSo the document effectively allows the Receiving Party to use or develop information that is similar to the Confidential Information **only if it is independently discovered/developed without knowledge of the disclosed Confidential Information**. If the Receiving Party develops similar information using knowledge of the Confidential Information, that would not appear to be permitted under the Agreement’s confidentiality and use restrictions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不包括接收方员工、代理人或代表在不知悉已披露保密信息的情况下独立发现的信息。",
+    "answer_summary": "系统回答指出协议第1(c)条将接收方员工、代理人或代表在无知识情况下独立发现的信息排除在保密信息之外，并进一步说明接收方可在不知悉保密信息的情况下独立开发类似信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键信息：独立发现/开发且不知悉已披露保密信息的信息不属于保密信息，因此允许在限定条件下独立开发类似信息。"
+  },
+  "file_ids": [
+    175
+  ],
+  "skip_answer": false
+}

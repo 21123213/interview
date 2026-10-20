@@ -1,0 +1,25 @@
+{
+  "index": 224,
+  "request_id": "14ae61ad3f9d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "SAMED%20confidentiality%20non%20disclosure%20and%20conflict%20of%20interest%20agreement%20for%20board%20and%20committee%20members%20ver%201.txt",
+  "file_id": 183,
+  "file_mapped": true,
+  "latency_ms": 54437.31,
+  "query": "Consider SAMED's Confidentiality Non-Disclosure and Conflict of Interest Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "4.1 Regular Board meetings are, in the ordinary course of events, not open to the public and/or media.\nd) If no recordal is made, the matter, discussions and all resolutions should be deemed to be confidential unless declared by the Board by resolution as not confidential.",
+  "rag_answer": "Yes. The agreement does not explicitly use the phrase “verbally conveyed information,” but it allows verbal information to be treated as Confidential Information.\n\nClause 3.1 defines “Information” broadly to include data “in whatever form” communicated to or acquired by the receiving party. This can include information conveyed verbally. In addition, Clause 4.1(d) states that matters, discussions, and resolutions from meetings are deemed confidential unless the Board declares them non-confidential, and Clause 4.2 requires confidentiality for in-camera meeting proceedings.\n\nTherefore, verbally conveyed information can fall within the document’s confidentiality obligations.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "董事会会议通常不对公众/媒体开放；若无记录，会议事项、讨论和决议应视为保密，除非董事会决议声明不保密。",
+    "answer_summary": "系统回答称口头信息可被视为保密信息，并引用 Clause 4.1(d) 指出会议事项、讨论和决议除非董事会声明不保密，否则视为保密；同时补充信息定义可涵盖口头形式及闭门会议保密要求。",
+    "gap": "无",
+    "reason": "系统回答已覆盖金标中支持口头/会议讨论信息可被认定为保密的关键要点，即未记录的讨论和决议视为保密，除非董事会决定不保密。虽未逐字提及董事会会议不向公众/媒体开放，但核心结论已命中。"
+  },
+  "file_ids": [
+    183
+  ],
+  "skip_answer": false
+}

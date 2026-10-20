@@ -1,0 +1,25 @@
+{
+  "index": 196,
+  "request_id": "89f4e80c4240",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "MutualNDA_The_Knights_of_Unity.txt",
+  "file_id": 155,
+  "file_mapped": true,
+  "latency_ms": 16464.57,
+  "query": "Consider the Mutual Non-Disclosure Agreement between The Knights of Unity; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "1. References to \"Confidential Information\" mean all knowledge, information or materials whether of a technical or financial nature or otherwise relating to the business or affairs of the Parties (including without limitation any subsidiary or affiliated entity thereof), including all memoranda, notes, analyses, compilations, studies and other materials prepared by or for the receiving party which contain or reflect such knowledge, information or materials, which is provided or disclosed by the disclosing party to the receiving party in connection with the Opportunity and identified at the time of such disclosure as being confidential; provided that Confidential Information shall not include:",
+  "rag_answer": "Yes. Under Section 1 of the Mutual Non-Disclosure Agreement, “Confidential Information” is defined to include information provided or disclosed in connection with the Opportunity **only if it is identified at the time of such disclosure as being confidential**. Therefore, information not expressly identified as confidential at the time of disclosure would not qualify as Confidential Information under the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据将“Confidential Information”定义为与 Opportunity 相关、由披露方提供或披露，并且在披露时被标识为保密的信息；未被标识为保密的信息不属于 Confidential Information。",
+    "answer_summary": "系统回答称协议要求信息只有在披露时被标识为保密才构成 Confidential Information，因此未明确标识为保密的信息不符合协议定义。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标关键要点，即 Confidential Information 需要在披露时明确标识为保密，结论与金标一致。"
+  },
+  "file_ids": [
+    155
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,30 @@
+# Case `426afcffec1a`
+
+- index: 208
+- file_key: `sample-nrel-bilateral-nda-template.txt`
+- file_id: 184
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 17560.59
+
+## Query
+
+Consider the Non-Disclosure Agreement between NREL and Another Company; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?
+
+## Gold
+
+a. Disclosure of Proprietary Information and/or NREL Protected Information to Receiving Party does not constitute any grant, option, or license under any patent or other right now or hereinafter held by Disclosing Party or DOE. No license—express or implied—in the Proprietary Information and/or NREL Protected Information or other proprietary right is granted hereunder other than to use the information in the manner and the extent authorized by this Agreement.
+
+## RAG Answer
+
+Yes. The Agreement states that disclosure of Proprietary Information and/or NREL Protected Information does not constitute any grant, option, or license under any patent or other right held by the Disclosing Party or DOE. It further states that no license—express or implied—in the Proprietary Information, NREL Protected Information, or other proprietary right is granted, except for the right to use the information in the manner and to the extent authorized by the Agreement.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 披露专有信息和/或 NREL 保护信息不构成任何专利或其他权利的授予、选择权或许可；除按协议授权的方式和范围使用信息外，不授予任何明示或暗示许可。
+- answer_summary: 系统回答指出协议未授予专利或其他权利，也未授予任何明示或暗示许可，仅允许按协议授权的方式和范围使用信息，并明确回答 Yes。
+- gap: 无
+- reason: 系统回答完整覆盖了金标的关键结论，包括不构成权利/许可授予以及仅按协议授权使用信息的例外，判定命中。

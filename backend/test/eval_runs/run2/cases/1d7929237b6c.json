@@ -1,0 +1,25 @@
+{
+  "index": 137,
+  "request_id": "1d7929237b6c",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt",
+  "file_id": 138,
+  "file_mapped": true,
+  "latency_ms": 61986.86,
+  "query": "Consider FullStory's Mutual Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "Recipient agrees not to copy or reverse engineer, or attempt to derive the composition or underlying information, structure or ideas of any Confidential Information.",
+  "rag_answer": "Yes, but only by exception.\n\nSection 2 generally prohibits the Recipient (Receiving Party) from copying Confidential Information: “Recipient agrees not to copy or reverse engineer … any Confidential Information.”\n\nHowever, Section 3 states that the Recipient’s obligations under Section 2 do not apply to Confidential Information that the Recipient can document was:\n\n- in the public domain;\n- already rightfully in the Recipient’s possession free of confidence;\n- independently developed without reference to the Discloser’s Confidential Information; or\n- communicated by the Discloser to an unaffiliated third party free of confidence.\n\nFor such excepted information, the Section 2 no-copy restriction does not apply. The document does not otherwise grant a general right to copy, and Section 7 still requires return of tangible Confidential Information upon request or termination and prohibits retention thereafter.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标关键结论：接收方同意不得复制、逆向工程或试图推导任何保密信息。",
+    "answer_summary": "系统回答指出第2条一般禁止接收方复制保密信息，并包含金标要点：“Recipient agrees not to copy or reverse engineer … any Confidential Information.”",
+    "gap": "无",
+    "reason": "系统回答已经覆盖金标中的关键信息，即接收方不得复制保密信息；其额外扩写例外情形不影响命中判定。"
+  },
+  "file_ids": [
+    138
+  ],
+  "skip_answer": false
+}

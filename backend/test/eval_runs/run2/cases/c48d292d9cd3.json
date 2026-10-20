@@ -1,0 +1,25 @@
+{
+  "index": 334,
+  "request_id": "c48d292d9cd3",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "New_York_City_Bar_Association_Model_Form_of_Non-Disclosure_Agreement_2015.txt",
+  "file_id": 174,
+  "file_mapped": true,
+  "latency_ms": 35583.82,
+  "query": "Consider New York City Bar Association's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "Buyer agrees that Buyer and its Representatives shall (i) use the Evaluation Material solely for the purpose of evaluating, negotiating and consummating the Transaction (or other legal, audit or compliance purposes permitted by this Agreement);13\nAll Evaluation Material is and shall remain property of the Company. Buyer acknowledges and agrees that none of the Company nor any of its Representatives grants any license to or other property right or interest in, by implication or otherwise, any copyright, patent, trademark, mask work, database or other intellectual or intangible property or proprietary information disclosed, embodied, fixed, comprised or contained in any Evaluation Material.",
+  "rag_answer": "Yes. The document indicates that the Agreement does not grant the receiving party rights to the confidential information.\n\nIn this model NDA, the receiving party is the **Buyer**, and the confidential information is generally referred to as **Evaluation Material**. Section 13(c), titled **“Ownership of Evaluation Material; No License,”** states that all Evaluation Material remains the property of the Company, and that the Company and its Representatives do **not** grant the Buyer any license or other property right or interest, by implication or otherwise, in any intellectual or proprietary information contained in the Evaluation Material.\n\nHowever, Section 2(a) does permit the Buyer to use the Evaluation Material for a limited purpose: evaluating, negotiating, and consummating the contemplated transaction.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标表明 Evaluation Material 仍归 Company 所有，Buyer 承认 Company 及其代表不授予 Buyer 任何许可或其他财产权利（无论明示或默示），且使用仅限于评估、谈判和完成交易等允许目的。",
+    "answer_summary": "系统回答指出文档表明协议不授予接收方对机密信息的权利，Evaluation Material 归 Company 所有，Company 及其代表不授予 Buyer 任何许可或其他财产权利，并提到 Buyer 仅可为评估、谈判和完成交易的目的使用。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：材料所有权归 Company、不授予任何许可或财产权利、以及有限使用目的；虽然未完整列出法律/审计/合规用途，但不影响命中。"
+  },
+  "file_ids": [
+    174
+  ],
+  "skip_answer": false
+}

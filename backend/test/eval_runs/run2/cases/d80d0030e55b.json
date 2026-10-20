@@ -1,0 +1,25 @@
+{
+  "index": 33,
+  "request_id": "d80d0030e55b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "INFOMAGNET%20NDA.txt",
+  "file_id": 143,
+  "file_mapped": true,
+  "latency_ms": 84664.86,
+  "query": "Consider INFOMAGNET's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+  "gold": "(c) \"Confidential Materials\" shall mean all tangible materials containing Confidential Information, including without limitation written or printed documents and computer disks or tapes, whether machine or user readable.\nThe terms \"residuals\" means information in non-tangible form, which may be retained by persons who have access to the Confidential Information, including ideas, concepts, know-how or techniques contained therein. Neither party shall have any obligation to limit or restrict the assignment of such persons or to pay royalties for any work resulting from the use of residuals.",
+  "rag_answer": "Yes. The INFOMAGNET NDA does not limit “Confidential Information” to written or tangible materials.\n\nUnder the definition, “Confidential Information” means non-public information that the Disclosing Party either:\n\n1. designates as confidential, or  \n2. ought to be treated as confidential under the circumstances surrounding disclosure.\n\nTherefore, information conveyed verbally can be considered Confidential Information if it meets that definition. The NDA separately defines “Confidential Materials” as tangible materials containing Confidential Information, but that does not exclude oral disclosures from being Confidential Information itself.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标指出 Confidential Materials 是包含 Confidential Information 的有形材料；residuals 是非有形形式、由接触 Confidential Information 的人可保留的信息，且双方无义务限制其使用或分配。",
+    "answer_summary": "系统回答称 NDA 未将 Confidential Information 限于书面或有形材料，口头信息若被指定或应视为保密即可构成 Confidential Information；并提到 Confidential Materials 为包含 Confidential Information 的有形材料。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关于 Confidential Materials 为有形材料且包含 Confidential Information 的要点，并回应了口头信息可构成 Confidential Information 的核心问题；虽未展开 residuals 的完整细节，但不影响命中且与金标不矛盾。"
+  },
+  "file_ids": [
+    143
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 251,
+  "request_id": "00b288552d28",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Fintricity-Blank.txt",
+  "file_id": 166,
+  "file_mapped": true,
+  "latency_ms": 14061.3,
+  "query": "Consider Fintricity's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "The obligations of confidentiality in Clause 3 above shall not apply:‐\n(b) to any development made by the recipient which is independently developed by the recipient without access to or use of the disclosing party's Confidential Information.",
+  "rag_answer": "Yes. The NDA expressly excludes from the confidentiality obligations “any development made by the recipient which is independently developed by the recipient without access to or use of the disclosing party’s Confidential Information.” Therefore, the Receiving Party may independently develop information that is similar to the Confidential Information, provided it does not access or use Fintricity’s Confidential Information in doing so.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密义务不适用于接收方在未接触或使用披露方保密信息的情况下独立开发的信息。",
+    "answer_summary": "系统回答指出 NDA 明确排除接收方在未接触或使用披露方保密信息情况下独立开发的信息，因此接收方可以独立开发类似保密信息，只要未使用 Fintricity 的保密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标中的关键要点：独立开发且未接触或使用保密信息可不受保密义务约束，并据此回答了允许独立开发类似信息。"
+  },
+  "file_ids": [
+    166
+  ],
+  "skip_answer": false
+}

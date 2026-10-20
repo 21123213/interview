@@ -1,0 +1,25 @@
+{
+  "index": 33,
+  "request_id": "5e739ce2809d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Petrolube_NDA.txt",
+  "file_id": 178,
+  "file_mapped": true,
+  "latency_ms": 14232.16,
+  "query": "Consider Petrolube's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The obligations under this agreement shall continue to remain in force for a period of five (5) years from the Effective Date.",
+  "rag_answer": "Yes. Clause 7.4 of the Petrolube NDA states that although the Agreement may be terminated by either Party at any time with 30 days’ prior written notice, the obligations under the Agreement “shall continue to remain in force for a period of five (5) years from the Effective Date.” This indicates that certain obligations continue after the Agreement ends or is terminated.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议项下义务自生效日起继续有效五年。",
+    "answer_summary": "系统回答称 Petrolube NDA 第 7.4 条规定协议可终止，但义务自生效日起继续有效五年，表明部分义务在终止后仍存续。",
+    "gap": "无",
+    "reason": "系统回答明确包含金标关键信息：义务自生效日起继续有效五年，并据此回答协议终止后义务可能继续，与金标一致。"
+  },
+  "file_ids": [
+    178
+  ],
+  "skip_answer": false
+}

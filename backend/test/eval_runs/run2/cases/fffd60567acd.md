@@ -1,0 +1,30 @@
+# Case `fffd60567acd`
+
+- index: 134
+- file_key: `helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt`
+- file_id: 138
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 19978.35
+
+## Query
+
+Consider FullStory's Mutual Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?
+
+## Gold
+
+7. All Confidential Information disclosed under this Agreement will be and will remain the property of the Discloser; all such information in tangible form will be returned to Discloser promptly upon written request or upon the termination or expiration of this Agreement, and will not thereafter be retained in any form by Recipient or its Affiliates or any of their employees.
+
+## RAG Answer
+
+No. Under Section 7 of the FullStory Mutual Non-Disclosure Agreement, all Confidential Information remains the Discloser’s property, and all Confidential Information in tangible form must be returned promptly upon written request or upon termination/expiration. The agreement expressly states that such information “will not thereafter be retained in any form” by the Recipient, its Affiliates, or their employees. Therefore, the document does not permit the Receiving Party to retain Confidential Information after return or destruction.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 第7条规定保密信息始终属于披露方；有形形式的保密信息应在书面要求或协议终止/到期时迅速返还，接收方及其关联公司或员工此后不得以任何形式保留。
+- answer_summary: 系统回答指出根据第7条，保密信息仍属于披露方，有形信息需在书面要求或终止/到期时返还，并明确引用“不得此后以任何形式保留”，因此不允许接收方在返还或销毁后保留保密信息。
+- gap: 无
+- reason: 系统回答完整覆盖了金标中的关键要点，包括所有权归属、返还义务以及不得保留的禁止性规定，且结论与金标一致。

@@ -1,0 +1,25 @@
+{
+  "index": 263,
+  "request_id": "72ca8f70404b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-M5-Systems.txt",
+  "file_id": 168,
+  "file_mapped": true,
+  "latency_ms": 20108.83,
+  "query": "Consider the M5-Systems' Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "\"Confidential Information\" means any information, technical data, or know-how, including, but not limited to, that which relates to research, product plans, products, services, customers, markets, software, developments, inventions, processes, designs, drawings, engineering, hardware configuration information, marketing or finances, which Confidential Information is designated in writing to be confidential or proprietary, or if given orally, is confirmed promptly in writing as having been disclosed as confidential or proprietary.",
+  "rag_answer": "Yes. Under Section 2 of the NDA, “Confidential Information” is defined as information that is **designated in writing as confidential or proprietary**, or, if disclosed orally, is **promptly confirmed in writing** as having been disclosed as confidential or proprietary.\n\nTherefore, the document generally requires the Disclosing Party to expressly identify Confidential Information in writing for it to be covered by the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标规定“Confidential Information”必须被书面指定为保密/专有，或口头披露后须及时书面确认为保密/专有，因此需要明确标识。",
+    "answer_summary": "系统回答称文件要求信息被书面指定为保密或专有，或口头披露后及时书面确认，并据此认为披露方一般需要书面明确标识保密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即保密信息需通过书面指定或口头披露后的书面确认来明确标识，因此对问题作出正确命中。"
+  },
+  "file_ids": [
+    168
+  ],
+  "skip_answer": false
+}

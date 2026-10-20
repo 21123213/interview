@@ -1,0 +1,25 @@
+{
+  "index": 71,
+  "request_id": "fbe4dc375447",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "JB-Machine-LLC-NDA-1.txt",
+  "file_id": 147,
+  "file_mapped": true,
+  "latency_ms": 15715.48,
+  "query": "Consider JB Machine LLC's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+  "gold": "In consideration for the receipt by the Recipient of information, the Recipient agrees to:\n- Not copy or, in any way, modify any information without the prior written ascent of the Owner",
+  "rag_answer": "Yes. The agreement generally prohibits the Receiving Party/Recipient from copying or modifying Confidential Information, but it permits copying only with the Owner’s prior written consent/assent. Any such copies must also be disposed of in accordance with the Owner’s disposal policy.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得在未获得 Owner 事先书面同意的情况下复制或修改信息；因此只有在获得事先书面同意时才可复制。",
+    "answer_summary": "系统回答称协议一般禁止复制/修改机密信息，但仅在 Owner 事先书面同意/assent 下允许复制。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键结论，即复制机密信息需要 Owner 的事先书面同意；额外提到的处置要求不影响对金标要点的命中。"
+  },
+  "file_ids": [
+    147
+  ],
+  "skip_answer": false
+}

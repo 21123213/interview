@@ -1,0 +1,25 @@
+{
+  "index": 40,
+  "request_id": "d7b11b70e6ee",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "EFCAConfidentialityAgreement.txt",
+  "file_id": 126,
+  "file_mapped": true,
+  "latency_ms": 19443.39,
+  "query": "Consider EFCA's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+  "gold": "Confidential Information means any and all information which is now or at any time disclosed to one party by the other party and shall include without limitation, data, know-how, formulae, recipes, processes, designs and design rights, photographs, drawings, plans, intentions, product information, trade secrets, market opportunities, specifications, manufacturing data, which is disclosed to EFCA before or after the date of this Agreement but shall exclude any part of such information which:-\n1.2 EFCA can show:-\n1.2.2 to have been developed by EFCA, or EFCA’s principals, at any time independently of any information disclosed to it by the disclosing party.",
+  "rag_answer": "Yes. EFCA’s NDA does not expressly include a separate “independent development” clause, but its definition of **Confidential Information** excludes any information that EFCA can show was **“developed by EFCA, or EFCA’s principals, at any time independently of any information disclosed to it by the disclosing party.”**\n\nTherefore, the Receiving Party may independently develop information that is similar to Confidential Information, provided it:\n\n- did not use, derive from, or rely on the disclosing party’s Confidential Information; and  \n- can demonstrate that the similar information was developed independently.\n\nIf the similar information was based on or derived from Confidential Information, it would remain subject to the NDA’s restrictions.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标证据显示，保密信息定义排除接收方/EFCA能够证明其独立于披露方信息而开发的信息；即独立开发的信息不属于保密信息。",
+    "answer_summary": "系统回答指出 NDA 虽无单独“独立开发”条款，但保密信息定义排除了可证明为独立开发的信息，因此接收方可以独立开发类似信息，前提是不使用、不依赖披露方保密信息并能证明独立开发。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：保密信息排除独立开发信息，且需要能够证明独立开发；其扩写内容与金标一致，没有矛盾。"
+  },
+  "file_ids": [
+    126
+  ],
+  "skip_answer": false
+}

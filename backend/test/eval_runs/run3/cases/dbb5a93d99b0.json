@@ -1,0 +1,25 @@
+{
+  "index": 11,
+  "request_id": "dbb5a93d99b0",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Non-Disclosure-NDA-UW-Oshkosh_FINALV2.txt",
+  "file_id": 175,
+  "file_mapped": true,
+  "latency_ms": 15264.65,
+  "query": "Consider the Non-Disclosure Agreement between University of Wisconsin Oshkosh; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+  "gold": "The Receiving Party’s designated representative may maintain one copy of all Confidential Information for the purpose of addressing any claim that may be brought under this Agreement and to comply with any other legal or recordkeeping requirements, and neither party will be obligated to destroy any Confidential Information that is stored electronically on back-up systems or computer hard drives after a file is deleted, but any such electronic information will continue to be subject to the terms of confidentiality under this Agreement.",
+  "rag_answer": "是的。根据该 NDA 第 4 条，接收方在协议终止时通常应归还或销毁保密信息，但其指定代表可以保留一份保密信息副本，用于处理可能依据该协议提出的索赔以及遵守其他法律或记录保存要求。此外，双方均无义务销毁已存储在备份系统或计算机硬盘中的电子保密信息，但这些信息仍须继续受协议保密条款约束。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "允许接收方指定代表保留一份保密信息副本以处理索赔并满足法律或记录保存要求；同时双方无义务销毁备份系统或硬盘中的电子保密信息，但该信息仍受保密条款约束。",
+    "answer_summary": "回答指出接收方指定代表可保留一份保密信息副本，用于处理索赔及遵守法律或记录保存要求；并说明双方无义务销毁备份系统或硬盘中的电子保密信息，这些信息仍受保密条款约束。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标中的关键要点：允许保留一份副本、用途包括处理索赔和法律/记录保存要求、备份或硬盘中的电子信息无需销毁但仍受保密条款约束。"
+  },
+  "file_ids": [
+    175
+  ],
+  "skip_answer": false
+}

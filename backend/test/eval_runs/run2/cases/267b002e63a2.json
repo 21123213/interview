@@ -1,0 +1,25 @@
+{
+  "index": 291,
+  "request_id": "267b002e63a2",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "NDA-Seeed.txt",
+  "file_id": 171,
+  "file_mapped": true,
+  "latency_ms": 16629.25,
+  "query": "Consider Seeed's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "For purposes of this Agreement, “Confidential Information” shall mean the following:\ni. All records, files, analysis, documents, software, computer or electronic data disks or tapes, test data, printouts, processes, designs, file layout, technical bulletins, manuals, diagrams, formulas, research, inventions, patents and discoveries reasonably related to the Parties’ businesses or products and services of the Parties that have not been publicly released;\nii. Technical, financial, business plan and customer information, including standard periodic financial statements and analyses, budgets, tax returns, benefit and compensation plans, customer list(s) and contact names, functional and technical specifications;\niii. Other valuable information disclosed by one of the Parties to another, designated as confidential expressly or by the circumstances in which it is provided.",
+  "rag_answer": "No. Seeed’s NDA does **not** require that all Confidential Information be expressly identified by the Disclosing Party.\n\nUnder Article 1, Confidential Information includes certain categories—such as records, documents, technical, financial, business plan, and customer information—that are covered without needing express designation. For “other valuable information,” the NDA allows it to be designated as confidential **“expressly or by the circumstances in which it is provided.”**",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Seeed NDA 将 Confidential Information 分为若干类别，其中其他有价值信息可被明确标识为机密，也可根据提供情境被认定为机密；因此并非所有机密信息都必须由披露方明确标识。",
+    "answer_summary": "系统回答称 NDA 不要求所有 Confidential Information 必须由披露方明确标识，并指出某些类别信息无需明确指定，其他信息可明确标识或根据提供情境认定。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键结论，即并非所有机密信息都需要 expressly identified，且对“expressly or by the circumstances”的要点进行了正确解释。"
+  },
+  "file_ids": [
+    171
+  ],
+  "skip_answer": false
+}

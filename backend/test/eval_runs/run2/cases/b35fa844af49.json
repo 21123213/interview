@@ -1,0 +1,25 @@
+{
+  "index": 344,
+  "request_id": "b35fa844af49",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "New_York_City_Bar_Association_Model_Form_of_Non-Disclosure_Agreement_2015.txt",
+  "file_id": 174,
+  "file_mapped": true,
+  "latency_ms": 38833.4,
+  "query": "Consider New York City Bar Association's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Notwithstanding the foregoing, “Evaluation Material” does not include any information or data that:\n(iii) is or becomes available to Buyer [on a non-confidential basis]8 from a source other than the Company or any of its Representatives, so long as that source[, to Buyer’s knowledge after reasonable inquiry,]9 is not bound by a legal, contractual or fiduciary obligation of confidentiality to the Company; or",
+  "rag_answer": "Yes, but only if the third-party information is not “Evaluation Material” under the agreement.\n\nIn the New York City Bar Association model NDA, the receiving party is the **Buyer**, and the confidential information is defined as **“Evaluation Material.”** The definition of Evaluation Material expressly **excludes** information that:\n\n1. is independently developed by Buyer or its Representatives without using Evaluation Material;  \n2. is or becomes generally available to the public;  \n3. becomes available to Buyer from a source other than the Company or its Representatives on a non-confidential basis, provided the source is not bound by a legal, contractual, or fiduciary confidentiality obligation to the Company; or  \n4. was already in Buyer’s possession before disclosure, from a source other than the Company or its Representatives, provided that source is not bound by confidentiality to the Company.\n\nSo, the Buyer may acquire similar information from a third party **if it comes from a non-confidential third-party source not bound by confidentiality to the Company**, or otherwise falls within one of the exclusions. If the third party is bound by confidentiality to the Company, or the information is otherwise Evaluation Material, the confidentiality restrictions would still apply.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "“Evaluation Material”不包括来自公司或其代表以外来源、且该来源不受对公司保密义务约束的信息；因此接收方可从符合条件的第三方获取类似信息。",
+    "answer_summary": "系统回答指出：若信息来自公司及其代表以外的来源，且该来源不受对公司保密义务约束，则不属于“Evaluation Material”，接收方可以获取该信息；并概括了相关排除条款。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即接收方可以从不受保密义务约束的第三方来源获取类似信息；虽然回答有扩展说明，但不影响命中。"
+  },
+  "file_ids": [
+    174
+  ],
+  "skip_answer": false
+}

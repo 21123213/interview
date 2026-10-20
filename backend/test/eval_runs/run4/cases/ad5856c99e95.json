@@ -1,0 +1,25 @@
+{
+  "index": 93,
+  "request_id": "ad5856c99e95",
+  "correct": false,
+  "error_type": "irrelevant",
+  "file_key": "AfriGIS_Client-NDA_Template_2019.txt",
+  "file_id": 112,
+  "file_mapped": true,
+  "latency_ms": 45459.56,
+  "query": "Consider AfriGIS's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "For avoidance of doubt, in this Agreement “third party” means any party other than Client and AfriGIS and their holding and subsidiary companies or agents.",
+  "rag_answer": "Yes. Under clause 3.4 of the AfriGIS NDA, Confidential Information may be shared on a **need-to-know basis**, and the Receiving Party’s **employees**, directors, managers, and professional advisers are treated as the Receiving Party’s duly authorised agents for purposes of that clause.\n\nTherefore, the Receiving Party may disclose some Confidential Information to its employees to the extent necessary, but it remains responsible for ensuring confidentiality and may not disclose to unrelated third parties without the Disclosing Party’s prior written consent.",
+  "judge": {
+    "correct": false,
+    "error_type": "irrelevant",
+    "gold_summary": "金标关键结论：在本协议中，“third party”指除 Client 和 AfriGIS 及其控股公司、子公司或代理之外的任何当事方。",
+    "answer_summary": "系统回答称根据第 3.4 条，可基于 need-to-know 向员工、董事、经理和专业顾问披露机密信息，并将他们视为授权代理；但未提及金标中关于“third party”定义的要点。",
+    "gap": "未覆盖金标关于“third party”定义的关键信息，也未依据金标说明员工/代理与第三方定义之间的关系。",
+    "reason": "系统回答围绕是否允许向员工披露机密信息给出结论，但金标证据仅定义“third party”的范围；系统回答基本未包含该金标要点，因此判定为未命中。"
+  },
+  "file_ids": [
+    112
+  ],
+  "skip_answer": false
+}

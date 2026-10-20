@@ -1,0 +1,25 @@
+{
+  "index": 142,
+  "request_id": "9099e523dbf8",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "amc-general-mutual-non-disclosure-agreement-en-gb.txt",
+  "file_id": 114,
+  "file_mapped": true,
+  "latency_ms": 46296.34,
+  "query": "Consider the Mutual Non-Disclosure Agreement between AMC and Other Party; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "(a) Confidential Information of each party (“Disclosing Party”) may be used by the other party (“Receiving Party”) solely for the purpose of fulfilling obligatons and activities within the scope of the Parties mutual cooperation and must not be used for any other purpose (“Purpose”).",
+  "rag_answer": "是。根据文档片段第 3(a) 条，接收方只能将保密信息用于“履行双方合作范围内的义务和活动”这一目的，且不得用于任何其他目的；除非披露方事先书面同意，或依法必须披露（且仅披露被要求的具体信息）。因此，该 Mutual NDA 确实将保密信息的使用限制在协议所述目的范围内。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息只能由接收方用于履行双方合作范围内的义务和活动，且不得用于任何其他目的。",
+    "answer_summary": "系统回答确认协议限制保密信息使用目的，指出接收方只能将保密信息用于履行双方合作范围内的义务和活动，不得用于其他目的；并补充了书面同意或依法披露等例外。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键结论，即保密信息使用被限制在协议所述目的范围内且不得用于其他目的；额外例外说明不影响核心命中。"
+  },
+  "file_ids": [
+    114
+  ],
+  "skip_answer": false
+}

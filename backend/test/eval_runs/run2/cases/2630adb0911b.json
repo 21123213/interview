@@ -1,0 +1,25 @@
+{
+  "index": 90,
+  "request_id": "2630adb0911b",
+  "correct": true,
+  "error_type": "partial",
+  "file_key": "Kenway-NDA-Form-Blank.txt",
+  "file_id": 148,
+  "file_mapped": true,
+  "latency_ms": 39828.12,
+  "query": "Consider Kenway's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "The provisions of this Agreement shall continue to apply to any documents and materials retained by the Recipient.\nThe obligations of each Party shall, notwithstanding any earlier termination of negotiations or discussions between the Parties in relation to the Purpose, continue for a period of 2 years from the date of this Agreement.\n6.3 Termination of this Agreement shall not affect any accrued rights or remedies to which either Party is entitled.",
+  "rag_answer": "Partially. The document does not expressly say that obligations “survive termination of the Agreement,” but it indicates continuing obligations and preserved rights/remedies after termination-related events:\n\n- **Clause 6.1**: obligations continue for **2 years from the date of the Agreement**, notwithstanding any earlier termination of negotiations or discussions.  \n- **Clause 6.3**: termination of the Agreement does not affect any **accrued rights or remedies**.",
+  "judge": {
+    "correct": true,
+    "error_type": "partial",
+    "gold_summary": "协议条款仍适用于接收方保留的文件和材料；各方的义务在谈判或讨论提前终止后仍继续至协议签署日起2年；协议终止不影响任何一方已产生的权利或救济。",
+    "answer_summary": "系统回答指出文档虽未明确使用“survive termination”表述，但存在继续义务和终止后保留权利/救济：义务在谈判或讨论提前终止后仍继续2年；协议终止不影响已产生的权利或救济。",
+    "gap": "未覆盖“协议条款继续适用于接收方保留的文件和材料”这一金标要点。",
+    "reason": "系统回答基本覆盖了金标中关于义务存续和终止后权利/救济保留的关键信息，足以支持文档提到部分义务可能存续；但遗漏了保留文件和材料继续适用条款，因此判定为部分命中。"
+  },
+  "file_ids": [
+    148
+  ],
+  "skip_answer": false
+}

@@ -1,0 +1,25 @@
+{
+  "index": 171,
+  "request_id": "d26ea5b202e1",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "eHandshake_Non_Disclosure_Agreement.txt",
+  "file_id": 127,
+  "file_mapped": true,
+  "latency_ms": 20269.86,
+  "query": "Consider eHandshake's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "3. Information does not include, however, information which\n(d) becomes available to the Receiving Party on a non-confidential basis after the date hereof from a third party which was not known by the Receiving Party to be subject to a confidentiality agreement with the Providing Party and which is not otherwise prohibited from transmitting the information to the Receiving Party.",
+  "rag_answer": "Yes, but only in limited circumstances.\n\nUnder the eHandshake Non-Disclosure Agreement, the Receiving Party may acquire information from a third party if that information:\n\n1. becomes available to the Receiving Party on a **non-confidential basis** after the date of the Agreement;\n2. comes from a third party that the Receiving Party **does not know** is subject to a confidentiality agreement with the Providing Party; and\n3. comes from a third party that is **not otherwise prohibited** from transmitting the information to the Receiving Party.\n\nIf these conditions are met, such information is excluded from the definition of confidential “Information” under the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不包括接收方在协议日期后从第三方以非保密方式获得的信息，且接收方不知道该第三方受与提供方的保密协议约束，并且该第三方未被禁止向接收方传输该信息。",
+    "answer_summary": "系统回答指出在有限条件下允许接收方从第三方获取信息，并列出：非保密方式获得、接收方不知道该第三方受保密协议约束、第三方未被禁止传输；满足时该信息被排除在保密信息之外。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标证据中的关键例外条件，与金标结论一致，因此判定命中。"
+  },
+  "file_ids": [
+    127
+  ],
+  "skip_answer": false
+}

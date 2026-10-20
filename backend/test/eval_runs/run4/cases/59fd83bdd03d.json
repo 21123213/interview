@@ -1,0 +1,25 @@
+{
+  "index": 67,
+  "request_id": "59fd83bdd03d",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "ADVANIDE-NON-DISCLOSURE-AGREEMENT.txt",
+  "file_id": 111,
+  "file_mapped": true,
+  "latency_ms": 14584.33,
+  "query": "Consider ADVANIDE's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+  "gold": "The Information, relating to the other party, shall remain the property of such other party (as Disclosing Party) and its disclosure shall not confer on the other party (as Receiving Party) any rights.",
+  "rag_answer": "Yes. The document states in Clause 5 that the Information relating to the other party remains the property of the Disclosing Party, and its disclosure “shall not confer on the other party (as Receiving Party) any rights.” It also states that no license is granted directly or indirectly under any patent, trademark, trade secret, or other intellectual property.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "相关信息仍属于披露方所有，且披露不会赋予接收方任何权利。",
+    "answer_summary": "系统回答指出协议规定信息仍归披露方所有，且披露不会赋予接收方任何权利，并补充说明未授予任何知识产权许可。",
+    "gap": "无",
+    "reason": "系统回答明确覆盖了金标中的关键结论，即信息所有权仍属披露方且接收方不获得任何权利；额外扩写与金标不矛盾。"
+  },
+  "file_ids": [
+    111
+  ],
+  "skip_answer": false
+}

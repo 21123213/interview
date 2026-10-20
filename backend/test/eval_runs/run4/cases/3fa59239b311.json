@@ -1,0 +1,25 @@
+{
+  "index": 41,
+  "request_id": "3fa59239b311",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "01_Bosch-Automotive-Service-Solutions-Mutual-Non-Disclosure-Agreement-7-12-17.txt",
+  "file_id": 108,
+  "file_mapped": true,
+  "latency_ms": 61522.57,
+  "query": "Consider the Mutual Non-Disclosure Agreement between Bosch and Automotive Service Solutions; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+  "gold": "Confidentiality obligations shall survive termination of this Agreement for the Period of Confidentiality set forth above unless the Confidential Information is a trade secret, in which case the confidentiality obligations shall continue for as long as the information is a trade secret.\nSections 1, 2, 3, 4, 5, 6, 17, 18, 19 and any sections (or parts thereof) which, by their nature, are intended to survive termination shall survive termination of this Agreement.",
+  "rag_answer": "Yes. Section 19 (“Survival”) states that Sections 1, 2, 3, 4, 5, 6, 17, 18, 19 and any sections or parts thereof which, by their nature, are intended to survive termination shall survive termination of the Agreement. Section 3 also states that confidentiality obligations survive termination for the Period of Confidentiality, and for trade secrets they continue for as long as the information remains a trade secret.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "协议提到部分义务在终止后仍存续：保密义务在保密期内存续，商业秘密则在其仍为商业秘密期间持续；同时第1、2、3、4、5、6、17、18、19条及按其性质应存续的条款在终止后仍有效。",
+    "answer_summary": "系统回答确认协议提及存续条款，列出第1、2、3、4、5、6、17、18、19条及按其性质应存续的条款在终止后仍有效，并说明保密义务在保密期内存续，商业秘密则在其仍为商业秘密期间持续。",
+    "gap": "无",
+    "reason": "系统回答完整覆盖了金标中的关键要点，包括具体存续条款范围以及保密义务/商业秘密存续规则，没有矛盾或遗漏。"
+  },
+  "file_ids": [
+    108
+  ],
+  "skip_answer": false
+}

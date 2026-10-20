@@ -1,0 +1,34 @@
+# Case `0b6a20f9bbef`
+
+- index: 102
+- file_key: `Aspiegel_NDA_template.txt`
+- file_id: 115
+- file_mapped: True
+- correct: **True**
+- error_type: `none`
+- latency_ms: 16694.61
+
+## Query
+
+Consider Aspiegel's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?
+
+## Gold
+
+The Recipient Party may disclose Confidential Information to the extent required:
+(a) by any order of any court of competent jurisdiction or any competent judicial, governmental, regulatory or supervisory body;
+(b) by the rules of any listing authority, stock exchange or any regulatory or supervisory body with which the Recipient Party is bound to comply; or
+(c) by applicable laws or regulations,
+provided that before it discloses any Confidential Information the Recipient Party will, to the extent permitted by applicable law and regulation, inform the Disclosing Party of the full circumstances and the information required to be disclosed, consult with the Disclosing Party as to possible steps to avoid or limit disclosure, take such of those steps as the Disclosing Party may reasonably require and, where the disclosure is to be by way of a public announcement, make reasonable efforts to agree the wording of the announcement with the Disclosing Party in advance.
+
+## RAG Answer
+
+Yes. Under clause 4.3 of the Aspiegel NDA, the Recipient Party may disclose Confidential Information where required by law, regulation, or a court/regulatory process, but before doing so it must, to the extent permitted by applicable law and regulation, inform the Disclosing Party of the full circumstances and the information required to be disclosed.
+
+## Judge
+
+- correct: True
+- error_type: none
+- gold_summary: 金标结论是：若因法律、监管或司法/政府程序要求披露保密信息，接收方在披露前，在法律允许的范围内，应通知披露方相关情况和需披露的信息，并进一步协商、采取合理步骤避免或限制披露。
+- answer_summary: 系统回答指出：接收方在因法律、法规或法院/监管程序要求披露前，必须在法律允许范围内告知披露方完整情况和需披露的信息。
+- gap: 无
+- reason: 系统回答已覆盖用户问题及金标的关键要点，即确认接收方在依法披露前需要通知披露方；虽未展开金标中的协商、采取避免/限制披露步骤及公开公告措辞等附加义务，但不影响对核心问题的命中。

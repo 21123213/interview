@@ -1,0 +1,25 @@
+{
+  "index": 54,
+  "request_id": "0916f7744880",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Inaturals_NDA.txt",
+  "file_id": 142,
+  "file_mapped": true,
+  "latency_ms": 15225.59,
+  "query": "Consider Inaturals's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+  "gold": "“Confidential Information” shall mean information related to the development of natural ingredients products including research, trade secrets, prototypes, formulas, processes, techniques, marketing programs, price information, product lists, technology, business plans, intellectual property and financial information, whether written or oral.",
+  "rag_answer": "No. The document does **not** state that Confidential Information shall only include technical information.\n\nInaturals’ NDA defines “Confidential Information” broadly as information related to the development of natural ingredients products, including **research, trade secrets, prototypes, formulas, processes, techniques, marketing programs, price information, product lists, technology, business plans, intellectual property, and financial information**, whether written or oral.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "机密信息（Confidential Information）的定义广泛，包括研究、商业秘密、原型、配方、工艺、技术、营销计划、价格信息、产品列表、技术、商业计划、知识产权和财务信息等，不限于技术信息。",
+    "answer_summary": "文件并未规定机密信息仅包括技术信息。机密信息被广泛定义为包括研究、商业秘密、原型、配方、工艺、技术、营销计划、价格信息、产品列表、技术、商业计划、知识产权和财务信息等。",
+    "gap": "无",
+    "reason": "系统回答直接否定了问题中的假设，并完整且准确地复述了金标证据中关于机密信息定义的各个关键要素，完全覆盖了金标的核心信息。"
+  },
+  "file_ids": [
+    142
+  ],
+  "skip_answer": false
+}

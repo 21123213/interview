@@ -1,0 +1,25 @@
+{
+  "index": 24,
+  "request_id": "95e7eeddd9b5",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "IGC-Non-Disclosure-Agreement-LSE-Sample.txt",
+  "file_id": 141,
+  "file_mapped": true,
+  "latency_ms": 23510.36,
+  "query": "Consider the Non-Disclosure Agreement between IGC and LSE; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "Representative means employees, agents, officers, advisers and other representatives of the Recipient.\nThe Recipient may disclose the Disclosing Party's Confidential Information to those of its Representatives who need to know this Confidential Information for the Purpose, provided that:",
+  "rag_answer": "Yes. Under Clause 2.2 of the NDA, the Receiving Party may disclose Confidential Information to its “Representatives,” which are defined to include employees, but only if the employees need to know the Confidential Information for the Purpose.\n\nThis disclosure is subject to conditions, including that the Receiving Party must:\n\n1. inform the Representatives of the confidential nature of the information before disclosure;  \n2. ensure the Representatives comply with the Agreement as if they were the Receiving Party, and if requested, procure that a relevant Representative enters into a confidentiality agreement with the Disclosing Party on equivalent terms;  \n3. keep a written record of the Representatives to whom information was disclosed; and  \n4. remain liable for any failure by the Representatives to comply with the Agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "Representatives包括员工；接收方可向因目的需要知悉保密信息的Representatives披露保密信息，但须满足相关条件。",
+    "answer_summary": "系统回答称允许向包括员工在内的Representatives披露保密信息，仅限因目的需要知悉，并列出告知保密性质、确保合规、留存记录、承担责任等条件。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点：员工属于Representatives、可基于需要知悉目的披露、且披露附有条件；额外条款号与条件细节不构成矛盾。"
+  },
+  "file_ids": [
+    141
+  ],
+  "skip_answer": false
+}

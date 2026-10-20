@@ -1,0 +1,25 @@
+{
+  "index": 70,
+  "request_id": "17289816d008",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "JB-Machine-LLC-NDA-1.txt",
+  "file_id": 147,
+  "file_mapped": true,
+  "latency_ms": 21673.92,
+  "query": "Consider JB Machine LLC's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "- Hold the information in confidence and will not, in any way, disclose the information to any person or entity without prior written ascent of the Owner",
+  "rag_answer": "No. The provided NDA does **not** expressly allow the Receiving Party (Recipient) to share Confidential Information with consultants, agents, or professional advisors.\n\nInstead, it generally prohibits disclosure of Confidential Information to any person or entity without the Owner’s prior written consent. It only notes an exception for information disclosed on behalf of the Recipient with the Owner’s prior written or oral consent, but it does not specifically permit sharing with third-party advisors.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "NDA要求接收方对信息保密，未经Owner事先书面同意，不得以任何方式向任何人或实体披露。",
+    "answer_summary": "系统回答称NDA未明确允许接收方与顾问、代理人或专业顾问分享保密信息，并指出一般禁止未经Owner事先书面同意披露。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点，即未经Owner事先书面同意不得披露，且结论与金标一致。"
+  },
+  "file_ids": [
+    147
+  ],
+  "skip_answer": false
+}

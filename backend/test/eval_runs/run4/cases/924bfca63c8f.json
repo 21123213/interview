@@ -1,0 +1,25 @@
+{
+  "index": 20,
+  "request_id": "924bfca63c8f",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "vmw-certification-conduct-policy.txt",
+  "file_id": 199,
+  "file_mapped": true,
+  "latency_ms": 19252.2,
+  "query": "Consider the VMware Certification Conduct Policy; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+  "gold": "Recipient agrees to maintain the confidence of the Confidential Information and to prevent its unauthorized dissemination; provided however, that Confidential Information shall not include information which\n(iv) is lawfully obtained by Recipient from a third party without violation of a confidentiality obligation, or",
+  "rag_answer": "是的。文档规定，如果接收方从第三方合法获得信息，且未违反任何保密义务，则该信息不属于保密信息。",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "保密信息不包括接收方从第三方合法获得且未违反保密义务的信息。",
+    "answer_summary": "系统回答指出，如果接收方从第三方合法获得信息且未违反任何保密义务，则该信息不属于保密信息。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标的关键要点：从第三方合法获得、未违反保密义务、该信息不属于保密信息，因此判定命中。"
+  },
+  "file_ids": [
+    199
+  ],
+  "skip_answer": false
+}

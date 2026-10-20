@@ -1,0 +1,25 @@
+{
+  "index": 73,
+  "request_id": "5c30f81f5d26",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "JB-Machine-LLC-NDA-1.txt",
+  "file_id": 147,
+  "file_mapped": true,
+  "latency_ms": 15576.53,
+  "query": "Consider JB Machine LLC's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "In consideration for the receipt by the Recipient of information, the Recipient agrees to:\n- The Recipient is not to disclose any information to any employees of the Recipient, aside from the employees required",
+  "rag_answer": "Yes. Under the OBLIGATION OF PROTECTION section, the Receiving Party may disclose Confidential Information only to employees who are required to have the information in order to perform their job duties in connection with the limited purposes of the Agreement.\n\nAdditionally, each authorized employee to whom Confidential Information is disclosed must sign a non-disclosure agreement substantially the same as this Agreement upon the Owner’s request.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得向任何员工披露信息，仅可披露给必需的/required employees。",
+    "answer_summary": "系统回答称接收方仅可向为履行职务而必须获得该信息的员工披露机密信息。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键要点，即只能向必要员工分享机密信息，并未与金标矛盾；额外关于员工签署保密协议的内容不影响命中。"
+  },
+  "file_ids": [
+    147
+  ],
+  "skip_answer": false
+}

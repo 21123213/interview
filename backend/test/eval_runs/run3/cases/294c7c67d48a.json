@@ -1,0 +1,25 @@
+{
+  "index": 35,
+  "request_id": "294c7c67d48a",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "Petrolube_NDA.txt",
+  "file_id": 178,
+  "file_mapped": true,
+  "latency_ms": 27839.62,
+  "query": "Consider Petrolube's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+  "gold": "3.2) In consideration of the provision to it of, and its right to use, Samples, Petro-Lube agrees:\n3.2.4) to use all reasonable means to keep the Samples secure and limit dissemination of Samples to those of its employees who require access to the Samples for the purpose of Evaluation and, in any event, subject to Clause 3.3.",
+  "rag_answer": "Yes — but only in a limited way.\n\nUnder the Petrolube NDA, Petro-Lube, as the Receiving Party, may disseminate Samples to its employees who require access to them for the purpose of Evaluation, subject to Clause 3.2.4. Clause 3.3 further requires Petro-Lube to ensure that any employee receiving Samples is made aware of their confidential nature and agrees to be bound by secrecy/restricted-use obligations no less stringent than those in the Agreement.\n\nSo, the document allows sharing of Samples with employees on a need-to-know basis for Evaluation, but it does not expressly permit broader disclosure of other confidential information to employees beyond that condition.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方应在合理保密措施下，将 Samples 仅披露给因 Evaluation 需要访问的员工，并受 Clause 3.3 约束。",
+    "answer_summary": "系统回答指出 Petro-Lube 可基于 Evaluation 需要向相关员工分发 Samples，并受 Clause 3.2.4 与 Clause 3.3 约束，属于有限度的 need-to-know 共享。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许向因 Evaluation 需要访问的员工分享 Samples，且受 Clause 3.3 约束；额外扩写未与金标矛盾。"
+  },
+  "file_ids": [
+    178
+  ],
+  "skip_answer": false
+}

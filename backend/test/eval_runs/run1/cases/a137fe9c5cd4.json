@@ -1,0 +1,25 @@
+{
+  "index": 65,
+  "request_id": "a137fe9c5cd4",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "epsteen_nda.txt",
+  "file_id": 128,
+  "file_mapped": true,
+  "latency_ms": 9990.03,
+  "query": "Consider Epsteen's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+  "gold": "Without limiting the other restrictions in this agreement, Buyer agrees to use Confidential Information solely to internally evaluate the Business for the possible Transaction and not for any other purposes whatsoever.",
+  "rag_answer": "Yes. The agreement restricts use of Confidential Information to the stated purpose: Buyer may use it “solely to internally evaluate the Business for the possible Transaction and not for any other purposes whatsoever.” It also limits disclosure to advisors/affiliates who need to know it in connection with the Transaction and are bound by the agreement.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "买方仅可将机密信息用于内部评估业务以推进可能交易，不得用于任何其他目的。",
+    "answer_summary": "系统回答确认协议将机密信息使用限制为所述目的，并引用“solely to internally evaluate the Business for the possible Transaction and not for any other purposes whatsoever”。",
+    "gap": "无",
+    "reason": "系统回答包含金标的关键限制条款，且与金标一致；额外关于披露限制的内容不影响命中。"
+  },
+  "file_ids": [
+    128
+  ],
+  "skip_answer": false
+}

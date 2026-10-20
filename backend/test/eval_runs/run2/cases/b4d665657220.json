@@ -1,0 +1,25 @@
+{
+  "index": 131,
+  "request_id": "b4d665657220",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "helpjuice_production%2Fuploads%2Fupload%2Fimage%2F2329%2Fdirect%2F1526996160411-FullStory+Mutual+Non-Disclosure+Agreement+2018.txt",
+  "file_id": 138,
+  "file_mapped": true,
+  "latency_ms": 17527.21,
+  "query": "Consider FullStory's Mutual Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+  "gold": "1. \"Confidential Information\"means information that relates to the Purpose (as defined below) or that, although not related to such Purpose, is nevertheless disclosed as a result of the parties' discussions in that regard, and that should reasonably have been understood by the party receiving such information (the “Recipient”), because of legends or other markings, the circumstances of disclosure or the nature of the information itself, to be proprietary and confidential to the party disclosing the information (the “Discloser”) or an Affiliate of the Discloser or to a third party.",
+  "rag_answer": "No. FullStory’s Mutual Non-Disclosure Agreement does not require that all Confidential Information be expressly identified or marked by the Disclosing Party.\n\nUnder Section 1, Confidential Information includes information that “should reasonably have been understood” by the Recipient to be proprietary and confidential “because of legends or other markings, the circumstances of disclosure or the nature of the information itself.” It may be disclosed in written or tangible form, or by “oral, visual or other means,” and certain categories are Confidential Information “whether or not reduced to tangible form.”\n\nSo, express identification is one possible indicator, but it is not required for every item to be treated as Confidential Information.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "金标定义指出，保密信息可因标注、披露情形或信息性质而被合理理解为专有且保密，并未要求全部保密信息必须由披露方明确标识。",
+    "answer_summary": "系统回答称 FullStory 的 Mutual NDA 不要求所有保密信息均被明确标识，并引用第 1 条说明“标注或其他标记、披露情形或信息性质”均可作为判断依据。",
+    "gap": "无",
+    "reason": "系统回答准确覆盖了金标关键要点：保密信息的认定不仅依赖明确标识，还可基于披露情形或信息性质，因此结论与金标一致。"
+  },
+  "file_ids": [
+    138
+  ],
+  "skip_answer": false
+}

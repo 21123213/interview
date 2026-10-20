@@ -1,0 +1,25 @@
+{
+  "index": 237,
+  "request_id": "21405d9a9a21",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "thoughtbot-mutual-nda.txt",
+  "file_id": 194,
+  "file_mapped": true,
+  "latency_ms": 15817.2,
+  "query": "Consider the Mutual Non-Disclosure Agreement between thoughtbot and Unknown Party; Does the document mention whether or not the Receiving Party is allowed to reverse engineer any objects which embody the Disclosing Party's Confidential Information?",
+  "gold": "The Receiving Party shall not reverse engineer, disassemble or decompile any prototypes, software or other tangible objects which embody the Disclosing Party’s Confidential Information and which are provided to the Receiving Party hereunder.",
+  "rag_answer": "Yes. The document explicitly states that the Receiving Party is **not allowed** to reverse engineer objects embodying the Disclosing Party’s Confidential Information.\n\nSpecifically, Section 3 (“Non-use and Non-disclosure”) provides:\n\n> “The Receiving Party shall not reverse engineer, disassemble or decompile any prototypes, software or other tangible objects which embody the Disclosing Party’s Confidential Information and which are provided to the Receiving Party hereunder.”",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方不得对体现披露方保密信息的任何原型、软件或其他有形对象进行逆向工程、反汇编或反编译。",
+    "answer_summary": "系统回答明确指出文档规定接收方不允许对体现披露方保密信息的对象进行逆向工程，并引用了包含不得逆向工程、反汇编或反编译相关条款的内容。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标关键结论，即接收方不得对体现披露方保密信息的有形对象进行逆向工程，且引用内容与金标一致。"
+  },
+  "file_ids": [
+    194
+  ],
+  "skip_answer": false
+}

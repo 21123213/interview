@@ -1,0 +1,25 @@
+{
+  "index": 45,
+  "request_id": "7ee32a09847b",
+  "correct": true,
+  "error_type": "none",
+  "file_key": "QEP-Williston-Form-of-Confidentiality-Agreement-BMO.txt",
+  "file_id": 179,
+  "file_mapped": true,
+  "latency_ms": 27703.14,
+  "query": "Consider the Confidentiality Agreement between QEP and BMO; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+  "gold": "The Confidential Information may be disclosed by the Receiving Company to any of the Receiving Company’s Representatives, but only if and to the limited extent that such Representative needs to know the Confidential Information for the purpose of evaluating the potential Transaction.\n(b) For purposes of this Agreement, (i) a person’s “Representatives” shall be the Affiliates, and the officers, directors, managers, members, shareholders, partners, employees, agents, representatives, consultants, principals, attorneys, accountants, advisors and potential financing sources, of such person, and of each of their Affiliates;",
+  "rag_answer": "Yes. Under Section 1(a), the Receiving Company may disclose Confidential Information to its “Representatives,” but only to the extent such Representative needs to know it for the purpose of evaluating the potential Transaction.\n\nSection 1(b) defines “Representatives” to include agents, consultants, attorneys, accountants, advisors, and similar persons. Before disclosure, the Receiving Company must inform them of the confidential nature of the information, require them to agree to be bound by the Agreement, and remains liable for their breach.",
+  "judge": {
+    "correct": true,
+    "error_type": "none",
+    "gold_summary": "接收方可将机密信息披露给其“Representatives”，但仅限于该等代表为评估潜在交易需要知悉；Representatives 包括代理人、顾问、律师、会计师、顾问等。",
+    "answer_summary": "系统回答指出接收方可向 Representatives 披露机密信息，且仅限为评估潜在交易需要知悉；并说明 Representatives 包括 agents、consultants、attorneys、accountants、advisors 等。",
+    "gap": "无",
+    "reason": "系统回答覆盖了金标的关键要点：允许向 Representatives 分享、限于评估潜在交易需要、Representatives 包括顾问/代理人/专业顾问等；额外补充的保密义务不影响命中判定。"
+  },
+  "file_ids": [
+    179
+  ],
+  "skip_answer": false
+}
