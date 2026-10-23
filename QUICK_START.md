@@ -72,7 +72,7 @@ DB_API_KEY=你的SQLPub_API_Key
 CHROMA_PERSIST_DIR=db/chroma_db
 
 # ========== DashScope API ==========
-DASHSCOPE_API_KEY=sk-391cfd906c8d461f9a770c3ce116d4db
+DASHSCOPE_API_KEY=sk-**
 DASHSCOPE_EMBEDDING_MODEL=text-embedding-v3
 
 # ========== 阿里云 PNVS 短信认证服务 ⭐ NEW ==========
